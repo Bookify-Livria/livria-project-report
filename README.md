@@ -22,7 +22,6 @@
 |--------------|-------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 1.0 (TB1)    | 25/04/25    | - Argomedo Camacho, Jhosep Jamil <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián <br> - Castillo Garay, Ainhoa Lucía <br> - Sulca Silva, Melisa Geraldine <br> | Capítulo I: Introducción <br> Capítulo II: Requirements Elicitation & Analysis <br> Capítulo III: Requirements Specification <br> Capítulo IV: Product Design <br> Capítulo V: Product Implementation, Validation & Deployment |
 
-
 # Project Report Collaboration Insights
 
 # Contenido
@@ -49,6 +48,21 @@
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   * [1.3. Segmentos Objetivo](#13-segmentos-objetivo)
 
+- [CAPÍTULO 2: REQUIREMENTS ELICITATION & ANALYSIS](#capítulo-2-requirements-elicitation--analysis)
+  * [2.1. Competidores](#21-competidores)
+    + [2.1.1. Análisis Competitivo](#211-análisis-competitivo)
+    + [2.1.2. Estrategias y tácticas frente a los competidores](#212-estrategias-y-tácticas-frente-a-los-competidores)
+  * [2.2. Entrevistas](#22-entrevistas)
+    + [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+    + [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+    + [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+  * [2.3. Needfinding](#23-needfinding)
+    + [2.3.1. User Personas](#231-user-personas)
+    + [2.3.2. User Task Matrix](#232-user-task-matrix)
+    + [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    + [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    + [2.3.5. As-Is Scenario Mapping](#235-as-is-scenario-mapping)
+  * [2.4 Ubiquitous Language](#24-ubiquitous-language)
 
 # Student Outcome
 
@@ -277,3 +291,348 @@ Personas que leen por placer y buscan una experiencia digital que les permita de
 * Intereses: Lectura contemporánea y clásica, exploración cultural, apreciación del arte, lectura recreativa y el uso de la lectura como medio de relajación y crecimiento personal.
 * Estilo de vida: Independientes o profesionales con interés en el desarrollo personal y enriquecer su tiempo libre con actividades intelectuales. Utilizan servicios digitales para entretenimiento y consumo cultural.
 * Actitudes: Valoran la comodidad, la personalización y el acceso inmediato a contenido de calidad. Son personas curiosas y abiertas a nuevas experiencias literarias.
+
+# CAPÍTULO 2: REQUIREMENTS ELICITATION & ANALYSIS
+## 2.1. Competidores
+En el ámbito de la venta y distribución de libros, tanto físicos como digitales, existen varias empresas que ofrecen servicios similares a Livria. A continuación, se presentan los principales competidores directos reconocidos:
+* Crisol: Es una de las cadenas de librerías más conocidas en el país, con una fuerte presencia física y catálogo variado que incluye libros académicos, de ficción, infantiles y más. Crisol combina su plataforma web con tiendas físicas, lo que le permite llegar a un amplio público. Su enfoque está en la accesibilidad, la variedad editorial y el respaldo de grandes editoriales.
+* Ibero Librerías: Reconocida por su amplia oferta de títulos especializados en el ámbito académico, técnico y profesional. Ibero ofrece tanto venta en línea como presencial, y es valorada por su servicio al cliente y por contar con títulos difíciles de conseguir en otras plataformas. Su propuesta está dirigida principalmente a estudiantes, docentes y profesionales.
+* Communitas: Es una librería independiente enfocada en la promoción de la cultura y la literatura contemporánea. Se caracteriza por una curaduría cuidadosa de sus títulos y por su ambiente cercano a los lectores. Además de su tienda física, cuenta con una plataforma en línea desde donde se pueden adquirir libros físicos y digitales. Su principal diferenciador es la experiencia personalizada y el enfoque en la comunidad lectora.
+
+### 2.1.1 Análisis Competitivo
+
+**¿Por qué realizar este análisis?**
+
+Realizar este análisis es crucial porque nos proporciona una visión clara del entorno competitivo en el que está incursionando nuestra startup. Nos permite detectar oportunidades y amenazas, así como identificar áreas en las que podemos distinguirnos de nuestros competidores y destacar en el mercado. También nos ayuda a reconocer nuestras fortalezas y debilidades respecto a la competencia, lo que nos ayudará a orientar una toma de decisiones estratégicas más efectiva.
+
+|               |   Nombre  |    Livria    |       Crisol      |     Ibero Librerías    |       Communitas      |
+|---------------|-----------|--------------|-------------------|------------------------|-----------------------|
+|               |           |  <p align="center">  <img src="https://imgur.com/vcToSq3.png" alt="ac1" width="500"></p>            |      <p align="center">  <img src="https://imgur.com/jnyW86A.png" alt="ac2" width="500"></p>             |    <p align="center">  <img src="https://imgur.com/2c99R4t.png" alt="ac3" width="500"></p>                    |      <p align="center">  <img src="https://imgur.com/TBZLZTw.png" alt="ac4" width="500"></p>                 |
+|   Perfil  |   Overview  |   Livria es una librería especializada emergente cuyo enfoque principal es brindar accesibilidad a diversos materiales de lectura para sus clientes, facilitando la búsqueda de obras de entretenimiento o educativas que se ajusten a los gustos e intereses del cliente.  |   Crisol es una de las cadenas de librerías más grandes y conocidas de Perú, se destaca por su amplia oferta de obras artísticas y educativas, además de su compromiso con la cultura y calidad. Cuenta con locales en puntos estratégicos del país  |  Ibero Librerías es una cadena de librerías muy popularizada en Perú, resalta por su especialización en ejemplares educativos, culturales y de ciencias sociales, con una selección variada de editoriales y autores emergentes.  |   Communitas es una librería cuyo enfoque se centra en libros que tratan temas complejos, filosóficos y modernos. Se destaca por ofrecer a sus clientes una experiencia más profunda y centrada en el pensamiento crítico, mediante un repertorio que invita al lector a reflexionar.  |
+|           |   Ventaja competitiva ¿Qué valor ofrece a los clientes?  |   Cuenta con un enfoque en torno al cliente que permite acceso a diversas herramientas de búsqueda y métodos rápidos de acceso a contenido de lectura que se ajuste a los intereses y gustos de cada persona.  |   Posee un amplio inventario de obras de todos los géneros y cuenta con locales ubicados en puntos estratégicos del Perú, lo que amplía tanto el catálogo de productos a ofrecer como su accesibilidad.  |  Ofrece a sus clientes un amplio repertorio de obras educativas y culturales menos comerciales y más exigentes, proyectan una imagen de marca más especializada comparación de otras cadenas.  |   Presenta a sus clientes una curaduría enfocada en títulos que invitan al lector a la reflexión y el aprendizaje, apostando por una cuidadosa selección de títulos, optando por garantizar la calidad por encima de la rotación comercial.  |
+|   Plan de marketing  |   Mercado objetivo  |   Jóvenes y adultos jóvenes que busquen empezar el hábito de la lectura o requieran acceso a obras escritas, lectores jóvenes y casuales.  |   Personas de todas las edades interesadas por las novelas y obras escritas de entretenimiento o educación. lectores casuales y escolares.  |  Jóvenes y adultos de todas las edades interesados en obras educativas o culturales, lectores frecuentes y profesionales.  |   Jóvenes y adultos jóvenes interesados en obras ideológicas y literatura alternativa, lectores jóvenes y críticos.  |
+|           |   Estrategias de marketing  |   Descuentos semanales, publicidad digital, marketing de temporada  |   Descuentos frecuentes, marketing de temporada, publicidad digital, fuerte presencia en tiendas físicas  |  Publicidad digital, presencia en el medio cuidada y refinada, eventos y presentaciones  |   Eventos culturales, fuerte presencia en la comunidad lectora, colaboraciones con artistas y autores  |
+|   Plan de producto  |   Productos y servicios  |  Libros digitales y físicos  |   Libros digitales y físicos, merchandising  |   Libros físicos  |   Libros físicos  |
+|           |   Precios y costos  |   Descuentos semanales y de temporada, variedad de precios según el tipo de obra. Promedio: S/. 30 - 150 Suscripción: S/. 39.90  |   Descuentos frecuentes y de temporada, gran variedad de precios según el tipo de obra. Promedio: S/. 40 - 200 No cuenta con servicio de suscripción   |  Descuentos regulares y de temporada, poca diferencia de precios según el tipo de obra. Promedio: S/. 40 - 130 No cuenta con servicio de suscripción  |   Descuentos regulares, precios similares entre sí según el tipo de obra. Promedio: S/. 50 - 140 No cuenta con servicio de suscripción  |
+|           |   Canales de distribución  |   Entrega a domicilio, compra en local, venta de productos digitales.  |   Entrega a domicilio, compra en local. |  Entrega a domicilio, compra en local.  |   Entrega a domicilio, compra en local.  |
+|   Análisis FODA o SWOT  |   Fortalezas  |   Amplia cobertura a través de envíos a domicilio. Gran variedad de obras, tanto literarias como educativas. Imagen moderna y amigable para nuevos y antiguos lectores. Orientación en torno al cliente, buscando satisfacer sus necesidades y mejorar su experiencia.  |   Amplia cobertura local, tanto en tiendas físicas como en envíos a domicilios. Gran variedad de obras literarias y establecimiento en el mercado. Popularidad y relevante imagen de marca. Veinte años de experiencia en el mercado.  |   Curaduría especializada en títulos educativos y culturales de calidad. Imagen de marca especializada, profesional y más cercana con los lectores. Fidelización del público objetivo. Treinta años de experiencia en el mercado.  |   Curaduría selectiva y refinada, centrada en ideas y movimientos de alto peso en la sociedad. Fuerte imagen de marca y peso en el medio. Comunidad amplia y fuertemente establecida. Diez años de experiencia en el mercado.  |
+|           |   Oportunidades  |   Posibilidad de captar un nuevo segmento del público (lectores iniciantes) con nuestra propuesta y diseño orientados al usuario. Posibilidad de fidelizar lectores con las características únicas de nuestro servicio y las funciones exclusivas de nuestra aplicación.  |   Posibilidad de expansión internacional en un futuro próximo, debido a su fuerte posicionamiento en el mercado nacional e imagen de marca. Posibilidad de establecer convenios estratégicos de exclusividad con editoriales emergentes.  |  Posibilidad de establecimiento de alianzas estratégicas con centros educativos superiores, debido a su fuerte enfoque en los temas educativos y culturales. Posibilidad de expandirse al entorno digital, ofreciendo material de lectura en este formato.  |   Posibilidad de expansión de la marca con ramas relacionadas, como organizadora de eventos o agencia artística, debido a su experiencia en estos rubros. Posibilidad de expandirse al entorno digital, ofreciendo material de lectura en este formato.  |
+|           |   Debilidades  |   Escala pequeña para una incursión en el mercado: La principal debilidad de Livria es su pequeña escala respecto al resto de sus competidores, al no tener una imagen de marca establecida en la percepción del público, nuestro alcance se ve disminuído y la dificultad de una incursión en el mercado de las librerías será un reto difícil de afrontar.  |   Enfoque demasiado centrado en la variedad: La principal fortaleza de Crisol también puede ser considerada una debilidad, pues tener un catálogo tan amplio y diverso podría llegar a significar que algunos títulos más específicos de cada género no se encuentren disponibles, debido a su poca viabilidad comercial, llegando a ser un problema para lectores en busca de títulos poco conocidos.  |  Falta de venta de productos digitales: Ibero Librerías se diferencia por su especialización en material educativo y cultural, pero no ha incursionado al rubro de los libros digitales y productos relacionados a este medio, lo que puede representar una debilidad bastante prominente, debido a la existencia de alternativas más cómodas a los clásicos libros físicos, como los e-books o audiolibros.  |   Nicho específico y poco escalable: Communitas se destaca por su nicho como librería divulgadora de ideas profundas y discursos alternativos, pero esta característica es también una debilidad en el sentido comercial, ya que depende de un público pequeño y especializado, lo cual dificulta su crecimiento como marca, ya que no acata a la mayoría del público.  |
+|           |   Amenazas |   Commit Id  |   La principal amenaza para Crisol es la aparición de un competidor más grande y con mayor alcance que cuente con una oferta similar y llegue a reemplazarlos, ya sea por tener precios más accesibles o mayor variedad de obras en su repertorio. |   Una de las amenazas más destacables para Ibero Librerías es la aparición de competidores con un rubro similar que ofrezcan más alternativas y un acceso más rápido a los libros solicitados por sus clientes, ya sea mediante una mayor cantidad de locales o la venta de libros digitales  |   Una amenaza considerable para Communitas es el acaparamiento de su nicho por una marca más grande y con mayor presupuesto, mediante la apropiación de su estilo y modelo de negocio, apelando a un mayor volumen de público y eventualmente ocupando su rubro en el mercado.  |
+
+
+### 2.1.2. Estrategias y tácticas frente a los competidores
+**Estrategias de diferenciación de producto**
+
+*1. Implementación de funcionalidad de comunidad:*
+* Fortaleza utilizada: Orientación en torno al cliente
+* Oportunidad aprovechada: Posibilidad de fidelizar lectores
+* Descripción: El apartado de comunidad nos permitirá captar y mantener la atención de grupos de lectores con intereses en común, ya que les ofrecerá un espacio en el que puedan compartir sus opiniones y gustos de una manera amigable. Esta funcionalidad también aportará más valor a la suscripción de cada usuario, ofreciendo acceso a aspectos exclusivos que pueden llamar la atención del cliente.
+
+*2. Implementación de funcionalidad de recomendaciones:*
+* Fortaleza utilizada: Orientación en torno al cliente
+* Oportunidad aprovechada: Posibilidad de captar al segmento de lectores iniciantes.
+* Descripción: La innovadora función de recomendaciones personalizadas nos permitirá acatar las necesidades de este tipo de clientes de una manera más efectiva, ya que toda persona que quiera empezar a formar el hábito de la lectura podrá utilizar este apartado de nuestro servicio para encontrar obras que estén alineadas con sus intereses y necesidades de una manera mucho más rápida, permitiéndoles adquirir un título de su interés dentro de nuestra misma aplicación.
+
+**Estrategias de expansión de mercado**
+
+*1. Expansión a mercados regionales:*
+* Fortaleza utilizada: Amplia cobertura de servicio
+* Oportunidad aprovechada: Posibilidad de fidelizar lectores
+* Descripción: La creación de nuevas sedes en diferentes puntos estratégicos de la región nos permitirá aumentar el alcance de nuestra startup y nos brindará acceso a un público mucho más amplio cuando nuestra marca esté establecida y empecemos a generar suficientes ingresos para reinvertir en el proyecto.
+
+*2. Alianzas con editoriales nacionales:*
+* Fortaleza utilizada: Gran variedad de obras
+* Oportunidad aprovechada: Posibilidad de fidelizar lectores
+* Descripción: Establecer alianzas estratégicas con editoriales emergentes resultaría en una gran expansión al catálogo de obras que ofrecemos y la posibilidad de comercializar obras a precios mucho más competitivos, aumentando los beneficios de nuestros clientes y suscriptores.
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+Es necesario ajustar las preguntas de las entrevistas a cada segmento para obtener la información más adecuada sobre las necesidades respectivas de los clientes de Livria. Cada entrevista inicia con preguntas generales como “¿Cuál es tu nombre?”, “¿Cuántos años tienes?”, etc.
+
+**Segmento Objetivo #1: Estudiantes y jóvenes universitarios**
+* ¿Con qué frecuencia lees material académico o de entretenimiento en formato digital?
+* ¿Qué plataformas o aplicaciones usas actualmente para estudiar o leer?
+* ¿Qué dificultades encuentras al buscar o acceder al material que necesitas para tus estudios?
+* ¿Qué te gustaría que una aplicación de lectura te ofreciera para facilitar tu aprendizaje?
+* ¿Te gustaría recibir recomendaciones de libros o materiales útiles? ¿Por qué?
+* ¿Qué te motivaría a usar regularmente una plataforma de lectura digital?
+
+**Segmento objetivo #2: Lectores casuales y aficionados a la lectura**
+* ¿Con qué frecuencia lees libros por placer?
+* ¿Qué tipo de libros te interesa leer?
+* ¿Dónde sueles descubrir nuevos libros para leer? 
+* ¿Usas alguna aplicación o plataforma digital para leer?Si no lo haces, ¿Por qué?
+* ¿Qué aspectos valoras más en una app de lectura?
+* ¿Te gustaría recibir recomendaciones basadas en tus intereses y hábitos de lectura?
+* ¿Qué cosas te han decepcionado o frustrado al usar plataformas de lectura en el pasado?
+
+### 2.2.2. Registro de entrevistas
+**Segmento Objetivo #1: Estudiantes y jóvenes universitarios**
+*Entrevistado N.º 1: Valentina Binda*
+* Edad: 17
+* Distrito: Surquillo
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/uHmEMXt.png" alt="e11" width="500">
+</p>
+
+* Link: [Segmento 1-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/Ecaazhz5sYVCtHUhWWWMxO0BQp5C1mXAOTlS5YjoF9h7Pg?e=YE3T03)
+* Instante en el que inicia: 0:12 min
+* Duración: 1:47 min
+
+Valentina Binda, una estudiante de 17 años, menciona que lee material académico en formato digital con frecuencia, ya que constantemente necesita estudiar y buscar información relevante. Utiliza principalmente la plataforma proporcionada por su universidad, la cual considera útil, aunque en ocasiones no le brinda toda la información que requiere. Le gustaría que una aplicación de lectura le ofreciera búsquedas más precisas y específicas, lo que facilitaría su proceso de estudio. También está interesada en recibir recomendaciones personalizadas de libros o materiales, ya que considera que acceder a información digital resulta más práctico que hacerlo de manera presencial. Valentina afirma que una plataforma de lectura digital la motivaría a informarse más y encontrar contenidos útiles con mayor facilidad.
+
+*Entrevistado N.º 2: Emmanuel Andrades*
+* Edad: 16
+* Distrito: Miraflores
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/kjHyjUp.png" alt="e12" width="500">
+</p>
+
+* Link: [Segmento 1-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/EYwCO9t9dp1KjqlpDZZISMkBCz_43zJ7q2o3VDdQYBpMBg?e=Fkd1qQ)
+* Instante en el que inicia: 0:14 min
+* Duración: 1:31 min
+
+Emmanuel Andrades, un estudiante de 16 años, afirma que lee con frecuencia material académico en formato digital, ya que constantemente necesita informarse sobre diversos temas. Suele utilizar las plataformas que encuentra disponibles en la web, aunque señala que muchas veces no logra encontrar suficiente contenido para cumplir con sus tareas o trabajos escolares. Le gustaría que una aplicación de lectura le permitiera localizar con precisión el punto específico de información que necesita, lo que facilitaría su aprendizaje. Está a favor de recibir recomendaciones personalizadas de libros o materiales, ya que considera que le servirían de gran apoyo cuando necesita informarse sobre un tema en particular. Emmanuel concluye que, si los títulos de una plataforma le resultan interesantes, la utilizaría de manera regular.
+
+*Entrevistado N.º 3: Sofia Pimentel*
+* Edad: 14
+* Distrito: Magdalena del Mar
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/BHYT8y3.png" alt="e13" width="500">
+</p>
+
+* Link: [Segmento 1-3](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/EeNmLb7eIZdBhme_kB-IvboBBaqHtLvRlKNq2Jq8krm0bA?e=ponlNs)
+* Instante en el que inicia: 0:13 min
+* Duración: 2:02 min
+
+Sofía Pimentel, una estudiante de 14 años, menciona que lee frecuentemente material académico en formato digital porque considera que es necesario para alcanzar un mejor rendimiento escolar. Para investigar usa Google Académico y, cuando se trata de lectura recreativa, prefiere Crisol. Una de las principales dificultades que encuentra al buscar información es que Wikipedia aparece como primera opción en los resultados, lo cual considera poco útil para profundizar en los temas que le interesan. Le gustaría que una aplicación de lectura le brindara acceso a libros clave que enriquezcan su conocimiento académico. Aunque las recomendaciones de libros le parecen útiles, valora aún más las sugerencias de materiales educativos, ya que tienen un impacto directo en su aprendizaje. Finalmente, asegura que la motivaría a usar una plataforma digital si esta ofrece contenido relacionado con sus intereses y necesidades escolares.
+
+*Entrevistado N.º 4: Wendy García*
+* Edad: 25
+* Distrito: Lince
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/I2oWJv0.png" alt="e14" width="500">
+</p>
+
+* Link: [Segmento 1-4.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/EfhBfftBqPBHvC78K1v4cp4BdX6No7mf_awt63P055rhiQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vvA8Aj)
+* Instante en el que inicia: 0:08 min
+* Duración: 4:35 min
+
+En la entrevista con Wendy García, se pudo destacar que ella habitualmente trata de ponerse metas de cantidad de páginas para leer cada día y así poder aumentar la cantidad de libros que lee por año. Nos indica que por temas académicos lee todos los días usando la biblioteca digital de su universidad como librería. Sin embargo, usa como segunda opción Google libros para encontrar libros que no tiene acceso en su universidad. Precisa que lo que le molesta al buscar el libro que desea, es que no aparezca en la primera opción aquel libro que anhela y tarda en encontrarlo. También, indica que considera un obstáculo que aparezca la información de algunos libros incompleta. Wendy recalca que le gustaría que existan distintos formatos de libros (digital y audiolibro) en una aplicación de lectura. Considera que el audiolibro es importante para no dejar de leer cuando esté haciendo otras actividades que le impida concentrarse visualmente y le motivaría esta opción ya que le permite continuar leyendo incluso si se llega a cansar visualmente. También, nos señala que le gustaría recibir recomendaciones de lecturas de su interés para poder aumentar su meta de libros leídos al año.
+
+**Segmento objetivo #2: Lectores casuales y aficionados a la lectura**
+
+*Entrevistado N.º 1: Roxana Arbañil*
+* Edad: 50
+* Distrito: Surquillo
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/y3QM8F4.png" alt="e21" width="500">
+</p>
+
+* Link: [Segmento 2-1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/EVLoAw8UNb9IlErrqUo7A9YBh3KOP5BmXviuTeX3BL8qCA?e=VEQvsq)
+* Instante en el que inicia: 0:10 min
+* Duración: 2:45 min
+
+La entrevistada, Roxana Arbañil, es una profesional de 50 años que trabaja en el área de gestión humana y se interesa especialmente por temas de psicología y comportamiento humano aplicados al entorno laboral. Aunque le gusta leer, lo hace de manera ocasional debido a la falta de tiempo, aproximadamente una vez cada dos meses. Prefiere los libros en formato físico y menciona que no utiliza plataformas digitales de lectura porque no ha tenido el acceso ni la orientación necesaria para hacerlo. Valora que una aplicación de lectura ofrezca variedad y filtros precisos que le permitan encontrar exactamente lo que desea leer, y estaría muy interesada en recibir recomendaciones personalizadas basadas en sus hábitos e intereses. En su experiencia pasada con plataformas digitales, se sintió frustrada por interfaces poco amigables y funciones limitadas que dificultan una lectura fluida.
+
+*Entrevistado N.º 2: Jorge Binda*
+* Edad: 48
+* Distrito: Cercado de Lima
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/fNsSHeH.png" alt="e22" width="500">
+</p>
+
+* Link: [Segmento 2-2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/EVtPmC4yz2BCh2g9Hh6N4tcBc3mvE5XIzzsoeMorDVmWQQ?e=xaj1aB)
+* Instante en el que inicia: 0:12 min
+* Duración: 1:56 min
+
+Jorge Binda, ingeniero de sistemas de 48 años, menciona que lee por placer aproximadamente una vez al mes, aunque prefiere los audiolibros por su practicidad. Sus intereses abarcan la ciencia ficción, la acción y diversos géneros. Descubre nuevos títulos principalmente a través de audiolibros, utilizando Spotify como su plataforma principal, ya que le permite ahorrar tiempo y acceder al contenido de forma más eficiente. Valora especialmente la variedad de libros disponibles, y tiene una clara preferencia por aquellos narrados o escritos en español latino, ya que no se siente cómodo con el acento español peninsular. Además, considera muy útil recibir recomendaciones basadas en sus intereses, ya que esto le facilita significativamente la búsqueda de contenido que realmente le atraiga.
+
+*Entrevistado N.º 3: Fiorella León*
+* Edad: 24
+* Distrito: Magdalena del Mar
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/16tns9x.png" alt="e23" width="500">
+</p>
+
+* Link: [Segmento 2-3.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/EZwCP4erymtFksBohx9zhmMBZR4wqr4Un-MfWb4EypzR-g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9R43Jn)
+* Instante en el que inicia: 0:07 min
+* Duración: 3:56 min
+
+En la entrevista con Fiorella podemos destacar que ella es aficionada a la lectura y lee regularmente. Además, ella busca leer un libro cada mes por placer. El género que le interesa más es el suspenso que contenga drama, pero también opta por leer libros de comedia combinado con romance. Adicionalmente, ella prefiere leer libros en plataformas digitales que físicas mediante las plataformas web de Wattpad y AO3. 
+
+Suele consumir contenido de lectura gratuita y valora más el aspecto visual (el color de fondo o tipo de letras) e interactivo que contiene las lecturas (ej. Wattpad permite agregar música o una imagen de portada por capítulo). También, Fiorella señala que suele leer recomendaciones, puede ser en en distintas redes sociales o en las plataformas de lecturas anteriormente indicadas. Le resulta molesto la lentitud de carga de la lectura y el diseño anticuado de las plataformas de lectura digitales, recalca que se asemeja algunos a un libro físico y no le llama la atención.
+
+*Entrevistado N.º 4: Nicole Azaña*
+* Edad: 23
+* Distrito: Ate
+
+**Acerca de la entrevista:**
+
+<p align="center">
+  <img src="https://imgur.com/NiHPxY3.png" alt="e24" width="500">
+</p>
+
+* Link: [Segmento 2-4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/EWGr6mTCco9BmLKqMirZAJMBFsqNlHWtNT0K0NPWQhYezg?e=YrfKQV)
+* Instante en el que inicia: 0:14 min
+* Duración: 3:24min
+
+Nicole, una lectora casual, procura leer un libro cada dos semanas y se interesa principalmente por historias de romanticismo, comedia y libros informativos. Descubre nuevas lecturas a través de TikTok y otras fuentes en internet, y utiliza plataformas como Wattpad y Apple Books. Valora una buena ortografía, tamaño de letra legible, funciones como subrayado o toma de apuntes, y una experiencia libre de anuncios intrusivos. Está abierta a recibir recomendaciones basadas en sus intereses y hábitos de lectura, aunque ha tenido frustraciones con funciones que no guardan correctamente sus favoritos y con la presencia excesiva de publicidad en algunas plataformas.
+
+### 2.2.3. Análisis de entrevistas
+En base en las entrevistas recopiladas para cada segmento, se llevó a cabo un análisis, el cual destaca los principales hallazgos y las conclusiones derivadas.
+
+**Segmento #1: Estudiantes y jóvenes universitarios**
+
+*Hallazgos:*
+* Los estudiantes utilizan constantemente plataformas digitales para acceder a material de estudio, lo que demuestra una fuerte necesidad de contar con herramientas prácticas y accesibles en su día a día académico.
+* Muchos expresan frustración al no hallar la información exacta que necesitan o al encontrar resultados incompletos, lo que indica una oportunidad para mejorar los sistemas de búsqueda y organización del contenido.
+* Los entrevistados valoran que una plataforma les sugiera libros o materiales adaptados a sus intereses y necesidades académicas, ya que esto agiliza su proceso de búsqueda y mejora su rendimiento.
+* Algunos estudiantes muestran interés por opciones como audiolibros, que les permitirían seguir aprendiendo incluso en momentos donde no pueden leer, lo que resalta la importancia de ofrecer formatos alternativos.
+
+*Conclusiones:*
+* Los estudiantes y jóvenes universitarios muestran una alta predisposición al uso de plataformas digitales para la lectura académica, pero también revelan importantes carencias en las herramientas que actualmente utilizan.
+* La falta de precisión en los motores de búsqueda, el acceso limitado a contenido completo y la ausencia de recomendaciones específicas generan frustración y pérdida de tiempo. Una aplicación que permita buscar con mayor exactitud, ofrezca contenido completo en distintos formatos y brinde recomendaciones personalizadas sería altamente valorada por este segmento. Además, la motivación de los estudiantes se ve reforzada por metas personales y el deseo de un acceso práctico al conocimiento. Livria tiene la oportunidad de posicionarse como una plataforma educativa de confianza si atiende a estas necesidades específicas.
+
+Segmento objetivo #2: Lectores casuales y aficionados a la lectura
+
+*Hallazgos:*
+* Mientras algunos lectores aún prefieren el formato físico por costumbre o falta de familiaridad con lo digital, otros valoran mucho la practicidad de los audiolibros o la accesibilidad de plataformas digitales, especialmente si permiten una experiencia cómoda e inmersiva.
+* Los entrevistados coinciden en que recibir recomendaciones personalizadas según sus intereses facilita y mejora su experiencia lectora, ya que les ayuda a descubrir contenido relevante sin perder tiempo.
+* Las interfaces poco amigables, lentas o con diseño anticuado generan frustración y desmotivan el uso frecuente. En cambio, se valora mucho una experiencia visual atractiva, interactiva y fluida.
+Algunos lectores no usan plataformas digitales simplemente por desconocimiento o falta de orientación. Esto indica que una plataforma con guía clara, onboarding accesible y diseño intuitivo podría atraer a nuevos usuarios de este segmento.
+
+*Conclusiones:*
+* Los lectores casuales y aficionados a la lectura muestran una variedad de preferencias en cuanto a formatos y temáticas, combinando el gusto por libros físicos, digitales y audiolibros según su estilo de vida. Aunque algunos disfrutan de la lectura por placer con regularidad, otros la realizan de forma esporádica debido a limitaciones de tiempo. 
+* Las plataformas digitales son valoradas cuando ofrecen filtros detallados, recomendaciones personalizadas y una interfaz visualmente atractiva e intuitiva, pero pueden generar frustración cuando presentan un diseño anticuado, lentitud de carga o una experiencia de uso poco clara. Además, se evidencia que una parte del segmento, especialmente los adultos, no se involucra con plataformas digitales por falta de orientación o acceso adecuado. Por ello, una aplicación de lectura que combine personalización, múltiples formatos y acompañamiento tecnológico podría atender de forma efectiva las necesidades de este grupo, generando una experiencia más cómoda, eficiente y motivadora.
+
+## 2.3. Needfinding
+### 2.3.1. User Personas
+**Segmento #1: Estudiantes y jóvenes universitarios**
+
+<p align="center">
+  <img src="https://imgur.com/xp59rDv.png" alt="up1" width="500">
+</p>
+
+Link: https://drive.google.com/drive/folders/1zJEVEmTVXp3wqfTOmNEAVbZhEzfipoDu?usp=sharing
+
+**Segmento objetivo #2: Lectores casuales y aficionados a la lectura**
+
+<p align="center">
+  <img src="https://imgur.com/48W4F6z.png" alt="up2" width="500">
+</p>
+
+Link: https://drive.google.com/drive/folders/1zJEVEmTVXp3wqfTOmNEAVbZhEzfipoDu?usp=sharing
+
+### 2.3.2. User Task Matrix
+
+|   User Task Matrix  |   Yoel Ramírez  |              |   Lucia Carnero  |              |
+|---------------------|-----------------|--------------|------------------|--------------|
+|                     |   Frecuencia  |   Importancia   |   Frecuencia  |  Importancia   |
+|   Buscar libros para estudio o interés personal  |   Con frecuencia  |   Alta  |  Con frecuencia  |   Alta  |
+|   Usar el algoritmo de recomendación  |   Con frecuencia  |   Alta  |   A veces  |  Media  |
+|   Unirse a comunidades con intereses similares  |   Con frecuencia  |   Alta  |   A veces  |  Media  |
+|   Leer libros en formato digital  |   Con frecuencia  |   Alta  |   Con frecuencia  |  Alta  |
+|   Guardar libros o marcar como “pendientes”  |   A veces  |   Media  |   A veces  |   Media  |
+|   Compartir publicaciones en las comunidades  |   Rara vez  |   Baja  |   A veces  |  Media  |
+|   Comentar las publicaciones  |   Rara vez  |   Baja  |   A veces  |  Media  |
+|   Pedir libros con envío rápido  |   A veces  |   Media  |   A veces  |   Alta  |
+
+### 2.3.3. User Journey Mapping
+En esta sección se presenta el recorrido completo que experimenta cada uno de nuestros User Personas al interactuar con la plataforma, desde el primer contacto hasta la fidelización. A través de los User Journey Maps, se ilustran las etapas clave del proceso, incluyendo los puntos de contacto, emociones, expectativas y posibles fricciones a lo largo del camino. Este análisis nos permite comprender en profundidad las necesidades, motivaciones y desafíos de los usuarios, con el fin de optimizar su experiencia, mejorar la interfaz del producto y ofrecer soluciones más alineadas con sus objetivos y comportamientos.
+
+**Segmento #1: Estudiantes y jóvenes universitarios**
+
+*User Journey Map del Segmento 1*
+
+<p align="center">
+  <img src="https://imgur.com/qJqiiOl.png" alt="uj1" width="500">
+</p>
+
+**Segmento #2: Lectores casuales y aficionados a la lectura**
+
+*User Journey Map del Segmento 2*
+
+<p align="center">
+  <img src="https://imgur.com/4J7ZzeK.png" alt="uj2" width="500">
+</p>
+
+Para mejor visualización de los User Journey Maps de Livria, acceder al siguiente link:
+https://drive.google.com/drive/folders/1zJEVEmTVXp3wqfTOmNEAVbZhEzfipoDu?usp=drive_link 
+
+### 2.3.4. Empathy Mapping
+Para la elaboración de los Empathy Maps, el equipo siguió una metodología centrada en el usuario, basada en la recopilación de datos cualitativos obtenidos a través de entrevistas, encuestas, observación directa y análisis de comportamiento digital. Cada mapa fue diseñado teniendo en cuenta un User Persona específico, con el objetivo de capturar lo que el usuario piensa, siente, dice y hace en relación con la plataforma. Posteriormente, se identificaron los principales miedos, frustraciones, necesidades y motivaciones que influyen en su experiencia. Esta herramienta permitió generar una visión empática que guía la toma de decisiones de diseño y desarrollo, asegurando que cada funcionalidad responda realmente a las expectativas y preocupaciones del usuario.
+
+**Segmento #1: Estudiantes y jóvenes universitarios**
+
+*Empathy Map del Segmento 1*
+
+<p align="center">
+  <img src="https://imgur.com/1nY0bCw.png" alt="em1" width="500">
+</p>
+
+**Segmento #2: Lectores casuales y aficionados a la lectura**
+
+*Empathy Map del Segmento 2*
+
+<p align="center">
+  <img src="https://imgur.com/9LLW5Dc.png" alt="em2" width="500">
+</p>
+
+Para mejor visualización de los Empathy Maps de Livria, acceder al siguiente link:
+https://drive.google.com/drive/folders/1zJEVEmTVXp3wqfTOmNEAVbZhEzfipoDu?usp=drive_link
+
+### 2.3.5. As-Is Scenario Mapping
+En esta sección se presentan los As-Is Scenario Mapping, desarrollados para cada uno de los User Personas, con el fin de entender cómo interactúan actualmente con la plataforma o con soluciones similares. El objetivo es identificar puntos críticos, fricciones y oportunidades de mejora en la experiencia del usuario. 
+
+Cada mapa incluye las filas correspondientes a Steps, Doing, Thinking y Feeling, permitiendo una visión estructurada de las acciones, pensamientos y emociones del usuario en cada etapa de su recorrido. Este análisis proporciona una base sólida para futuras iteraciones centradas en el usuario, asegurando que las decisiones de diseño y desarrollo respondan a sus necesidades reales.
+
+<p align="center">
+  <img src="https://imgur.com/wJdKztI.png" alt="asis1" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/cvvTEov.png" alt="asis2" width="500">
+</p>
+
+Para mejor visualización de los As-Is Scenarios de Livria, acceder al siguiente link: https://miro.com/app/board/uXjVI-wDlQU=/
+
+## 2.4. Ubiquitous Language
+
+| Término (Inglés)        | Definición |
+|-------------------------|------------|
+| **Casual reader**       | Persona que lee ocasionalmente por interés o entretenimiento, sin un hábito fijo de lectura. |
+| **Amateur reader**      | Persona con un hábito de lectura más constante, que busca libros según sus intereses y disfruta compartir su experiencia lectora. |
+| **Young university student** | Usuario que cursa estudios superiores y busca libros relacionados con sus trabajos o proyectos académicos o materias específicas. |
+| **Recommendations**     | Sugerencias personalizadas de libros según el perfil, intereses, historial de lectura o área académica que busca el usuario. |
+| **Reader community**    | Sección donde los usuarios interactúan, comparten opiniones, participan en retos y descubren libros en común. |
+| **Search for books**    | Herramienta que permite encontrar libros mediante filtros avanzados como autor, editorial, género, formato y disponibilidad. |
+| **Book formats**        | Tipos de presentación de un libro: digital (eBook), audiolibro o físico. |
+| **Save books**          | Función que permite marcar libros para revisarlos después o recibir notificaciones sobre su disponibilidad. |
+| **Join challenges**     | Participación en pequeñas dinámicas de lectura con metas y temas específicos, que fomentan la constancia y el disfrute de la lectura. |
+| **Reviews**             | Comentarios, calificaciones y valoraciones que los usuarios de la comunidad dejan sobre libros que han leído, para guiar o recomendar a otros lectores. |
+| **Audiobook**           | Un libro narrado en formato de audio, que permite a los usuarios escuchar el contenido en vez de leerlo. |
+| **Digital books**       | Versión electrónica o digital de un libro que puede leerse desde múltiples dispositivos. |
+| **Physical books**      | Libro impreso en papel, disponible para compra en formato tradicional. |
