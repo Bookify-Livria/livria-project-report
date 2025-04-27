@@ -64,6 +64,12 @@
     + [2.3.5. As-Is Scenario Mapping](#235-as-is-scenario-mapping)
   * [2.4 Ubiquitous Language](#24-ubiquitous-language)
 
+- [CAPÍTULO 3: REQUIREMENTS SPECIFICATION](#capítulo-3-requirements-specification)
+  * [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
+  * [3.2. User Stories](#32-user-stories)
+  * [3.3. Impact Mapping](#33-impact-mapping)
+  * [3.4. Product Backlog](#34-product-backlog)
+
 # Student Outcome
 
 ABET - EAC - Student Outcome 5
@@ -636,3 +642,476 @@ Para mejor visualización de los As-Is Scenarios de Livria, acceder al siguiente
 | **Audiobook**           | Un libro narrado en formato de audio, que permite a los usuarios escuchar el contenido en vez de leerlo. |
 | **Digital books**       | Versión electrónica o digital de un libro que puede leerse desde múltiples dispositivos. |
 | **Physical books**      | Libro impreso en papel, disponible para compra en formato tradicional. |
+
+# CAPÍTULO 3: REQUIREMENTS SPECIFICATION
+En esta sección se consolidan los requisitos del producto digital a partir del análisis detallado de la información obtenida durante las fases de investigación y mapeo de experiencia del usuario. El objetivo es traducir los hallazgos en especificaciones claras, priorizadas y alineadas con las necesidades reales de los usuarios y los objetivos del negocio. A través del To-Be Scenario Mapping, las User Stories, el Impact Map y el Product Backlog, se estructura una visión integral del producto que guía al equipo de desarrollo en la creación de soluciones funcionales, centradas en el usuario y técnicamente viables. Esta especificación sirve como base para la planificación, diseño e implementación del producto.
+
+## 3.1. To-Be Scenario Mapping
+En esta sección se presentan los To-Be Scenario Maps elaborados para cada uno de los User Personas, con el propósito de visualizar cómo debería ser la experiencia ideal del usuario una vez implementadas las mejoras propuestas. Estos mapas proyectan un recorrido optimizado, centrado en las necesidades, motivaciones y expectativas detectadas en fases anteriores del proceso de investigación. Al igual que en los escenarios actuales, cada mapa incluye las filas de Steps, Doing, Thinking y Feeling, permitiendo identificar de forma clara cómo cambiarán las percepciones, emociones y acciones del usuario en el futuro. Este ejercicio facilita la alineación del equipo en torno a una visión compartida y orienta el diseño de soluciones más empáticas y efectivas.
+
+<p align="center">
+  <img src="https://imgur.com/HoebMyL.png" alt="tobe1" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/AzMSw4g.png" alt="tobe2" width="500">
+</p>
+
+Para mejor visualización de los to-Be Scenarios de Livria, acceder al siguiente link: https://miro.com/app/board/uXjVI-wDlQU=/
+
+## 3.2. User Stories
+### 3.2.1. Requisitos
+**Requisitos Funcionales**
+
+| Código  | Requisito |
+|---------|---------------|
+| **Recomendaciones personalizadas** | |
+| RFU-07 | Generación de recomendaciones según preferencias literarias |
+| RFU-08 | Sección de recomendados |
+| RFU-09 | Sistema de notificaciones para alertar sobre nuevas recomendaciones |
+| RFU-10 | Interacción con recomendaciones |
+| RFU-11 | Actualización dinámica de recomendaciones |
+| **Búsqueda** | |
+| RFU-12 | Barra de búsqueda principal |
+| RFU-13 | Búsqueda por título, autor, género, editorial o palabra clave |
+| RFU-14 | Filtrado y ordenamiento de resultados |
+| RFU-15 | Resultados relevantes por coincidencia |
+| RFU-16 | Historial de búsqueda del usuario |
+| RFU-17 | Compatibilidad con errores tipográficos |
+| **Comunidades** | |
+| RFU-18 | Creación de comunidades |
+| RFU-19 | Creación de publicaciones en comunidades |
+| RFU-20 | Sugerencias de comunidades |
+| RFU-21 | Unirse a comunidades |
+| **Notificaciones** | |
+| RFU-22 | Notificaciones instantáneas |
+| RFU-23 | Configuración de notificaciones |
+| **Suscripciones** | |
+| RFU-24 | Suscripción inicial en el Plan Free |
+| RFU-25 | Visualización de beneficios por tipo de suscripción |
+| RFU-26 | Actualización al Plan Community |
+| RFU-27 | Gestión de estado de suscripción |
+| RFU-28 | Envío de recordatorios y confirmaciones de pago del Plan Community |
+| RFU-29 | Reversión al Plan Free |
+| **Perfil y preferencias de usuario** | |
+| RFU-30 | Crear perfil |
+| RFU-31 | Ajustes de privacidad |
+| RFU-32 | Integración de aplicaciones de terceros |
+
+**Requisitos No Funcionales**
+
+| Código  | Requisito |
+|---------|---------------|
+| RNFU-01 | Soporte de crecimiento de usuarios |
+| RNFU-02 | Tiempo de respuesta rápido |
+| RNFU-03 | Disponibilidad 24/7 |
+| RNFU-04 | Seguridad del usuario  |
+| RNFU-05 | Interfaz amigable |
+| RNFU-06 | Soporte multiplataforma |
+| RNFU-07 | Internacionalización de idiomas (inglés-español) |
+
+### 3.2.2. Historias de Usuario
+
+| **User Story ID** | US01 |
+|-------------------|------|
+| **Epic ID**        | EP01 |
+| **Title**          | Presentación de servicios de Livria |
+| **Description**    | Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las característica únicas de la aplicación. |
+| **Acceptance Criteria #1** | Dado que el visitante se encuentra en el inicio de la landing page<br>Y el visitante quiere ver las funcionalidad de Livria,<br>Cuando el visitante hace clic en “Ver Más +”<br>Entonces la página se desplaza hasta la sección “Servicios”. |
+| **Acceptance Criteria #2** | Dado que el visitante se encuentra en cualquier otra sección de la landing page<br>Y el visitante quiere ir a la sección “Servicios”,<br>Cuando el visitante hace clic en el link “Servicios” del encabezado<br>Entonces la página se desplaza hacia dicha sección de forma fluida. |
+| **Acceptance Criteria #3** | Dado que el visitante se encuentra en la landing page,<br>Cuando el visitante empieza a hacer scroll desde el inicio<br>Entonces la página le muestra la siguiente sección, es decir, la de “Servicios”. |
+
+| **User Story ID** | US02 |
+|-------------------|------|
+| **Epic ID**        | EP01 |
+| **Title**          | Acceso a la sección “Sobre Nosotros” desde la landing page |
+| **Description**    | Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. |
+| **Acceptance Criteria #1** | Dado que el visitante se encuentra en cualquier sección de la landing page<br>Y el visitante quiere ver información sobre los creadores de Livria,<br>Cuando el visitante hace clic en el link “Sobre Nosotros” del encabezado<br>Entonces la página se desplaza hacia dicha sección de forma fluida. |
+| **Acceptance Criteria #2** | Dado que el visitante se encuentra en la landing page,<br>Cuando el visitante empieza a hacer scroll desde el inicio<br>Entonces la página le muestra las siguientes secciones hasta llegar a la de “Sobre Nosotros”. |
+
+| **User Story ID** | US03 |
+|-------------------|------|
+| **Epic ID**        | EP02 |
+| **Title**          | Cambio de idioma en la Landing Page |
+| **Description**    | Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. |
+| **Acceptance Criteria #1** | Dado que el visitante quiere cambiar el idioma de la landing page<br>Y la página se encuentra en inglés,<br>Cuando el visitante hace clic en “ES” del encabezado o en el link igual del pie de página<br>Entonces la página cambia de idioma al español. |
+| **Acceptance Criteria #2** | Dado que el visitante quiere cambiar el idioma de la landing page<br>Y la página se encuentra en español,<br>Cuando el visitante hace clic en “EN” del encabezado o en el link igual del pie de página<br>Entonces la página cambia de idioma al inglés. |
+
+| **User Story ID** | US04 |
+|-------------------|------|
+| **Epic ID**        | EP01 |
+| **Title**          | Visualización de la sección “Home” en la landing page |
+| **Description**    | Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece. |
+| **Acceptance Criteria #1** | Dado que el visitante quiere conocer más sobre Livria<br>Cuando el visitante entre a la landing page<br>Entonces la página muestra el inicio, es decir, “Home”<br>Y esta sección muestra un resumen de Livria y un carrusel de imágenes. |
+| **Acceptance Criteria #2** | Dado que el visitante se encuentra en cualquier otra sección de la landing page<br>Y el visitante quiere ir a la sección de inicio,<br>Cuando el visitante hace clic en el link “Home” del encabezado<br>Entonces la página se desplaza hacia dicha sección de forma fluida. |
+| **Acceptance Criteria #3** | Dado que el visitante se encuentra en cualquier otra sección de la landing page,<br>Cuando el visitante hace clic en el logo de Livria,<br>Entonces la página le muestra el inicio, es decir, “Home”. |
+
+| **User Story ID** | US05 |
+|-------------------|------|
+| **Epic ID**        | EP02 |
+| **Title**          | Acceso a la sección “Contáctanos” desde la landing |
+| **Description**    | Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. |
+| **Acceptance Criteria #1** | Dado que el visitante se encuentra en cualquier sección de la landing page<br>Y el visitante quiere contactarse con el equipo de Livria,<br>Cuando el visitante hace clic en el link “Contáctanos” del encabezado<br>Entonces la página se desplaza hacia dicha sección de forma fluida. |
+| **Acceptance Criteria #2** | Dado que el visitante se encuentra en la landing page,<br>Cuando el visitante empieza a hacer scroll desde el inicio<br>Entonces la página le muestra las siguientes secciones hasta llegar a la de “Contáctanos”. |
+
+| **User Story ID** | US06 |
+|-------------------|------|
+| **Epic ID**        | EP02 |
+| **Title**          | Navegación simple entre secciones |
+| **Description**    | Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. |
+| **Acceptance Criteria #1** | Dado que el visitante acaba de ingresar a la landing page,<br>Cuando la página cargue la pantalla inicial y el encabezado<br>Entonces el visitante puede identificar rápidamente cómo navegar por la página y cómo acceder a las secciones que le interesen. |
+| **Acceptance Criteria #2** | Dado que el visitante se encuentra en la landing page de Livria,<br>Cuando el visitante hace clic en cualquiera de las opciones del encabezado<br>Entonces la página muestra dicha sección de manera fluida y sin contratiempos. |
+| **Acceptance Criteria #3** | Dado que el visitante se desplaza en la página mediante el scroll,<br>Cuando el visitante navegue las distintas secciones<br>Entonces el encabezado permanece fijo y visible en la parte superior de la página<br>Y el encabezado permite cambiar de sección en cualquier momento sin necesidad de volver al inicio. |
+
+| **User Story ID** | US07 |
+|-------------------|------|
+| **Epic ID**        | EP01 |
+| **Title**          | Diseño atractivo de la landing page |
+| **Description**    | Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. |
+| **Acceptance Criteria #1** | Dado que el visitante accede a la landing page de Livria,<br>Cuando la página cargue todos sus elementos<br>Entonces la página mostrará un diseño visual armonioso, imágenes llamativas, una paleta de colores atractiva y una tipografía clara. |
+| **Acceptance Criteria #2** | Dado que el visitante se encuentra en la landing page de Livria<br>Cuando el visitante navegue a través de las secciones de la página<br>Entonces los elementos visuales seguirán la tipografía y la paleta de colores establecida, de modo que sea agradable a la vista. |
+
+| **User Story ID** | US08 |
+|-------------------|------|
+| **Epic ID**        | EP02 |
+| **Title**          | Botón de acceso a la aplicación web |
+| **Description**    | Como visitante, quiero tener un acceso directo a la aplicación de Livria, para empezar a utilizar la aplicación. |
+| **Acceptance Criteria #1** | Dado que el visitante se encuentra en el inicio de la landing page,<br>Cuando el visitante hace clic en el botón “Ir a Livria”<br>Entonces la página lo redirecciona a la aplicación web de Livria. |
+
+| **User Story ID** | US09 |
+|-------------------|------|
+| **Epic ID**        | EP02 |
+| **Title**          | Acceder a las redes sociales de Livria |
+| **Description**    | Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. |
+| **Acceptance Criteria #1** | Dado que el visitante se encuentra en el pie de página,<br>Cuando el usuario hace clic en uno de los íconos de redes sociales<br>Entonces se abre en una nueva pestaña la cuenta oficial de Livria en la red social seleccionada. |
+
+| **User Story ID** | US10 |
+|-------------------|------|
+| **Epic ID**        | EP02 |
+| **Title**          | Redirección a las secciones |
+| **Description**    | Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. |
+| **Acceptance Criteria #1** | Dado que el visitante está en la parte inferior de la landing page,<br>Cuando el visitante hace clic en las opciones del apartado de “Navegación” del pie de página<br>Entonces la página se desliza automáticamente hacia la sección correspondiente. |
+| **Acceptance Criteria #2** | Dado que el visitante ha hecho scroll por toda la página y desea volver al inicio,<br>Cuando el visitante hace clic en el enlace “Home” dentro del pie de página,<br>Entonces la página se desplaza automáticamente hacia la parte superior mostrando la sección de inicio. |
+
+| **User Story ID** | US11 |
+|-------------------|------|
+| **Epic ID**        | EP02 |
+| **Title**          | Formulario de contacto |
+| **Description**    | Como visitante, quiero dejar mi información para que el equipo de Bookify - Livria me contacte para resolver una duda o trabajar con ellos. |
+| **Acceptance Criteria #1** | Dado que el visitante desea realizar alguna consulta al equipo de Livria,<br>Cuando el visitante rellene los campos “Nombres y Apellidos”, “Correo electrónico”, “Número celular” y “Motivo de contacto”<br>Y el visitante acceda a compartir su información personal<br>Entonces el formulario enviará esta consulta al equipo de Livria. |
+| **Acceptance Criteria #2** | Dado que el visitante desea trabajar con el equipo de Livria,<br>Cuando el visitante rellene todos los campos de información de contacto<br>Y el visitante adjunte el archivo de su CV<br>Y el visitante acceda a compartir su información personal<br>Entonces el formulario enviará la postulación al equipo de Livria. |
+| **Acceptance Criteria #3** | Dado que el visitante desea realizar una consulta o postular para trabajo en Livria,<br>Cuando rellene los campos pero no seleccione la casilla de consentimiento del envío de información personal<br>Entonces el formulario no enviará la consulta o postulación al equipo de Livria<br>Y la página mostrará un popup señalando que marque la casilla. |
+| **Acceptance Criteria #4** | Dado que el visitante desea realizar una consulta o postular para trabajo en Livria,<br>Cuando rellene solo algunos campos de información de contacto<br>Entonces el formulario no enviará la consulta o postulación al equipo de Livria<br>Y la página mostrará un popup señalando que rellene todos los campos. |
+
+| **User Story ID** | US12 |
+|-------------------|------|
+| **Epic ID**        | EP03 |
+| **Title**          | Recomendaciones según preferencias literarias |
+| **Description**    | Como usuario, quiero recibir recomendaciones personalizadas basadas en mis preferencias literarias para poder descubrir nuevos libros y autores. |
+| **Acceptance Criteria #1** | Dado que el usuario acaba de crear una cuenta en Livria,<br>Cuando el usuario ingrese a la sección de “Recomendaciones”<br>Entonces la plataforma mostrará las primeras recomendaciones aleatorias para el nuevo usuario. |
+| **Acceptance Criteria #2** | Dado que el usuario ha realizado varias compras en Livria,<br>Cuando el usuario ingrese a la sección de “Recomendaciones”<br>Entonces la plataforma mostrará recomendaciones en base a las compras previas del usuario. |
+
+| **User Story ID** | US13 |
+|-------------------|------|
+| **Epic ID**        | EP05 |
+| **Title**          | Configuración de notificaciones |
+| **Description**    | Como usuario, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. |
+| **Acceptance Criteria #1** | Dado que el usuario accede al menú de ajustes de su cuenta,<br>Cuando selecciona la opción de configuración de notificaciones,<br>Entonces podrá visualizar todas las categorías disponibles de notificaciones de la aplicación. |
+| **Acceptance Criteria #2** | Dado que el usuario está dentro de la sección de configuración de notificaciones,<br>Cuando decide activar o desactivar alguna categoría específica,<br>Entonces la plataforma actualizará inmediatamente las preferencias según su elección, manteniéndolas activas hasta que el usuario decida modificarlas nuevamente o restablecer los valores predeterminados. |
+
+| **User Story ID**         | US14 |
+|--------------------------|------|
+| **Epic ID**              | EP05 |
+| **Title**                | Notificaciones instantáneas |
+| **Description**          | Como usuario, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto de mis pagos, descuentos únicos y recomendaciones otorgadas por el algoritmo de Livria. |
+| **Acceptance Criteria #1** | Dado que el usuario ha marcado previamente un libro como favorito<br>Cuando el sistema genera una nueva recomendación basada en sus gustos<br>Entonces el usuario recibe una notificación con el título recomendado. |
+| **Acceptance Criteria #2** | Dado que el usuario se encuentra navegando en la aplicación<br>Cuando el sistema lanza promociones especiales en determinados libros<br>Entonces el usuario recibe una notificación instantánea con los títulos que cuentan con descuento. |
+| **Acceptance Criteria #3** | Dado que el usuario está activo en la plataforma<br>Cuando falten 7 días para la renovación automática de su suscripción mensual<br>Entonces el sistema enviará una notificación informando la fecha exacta del próximo cobro, indicando que la renovación se realizará de forma automática. |
+
+| **User Story ID**         | US15 |
+|--------------------------|------|
+| **Epic ID**              | EP03 |
+| **Title**                | Interacción con recomendaciones |
+| **Description**          | Como usuario, quiero poder indicar si un libro me interesa o no, para personalizar mis futuras recomendaciones. |
+| **Acceptance Criteria #1** | Dado que el usuario está explorando los libros<br>Cuando el usuario hace clic en el ícono del bookmark<br>Entonces el sistema registra el libro como preferencia positiva,<br>Y la plataforma muestra una confirmación visual<br>Y el algoritmo de recomendaciones se adapta a la selección. |
+| **Acceptance Criteria #2** | Dado que el usuario está explorando los libros<br>Cuando el usuario hace clic en el ícono del negativo<br>Entonces el sistema registra el libro como preferencia negativa,<br>Y la plataforma muestra una confirmación visual<br>Y el algoritmo de recomendaciones se adapta a la selección. |
+
+| **User Story ID**         | US16 |
+|--------------------------|------|
+| **Epic ID**              | EP04 |
+| **Title**                | Registro e inicio de sesión |
+| **Description**          | Como usuario, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. |
+| **Acceptance Criteria #1** | Dado que el usuario abre la aplicación<br>Y selecciona la opción “Crear Cuenta”<br>Cuando completa correctamente los campos requeridos<br>Y confirma el registro<br>Entonces el sistema debe crear una cuenta nueva, iniciar sesión automáticamente y mostrar un mensaje de registro exitoso. |
+| **Acceptance Criteria #2** | Dado que el usuario ya tiene una cuenta creada en Livria<br>Cuando introduce su usuario y contraseña en el formulario de inicio de sesión<br>Entonces el sistema debe autenticar sus credenciales y redirigirlo a su panel principal, donde podrá continuar con su experiencia de lectura. |
+
+| **User Story ID**         | US17 |
+|--------------------------|------|
+| **Epic ID**              | EP03 |
+| **Title**                | Sección de recomendaciones en la plataforma |
+| **Description**          | Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. |
+| **Acceptance Criteria #1** | Dado que el usuario está en la aplicación web de Livria,<br>Cuando el usuario quiere ver sus recomendaciones<br>Y el usuario accede a la sección de “Recomendaciones”<br>Entonces la plataforma muestra seis recomendaciones con una miniatura del libro, el título y una pequeña sinopsis. |
+| **Acceptance Criteria #2** | Dado que el usuario se encuentra en la sección de “Recomendaciones”<br>Cuando el usuario hace clic en una de las recomendaciones<br>Entonces la plataforma lo dirige a la visualización completa del libro con más detalles y opciones. |
+
+| **User Story ID**         | US18 |
+|--------------------------|------|
+| **Epic ID**              | EP03 |
+| **Title**                | Actualización constante de recomendaciones |
+| **Description**          | Como usuario, quiero obtener diferentes recomendaciones cada cierto tiempo para encontrar nuevas posibles lecturas que se adapten a mi gusto. |
+| **Acceptance Criteria #1** | Dado que el usuario ha usado la aplicación web de Livria regularmente,<br>Cuando el usuario accede a la sección de “Recomendaciones” cada semana<br>Entonces la plataforma muestra seis nuevas sugerencias distintas a las vistas la semana anterior. |
+
+| **User Story ID**         | US19 |
+|--------------------------|------|
+| **Epic ID**              | EP04 |
+| **Title**                | Cierre de sesión |
+| **Description**          | Como usuario, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. |
+| **Acceptance Criteria #1** | Dado que el usuario ha iniciado sesión<br>Y se encuentra en la sección de configuración de su cuenta<br>Cuando selecciona la opción "Cerrar sesión"<br>Entonces el sistema debe cerrar su sesión activa de forma segura<br>Y redirigirlo automáticamente a la pantalla de inicio o login de Livria. |
+
+| **User Story ID**         | US20 |
+|--------------------------|------|
+| **Epic ID**              | EP06 |
+| **Title**                | Creación de publicaciones en comunidades |
+| **Description**          | Como usuario, quiero poder crear y compartir publicaciones dentro de las comunidades temáticas de la plataforma, para interactuar con otros lectores a través de imágenes. |
+| **Acceptance Criteria #1** | Dado que el usuario decide crear una nueva publicación dentro de una comunidad<br>Y opta por subir una imagen o ilustración<br>Cuando selecciona y carga el archivo desde su dispositivo<br>Entonces el sistema debe mostrar correctamente la imagen en la publicación, habilitando los comentarios por parte de otros usuarios. |
+| **Acceptance Criteria #2** | Dado que el usuario desea compartir una publicación sin usar imágenes<br>Cuando ingresa un texto en el campo de publicación<br>Y lo envía<br>Entonces el sistema debe guardar y mostrar la publicación correspondiente. |
+
+| **User Story ID**         | US21 |
+|--------------------------|------|
+| **Epic ID**              | EP06 |
+| **Title**                | Gestión de comunidades |
+| **Description**          | Como usuario, quiero poder crear y unirme a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos. |
+| **Acceptance Criteria #1** | Dado que el usuario se encuentra en la sección "Comunidades"<br>Cuando selecciona la opción "Crear comunidad"<br>Y completa el formulario con un nombre, descripción y categoría de la comunidad<br>Entonces el sistema debe registrar la nueva comunidad<br>Y mostrarla dentro del listado general de comunidades disponibles en Livria. |
+| **Acceptance Criteria #2** | Dado que el usuario está explorando la lista de comunidades disponibles<br>Cuando ingresa al perfil de una comunidad de su interés<br>Y selecciona la opción "Unirse"<br>Entonces el sistema debe agregarlo como miembro de dicha comunidad<br>Y mostrarle una confirmación visual de su ingreso exitoso. |
+
+| **User Story ID**         | US22 |
+|--------------------------|------|
+| **Epic ID**              | EP06 |
+| **Title**                | Comentarios en publicaciones |
+| **Description**          | Como usuario, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. |
+| **Acceptance Criteria #1** | Dado que el usuario se encuentra explorando una comunidad<br>Y visualiza una publicación donde desea comentar<br>Cuando selecciona la opción comentar<br>Entonces se despliega un cuadro de texto<br>Y el sistema debe publicar su comentario al enviarlo correctamente. |
+| **Acceptance Criteria #2** | Dado que el usuario ha publicado un comentario en una publicación<br>Cuando presiona la opción eliminar junto a su comentario<br>Entonces el comentario debe de eliminarse de la publicación<br>Y el sistema debe confirmar que fue removido exitosamente. |
+| **Acceptance Criteria #3** | Dado que el usuario está visualizando una publicación dentro de una comunidad<br>Y accede a la sección de comentarios<br>Cuando hace scroll en esa sección<br>Entonces debe poder leer los comentarios realizados por otros usuarios. |
+
+| **User Story ID**         | US23 |
+|--------------------------|------|
+| **Epic ID**              | EP07 |
+| **Title**                | Compra de libros digitales y físicos |
+| **Description**          | Como usuario, quiero poder comprar libros digitales y físicos desde la plataforma para acceder a lecturas nuevas de manera inmediata o recibir ediciones impresas en mi domicilio. |
+| **Acceptance Criteria #1** | Dado que el usuario está navegando por el catálogo de Livria<br>Cuando selecciona un libro digital y presiona “Comprar”<br>Y completa el proceso de pago<br>Entonces el sistema debe confirmar la compra<br>Y permitir la descarga inmediata del libro en su biblioteca digital. |
+| **Acceptance Criteria #2** | Dado que el usuario está navegando por el catálogo<br>Cuando selecciona un libro físico y presiona “Comprar”<br>Y completa el proceso de pago y confirma su dirección de entrega<br>Entonces el sistema debe confirmar la compra<br>Y generar el pedido con estado “En proceso de envío”. |
+
+| **User Story ID**         | US24 |
+|--------------------------|------|
+| **Epic ID**              | EP07 |
+| **Title**                | Barra de búsqueda |
+| **Description**          | Como usuario, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, con el fin de acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. |
+| **Acceptance Criteria #1** | Dado que el usuario interactúa con la barra de búsqueda<br>Cuando escribe el nombre de un libro<br>Entonces el sistema debe mostrar una lista de resultados relacionados con el título ingresado, incluyendo portadas y disponibilidad. |
+| **Acceptance Criteria #2** | Dado que el usuario desea encontrar obras de un autor en particular<br>Cuando ingresa el nombre del autor en la barra de búsqueda<br>Entonces el sistema debe mostrar un acceso al perfil del autor y una lista de sus libros disponibles en la plataforma. |
+| **Acceptance Criteria #3** | Dado que el usuario está buscando una comunidad<br>Cuando introduce el nombre de una comunidad o una palabra clave relacionada<br>Entonces el sistema debe mostrar comunidades relevantes, incluyendo nombre, descripción y opción para unirse o seguirlas. |
+| **Acceptance Criteria #4** | Dado que el usuario ingresa un término que no tiene coincidencias<br>Cuando el sistema no encuentra ningún libro, autor o comunidad con ese nombre<br>Entonces el sistema debe mostrar un mensaje indicando que no se encontraron resultados<br>Y sugerir nuevas opciones de lectura, autores o comunidades. |
+
+| **User Story ID**         | US25 |
+|--------------------------|------|
+| **Epic ID**              | EP07 |
+| **Title**                | Gestión del envío de libros físicos |
+| **Description**          | Como usuario, quiero poder organizar y dar seguimiento al envío de mis libros físicos comprados, para saber cuándo y cómo recibiré mi pedido. |
+| **Acceptance Criteria #1** | Dado que el usuario ha comprado un libro físico<br>Cuando accede a la sección de “Mis pedidos”<br>Entonces podrá ingresar la dirección de envío antes de que el pedido sea despachado. |
+| **Acceptance Criteria #2** | Dado que el usuario ha comprado un libro físico<br>Y el pedido ya ha sido despachado<br>Cuando accede al detalle del pedido<br>Entonces podrá visualizar el número de seguimiento y el estado actual del envío. |
+| **Acceptance Criteria #3** | Dado que el usuario ha recibido su libro físico<br>Cuando marca el pedido como recibido desde su historial de compras<br>Entonces el sistema debe actualizar el estado del pedido a “Entregado”<br>Y permitirle dejar una valoración sobre el proceso de compra. |
+
+| **User Story ID**         | US26 |
+|--------------------------|------|
+| **Epic ID**              | EP07 |
+| **Title**                | Proceso de pago |
+| **Description**          | Como usuario, quiero poder pagar mis libros a través de Izipay, para asegurarme de que mi compra sea rápida y confiable mediante una única plataforma de pago. |
+| **Acceptance Criteria #1** | Dado que el usuario ha añadido uno o más libros a su carrito de compras<br>Cuando selecciona la opción “Pagar con Izipay” y completa los datos solicitados<br>Entonces el sistema procesa el pago correctamente<br>Y muestra un mensaje de confirmación con el comprobante de la transacción. |
+| **Acceptance Criteria #2** | Dado que el usuario intenta completar el pago mediante Izipay<br>Cuando ocurre un error<br>Entonces el sistema muestra un mensaje explicando el error<br>Y permite reintentar la operación. |
+
+| **User Story ID**         | US27 |
+|--------------------------|------|
+| **Epic ID**              | EP03 |
+| **Title**                | Valoración y reseña de libros |
+| **Description**          | Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. |
+| **Acceptance Criteria #1** | Dado que el usuario ha finalizado la lectura de un libro<br>Cuando accede a la sección de valoraciones<br>Entonces puede calificar el libro con una puntuación de 1 a 5 estrellas<br>Y la valoración se actualiza en la ficha del libro. |
+| **Acceptance Criteria #2** | Dado que el usuario desea dejar un comentario detallado<br>Cuando accede a la opción “Escribir reseña”<br>Entonces puede redactar y publicar su opinión sobre el contenido, estilo o experiencia de lectura. |
+
+| **User Story ID**         | US28 |
+|--------------------------|------|
+| **Epic ID**              | EP04 |
+| **Title**                | Actualización y gestión de suscripción |
+| **Description**          | Como usuario, quiero poder actualizar mi plan de suscripción, recibir notificaciones sobre pagos y revertir cambios si me arrepiento, para tener un mayor control sobre mi experiencia en la plataforma. |
+| **Acceptance Criteria #1** | Dado que el usuario tiene un plan gratuito<br>Cuando selecciona el plan “Community”<br>Y procede el pago, completando los datos requeridos<br>Entonces el sistema habilita el acceso al contenido comprado<br>Y el usuario recibe una notificación confirmando la transacción exitosa. |
+| **Acceptance Criteria #2** | Dado que el usuario tiene una suscripción activa al Plan Community<br>Cuando se acerca la fecha de renovación (7 días antes)<br>Entonces el sistema envía un recordatorio por correo o notificación<br>Y una confirmación una vez que el pago se realiza exitosamente. |
+| **Acceptance Criteria #3** | Dado que el usuario se encuentra suscrito a un plan de pago activo<br>Cuando decide cambiar al plan gratuito desde la sección de configuración de suscripción<br>Entonces el sistema revierte su suscripción al plan gratuito al finalizar el ciclo actual<br>Y le notifica que conservará los beneficios del plan actual hasta la fecha de renovación, momento en el cual se aplicará el plan gratuito automáticamente. |
+
+| **User Story ID**         | US29 |
+|--------------------------|------|
+| **Epic ID**              | EP08 |
+| **Title**                | Disponibilidad 24/7 |
+| **Description**          | Como usuario, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. |
+| **Acceptance Criteria #1** | Dado que el usuario desea acceder a la plataforma en cualquier momento<br>Cuando inicia sesión en Livria en cualquier horario<br>Entonces el sistema debe estar disponible<br>Y permitir el acceso sin restricciones. |
+| **Acceptance Criteria #2** | Dado que el usuario está leyendo un libro digital<br>Cuando se conecte en horarios no habituales<br>Entonces la lectura debe funcionar sin ningún error. |
+
+| **User Story ID**         | US30 |
+|--------------------------|------|
+| **Epic ID**              | EP04 |
+| **Title**                | Seguridad del usuario |
+| **Description**          | Como usuario, quiero que mi información personal y actividad en Livria estén protegidas, para sentirme seguro mientras navego, leo o realizo compras en la plataforma. |
+| **Acceptance Criteria #1** | Dado que el usuario ha ingresado datos como nombre, correo y dirección<br>Cuando navega o interactúa dentro de la plataforma<br>Entonces el sistema debe garantizar que esta información no sea compartida ni filtrada a terceros sin consentimiento. |
+| **Acceptance Criteria #2** | Dado que el usuario realiza una compra mediante Izipay<br>Cuando ingresa sus datos de pago<br>Entonces el sistema debe confirmar que la transacción es segura y privada. |
+
+| **User Story ID**         | US31 |
+|--------------------------|------|
+| **Epic ID**              | EP08 |
+| **Title**                | Interfaz amigable |
+| **Description**          | Como usuario, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. |
+| **Acceptance Criteria #1** | Dado que el usuario inicia sesión en la plataforma<br>Cuando desea acceder a las secciones principales como “Comunidad” o “Recomendaciones”<br>Entonces podrá hacerlo con pocos clics y sin confusión, gracias a una estructura organizada y un diseño intuitivo. |
+| **Acceptance Criteria #2** | Dado que el usuario interactúa con la aplicación<br>Cuando el usuario visualiza la interfaz<br>Entonces los botones, textos e íconos deben tener buen contraste, tamaño adecuado<br>Y estar correctamente etiquetados para garantizar la accesibilidad. |
+
+| **User Story ID**         | US32 |
+|--------------------------|------|
+| **Epic ID**              | EP08 |
+| **Title**                | Soporte multiplataforma |
+| **Description**          | Como usuario, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. |
+| **Acceptance Criteria #1** | Dado que el usuario utiliza distintos dispositivos<br>Cuando accede a Livria desde cualquiera de ellos<br>Entonces la experiencia debe mantenerse fluida y funcional, sin errores de formato o limitaciones de funciones. |
+
+| **User Story ID**         | US33 |
+|--------------------------|------|
+| **Epic ID**              | EP07 |
+| **Title**                | Navegación principal por categorías editoriales |
+| **Description**          | Como usuario, quiero acceder rápidamente a las categorías presentes en la barra superior de navegación para descubrir libros organizados según mis intereses personales. |
+| **Acceptance Criteria #1** | Dado que el usuario se encuentra en la barra superior de navegación<br>Cuando hace clic en una categoría<br>Entonces se le redirige a una página que muestra únicamente libros correspondientes a esa categoría<br>Y se resalta visualmente para indicar que está activa. |
+
+| **User Story ID**         | US34 |
+|--------------------------|------|
+| **Epic ID**              | EP07 |
+| **Title**                | Filtro lateral por subcategorías y atributos del libro |
+| **Description**          | Como usuario, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. |
+| **Acceptance Criteria #1** | Dado que el usuario se encuentra en la vista de libros<br>Cuando selecciona una subcategoría<br>Entonces la lista de libros se actualiza mostrando solo los que pertenecen a esa subcategoría. |
+| **Acceptance Criteria #2** | Dado que el usuario quiere ordenar los resultados<br>Cuando elige una opción como “Menor a mayor precio”<br>Entonces la lista se reordena automáticamente según esos criterios. |
+| **Acceptance Criteria #3** | Dado que el usuario tiene una preferencia por el formato del libro<br>Cuando selecciona un formato específico<br>Entonces se muestran los libros que coincidan con las condiciones. |
+| **Acceptance Criteria #4** | Dado que el usuario tiene una preferencia por el idioma<br>Cuando selecciona el idioma de su preferencia<br>Entonces se muestran los libros que coincidan con el idioma elegido. |
+| **Acceptance Criteria #5** | Dado que el usuario ha aplicado filtros<br>Cuando presiona el botón “Borrar selección”<br>Entonces se eliminan todos los filtros activos<br>Y la lista vuelve a su estado inicial. |
+
+### 3.2.3. Epicas
+
+| **EPIC 01:** | Descubrimiento y comprensión de Livria |
+|:------------:|:--------------------------------------|
+| | Como visitante, quiero conocer fácilmente qué es Livria, qué ofrece y quiénes lo desarrollan, para evaluar si la plataforma es relevante para mí. |
+| **User Story ID** | **Título** |
+| US01 | Presentación de servicios de Livria |
+| US02 | Acceso a la sección “Sobre Nosotros” |
+| US04 | Visualización de la sección “Home” |
+| US07 | Diseño atractivo de la landing page |
+
+| **EPIC 02:** | Navegación e interacción accesible desde la landing page |
+|:------------:|:---------------------------------------------------------|
+| | Como visitante, quiero navegar de forma intuitiva por la landing page, cambiar el idioma a mi comodidad y tener acceso rápido a los recursos de contacto y redes, para explorar todo lo que Livria ofrece y establecer contacto directo si me interesa participar o colaborar. |
+| **User Story ID** | **Título** |
+| US03 | Cambio de idioma en la Landing Page |
+| US05 | Acceso a la sección “Contáctanos” |
+| US06 | Navegación simple entre secciones |
+| US08 | Botón de acceso a la aplicación web |
+| US09 | Acceder a las redes sociales de Livria |
+| US10 | Redirección a las secciones desde el pie de página |
+| US11 | Formulario de contacto |
+
+| **EPIC 03:** | Personalización inteligente de la experiencia lectora |
+|:------------:|:------------------------------------------------------|
+| | Como usuario, quiero que Livria entienda mis gustos literarios y me ofrezca contenido relevante, actualizado y ajustado a mis preferencias, para que cada vez que entre encuentre algo nuevo y atractivo que realmente me interese. |
+| **User Story ID** | **Título** |
+| US12 | Recomendaciones según preferencias literarias |
+| US15 | Interacción con recomendaciones |
+| US17 | Sección de recomendaciones en la plataforma |
+| US18 | Actualización constante de recomendaciones |
+| US27 | Valoración y reseña de libros |
+
+| **EPIC 04:** | Gestión de cuenta y seguridad del usuario |
+|:------------:|:------------------------------------------|
+| | Como usuario, quiero gestionar mi cuenta de forma segura y flexible, para tener el control de mi experiencia dentro de la plataforma y proteger mi información personal. |
+| **User Story ID** | **Título** |
+| US16 | Registro e inicio de sesión |
+| US19 | Cierre de sesión |
+| US28 | Actualización y gestión de suscripción |
+| US30 | Seguridad del usuario |
+
+| **EPIC 05:** | Notificaciones y comunicación con el usuario |
+|:------------:|:---------------------------------------------|
+| | Como usuario, quiero recibir notificaciones relevantes y configurables, para mantenerme informado de lo que realmente me importa dentro de Livria sin saturarme de mensajes innecesarios. |
+| **User Story ID** | **Título** |
+| US13 | Configuración de notificaciones |
+| US14 | Notificaciones instantáneas |
+
+| **EPIC 06:** | Interacción y construcción de comunidad |
+|:------------:|:----------------------------------------|
+| | Como usuario, quiero participar activamente en comunidades literarias temáticas, compartir contenido, comentar publicaciones y conocer a otros lectores que compartan mis intereses. |
+| **User Story ID** | **Título** |
+| US20 | Creación de publicaciones en comunidades |
+| US21 | Gestión de comunidades |
+| US22 | Comentarios en publicaciones |
+
+| **EPIC 07:** | Compra y seguimiento de libros |
+|:------------:|:-------------------------------|
+| | Como usuario, quiero comprar libros digitales o físicos de manera sencilla y contar con herramientas para buscar títulos, autores y comunidades fácilmente, para adquirir lecturas de mi interés y navegar por el catálogo sin complicaciones. |
+| **User Story ID** | **Título** |
+| US23 | Compra de libros digitales y físicos |
+| US24 | Barra de búsqueda |
+| US25 | Gestión del envío de libros físicos |
+| US26 | Proceso de pago |
+| US33 | Navegación principal por categorías editoriales |
+| US34 | Filtro lateral por subcategorías y atributos del libro |
+
+| **EPIC 08:** | Accesibilidad y experiencia de uso multiplataforma |
+|:------------:|:--------------------------------------------------|
+| | Como usuario, quiero que la plataforma sea rápida, disponible siempre y con una interfaz intuitiva desde cualquier dispositivo, para disfrutar de una experiencia cómoda, fluida y sin interrupciones. |
+| **User Story ID** | **Título** |
+| US29 | Disponibilidad 24/7 |
+| US31 | Interfaz amigable |
+| US32 | Soporte multiplataforma |
+
+## 3.3. Impact Mapping
+El Impact Mapping de Livria es una herramienta visual que conecta el objetivo principal del negocio, aumentar en un 60% el número de usuarios que finalizan al menos un libro por mes, con los usuarios clave (estudiantes universitarios y lectores casuales), los impactos deseados en su comportamiento, las funcionalidades necesarias para lograr esos cambios y las historias de usuario que reflejan sus necesidades reales. Entre los impactos buscados están el uso preferente de Livria para buscar libros, la descarga o compra desde la app, y el descubrimiento frecuente de nuevas lecturas. Para lograrlo, se plantean funcionalidades como recomendaciones personalizadas, búsqueda avanzada, comparadores de precios y formatos, acceso digital directo, y comunidad con reseñas. Estas funcionalidades se traducen en historias de usuario que guían el desarrollo centrado en mejorar la experiencia de lectura y aumentar el compromiso con la plataforma.
+
+<p align="center">
+  <img src="https://imgur.com/ddUYr4v.png" alt="Im" width="500">
+</p>
+
+Link: https://drive.google.com/drive/folders/1zJEVEmTVXp3wqfTOmNEAVbZhEzfipoDu?usp=drive_link
+
+## 3.4. Product Backlog
+
+| # Orden | User Story ID | Descripción | Story Points (1/2/3/5) |
+|:-------:|:-------------:|:------------|:----------------------:|
+| 1 | US12 | Como usuario, quiero recibir recomendaciones personalizadas basadas en mis preferencias literarias para poder descubrir nuevos libros y autores. | 5 |
+| 2 | US26 | Como usuario, quiero poder pagar mis libros a través de Izipay, para asegurarme de que mi compra sea rápida y confiable mediante una única plataforma de pago. | 5 |
+| 3 | US20 | Como usuario, quiero poder crear y compartir publicaciones dentro de las comunidades temáticas de la plataforma, para interactuar con otros lectores a través de vídeos e imágenes. | 5 |
+| 4 | US24 | Como usuario, quiero utilizar una barra de búsqueda para encontrar libros, autores y comunidades literarias de forma rápida y precisa, con el fin de acceder fácilmente a contenido de interés sin tener que navegar por toda la plataforma. | 5 |
+| 5 | US21 | Como usuario, quiero poder crear y unirme a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos. | 5 |
+| 6 | US28 | Como usuario, quiero poder actualizar mi plan de suscripción, recibir notificaciones sobre pagos y revertir cambios si me arrepiento, para tener un mayor control sobre mi experiencia en la plataforma. | 5 |
+| 7 | US23 | Como usuario, quiero poder comprar libros digitales y físicos desde la plataforma para acceder a lecturas nuevas de manera inmediata o recibir ediciones impresas en mi domicilio. | 5 |
+| 8 | US14 | Como usuario, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto de mis pagos, descuentos únicos y recomendaciones otorgadas por el algoritmo de Livria. | 3 |
+| 9 | US15 | Como usuario, quiero poder indicar si un libro me interesa o no, para personalizar mis futuras recomendaciones. | 3 |
+| 10 | US30 | Como usuario, quiero que mi información personal y actividad en Livria estén protegidas, para sentirme seguro mientras navego, leo o realizo compras en la plataforma. | 3 |
+| 11 | US22 | Como usuario, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. | 3 |
+| 12 | US27 | Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. | 3 |
+| 13 | US18 | Como usuario, quiero obtener diferentes recomendaciones cada cierto tiempo para encontrar nuevas posibles lecturas que se adapten a mi gusto. | 3 |
+| 14 | US17 | Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. | 3 |
+| 15 | US31 | Como usuario, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. | 3 |
+| 16 | US25 | Como usuario, quiero poder organizar y dar seguimiento al envío de mis libros físicos comprados, para saber cuándo y cómo recibiré mi pedido. | 3 |
+| 17 | US32 | Como usuario, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. | 3 |
+| 18 | US34 | Como usuario, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. | 3 |
+| 19 | US05 | Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. | 2 |
+| 20 | US19 | Como usuario, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. | 2 |
+| 21 | US29 | Como usuario, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. | 2 |
+| 22 | US16 | Como usuario, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. | 2 |
+| 23 | US07 | Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. | 2 |
+| 24 | US03 | Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. | 2 |
+| 25 | US13 | Como usuario, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. | 2 |
+| 26 | US33 | Como usuario, quiero acceder rápidamente a las categorías presentes en la barra superior de navegación para descubrir libros organizados según mis intereses personales. | 2 |
+| 27 | US11 | Como visitante, quiero dejar mi información para que el equipo de Bookify - Livria me contacte para resolver una duda o trabajar con ellos. | 2 |
+| 28 | US08 | Como visitante, quiero tener un acceso directo a la aplicación de Livria, para empezar a utilizar la aplicación. | 1 |
+| 29 | US10 | Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. | 1 |
+| 30 | US09 | Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. | 1 |
+| 31 | US06 | Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. | 1 |
+| 32 | US04 | Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece. | 1 |
+| 33 | US02 | Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. | 1 |
+| 34 | US01 | Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las características únicas de la aplicación. | 1 |
