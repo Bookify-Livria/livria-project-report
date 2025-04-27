@@ -24,6 +24,18 @@
 
 # Project Report Collaboration Insights
 
+Repositorio donde se encuentra el Project Report: https://github.com/Bookify-Livria/livria-project-report
+
+Para elaborar el informe, trabajamos de manera colaborativa en un documento de Google Docs. Posteriormente, transferimos el contenido al README del repositorio principal, asignando a cada integrante la responsabilidad de subir un capítulo.
+
+<p align="center">
+  <img src="https://imgur.com/gOOlr8B.png" alt="PRCI1" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/bEpXOIf.png" alt="PRCI2" width="500">
+</p>
+
 # Contenido
 - [Livria](#livria)
   
