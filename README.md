@@ -99,6 +99,31 @@
   * [4.8. Database Design](#48-database-design)
     + [4.8.1. Database Diagram](#481-database-diagram)
 
+- [CAPÍTULO 5: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT](#capítulo-5-product-implementation-validation-&-deployment)
+  * [5.1. Software Configuration Management](#51-software-configuration-management)
+    + [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+    + [5.1.2. Source Code Management](#512-source-code-management)
+    + [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+    + [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+  * [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+    + [5.2.1. Sprint 1](#521-sprint-1)
+      - [5.2.1.1. Sprint Planning](#5211-sprint-planning)
+      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [5.2.1.3 Sprint Backlog 1](#5213-sprint-backlog-1)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5124-development-evidence-for-sprint-review)
+      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+
+- [Conclusiones](#conclusiones)
+  
+- [Recomendaciones](#recomendaciones)
+  
+- [Bibliografía](#bibliografÍa)
+  
+- [Anexos](#anexos)
+
 # Student Outcome
 
 ABET - EAC - Student Outcome 5
@@ -1732,7 +1757,7 @@ El prototipo fue diseñado siguiendo principios de arquitectura de la informaci�
 
 A partir de maquetas de alta fidelidad y criterios de usabilidad previamente definidos, esta versión navegable actúa como una fiel representación de la futura interfaz web. Así, se convierte en una herramienta clave para validar decisiones de diseño, detectar posibles fricciones y garantizar una experiencia consistente y accesible desde el navegador.
 
-Video explicativo: https://youtu.be/KXpBorl-CXY
+Video explicativo:
 
 Link al prototipo interactivo: https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZc/livria?page-id=192%3A596&node-id=255-816&p=f&viewport=-121%2C-24%2C0.12&t=bikOaC0wuxQpGsNk-1&scaling=min-zoom&content-scaling=fixed 
 
@@ -1788,3 +1813,699 @@ Link al prototipo interactivo: https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZ
 </p>
 
 URL: https://lucid.app/lucidchart/34ab5908-200e-4dc9-955d-49052617f49a/edit?viewport_loc=-384%2C-73%2C3906%2C1898%2CHWEp-vi-RSFO&invitationId=inv_881117db-e3c0-4cb4-b4b3-de363adf0664
+
+# CAPÍTULO 5: PRODUCT IMPLEMENTATION, VALIDATION & DEPLOYMENT
+## 5.1. Software Configuration Management
+### 5.1.1. Software Development Environment Configuration
+**1. Project Management**
+
+*Descripción:*
+
+La gestión de proyectos es fundamental en el desarrollo de software, ya que permite la organización y estructuración de las tareas necesarias para completar un proyecto. Las herramientas de gestión de proyectos permiten planificar, asignar y realizar un seguimiento de tareas, así como mejorar la colaboración en equipo y la comunicación.
+Jira (SaaS):
+
+Jira es una plataforma de gestión de proyectos ampliamente utilizada, especialmente en proyectos de desarrollo de software que siguen metodologías ágiles como Scrum o Kanban. Esta herramienta permite la planificación de sprints, seguimiento de tareas en tiempo real, y la creación de reportes de rendimiento, facilitando la organización y optimización del trabajo en equipo.
+
+https://www.atlassian.com/es/software/jira
+
+<p align="center">
+  <img src="https://imgur.com/65HmGqZ.png" alt="Jira" width="250">
+</p>
+
+**2. Product UX/UI Design**
+
+*Descripción:*
+
+El diseño de interfaces de usuario (UI) y experiencia de usuario (UX) es esencial para crear aplicaciones y software intuitivos, estéticamente agradables y funcionales. Las herramientas de diseño UX/UI permiten la creación de prototipos visuales, wireframes y diseños interactivos, que pueden validarse con usuarios antes de la implementación.
+
+Figma:
+
+Figma es una herramienta de diseño colaborativo basada en la nube, ideal para la creación de prototipos de interfaces y diseños interactivos. Al estar en línea, permite la edición y revisión en tiempo real, facilitando la colaboración entre miembros del equipo desde cualquier lugar. Es especialmente útil en entornos ágiles donde el diseño y el desarrollo avanzan de manera simultánea.
+
+https://www.figma.com/es-la/
+
+<p align="center">
+  <img src="https://imgur.com/Z8QXBFT.png" alt="Figma" width="250">
+</p>
+
+**3. Software Development**
+
+*Descripción:*
+
+El desarrollo de software requiere entornos y editores de código donde los desarrolladores puedan escribir, depurar y probar código. Los entornos de desarrollo integrados (IDE) y editores de texto enriquecidos ofrecen características como resaltar sintaxis, la integración de sistemas de control de versiones, y herramientas de depuración, optimizando la productividad del equipo de desarrollo.
+
+Visual Studio Code (Desktop):
+
+Visual Studio Code es un editor de código gratuito desarrollado por Microsoft, reconocido por su flexibilidad, extensibilidad y soporte de múltiples lenguajes de programación. Con una variedad de extensiones, VS Code permite personalizar el entorno de desarrollo para incluir características avanzadas como depuración, control de versiones, y colaboración en tiempo real a través de Live Share.
+
+https://code.visualstudio.com/Download
+
+<p align="center">
+  <img src="https://imgur.com/0Vb6vB8.png" alt="VS" width="250">
+</p>
+
+**4. Version Control**
+
+*Descripción:*
+
+El control de versiones es un componente esencial en el desarrollo de software, ya que permite gestionar y realizar un seguimiento de los cambios en el código fuente. Facilita la colaboración entre desarrolladores, ya que cada miembro del equipo puede trabajar en una copia del código y posteriormente fusionar los cambios. Esto es especialmente importante en proyectos con múltiples colaboradores, evitando conflictos y manteniendo un historial completo de modificaciones.
+
+*Git (CLI/GUI):*
+
+Git es un sistema de control de versiones distribuido que permite gestionar el código localmente y compartirlo en repositorios remotos. Ofrece la posibilidad de crear ramas para trabajar en diferentes funcionalidades de manera simultánea, y posteriormente unirlas mediante operaciones como merge o rebase.
+
+https://git-scm.com/downloads
+
+<p align="center">
+  <img src="https://imgur.com/FSlgo5Z.png" alt="GIT" width="250">
+</p>
+
+*GitHub:*
+
+GitHub es una plataforma basada en la nube que utiliza Git para la gestión de repositorios y facilita la colaboración entre equipos de desarrollo. Además de su funcionalidad de control de versiones, GitHub ofrece herramientas adicionales para la revisión de código, seguimiento de problemas y proyectos, e integración continua.
+
+https://github.com/
+
+<p align="center">
+  <img src="https://imgur.com/6OimTxR.png" alt="GITHUB" width="250">
+</p>
+
+### 5.1.2. Source Code Management
+La gestión del código fuente es fundamental para el desarrollo colaborativo de cualquier proyecto de software. En esta sección, se establecerá un esquema claro de organización y control de versiones utilizando GitHub y el modelo de GitFlow. Esto garantizará una estructura organizada, controlada y accesible del código, con pautas para el seguimiento y manejo de cambios. Además, se definirán las convenciones para nombres de ramas, mensajes de commits, y se utilizará Semantic Versioning para las versiones del proyecto.
+
+**1. Establecimiento de repositorios en GitHub:**
+
+Para organizar el código y pruebas de manera eficiente, se crearán repositorios específicos en GitHub, cada uno con una función concreta en el desarrollo y control de calidad del proyecto:
+
+**Repositorios Necesarios:**
+
+*Landing Page:* Este repositorio estará destinado exclusivamente al desarrollo de la página de aterrizaje (Landing Page) de Livria. Contendrá todo el código relacionado con la interfaz inicial del proyecto, incluyendo los archivos HTML, CSS, JavaScript, imágenes y demás recursos Front-End que presenten de manera atractiva y funcional la propuesta de valor de la aplicación a los visitantes.
+
+<p align="center">
+  <img src="https://imgur.com/e0huRvR.png" alt="RN1" width="500">
+</p>
+
+*Informe acerca del proyecto:* Este repositorio servirá como almacenamiento y control de versiones del informe completo del proyecto Livria. Se incluirán documentos en formato .md, PDF finales, presentaciones y cualquier archivo relacionado con el proceso de documentación, planificación y análisis del proyecto. Permitirá mantener un seguimiento ordenado de los avances en la elaboración del informe.
+
+<p align="center">
+  <img src="https://imgur.com/8pRxW5p.png" alt="RN2" width="500">
+</p>
+
+*Aplicación web (livria):* Este repositorio contendrá todo el código fuente de la aplicación web Livria, tanto del Front-End como del Back-End. Incluirá estructuras de carpetas organizadas por componentes, rutas, controladores, servicios, así como archivos de configuración, dependencias, bases de datos y pruebas. Este repositorio será el núcleo técnico del desarrollo de la aplicación funcional.
+
+<p align="center">
+  <img src="https://imgur.com/pvaLAu7.png" alt="RN3" width="500">
+</p>
+
+**Enlaces:**
+
+*Repositorio de la landing page:*
+
+https://github.com/Bookify-Livria/livria.github.io
+
+*Repositorio del informe:*
+
+https://github.com/Bookify-Livria/livria-project-report
+
+*Repositorio de la aplicación web:*
+
+https://github.com/Bookify-Livria/livria-web-app 
+
+
+**2. Workflow de control de versiones**
+
+Para garantizar que el flujo de trabajo y la integración de cambios sean efectivos y organizados, se implementará el modelo GitFlow. Este modelo establece una estructura de ramas específica que facilita el desarrollo paralelo y la administración de versiones.
+
+*Estructura de ramas en gitflow:*
+
+| Nombre de la rama           | Descripción |
+|------------------------------|-------------|
+| **Main Branch** (`master`)   | Es la rama principal que contiene el código en estado de producción. Solo los cambios completamente probados y listos para ser liberados en producción se integrarán aquí. |
+| **Develop Branch** (`develop`) | En esta rama se integran las funcionalidades en desarrollo. Sirve como base para el trabajo en curso antes de ser incorporado a la `master`. |
+| **Feature Branches** (`feature/*`) | Para cada nueva funcionalidad o cambio importante, se debe crear una rama de funcionalidad derivada de `develop`. Esto permite que las funcionalidades se desarrollen de forma aislada. <br> **Ejemplo:** `feature/nueva-funcionalidad` |
+| **Release Branches** (`release/*`) | Estas ramas se crean para preparar versiones próximas a lanzarse. Facilitan la corrección de errores menores y las pruebas antes de liberar la versión en `master`. <br> **Ejemplo:** `release/v1.0.0` |
+| **Hotfix Branches** (`hotfix/*`) | Ramas utilizadas para aplicar correcciones urgentes en el código de producción. Se crean a partir de `master` y se integran de vuelta en `main` y `develop`. <br> **Ejemplo:** `hotfix/urgent-fix` |
+
+*Convenciones para nombres de ramas*
+
+* Feature Branches: feature/nombre-descriptivo
+
+Nombres que describan claramente la funcionalidad o la tarea en desarrollo.
+
+* Release Branches: release/x.y.z
+
+Siguiendo el Semantic Versioning para indicar la versión en preparación.
+
+* Hotfix Branches: hotfix/nombre-descriptivo
+
+Nombres que describan el tipo de corrección realizada.
+
+**3. Versionado semántico (Semantic Versioning)**
+
+Para mantener un control claro y estructurado de las versiones liberadas, se emplea Semantic Versioning 2.0.0. Esta convención de nomenclatura consiste en tres números: Major.Minor.Patch:
+* Major: Indica una versión con cambios que pueden ser incompatibles con versiones anteriores.
+* Minor: Utilizado para nuevas funcionalidades que sean compatibles con versiones previas.
+* Patch: Para modificaciones menores o correcciones de errores que no alteran la funcionalidad.
+ 
+Ejemplo:
+
+v1.0.0 – Primera versión estable lanzada al público
+
+v1.1.0 – Nueva funcionalidad añadida
+
+v1.1.1. – Pequeña corrección de errores
+
+**4. Convenciones de commits (Conventional Commits)**
+
+Para mantener claridad y consistencia en los mensajes de commit, se utilizará el estándar Conventional Commits. Este sistema ayuda a identificar fácilmente el tipo de cambio realizado en cada commit, lo cual facilita la revisión del historial de cambios y la integración continua. Cada mensaje de commit se estructurará con un tipo de cambio seguido de una breve descripción:
+
+*Tipos de cambios y ejemplos:*
+* feat: agregar barra de navegación a la página de inicio
+
+Indica la implementación de una nueva funcionalidad.
+
+* fix: corregir error de validación en formulario de contacto
+
+Para resolver un error.
+
+* docs: actualizar guía de instalación
+
+Modificaciones en la documentación.
+
+* style: mejorar el formato de los archivos CSS
+
+Cambios de estilo que no afectan al código funcional.
+
+* refactor: optimizar la lógica de la función de búsqueda
+
+Cambios de código que no agregan funcionalidades nuevas ni corrigen errores.
+
+* test: añadir pruebas unitarias para la función de autenticación
+
+Añadir o modificar pruebas.
+
+### 5.1.3. Source Code Style Guide & Conventions
+Este capítulo establece las pautas y convenciones que el equipo de desarrollo adoptará para garantizar la coherencia y calidad del código en la aplicación Livria. Las convenciones cubrirán los lenguajes utilizados en el proyecto: HTML, CSS, JavaScript, y C#. Además, se seguirá una nomenclatura en inglés para todos los elementos del código, y se tomarán como referencia las mejores prácticas de las siguientes guías:
+
+* HTML Style Guide and Coding Conventions
+* Google HTML/CSS Style Guide
+* Google JavaScript Style Guide
+* MDN JavaScript Guidelines
+* W3C JavaScript Style Guide
+* C# Coding Conventions
+* Microsoft ASP.NET Core Coding Guidelines
+
+Para el desarrollo de la landing page, se han utilizado las tecnologías HTML, CSS y JavaScript para definir la estructura, el diseño y la funcionalidad de nuestra página. La organización y estandarización del código aseguran que el desarrollo sea consistente, fácil de mantener y comprensible para cualquier miembro del equipo que trabaje en el proyecto.
+
+* HTML:
+
+Define la estructura y el contenido de la página, asegurando una semántica adecuada y una jerarquía clara en los elementos para mejorar la accesibilidad y el SEO.
+
+* CSS:
+
+Controla el estilo visual, garantizando un diseño responsive y cohesivo mediante el uso de clases y selectores bien nombrados, evitando el uso de estilos en línea y manteniendo el código modular.
+
+* JavaScript:
+
+Proporciona la interacción y funcionalidad necesarias para mejorar la experiencia del usuario, utilizando funciones y variables descriptivas, y aplicando una estructura lógica que facilite el mantenimiento y escalabilidad.
+
+La adopción de estas convenciones nos permite mantener una base de código ordenada, fácil de comprender y preparada para el crecimiento y la mejora continua del proyecto.
+
+*Principios Generales*
+* Todo el código debe estar documentado y usar nomenclatura en inglés.
+* La indentación debe ser consistente en todos los archivos.
+* El código debe ser fácil de leer y mantener.
+* Se debe seguir el principio DRY (Don't Repeat Yourself).
+
+**HTML**
+
+*Convenciones de Formato*
+
+* Utilizar 2 espacios para indentación.
+
+<p align="center">
+  <img src="https://imgur.com/LOTPA2i.png" alt="HTML1" width="500">
+</p>
+
+* Usar minúsculas para nombres de elementos y atributos.
+* Usar comillas dobles para valores de atributos.
+* Siempre cerrar todos los elementos HTML, incluso los elementos vacíos.
+* Se deben utilizar etiquetas semánticas siempre que sea posible. Ejemplos incluyen: header, footer, main, section, article, nav, etc.
+* Los atributos de los elementos HTML deben escribirse en minúsculas. Se deben usar guiones en lugar de mayúsculas o subrayados. Ejemplo: <div class="book-lis¨> en lugar de <div class="BookList¨>.
+
+*Ejemplo general*
+
+<p align="center">
+  <img src="https://imgur.com/hnio7mD.png" alt="HTML2" width="500">
+</p>
+
+*Estructura del Documento*
+
+* Incluir siempre el doctype HTML5 al comienzo del documento.
+* Incluir los atributos lang y charset en el elemento HTML y head respectivamente.
+* Cargar CSS en el head y JavaScript justo antes del cierre del /body salvo excepciones justificadas.
+
+<p align="center">
+  <img src="https://imgur.com/uuHIoMA.png" alt="HTML3" width="500">
+</p>
+
+**CSS**
+
+*Convenciones de formato*
+
+* Utilizar 2 espacios para indentación.
+* Incluir un espacio antes de la llave de apertura.
+* Colocar la llave de cierre en una nueva línea.
+* Incluir un espacio después de los dos puntos de cada declaración.
+* Terminar todas las declaraciones con punto y coma.
+* Utilizar comillas dobles para valores de string.
+* El orden de las propiedades CSS debe seguir un patrón lógico. Se recomienda el siguiente orden:
+  * Layout: display, position, top, left, bottom, right, z-index
+  * Box model: width, height, padding, margin, border
+  * Typography: font-family, font-size, line-height, text-align
+  * Color: color, background-color
+  * Visual: box-shadow, border-radius, opacity
+
+*Ejemplo general*
+
+<p align="center">
+  <img src="https://imgur.com/phx4goM.png" alt="CSS1" width="500">
+</p>
+
+Utilizar metodología BEM (Block, Element, Modifier) para nombrar clases.
+
+* Block: .book-card
+* Element: .book-card__title
+* Modifier: .book-card--featured
+
+Evitar uso excesivo de selectores anidados (no más de 3 niveles).
+
+**JAVASCRIPT**
+
+*Convenciones de formato*
+
+* Utilizar 2 espacios para indentación.
+* Usar punto y coma al final de cada declaración.
+* Utilizar comillas simples para strings.
+* Los nombres de archivos deben estar en kebab-case (ej. book-service.js).
+
+*Ejemplo general*
+
+<p align="center">
+  <img src="https://imgur.com/1xfBKAB.png" alt="JS1" width="500">
+</p>
+
+*Convenciones de Nomenclatura*
+
+* Variables y funciones: camelCase (bookTitle, getUserPreferences)
+* Clases: PascalCase (BookRepository, UserAuthentication)
+* Constantes: UPPER_SNAKE_CASE para constantes globales (MAX_RESULTS_PER_PAGE)
+* Componentes: PascalCase (BookCard, SearchBar)
+* Privados: Usar guión bajo prefijo (_privateMethod, _privateVariable)
+
+*Buenas Prácticas*
+
+* Preferir const sobre let. Usar let solo cuando sea necesario reasignar valores.
+* Evitar el uso de var.
+* Utilizar funciones de flecha para funciones anónimas en callbacks.
+* Usar ES6+ features cuando sea posible (destructuring, spread operator, template literals).
+* Preferir métodos de array funcionales (map, filter, reduce) sobre bucles tradicionales.
+
+<p align="center">
+  <img src="https://imgur.com/Y22TNJ4.png" alt="JS2" width="500">
+</p>
+
+**C#**
+
+*Convenciones de formato*
+
+* Utilizar 4 espacios para indentación.
+* Las llaves deben estar en líneas separadas (estilo Allman).
+* Usar un espacio entre las palabras clave de control y los paréntesis.
+* Limitar la longitud de línea a 120 caracteres.
+
+*Ejemplo general*
+
+<p align="center">
+  <img src="https://imgur.com/zAAdQI9.png" alt="c#" width="500">
+</p>
+
+*Convenciones de Nomenclatura*
+
+* Interfaces: Prefijo "I" (IBookRepository)
+* Clases: PascalCase (BookController, UserService)
+* Métodos: PascalCase (GetBookById, UpdateUserProfile)
+* Parámetros y variables locales: camelCase (bookId, currentUser)
+* Propiedades: PascalCase (Title, Author)
+* Campos privados: Prefijo guion bajo y camelCase (_bookRepository)
+* Constantes: PascalCase (DefaultPageSize)
+* Enums: PascalCase para nombre y miembros (BookCategory, BookCategory.Fiction)
+
+*Buenas Prácticas*
+
+* Usar directivas using para disponer correctamente de recursos.
+* Preferir propiedades auto-implementadas cuando no se requiere lógica adicional.
+* Utilizar modificadores de acceso explícitos (evitar implícitos).
+* Preferir tipos por referencia inmutables cuando sea posible.
+* Utilizar la palabra clave var cuando el tipo es evidente.
+* Utilizar programación asíncrona con async/await para operaciones de I/O.
+* Evitar excepciones para el flujo de control normal.
+
+<p align="center">
+  <img src="https://imgur.com/O5Z9AFE.png" alt="c#2" width="500">
+</p>
+
+### 5.1.4. Software Deployment Configuration
+La Landing Page de nuestro proyecto está disponible públicamente para que los usuarios puedan acceder fácilmente a información relevante y ponerse en contacto con el equipo. A continuación, se detallan dos métodos para acceder al sitio.
+
+**Opción 1: Acceso Directo a través de GitHub Pages**
+
+La forma más sencilla de visualizar la Landing Page es a través de GitHub Pages. Simplemente haz clic en el siguiente enlace: 
+
+https://bookify-livria.github.io/livria.github.io/ 
+
+Este método es rápido y no requiere ninguna instalación ni configuración adicional.
+
+**Opción 2: Despliegue Manual**
+
+**1. Acceder al Repositorio en GitHub**
+
+Dirígete al repositorio en GitHub en este enlace:
+
+https://github.com/Bookify-Livria/livria.github.io 
+
+<p align="center">
+  <img src="https://imgur.com/8xC1Ze1.png" alt="op21" width="500">
+</p>
+
+**2. Descargar el Proyecto**
+
+Haz clic en el botón verde “Code”.
+
+Selecciona “Download ZIP” para descargar el proyecto en formato .zip.
+
+<p align="center">
+  <img src="https://imgur.com/jJCZmqj.png" alt="SDC1" width="500">
+</p>
+
+**3. Descomprimir el Archivo**
+
+Localiza el archivo .zip que descargaste en tu computadora.
+
+Haz clic derecho sobre el archivo y selecciona “Extraer todo” o usa un software de descompresión para descomprimirlo en una carpeta de tu elección.
+
+<p align="center">
+  <img src="https://imgur.com/pruPma0.png" alt="SDC2" width="500">
+</p>
+
+**4. Visualizar la Landing Page**
+
+Navega hasta la carpeta donde descomprimimos el archivo.
+
+Busca y abre el archivo index.html en tu navegador web favorito (Chrome, Firefox, Brave, etc.).
+
+<p align="center">
+  <img src="https://imgur.com/flp2TaP.png" alt="SDC2" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/RpvHkn9.png" alt="op42" width="500">
+</p>
+
+## 5.2. Landing Page, Services & Applications Implementation
+### 5.2.1. Sprint 1
+#### 5.2.1.1. Sprint Planning
+El Sprint Planning es la reunión que da inicio al sprint y define qué se va a construir y cómo se logrará. Reúne al equipo Scrum para establecer un objetivo claro (Sprint Goal), seleccionar las historias de usuario más relevantes y descomponerlas en tareas concretas. Esta planificación asegura un enfoque común, organiza el trabajo de forma eficiente y alinea al equipo con la entrega de valor al usuario.
+
+A continuación se mostrará la tabla del Sprint Planning:
+
+| Sprint # | Sprint 1 |
+|---------|-----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-04-07 |
+| **Hour** | 02:40 PM |
+| **Location** | Virtual |
+| **Prepared By** | Ainhoa Lucía Castillo Garay, Marcelo Alejandro Indo Arbañil |
+| **Attendees (to planning meeting)** | Ainhoa Lucía Castillo Garay / Marcelo Alejandro Indo Arbañil / Gabriel Sebastián Borja Molina / Jhosep Jamil Argomedo Camacho / Melisa Geraldine Solis Suárez |
+| **Sprint n - 1 Review Summary** | Durante el Sprint, se desarrollaron once historias de usuario enfocadas en la construcción de la landing page, lo que permitió ofrecer una vista inicial sólida de la plataforma. El equipo de desarrollo, conformado por Gabriel Borja, Jhosep Argomedo y Melisa Solís, destacó que la correcta asignación de Story Points y la claridad en las tareas permitió mantener un ritmo de trabajo constante. La diseñadora UX/UI, Ainhoa Castillo, señaló que la estructura modular facilitó la disposición visual del producto final. Marcelo Indo, expresó satisfacción general con los resultados, resaltando el alineamiento del diseño con los objetivos de marca y la buena experiencia de usuario. |
+| **Sprint n - 1 Retrospective Summary** | Durante el Sprint, el equipo destacó como aciertos la buena organización de tareas, la correcta asignación de tiempos mediante Story Points y una comunicación fluida que permitió resolver bloqueos rápidamente. También se valoró el enfoque colaborativo al definir criterios de aceptación. Como oportunidad de mejora, se identificó la necesidad de ajustar mejor los tiempos estimados en tareas visibles y optimizar las reuniones de revisión para centrarse más en los aprendizajes y el feedback del product owner. |
+| **Sprint Goal & User Stories** | |
+| **Sprint Goal** | Our focus is on delivering a fully functional and visually engaging landing page that introduces Lirvia’s core services and enables intuitive navigation between key informational sections. We believe it delivers clarity and trust to potential users and collaborators by helping them understand what Lirvia offers and how to get in touch or access services. <br><br> This will be confirmed when the user can navigate the page easily, access all core sections like “Sobre Nosotros” and “Conctactenos”, switch languages, and engage with external links such as social media and privacy policy. |
+| **Sprint Velocity** | 15 |
+| **Sum of Story Points** | 15 |
+
+#### 5.2.1.2. Aspect Leaders and Collaborators
+Durante el desarrollo del Sprint, se han identificado distintos aspectos funcionales relacionados al diseño y construcción de la Landing Page de la aplicación web Livria. Con el objetivo de organizar el trabajo del equipo de manera eficiente, se ha elaborado una matriz de Liderazgo y Colaboración (LACX), donde se asigna a cada integrante el rol de líder (L) en uno de los aspectos clave del desarrollo, y el rol de colaborador (C) en otros aspectos.
+
+Los aspectos definidos para este Sprint son:
+
+1. Home de la landing page
+2. Sección de servicios
+3. Sección sobre nosotros
+4. Sección de contacto y pie de página
+5. Revisión general, mejoras y adaptación responsive
+
+| Team Member (Last Name, First Name) | GitHub Username | Hero section | Services section | About us section | Contact and footer section | Review, Improvements, and responsive |
+|-------------------------------------|-----------------|--------------|------------------|------------------|----------------------------|--------------------------------------|
+| Castillo Garay, Ainhoa Lucía | noaa01100001 | C | C | C | C | L |
+| Binda Arbañil, Marcelo Alejandro | MarceloHkd | C | L | C | C | C |
+| Borja Molina, Gabriel Sebastián | borj410 | C | C | L | C | C |
+| Argomedo Camacho, Jhosep Jamil | JhosepAC | L | C | C | C | C |
+| Sulca Silva, Melisa Geraldine | MSS02204 | C | C | C | L | C |
+
+#### 5.2.1.3. Sprint Backlog 1
+Durante el Sprint 1, el objetivo principal fue construir la versión inicial de la landing page con un enfoque en claridad, accesibilidad y navegación fluida. Se buscó ofrecer una experiencia informativa que permita a los usuarios entender de inmediato el propósito de la plataforma, explorar las secciones clave como “Sobre Nosotros” y “Contáctanos”, y acceder fácilmente a la aplicación y sus redes sociales. Este primer paso fue clave para establecer una imagen sólida de Livria y captar el interés de nuevos usuarios desde el primer contacto.
+
+|      Sprint #     |  Sprint #1 |                 |                        |                 |                                                           |
+|-------------------|------------|-----------------|------------------------|-----------------|-----------------------------------------------------------|
+|    1     | **Work-Item / Task** |                 |                        |                 |                                                           |
+| **User Story ID** |   **Id**   | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review/Sprint# / Done)** |
+| US01 | 1 | Redactar contenido atractivo sobre funcionalidades principales | 2 | Developer Team | Done |
+|      | 2 | Diseñar e implementar sección de servicios en landing | 2 | Developer Team | Done |
+| US02 | 1 | Maquetar y diseñar contenido de “Sobre Nosotros” | 1 | Developer Team | Done |
+|      | 2 | Implementar navegación a “Sobre Nosotros” desde menú | 1 | Developer Team | Done |
+| US03 | 1 | Implementar botón de cambio de idioma | 1 | Developer Team | Done |
+|      | 2 | Integrar traducción automática del contenido | 2 | Developer Team | Done |
+| US04 | 1 | Redactar descripción corta de Lirvia para la sección ‘Home’ | 1 | Developer Team | Done |
+|      | 2 | Maquetar y aplicar diseño a sección principal | 1 | Developer Team | Done |
+| US05 | 1 | Diseñar sección “Contáctanos” con campos básicos | 1 | Developer Team | Done |
+|      | 2 | Programar funcionalidad de envío de mensaje | 3 | Developer Team | To-do |
+| US06 | 1 | Implementar encabezado de navegación con links | 1 | Developer Team | Done |
+|      | 2 | Probar navegación responsiva entre secciones | 1 | Developer Team | Done |
+| US07 | 1 | Diseñar layout visual atractivo (colores, tipografía, imágenes) | 2 | Developer Team | Done |
+|      | 2 | Adaptar diseño responsivo a distintos dispositivos | 2 | Developer Team | Done |
+| US08 | 1 | Crear e insertar botón de acceso directo a la aplicación web | 1 | Developer Team | To-do |
+| US09 | 1 | Insertar íconos y enlaces a redes sociales | 1 | Developer Team | Done |
+| US10 | 1 | Diseñar footer con navegación rápida a secciones | 2 | Developer Team | Done |
+| US11 | 1 | Crear formulario básico (nombre, email, mensaje) | 1 | Developer Team | Done |
+|      | 2 | Integrar backend ligero para captura de datos | 2 | Developer Team | To-do |
+
+#### 5.2.1.4. Development Evidence for Sprint Review
+Esta sección presenta los principales avances en la implementación técnica del proyecto realizados durante el sprint, en función de los productos comprometidos: Landing Page, Aplicación Web y Servicios Web. Se detalla el progreso alcanzado a través de los repositorios utilizados por el equipo, identificando los commits relevantes que evidencian el desarrollo de funcionalidades, corrección de errores, mejoras en la interfaz y configuración de servicios. Esta evidencia permite evaluar el cumplimiento de los objetivos del sprint y facilita la retroalimentación en la reunión de revisión.
+
+|   Repository  |   Branch  |   Commit Id  |   Commit Message  |   Commit Message Body  |   Commited on (Date)  |
+|---------------|-----------|--------------|-------------------|------------------------|-----------------------|
+|   JhosepAC/Bookify-Livria  |   feature/home-page  |   1c1c4d2  |   feat: implement initial Home section layout  |   ---  |   20/04/2025  |
+|   MarceloHkd/Bookify-Livria  |   feature/home-page  |   4a23b17  |   feat: add services section to the home page  |   ---  |   22/04/2025  |
+|   borj410/Bookify-Livria  |   feature/home-page  |   2c63a2c  |   feat: add about us section with content and layout  |   ---  |   22/04/2025  |
+|   MSS02204/Bookify-Livria  |   feature/home-page  |   03a59a8  |   feat: add contact section and footer to the home page  |   ---  |   23/04/2025  |
+|   noaa01100001/Bookify-Livria  |   feature/home-page  |   092342b  |   feat: fix bugs, update elements and responsive design  |   - Fixed taskbar positioning - Updated the header font and letter spacing - Updated title and content of the third service card - Added images in the services section - Improved responsive design in "About Us" and "Hero" section - Designed custom scrollbar style - Modified card design for services section  |   25/04/2025  |
+
+#### 5.2.1.5. Execution Evidence for Sprint Review
+Durante el Sprint 1, se desarrollaron once historias de usuario enfocadas en la construcción de la landing page de Livria, con énfasis en la navegación, el contenido visual y la estructura modular de las secciones “Sobre Nosotros”, “Contáctanos”, “Servicios”, “Home” y “Footer”.
+
+El equipo cumplió con todos los entregables planeados excepto tres tareas que quedaron pendientes (formulario funcional, botón de app, y backend del formulario). Se logró un diseño responsive funcional, una experiencia de navegación fluida y alineación con los objetivos de la marca.
+
+**Evidencia visual:**
+
+A continuación, se presentan capturas de pantalla de las vistas implementadas en este Sprint:
+
+1. Home Page (Hero Section)
+
+*Desarrollado por: Jhosep Argomedo*
+
+<p align="center">
+  <img src="https://imgur.com/Q0nc0cT.png" alt="HPHS1" width="500">
+</p>
+
+2. Sección de servicios
+
+*Desarrollado por: Marcelo Binda*
+
+<p align="center">
+  <img src="https://imgur.com/SJ5rtth.png" alt="SS1" width="500">
+</p>
+
+3. Sección Sobre Nosotros
+
+*Desarrollado por Gabriel Borja*
+
+<p align="center">
+  <img src="https://imgur.com/XXAj4ya.png" alt="SN1" width="500">
+</p>
+
+4. Sección de Contacto y Footer
+
+*Desarrollado por: Melisa Sulca*
+
+<p align="center">
+  <img src="https://imgur.com/oaXA9E2.png" alt="SCF1" width="500">
+</p>
+
+5. Correcciones de diseño/código y vista responsive general
+
+*Desarrollado por: Ainhoa Castillo*
+
+<p align="center">
+  <img src="https://imgur.com/C63RF6H.png" alt="CORRE1" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/fkDsCUA.png" alt="CORRE2" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/0wvF7bt.png" alt="CORRE3" width="500">
+</p>
+
+**Video del Sprint Review:** https://youtu.be/bjdfFpCnZxo
+
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+Durante este Sprint, el equipo de desarrollo enfocó sus esfuerzos en la construcción y diseño de la landing page.
+
+Dado que el alcance de este Sprint se centró exclusivamente en el desarrollo de la interfaz web estática, no se ha implementado servicios web (API RESTful) ni se han generado endpoints que requieran documentación técnica con herramientas como OpenAPI.
+
+La documentación de servicios web, incluyendo la definición de endpoints, métodos HTTP (GET, POST, PUT, DELETE), parámetros (parameters), respuestas (responses) y ejemplos de interacción (interaction examples), está prevista para Sprints posteriores. Cuando se avance con la implementación del backend y la lógica de servicios, se utilizará OpenAI (Swagger) para su documentación correspondiente, incluyendo con datos de ejemplo y evidencia visual del funcionamiento de los endpoints.
+
+En futuras iteraciones, esta sección incluirá:
+
+* Tabla de endpoints implementados.
+* Métodos HTTP soportados por cada acción.
+* Parámetros esperados y ejemplos de respuesta.
+* Enlaces a la documentación desplegada con Swagger UI.
+* Capturas de pantalla de la interacción con los endpoints.
+* Referencia a los commits relacionados con la documentación técnica.
+
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint, el equipo llevó a cabo el proceso de despliegue inicial de la landing page del proyecto.
+
+**Actividades realizadas:**
+
+*1. Creación del repositorio en GitHub*
+
+* Se creó un repositorio público bajo la organización del proyecto, alojado en: https://github.com/Bookify-Livria/livria.github.io 
+* El nombre del repositorio está configurado específicamente para usar GitHub Pafes como medio de despliegue automático
+
+*2. Configuración de GitHub Pages*
+
+* Se configuró GitHub Pages directamente desde la pestaña pages del repositorio.
+* Se seleccionó la rama main como fuente, y la carpeta raíz (/root) como origen de contenido.
+* Esta configuración permite que el sitio esté disponible de forma pública en la siguiente URL: https://bookify-livria.github.io/livria.github.io/ 
+
+<p align="center">
+  <img src="https://imgur.com/isNoumJ.png" alt="FINAL1" width="500">
+</p>
+
+*3. Automatización del despliegue*
+
+* GitHub Pages actualiza automáticamente el contenido del sitio web cada vez que se realiza un nuevo push a la rama main. Esto garantiza una integración continua entre los cambios de desarrollo y la versión desplegada. 
+
+*4. Verificación de despliegue*
+
+* Se realizaron pruebas visuales y funcionales para validar que la página se visualiza correctamente en distintos navegadores y dispositivos.
+
+Durante este Sprint, no se realizó despliegue de Web Applications ni Web Services, ya que el desarrollo de backend e interfaces dinámicas está programado para Sprints posteriores. 
+
+Sin embargo, este avance permite visibilizar el proyecto y facilitar futuras integraciones con frontend dinámico y servicios web.
+
+#### 5.2.1.8. Team Collaboration Insights during Sprint
+Durante este Sprint, el equipo se enfocó en la implementación de la landing page del proyecto Livria, abordando tareas como el diseño visual, estructura de contenido, maquetado HTML/CSS y funciones con JavaScript, así como la integración con GitHub Pages para su despliegue. Todos los miembros del equipo participaron activamente en la construcción de este primer producto.
+
+**Actividades de implementación:**
+
+* Se definió el diseño de la landing page desde Figma, permitiendo una planificación clara del contenido y la experiencia de usuario.
+* Posteriormente, se desarrolló la estructura con HTML5 y se aplicaron estilos con CSS3.
+* Asimismo, se añadieron funcionalidades con JavaScript.
+* Se configuró el repositorio en GitHub, incluyendo ramas de desarrollo, documentación y recursos multimedia.
+* Se realizaron revisiones entre miembros del equipo para asegurar la calidad visual semántica del código.
+
+**Análitica de colaboración en GitHub:**
+
+A continuación, se presenta evidencia visual de la participación de todos los integrantes del equipo a través de:
+
+1. Historial de commits por miembro
+
+*Desarrollados por: Jhosep Argomedo*
+
+<p align="center">
+  <img src="https://imgur.com/DhhGQc4.png" alt="FINAL2" width="500">
+</p>
+
+*Desarrollados por: Marcelo Binda*
+
+<p align="center">
+  <img src="https://imgur.com/arwwc2q.png" alt="FINAL3" width="500">
+</p>
+
+*Desarrollados por: Gabriel Borja*
+
+<p align="center">
+  <img src="https://imgur.com/CgF4jBM.png" alt="FINAL4" width="500">
+</p>
+
+*Desarrollados por: Ainhoa Castillo*
+
+<p align="center">
+  <img src="https://imgur.com/c6RSFRO.png" alt="FINAL5" width="500">
+</p>
+
+*Desarrollados por: Melisa Sulca*
+
+<p align="center">
+  <img src="https://imgur.com/8RvUxTN.png" alt="FINAL6" width="500">
+</p>
+
+2. Colaboradores activos en el repositorio
+
+<p align="center">
+  <img src="https://imgur.com/WUN2eOi.png" alt="FINAL7" width="500">
+</p>
+
+3. Histograma de contribuciones en el tiempo
+
+<p align="center">
+  <img src="https://imgur.com/Tqdgqf6.png" alt="FINAL8" width="500">
+</p>
+
+**Nota:** Marcelo Binda también ha participado en el desarrollo de la Landing Page, no obstante, por un problema de usuario el repositorio no lo ha considerado en las estadísticas. Pero, se puede ver su aporte en las anteriores evidencias (Historial de commits por miembro).
+
+# CONCLUSIONES Y RECOMENDACIONES
+**Conclusiones**
+1.	Problem Statements y Validación
+El problema central identificado–la baja tasa de lectura y comprensión lectora en adolescentes y jóvenes– fue validado mediante entrevistas y estudios citados (como la Encuesta Nacional de Lectura 2022). Los usuarios confirmaron barreras como falta de acceso a libros atractivos, dificultades en la búsqueda de material y la competencia con redes sociales. 
+Nuestra solución propuesta (Livria) aborda estas barreras al integrar un catálogo diversos, recomendaciones personalizadas, y especialmente, una comunidad lectora. 
+2.	Assumptions vs. Realidad
+Features asumidos:
+Las recomendaciones personalizadas y la sección de comunidad fueron validadas como prioritarias por los usuarios, especialmente por estudiantes y lectores casuales. 
+La preferencia por múltiples formatos (físico, digital, audiolibros) se confirmó, destacando la necesidad de accesibilidad inmediata.
+3.	Diseño centrado en el usuario
+A través del enfoque de Lean UX, Livria prioriza en todo momento la experiencia y necesidades del usuario final. Desde la investigación inicial, que incluyó entrevistas y análisis de necesidades, hasta el diseño de la interfaz, se garantizaron soluciones que respondieron de manera precisa a las expectativas de los lectores.
+
+**Recomendaciones:**
+1.	Integración de métricas de seguimiento
+Durante las fases iniciales de lanzamiento, se debe integrar un sistema de medición de métricas de uso que permita validar continuamente los indicadores de éxito planteados (lectura de un libro por mes, interacción en comunidad, diversificación de accesos multiplataforma). 
+2.	Consolidación de Roadmap de Producto
+En el Roadmap de Livria, se deben definir los siguientes hitos inmediatos:
+1.	Fase 2: Desarrollo Backend y documentación de API RESTful con OpenAPI (Swagger).
+2.	Fase 3: Integración de algoritmos de recomendación y motor de comunidad.
+
+# BIBLIOGRAFÍA 
+Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
+Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. https://doi.org/10.46498/reduipb.v26iExtraordinario.1641
+Mamani, B., Chata, L., & Choque, D. (2024). Efecto del uso de Tik Tok en el rendimiento académico de estudiantes de 5to grado . Revista Tribunal, 4(9), 161-175. https://doi.org/10.59659/revistatribunal.v4i9.71 
+Ministerio de Cultura. (2022, febrero). Encuesta Nacional de Lectura 2022 Informe de Lectores y no lectores. https://perulee.pe/sites/default/files/ENL%202022%20-%20Informe%20de%20lectores%20y%20no%20lectores.pdf 
+Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Perú. Horizontes. Revista De Investigación En Ciencias De La Educación, 9(36), 177–187. https://doi.org/10.33996/revistahorizontes.v9i36.909 
+
+# ANEXOS
+
+Diagrama C4: https://drive.google.com/file/d/14LIW0V4P1bBFikrUViIq4owWTtexcsCh/view?usp=sharing
