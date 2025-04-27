@@ -70,6 +70,35 @@
   * [3.3. Impact Mapping](#33-impact-mapping)
   * [3.4. Product Backlog](#34-product-backlog)
 
+- [CAPÍTULO 4: PRODUCT UX/UI DESIGN](#capítulo-4-product-uxui-design)
+  * [4.1. Style Guidelines](#41-style-guidelines)
+    + [4.1.1 General Style Guidelines](#411-general-style-guidelines)
+    + [4.1.2 Web Style Guidelines](#412-web-style-guidelines)
+  * [4.2. Information Architecture](#42-information-architecture)
+    + [4.2.1. Organization Systems](#421-organization-systems)
+    + [4.2.2. Labeling Systems](#422-labeling-systems)
+    + [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+    + [4.2.4 Searching Systems](#424-searching-systems)
+    + [4.2.5. Navigation Systems](#425-navigation-systems)
+  * [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+    + [4.3.1. Landing Page Wireframes](#431-landing-page-wireframes)
+    + [4.3.2. Landing Page Mock-Ups](#432-landing-page-mock-ups)
+  * [4.4 Web Applications UX/UI Design](#44-web-applications-uxui-design)
+    + [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+    + [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+    + [4.4.3. Web Applications Mock-up](#443-web-applications-mock-up)
+    + [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
+  * [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+  * [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+    + [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+    + [4.6.2. Software Architecture Container Diagram](#462-software-architecture-container-diagram)
+    + [4.6.3. Software Architecture Components Diagram](#463-software-architecture-components-diagram)
+  * [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+    + [4.7.1. Class Diagram](#471-class-diagram)
+    + [4.7.2. Class Dictionary](#472-class-dictionary)
+  * [4.8. Database Design](#48-database-design)
+    + [4.8.1. Database Diagram](#481-database-diagram)
+
 # Student Outcome
 
 ABET - EAC - Student Outcome 5
@@ -1115,3 +1144,647 @@ Link: https://drive.google.com/drive/folders/1zJEVEmTVXp3wqfTOmNEAVbZhEzfipoDu?u
 | 32 | US04 | Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece. | 1 |
 | 33 | US02 | Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. | 1 |
 | 34 | US01 | Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las características únicas de la aplicación. | 1 |
+
+# CAPÍTULO 4: PRODUCT UX/UI DESIGN
+## 4.1. Style Guidelines
+Livria es una plataforma web que busca transformar la forma en que las personas acceden a los libros y desarrollan su hábito lector. Combina la funcionalidad de una tienda virtual con herramientas interactivas que mejoran la comprensión lectora, brindando una experiencia accesible, atractiva y adaptada a los hábitos digitales. Además de facilitar la compra de libros físicos y digitales, Livria promueve una comunidad literaria activa, motivando a lectores de todas las edades a reconectarse con la lectura de manera significativa.
+
+Esta sección presenta una guía estructurada que unifica todos los elementos visuales y de diseño utilizados en la plataforma Livria. Se organizan recursos gráficos como tipografías, paletas de colores y otros componentes visuales con el objetivo de mantener una identidad coherente que refleje el propósito de la marca: incentivar la lectura. Gracias a esta consistencia en el diseño, la navegación se vuelve más sencilla, lo que potencia una experiencia de usuario clara, funcional y alineada con los valores de la plataforma.
+
+### 4.1.1. General Style Guidelines
+El branding de Livria es el pilar fundamental de su identidad visual, diseñado para reflejar sus valores clave: fomento de la lectura, accesibilidad y construcción de comunidad. A través de una estética cálida, moderna y cercana, la marca busca capturar la esencia de la experiencia literaria digital, ofreciendo una presencia visual que sea tanto acogedora como inspiradora. 
+
+El logotipo, la paleta de colores y la tipografía de Livria evocan tranquilidad, imaginación y conexión, elementos que representan la facilidad con la que los usuarios pueden descubrir, leer y compartir libros. El branding está alineado con el espíritu inclusivo y motivador de la plataforma, asegurando que lectores de todas las edades se sientan parte de una comunidad que valora la lectura como una experiencia enriquecedora y transformadora.
+
+#### 4.1.1.1. Tipografía
+La tipografía de Livria desempeña un papel esencial en la transmisión de su identidad, aportando calidez, claridad y cercanía en cada punto de contacto con el usuario. Se ha elegido una familia tipográfica que combina lo moderno con lo amigable, asegurando una lectura fluida y cómoda en distintos formatos y dispositivos.
+
+<p align="center">
+  <img src="https://imgur.com/7v6eGFP.png" alt="TipoTipoti" width="500">
+</p>
+
+**Tipografía del Logo y Títulos**
+
+El logo de Livria es fundamental para la imagen del producto, por lo que se ha utilizado la tipografía Asap Condensed. Esta, con su estética limpia y moderna, transmite accesibilidad y dinamismo, cualidades esenciales para una plataforma que busca conectar emocionalmente con lectores jóvenes y adultos contemporáneos. Su diseño estilizado pero legible aporta una personalidad clara y versátil que se adapta perfectamente a entornos digitales, manteniendo una presencia fuerte sin resultar invasiva.
+
+<p align="center">
+  <img src="https://imgur.com/meys2KX.png" alt="TipoLoTi" width="500">
+</p>
+
+**Tipografía de Texto Regular**
+
+Para el texto de la aplicación web se ha elegido la tipografía Alexandria con el objetivo de que permita la lectura cómoda y agradable, volviendo la experiencia de uso en placentera y continua. Se han definido diferentes pesos tipográficos — light, regular, medium y bold — para organizar de manera efectiva los distintos niveles de contenido, optimizando la jerarquía visual en la experiencia del usuario.
+
+<p align="center">
+  <img src="https://imgur.com/fOQ6jJT.png" alt="TipoTeRe" width="500">
+</p>
+
+#### 4.1.1.2. Colores
+La elección de colores para la plataforma es fundamental para asegurar la placentera experiencia de usuario. Por ello, la paleta de colores de Livria ha sido cuidadosamente seleccionada para reflejar la esencia de la aplicación web: calidez, cercanía y motivación por la lectura.
+
+<p align="center">
+  <img src="https://imgur.com/g7uDwbu.png" alt="Colores" width="500">
+</p>
+
+**Paleta Principal**
+* Anaranjado (#FF5C00): Este color vibrante representa la energía, la creatividad y la motivación que Livria busca despertar en sus usuarios. Es un tono cálido y estimulante que invita a la acción y al entusiasmo por la lectura.
+* Ámbar (#FEB913): El ámbar complementa la vitalidad del anaranjado con una sensación de optimismo, luz y claridad. Es un color que simboliza el conocimiento y la inspiración, haciendo que el entorno visual sea más acogedor.
+* Cian Suave (#A8DBDE): Este tono aporta equilibrio a la paleta, introduciendo una sensación de calma, frescura y apertura. Su suavidad invita a la concentración y al disfrute tranquilo de la lectura, generando armonía visual.
+
+**Paleta Secundaria**
+* Amarillo Claro (#FFD150): Utilizado para resaltar detalles importantes, este color transmite alegría, juventud y dinamismo. Aporta luminosidad sin ser invasivo, ideal para llamadas de atención sutiles.
+* Azul Marino (#063A5D): Este tono profundo sugiere confianza, profesionalismo y estabilidad. Es perfecto para textos o elementos estructurales que requieran seriedad y contraste visual con los colores más cálidos.
+* Gris Claro (#F4F5F7): Su neutralidad lo convierte en una base ideal que permite que los colores principales destaquen sin generar ruido visual. Transmite pulcritud y modernidad.
+* Azul (#2364A0): Este azul intermedio ofrece un punto medio entre el dinamismo del marino y la frescura del cian. Representa exploración, profundidad y conexión, claves en la experiencia literaria digital que Livria propone.
+
+#### 4.1.1.3. Espaciado
+El espaciado en la interfaz web de Livria ha sido cuidadosamente estructurado para brindar una experiencia visual ordenada, respirable y armoniosa. Se ha definido una escala progresiva basada en múltiplos de 10 (10, 20, 40 y 60 píxeles), aplicada estratégicamente en márgenes y paddings para marcar jerarquías visuales, separar secciones y mejorar la legibilidad general. Esta lógica de espaciado aporta coherencia y claridad, sin perder flexibilidad: el contenido y los componentes mantienen una adaptabilidad fluida frente a distintos tamaños de pantalla, permitiendo que el diseño conserve su equilibrio estético tanto en resoluciones amplias como en visualizaciones más compactas. La consistencia en los espacios no solo refuerza el ritmo visual, sino que también guía de manera intuitiva la atención del usuario a lo largo de su recorrido por la web.
+
+#### 4.1.1.4. Iconografía
+Los íconos son elementos visuales sencillos que permiten identificar rápidamente funciones o acciones dentro de una plataforma, ya sea una app o un sitio web. Su presencia facilita la interacción del usuario, guiándose de forma clara y natural por la interfaz.
+
+Incorporar íconos en nuestras plataformas resulta fundamental para optimizar la experiencia del usuario. No solo simplifican la navegación y hacen más claro el contenido, sino que también agilizan la interacción. Al ser símbolos reconocibles a nivel global, superan las barreras del idioma y permiten que cualquier persona comprenda con facilidad las opciones disponibles.
+
+<p align="center">
+  <img src="https://imgur.com/xs2S5yk.png" alt="Iconografia" width="500">
+</p>
+
+#### 4.1.1.5. Tono de Comunicación y Lenguaje Aplicado
+El tono de Livria es cálido, motivador y accesible, diseñado para generar una conexión emocional con los usuarios. La plataforma busca acompañar al lector en su camino, ya sea que esté dando sus primeros pasos o retomando el hábito. Por ello, el tono se mantiene empático, cercano y alentador, transmitiendo confianza y entusiasmo por la lectura. También se adopta un estilo inspirador, que motive a explorar nuevas historias y sentirse parte de una comunidad literaria viva.
+
+En cuanto al lenguaje, se utiliza un estilo claro y directo, evitando tecnicismos o estructuras complicadas, tanto en la versión de inglés como en la de español. Todo el contenido está pensado para ser fácilmente comprensible por personas de distintas edades y niveles de lectura. Además, cuando es apropiado, se recurre a una narrativa amigable o a ejemplos concretos, lo que facilita la identificación del usuario con los mensajes.
+
+Este enfoque comunicativo busca crear una experiencia acogedora, inspiradora y auténtica, alineada con los valores de Livria: fomentar el hábito lector, promover la comprensión lectora y construir una comunidad conectada a través de los libros.
+
+### 4.1.2. Web Style Guidelines
+En la construcción del sistema visual de Livria se adoptó una línea gráfica coherente, limpia y moderna, orientada a la claridad, la accesibilidad y la personalidad de marca. La combinación tipográfica integra ASAP Condensed para los títulos, aportando dinamismo y carácter, mientras que fuentes como Alexandria en el sistema aportan legibilidad y un toque profesional. La jerarquización visual se refuerza mediante estilos diferenciados para subtítulos, acompañados de una paleta funcional aplicada con botones interactivos que responden a estados (normal, hover, seleccionado) y generan retroalimentación visual clara. El tratamiento de bordes suaves y sombras sutiles contribuye a una interfaz amigable, en la que los elementos tienen peso visual sin recargar la vista. Finalmente, el diseño de íconos responde a una estética lineal, accesible e intuitiva, que refuerza la identidad de la interfaz sin distraer la atención del usuario. Cada componente visual fue pensado no solo para armonizar entre sí, sino también para potenciar la experiencia digital de los lectores.
+
+<p align="center">
+  <img src="https://imgur.com/dVvbXK7.png" alt="WSG" width="500">
+</p>
+
+## 4.2. Information Architecture
+La arquitectura de información de nuestra aplicación es fundamental para que el usuario pueda interactuar con esta de manera intuitiva y así retener su atención y facilitarle el acceso a la información que necesita.
+
+## 4.2.1. Organization Systems
+Para ilustrar las relaciones entre componentes de manera visual, se utilizará un diagrama organizado de manera jerárquica y en categorías, planteando sistemas de organización de información que contribuyan a una navegación más intuitiva para nuestros usuarios, lo que mejorará su experiencia de uso.
+
+*Landing Page:*
+
+<p align="center">
+  <img src="https://imgur.com/Hw4O0Y1.png" alt="LP" width="500">
+</p>
+
+*Web Application:*
+
+<p align="center">
+  <img src="https://imgur.com/nxRTPNJ.png" alt="WA" width="500">
+</p>
+
+*Screen Organization:*
+
+<p align="center">
+  <img src="https://imgur.com/W6MtC8E.png" alt="SO" width="500">
+</p>
+
+### 4.2.2. Labeling Systems
+La interfaz de Livria ha sido diseñada de manera eficiente y organizada, ofreciéndole al cliente una experiencia de uso dinámica que le permitirá encontrar una ruta rápida hacia la información que quiere consultar o las herramientas que quiere utilizar sin complicaciones. Para lograr esto, nuestro equipo ha propuesto un diseño que emplea etiquetas concisas y efectivas, favoreciendo una experiencia intuitiva. A continuación, se dará una descripción detallada de aquellas que se encuentran en nuestro proyecto:
+
+*Landing Page*
+
+<p align="center">
+  <img src="https://imgur.com/vdcUI9f.png" alt="LPLP" width="500">
+</p>
+
+Antes de ingresar a la plataforma, el usuario se encontrará primero con el encabezado, en esta sección de la pantalla, encontrará las etiquetas “HOME”, “SERVICES”, “ABOUT US”, “CONTACT US”, “ES/EN”:
+
+* HOME: Esta etiqueta provee un acceso rápido a la página principal de la Landing Page, el usuario puede acceder a esta fácilmente desde cualquier sección del sitio web.
+* SERVICES: Esta etiqueta sirve como acceso directo a la página de “Servicios”, que contiene descripciones de los diferentes servicios que ofrece la plataforma.
+* ABOUT US: Esta etiqueta sirve para brindar una ruta al usuario a la página de “Nosotros”, donde se encontrarán dos párrafos introductorios de la startup (Bookify) y el proyecto (Livria).
+* CONTACT US: Esta etiqueta tiene la función de acceso directo a la página de “Contacto”, en la que se encontrará un formulario de contacto que el usuario puede utilizar para enviar comentarios o
+* ES/EN: Esta etiqueta servirá para alternar la vista del sitio web, dando la opción al usuario de visualizarla en español (ES) o inglés (EN), dependiendo de sus necesidades.
+
+*Homepage*
+
+<p align="center">
+  <img src="https://imgur.com/lOfOlU4.png" alt="HPHP" width="500">
+</p>
+
+Al ingresar a la plataforma, el usuario encontrará la interfaz propia de la aplicación, que mantiene el diseño y estilo general propuesto por el equipo, pero contiene etiquetas más relacionadas al funcionamiento del servicio. El encabezado de esta pantalla contiene las siguientes etiquetas:
+
+* CARRITO: Utilizada para redirigir al usuario a la pantalla de “Carrito”, donde podrá observar la lista de productos que ha agregado a la lista de compra y efectuar la compra.
+* TIENDA: Utilizada para redirigir al usuario a la pantalla de “Tienda”, donde podrá encontrar libros disponibles dentro de la aplicación, así como agregarlas a la lista de compra.
+* NOTIFICACIONES: Esta etiqueta servirá para redirigir al usuario a la bandeja de notificaciones y sus opciones de configuración.
+* CUENTA: Redirige al usuario a la pantalla de “Cuenta”, donde podrá consultar su información y acceder a los ajustes de cuenta dentro de la aplicación.
+* EN/ES: Permite al usuario intercambiar el idioma de la interfaz entre Español (ES) e Inglés (EN), facilitando la lectura de los textos en pantalla.
+* RECOMENDACIONES: Permite al usuario acceder a la pantalla de “Recomendaciones”, donde podrá recibir sugerencias de lectura en base a sus gustos.
+* Etiquetas de categoría (LITERATURA - INFANTIL): Estas etiquetas permitirán al usuario realizar una búsqueda rápida en base a su contenido, facilitando el proceso de encontrar libros de diferentes categorías.
+* EBOOKS Y AUDIOLIBROS: Redirige al usuario a la búsqueda de libros por tipo, facilitando la búsqueda de libros en formatos especiales.
+* COMUNIDADES: Redirige al usuario a la interfaz de la función de “Comunidades”, una pantalla exclusiva para miembros con suscripción, con sus respectivas funcionalidades.
+
+La elección de estos nombres para las etiquetas fue motivada por su uso frecuente dentro de diversas plataformas digitales, lo que ayudará al usuario a familiarizarse mucho más rápido con estas interfaces y le permitirá navegar por las diferentes pantallas de manera mucho más sencilla.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+*Title:*
+
+<title>Bookify - Livria</title>
+
+En este meta tag, se define el título que tendrá el sitio web del proyecto. El equipo decidió usar el nombre de la startup seguido del nombre del producto para resaltar nuestra autoría sobre la idea, optando por una mayor simplicidad que facilite la lectura por parte del usuario.
+
+*Meta tags:*
+
+<meta charset="UTF-8”>
+
+<meta name"viewport" content="width=device-width, initial-scale=1.0">
+
+El equipo no realizó cambios sobre los meta tags incluídos por defecto dentro del archivo HTML, debido a que no fueron necesarios para el correcto funcionamiento de la página.
+
+*Description:*
+
+<meta name="description" content="Livria transforms how people access books and develop reading habits with interactive tools, a vibrant community, and access to physical and digital books.”>
+
+El meta tag designado para la descripción del sitio web contiene un breve párrafo introductorio que resume los principales servicios que ofrece la aplicación, con el objetivo de informar rápidamente a los usuarios que no son familiares con su funcionamiento.
+
+*Keywords:*
+
+<meta name="keywords" content="Livria, books, reading, community, digital books, physical books, interactive tools”>
+
+Los meta tags de “Keywords” tienen el propósito de optimizar la búsqueda del sitio web en navegadores al ampliar el número de términos que un usuario puede ingresar en la barra de búsqueda para localizarlo. En el caso de nuestro proyecto, se utilizaron términos relacionados al apartado de compra de libros y la función de comunidad.
+
+*Author:*
+
+<meta name="author" content="Bookify”>
+
+Para el meta tag de “author”, el equipo decidió colocar el nombre de la startup para reflejar que su creación fue producto del esfuerzo colaborativo de los integrantes, además de resaltar nuestra autoría sobre el producto.
+
+### 4.2.4. Searching Systems
+
+En Livria, los Searching Systems fueron diseñados para simplificar la experiencia de búsqueda y mejorar la experiencia del usuario, ayudándolo a localizar los productos que quiere consultar rápidamente y de manera eficiente. Esto nos ayudará a evitar que los clientes se sientan abrumados o tengan problemas para encontrar libros de su interés.
+
+<p align="center">
+  <img src="https://imgur.com/zdCzLR9.png" alt="SS" width="500">
+</p>
+
+Dentro del encabezado la interfaz principal de la aplicación de Livria, el usuario encontrará una barra de búsqueda, la cual ejercerá el rol de principal herramienta de búsqueda de contenido. Esta barra le permitirá al usuario ingresar palabras clave y encontrar libros en base a distintos criterios, tales como el título del libro, su autor o el género literario al que pertenece.
+
+La aplicación realizará la búsqueda en base a todos estos criterios y le ofrecerá al usuario los resultados más precisos que pudo encontrar.
+
+<p align="center">
+  <img src="https://imgur.com/EuBig5F.png" alt="SS2" width="500">
+</p>
+
+Además de la búsqueda manual, Livria ofrece diversas opciones de exploración dentro de la pantalla principal, ya que se podrán visualizar diferentes secciones dedicadas a categorías o géneros literarios específicos. Este sistema estará basado en algoritmos y servirá para ofrecerle al usuario una vista rápida y amplia del contenido de la aplicación.
+
+### 4.2.5. Navigation Systems
+Los Navigation Systems de Livria fueron diseñados para simplificar la navegación dentro de la aplicación y entre interfaces relacionadas, favoreciendo una interacción fluida, intuitiva y cómoda para nuestros usuarios. Nuestro proyecto logrará esto a través de la implementación de un menú de navegación en la parte superior de la interfaz.
+
+<p align="center">
+  <img src="https://imgur.com/LuHEyBQ.png" alt="NS1" width="500">
+</p>
+
+El menú de navegación ofrece diferentes opciones que ayudan al usuario a desplazarse entre secciones principales de la aplicación. Esta barra de navegación está presente en todo momento y en todas las diferentes pantallas de la interfaz. La combinación entre el espaciado, el lenguaje utilizado y la iconografía presente en cada elemento interactivo que la conforma garantiza una mayor comodidad de uso y facilidad de lectura para tanto usuario experimentados como principiantes.
+
+<p align="center">
+  <img src="https://imgur.com/u5T4cEY.png" alt="NS2" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/UCQfnFA.png" alt="NS3" width="500">
+</p>
+
+Dentro de la interfaz principal, la herramienta de navegación que usará el usuario será la interacción con elementos de la pantalla, como las imágenes designadas para libros y comunidades, que servirán como acceso directo a su información específica.
+
+<p align="center">
+  <img src="https://imgur.com/np0ilCs.png" alt="NS4" width="500">
+</p>
+
+Al final de la interfaz, el usuario podrá encontrar una sección de pie de página que contiene etiquetas con vínculos externos y herramientas de navegación propias de la página, que lo ayudarán a localizar información adicional sobre el servicio y acceder a otras pantallas.
+
+Los Navigation Systems de nuestro proyecto ofrecen un recorrido intuitivo y eficiente que garantiza que los usuarios puedan explorar el contenido de la aplicación sin problemas ni frustraciones, agilizando su proceso de familiarización con la interfaz y optimizando la elaboración de rutas dentro de la misma.
+
+## 4.3. Landing Page UI Design
+La propuesta de UI para la landing page de Livria surge como una traducción visual clara y coherente de las decisiones tomadas durante el desarrollo de la arquitectura de información y el diseño centrado en el usuario. Desde el primer vistazo, se busca transmitir una identidad accesible, amigable y culturalmente cercana, alineada con los valores de promoción de la lectura y la comunidad lectora. La distribución de secciones —Home, Services, About Us y Contact Us— prioriza una navegación fluida e intuitiva, reforzada por una jerarquía visual limpia y componentes interactivos que guían la experiencia del visitante. La estética combina ilustraciones cálidas, tipografías legibles y un uso estratégico del color para generar confianza, despertar interés y dirigir la atención hacia los llamados a la acción. Esta UI no solo refleja las decisiones estructurales del proyecto, sino que también invita a los usuarios a conectar emocionalmente con el propósito de Livria desde el primer contacto.
+
+### 4.3.1. Landing Page Wireframes
+
+<p align="center">
+  <img src="https://imgur.com/ukFHT37.png" alt="LPW1" width="500">
+</p>
+
+En primer lugar, se observa la pantalla de inicio de la Landing Page de Livria. Esta tiene una descripción sobre qué trata la aplicación web que se ofrece y un carrusel de imágenes relacionadas. Asimismo, tiene el header con los accesos a cada sección de la landing page
+
+<p align="center">
+  <img src="https://imgur.com/h9vfov1.png" alt="LPW2" width="500">
+</p>
+
+En la sección siguiente aparece la información sobre los servicios de Livria: Variedad de libros, Comunidad de libros, y Recomendaciones. Asimismo, cada tarjeta de información tiene su imagen correspondiente.
+
+<p align="center">
+  <img src="https://imgur.com/CBwjtos.png" alt="LPW3" width="500">
+</p>
+
+La sección que continúa es la de “Sobre Nosotros”, la cual muestra información sobre la startup, Bookify, y la aplicación web, Livria. Se visualiza texto importante sobre quiénes somos, así como el logo representativo de cada uno.
+
+<p align="center">
+  <img src="https://imgur.com/jEkCPal.png" alt="LPW4" width="500">
+</p>
+
+Luego, se llega a la última sección de la landing page, que es “Contáctanos”. En caso que el visitante desee comunicarse con el equipo de Bookify - Livria, puede dejar su información y motivo de contacto. Además, si desea formar parte de este equipo, puede dejar su CV y aplicar para un puesto disponible.
+
+<p align="center">
+  <img src="https://imgur.com/Za0rUPs.png" alt="LPW5" width="500">
+</p>
+
+A medida que el visitante hizo scroll en la página, se mostraron todas las secciones de la landing page, llegando hasta el pie de página. Este muestra los accesos a las secciones visualizadas anteriormente, así como enlaces a partes legales y de soporte de la plataforma.
+
+### 4.3.2. Landing Page Mock-ups
+Los mockups de la landing page de Livria muestran una mayor fidelización de la interfaz final del sitio, integrando los elementos visuales definidos en la guía de estilo. Esta representación busca validar la propuesta estética y funcional de los wireframes en una experiencia clara y atractiva para el usuario.
+
+<p align="center">
+  <img src="https://imgur.com/iJv6Hpo.png" alt="LDM1" width="500">
+</p>
+
+La pantalla de inicio del mockup de la Landing Page presenta el encabezado con las secciones principales de sitios y el bloque introductorio de la propuesta de Livria, ambos con los colores de la paleta. Incluye un carrusel visual con imágenes sobre lectura digital, comunidad lectora y la tienda física de Livria.
+
+<p align="center">
+  <img src="https://imgur.com/REM6Y3h.png" alt="LDM2" width="500">
+</p>
+
+La sección de “Servicios” presenta cada tarjeta de información con un color diferente, así como con una imagen respectiva sobre lo que describe la funcionalidad.
+
+<p align="center">
+  <img src="https://imgur.com/0v7jV47.png" alt="LDM3" width="500">
+</p>
+
+A esta sección, “Sobre Nosotros”, se le agrega color a los bloques que contienen los nombres de la startup y la aplicación, Bookify y Livria, respectivamente.
+
+El mockup de la última sección de la landing page, la cual presenta el formulario de contacto, se visualiza con un color principal de la paleta.
+
+<p align="center">
+  <img src="https://imgur.com/SFutwZs.png" alt="LDM4" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/SFutwZs.png" alt="LDM5" width="500">
+</p>
+
+El mockup del pie de página muestra los accesos de Navegación, Legal y Soporte con el color azul, así como los logos de las redes sociales de Livria.
+
+## 4.4. Web Applications UX/UI Design
+
+### 4.4.1. Web Applications Wireframes
+Los wireframes de la aplicación web de Livria representan una primera aproximación estructural al diseño de la plataforma, enfocándose en la organización del contenido y la disposición de los elementos clave en cada pantalla. Esta etapa busca definir cómo interactuarán los usuarios con las principales funcionalidades del sistema sin distraer con aspectos estéticos aún no definidos. Al priorizar la usabilidad y claridad en esta fase inicial, los wireframes permiten optimizar la experiencia del usuario y sentar las bases para el desarrollo de un diseño visual coherente y funcional.
+
+<p align="center">
+  <img src="https://imgur.com/iFUtlsp.png" alt="WAW1" width="500">
+</p>
+
+En primer lugar se tiene a la pantalla de inicio de Livria, la cual muestra elementos principales de la aplicación. Se tiene el header, que posee los accesos a las diferentes secciones de Livria, así como la barra de búsqueda y los botones de cambio de idioma. Asimismo, hay un carrusel que muestra diferentes banners con información, siendo el principal el de “obtener el Plan Comunidad”. A partir de ello, aparecen las primeras sugerencias de las categorías parte del catálogo de Livria.
+
+<p align="center">
+  <img src="https://imgur.com/vozygBu.png" alt="WAW2" width="500">
+</p>
+
+A continuación, a medida que el usuario va haciendo scroll en la aplicación, le aparecen las siguientes sugerencias de las otras categorías del catálogo de Livria.
+
+<p align="center">
+  <img src="https://imgur.com/lvCXiNM.png" alt="WAW3" width="500">
+</p>
+
+A medida que el usuario hizo scroll en la aplicación de Livria y se mostraron los géneros literarios que se tiene, llegará al pie de página. Este es similar a aquel colocado en la landing page.
+
+<p align="center">
+  <img src="https://imgur.com/molD0z7.png" alt="WAW4" width="500">
+</p>
+
+El presente wireframe muestra la sección de “Recomendaciones” de Livria. En esta, aparecen 6 tarjetas con sugerencias que la aplicación brinda en base a los gustos del usuario. 
+
+<p align="center">
+  <img src="https://imgur.com/NHGbEPa.png" alt="WAW5" width="500">
+</p>
+
+El wireframe de la pantalla de un género literario muestra las obras del catálogo de Livria que se alinean a este criterio. En el área principal, se muestra una cuadrícula de libros disponibles, cada uno con su imagen de portada, nombre, autor y precio. A la derecha, un panel lateral ofrece opciones de filtrado por categoría, orden de visualización, formato e idioma, facilitando una experiencia de búsqueda personalizada y eficiente. Las pantallas de todos los géneros literarios que aparecen en el header siguen este mismo formato.
+
+<p align="center">
+  <img src="https://imgur.com/MCTgS5P.png" alt="WAW6" width="500">
+</p>
+
+Esta pantalla muestra los resultados de búsqueda para un término específico. En el centro, se despliegan las tarjetas con los libros relacionados al término buscado. Al costado derecho, se encuentra un panel de filtros que permite refinar los resultados por orden de visualización, formato e idioma.
+
+<p align="center">
+  <img src="https://imgur.com/FmM2VN5.png" alt="WAW7" width="500">
+</p>
+
+El wireframe de “Comunidades” muestra tarjetas con comunidades, mostrando la imagen de portada, el nombre de esta y el botón para ver más. Asimismo, da la opción de crear una nueva comunidad a través del botón grande de la izquierda o del botón pequeño de la esquina superior derecha.
+
+<p align="center">
+  <img src="https://imgur.com/m0U5v45.png" alt="WAW8" width="500">
+</p>
+
+Al haber seleccionado la opción de “Crear Comunidad”, mediante cualquiera de los botones, aparece un formulario sobreponiéndose a la pantalla anterior. Este pide rellenar información vital para la creación de la nueva comunidad, como lo es el nombre, la categoría y la descripción de la misma, así como una imagen representativa.
+
+<p align="center">
+  <img src="https://imgur.com/06n8XtG.png" alt="WAW9" width="500">
+</p>
+
+El wireframe de una comunidad en específico muestra cómo se vería al ingresar a una existente o al crear una nueva. Se colocan los detalles en la parte superior y se permite a los usuarios crear una publicación dentro de la comunidad, mostrando los posts a lo largo de la pantalla.
+
+<p align="center">
+  <img src="https://imgur.com/ntZj1Tm.png" alt="WAW10" width="500">
+</p>
+
+Al hacer clic en una de las publicaciones dentro de la comunidad, se sobrepone el recuadro con los detalles de la publicación y los comentarios respectivos que los usuarios hayan realizado.
+
+<p align="center">
+  <img src="https://imgur.com/hO3zCkb.png" alt="WAW11" width="500">
+</p>
+
+Por otro lado, se tiene el wireframe de la pantalla de un libro. Este muestra la portada y la sinopsis en la parte izquierda. En lo que resta de la pantalla, muestra detalles como el autor, el idioma, el precio. También se dan las opciones de agregar al carrito, de marcar como interés o desinterés, calificar la lectura con estrellas, y comentar sobre el libro.
+
+<p align="center">
+  <img src="https://imgur.com/MDHJu4O.png" alt="WAW12" width="500">
+</p>
+
+El wireframe del carrito de compras muestra el panel que se sobrepone a cualquier pantalla mostrando los elementos que se encuentran por comprar, así como el subtotal de la posible compra y un botón para finalizarla.
+
+<p align="center">
+  <img src="https://imgur.com/hRi6rCt.png" alt="WAW13" width="500">
+</p>
+
+La presente pantalla muestra el inicio del proceso de finalización de compra tras haber presionado el botón en el panel de carrito. Muestra el listado de libros añadidos al carrito, así como un panel con el resumen de costos de la compra.
+
+<p align="center">
+  <img src="https://imgur.com/Crr9luP.png" alt="WAW14" width="500">
+</p>
+
+Le sigue la pantalla de finalización de compra con el panel de identificación del cliente, donde rellena los campos con sus datos o aquellos de quien será responsable de recibir/recoger el pedido.
+
+<p align="center">
+  <img src="https://imgur.com/PrZjj5q.png" alt="WAW15" width="500">
+</p>
+
+La tercera pantalla de finalización de compra muestra el panel con los detalles de envío. Se puede seleccionar entre dos opciones: envío a domicilio o recojo en tienda.
+
+<p align="center">
+  <img src="https://imgur.com/sNRMaTo.png" alt="WAW16" width="500">
+</p>
+
+La última pantalla de finalización de compra muestra el panel que detalla cómo se realizará el pago a través de izipay en una ventana aparte. Asimismo, se pide que se acepten los términos y condiciones de Livria.
+
+<p align="center">
+  <img src="https://imgur.com/VKnVzlb.png" alt="WAW17" width="500">
+</p>
+
+Este wireframe representa una página de confirmación de compra en Livria. El cuerpo principal muestra un mensaje de agradecimiento por la compra donde también se indica el código de la compra. Al final, hay un botón centrado que permite regresar a la página de inicio.
+
+<p align="center">
+  <img src="https://imgur.com/mjrnOBT.png" alt="WAW18" width="500">
+</p>
+
+Este wireframe corresponde a la sección de "Cuenta" de Livria. El contenido principal está dividido en tres bloques: a la izquierda, un área con la foto de perfil, nombre de usuario y correo electrónico; en el centro, una sección de "Perfil" con un breve texto descriptivo y otra de "Mis Últimos Pedidos" mostrando el estado de las compras recientes; y a la derecha, un módulo de "Configuración" donde el usuario puede gestionar notificaciones, la visibilidad del perfil, y actualizar su contraseña.
+
+### 4.4.2. Web Applications Wireflow Diagrams
+**User Goal para Segmento 1: Estudiantes y jóvenes universitarios**
+
+Como usuario, quiero visualizar recomendaciones personalizadas según mis preferencias de lectura y quiero determinar si una es de mi agrado o no.
+
+*Task Flow:*
+
+<p align="center">
+  <img src="https://imgur.com/g9Amery.png" alt="TF1" width="500">
+</p>
+
+*Wireflow:*
+
+<p align="center">
+  <img src="https://imgur.com/PMR7dO4.png" alt="WF1" width="500">
+</p>
+
+Para poder interactuar con las recomendaciones que brinda Livria a cada usuario, se accede, en primer lugar, a esta sección a través del header de la aplicación web. Al presionar “Recomendaciones”, se le redirige al usuario al apartado en el que aparecen sus 6 recomendaciones. Al seleccionar una de ellas, aparece el detalle del libro recomendado. A este, se le puede marcar como interés o desinterés al seleccionar el ícono del bookmark o del negative, respectivamente.
+
+Asimismo, para mejorar las recomendaciones que ofrece Livria, se pueden marcar otros libros. Para ello, desde el inicio de la aplicación —o desde cualquier otra sección— se puede acceder a un libro en específico y marcarle, así como a un libro recomendado, como interés o desinterés al seleccionar el ícono del bookmark o del negative, respectivamente. 
+
+**User Goal para Segmento 2: Lectores casuales y aficionados a la lectura**
+
+Como usuario, quiero conectar con otras personas que compartan mis gustos literarios y ver sus opiniones sobre esos temas en específico.
+
+*Task Flow:*
+
+<p align="center">
+  <img src="https://imgur.com/933Tscs.png" alt="TF2" width="500">
+</p>
+
+*Wireflow:*
+
+<p align="center">
+  <img src="https://imgur.com/xYq6Kuq.png" alt="WF2" width="500">
+</p>
+
+Para interactuar con otros usuarios sobre temas específicos, se debe seguir una secuencia de pasos. En primer lugar, desde el inicio de Livria —o desde cualquier otra sección— se debe acceder al apartado de Comunidades al presionar su link en el header. Acto seguido, se mostrarán las variadas comunidades creadas en la aplicación. A partir de ello, el usuario puede elegir entre crear una nueva o unirse a una existente. De elegir la primera opción, deberá completar los campos de información requeridos y, cuando haya creado la comunidad, se le permitirá empezar a publicar sobre el tema elegido. En el caso contrario, podrá tanto crear una nueva publicación como comentar en una preexistente.
+
+Para mejor visualización de los Wireflows de Livria, acceder al siguiente link: https://lucid.app/lucidchart/e1054595-89bd-4b48-922d-b00216bf8e74/edit?viewport_loc=-6918%2C-463%2C15406%2C7161%2C0_0&invitationId=inv_053ea8ae-d81b-4f9f-ba5d-43ab4e59bbba 
+
+### 4.4.3. Web Applications Mock-up
+
+<p align="center">
+  <img src="https://imgur.com/DObt6nP.png" alt="WAM1" width="500">
+</p>
+
+Este mockup muestra la página inicial de la tienda Livria. En la parte superior se mantiene el encabezado con el logo, barra de búsqueda, accesos rápidos a carrito, tienda, notificaciones, cuenta, y el selector de idioma. Debajo, el menú de navegación ofrece varias categorías. El área principal tiene un banner promocionando el "Plan Comunidad", invitando a los usuarios a unirse para compartir opiniones. Abajo, aparece una sección de "Literatura" donde se muestran las tarjetas con libros destacados en forma de carrusel horizontal, con portadas visibles y sus títulos.
+
+<p align="center">
+  <img src="https://imgur.com/N3Z8t3P.png" alt="WAM2" width="500">
+</p>
+
+Al seguir haciendo scroll en la aplicación, le aparecen las siguientes sugerencias de las otras categorías del catálogo de Livria.
+
+<p align="center">
+  <img src="https://imgur.com/L1FS590.png" alt="WAM3" width="500">
+</p>
+
+A medida que el usuario hizo scroll en la aplicación de Livria y se mostraron los géneros literarios que se tiene, llegará al pie de página. Este es similar a aquel colocado en la landing page.
+
+<p align="center">
+  <img src="https://imgur.com/qmxRGpJ.png" alt="WAM4" width="500">
+</p>
+
+El mockup muestra la página de recomendaciones personalizadas de la tienda de libros Livria. La sección principal presenta libros sugeridos en forma de tarjetas con portada, título, autor y precio. Debajo, un aviso invita a los usuarios a marcar su interés usando íconos de bookmark o de negativo. Finalmente, el pie de página ofrece enlaces de navegación, información legal y soporte.
+
+<p align="center">
+  <img src="https://imgur.com/isFtOpL.png" alt="WAM5" width="500">
+</p>
+
+El mockup de la pantalla de un género literario en Livria presenta una cuadrícula de libros que coinciden con la temática seleccionada, mostrando para cada obra su portada, título, autor y precio. A la derecha, se incluye un panel lateral con filtros de búsqueda: por categoría, formato, idioma y orden de visualización. Este diseño busca ofrecer una navegación ágil y personalizada. Todas las pantallas de los géneros listados en el menú principal mantienen esta misma estructura visual.
+
+<p align="center">
+  <img src="https://imgur.com/FkyFT5d.png" alt="WAM6" width="500">
+</p>
+
+El mockup de la pantalla de resultados de búsqueda presenta una cuadrícula de tarjetas con los libros relacionados al término ingresado. A la derecha, un panel de filtros permite ajustar los resultados según el orden de visualización, el formato y el idioma, ofreciendo una experiencia de búsqueda más precisa.
+
+<p align="center">
+  <img src="https://imgur.com/tTiij84.png" alt="WAM7" width="500">
+</p>
+
+El mockup de la pantalla de "Comunidades" en Livria presenta una cuadrícula de tarjetas, cada una con la imagen de portada, el nombre de la comunidad y un botón para ver más detalles. Además, incluye un botón grande en la parte izquierda y otro pequeño en la esquina superior derecha que permiten crear una nueva comunidad de forma rápida y accesible.
+
+<p align="center">
+  <img src="https://imgur.com/dBz8b4B.png" alt="WAM8" width="500">
+</p>
+
+El mockup de la función “Crear Comunidad” muestra un formulario superpuesto sobre la pantalla anterior, activado al presionar cualquiera de los botones destinados a esta acción. El formulario solicita datos esenciales para configurar la nueva comunidad, como el nombre, la categoría, una breve descripción y una imagen representativa.
+
+<p align="center">
+  <img src="https://imgur.com/U5aOQiD.png" alt="WAM9" width="500">
+</p>
+
+El mockup de una comunidad específica en Livria representa la vista al ingresar a una ya existente o recién creada. En la parte superior se muestran los detalles principales de la comunidad, mientras que debajo se habilita un espacio para que los usuarios realicen nuevas publicaciones. Las publicaciones existentes se despliegan a lo largo de la pantalla.
+
+<p align="center">
+  <img src="https://imgur.com/TcSfhVl.png" alt="WAM10" width="500">
+</p>
+
+El mockup de una publicación dentro de una comunidad muestra un recuadro superpuesto al hacer clic sobre cualquier post. Este recuadro despliega los detalles completos de la publicación junto con los comentarios realizados por otros usuarios, permitiendo una interacción directa y enfocada sin abandonar la pantalla principal de la comunidad.
+
+<p align="center">
+  <img src="https://imgur.com/FQztwpi.png" alt="WAM11" width="500">
+</p>
+
+El mockup de la pantalla de un libro en Livria presenta, en la parte izquierda, la portada junto a la sinopsis de la obra. A la derecha, se despliegan detalles como el autor, idioma y precio, junto con botones para agregar al carrito, marcar como interés o desinterés, calificar con estrellas y dejar comentarios, facilitando la interacción y decisión de compra del usuario.
+
+<p align="center">
+  <img src="https://imgur.com/T7bHt6R.png" alt="WAM12" width="500">
+</p>
+
+El mockup del carrito de compras en Livria presenta un panel lateral superpuesto que puede desplegarse desde cualquier pantalla. En él se listan los productos añadidos, mostrando un resumen visual de cada uno, el subtotal de la compra y un botón destacado para finalizar la transacción.
+
+<p align="center">
+  <img src="https://imgur.com/F9FYiBP.png" alt="WAM13" width="500">
+</p>
+
+El mockup de la pantalla de inicio del proceso de compra en Livria se activa tras presionar el botón de finalizar en el carrito. En esta vista se muestra el listado completo de libros añadidos y, junto a ellos, un panel lateral con el resumen detallado de los costos totales de la compra.
+
+<p align="center">
+  <img src="https://imgur.com/F5mjfdR.png" alt="WAM14" width="500">
+</p>
+
+El mockup de la pantalla de finalización de compra en Livria incluye un panel destinado a la identificación del cliente. En esta etapa, el usuario debe completar un formulario con sus datos personales o los de la persona responsable de recibir o recoger el pedido, como parte del proceso previo al pago.
+
+<p align="center">
+  <img src="https://imgur.com/TUESiDm.png" alt="WAM15" width="500">
+</p>
+
+El mockup de la tercera pantalla del proceso de finalización de compra en Livria presenta un panel con las opciones de envío. El usuario puede elegir entre dos modalidades: envío a domicilio o recojo en tienda, adaptando así la entrega según su preferencia.
+
+<p align="center">
+  <img src="https://imgur.com/Cv36EFc.png" alt="WAM16" width="500">
+</p>
+
+El mockup de la última pantalla del proceso de finalización de compra en Livria muestra un panel con las instrucciones para realizar el pago mediante Izipay, el cual se completará en una ventana externa. Además, se solicita al usuario aceptar los términos y condiciones de Livria antes de finalizar la transacción.
+
+<p align="center">
+  <img src="https://imgur.com/H6Zj7GK.png" alt="WAM17" width="500">
+</p>
+
+El mockup muestra la pantalla final de confirmación de compra en Livria. En el centro se despliega un recuadro que agradece al usuario por su compra. Dentro del recuadro, aparece un texto confirmando que la compra fue exitosa, indicando que el usuario recibirá más información al correo registrado. También se muestra un código de compra para referencia. Debajo, hay un botón que invita al usuario volver a la página principal de la tienda.
+
+<p align="center">
+  <img src="https://imgur.com/vFeqfv9.png" alt="WAM18" width="500">
+</p>
+
+El mockup de la sección "Cuenta" en Livria organiza el contenido en tres bloques principales. A la izquierda, se muestra la foto de perfil, el nombre de usuario y el correo electrónico. En el centro, se encuentran dos apartados: "Perfil", con un breve texto descriptivo, y "Mis Últimos Pedidos", donde se visualiza el estado de las compras recientes. A la derecha, un módulo de "Configuración" permite al usuario gestionar las notificaciones, la visibilidad de su perfil y actualizar su contraseña.
+
+### 4.4.4. Web Applications User Flow Diagrams
+
+**Segmento 1: Estudiantes y jóvenes universitarios**
+
+* Como usuario, quiero poder realizar la búsqueda de libros en base a diferentes criterios y obtener resultados relacionados.
+
+<p align="center">
+  <img src="https://imgur.com/HtJIFCt.png" alt="UF1" width="500">
+</p>
+
+* Como usuario, quiero poder navegar rápidamente entre categorías y géneros de libros.
+
+<p align="center">
+  <img src="https://imgur.com/sxKVRBc.png" alt="UF2" width="500">
+</p>
+
+**Segmento 2: Lectores casuales y aficionados a la lectura**
+
+* Como usuario, quiero poder expresarme mediante mi perfil y tener la capacidad de editarlo en cualquier momento.
+
+<p align="center">
+  <img src="https://imgur.com/PMLCTCY.png" alt="UF3" width="500">
+</p>
+
+* Como usuario, quiero poder realizar compras desde la plataforma de manera segura y bien explicada.
+
+<p align="center">
+  <img src="https://imgur.com/yoVSe5b.png" alt="UF4" width="500">
+</p>
+
+## 4.5. Web Applications Prototyping
+Con el objetivo de evaluar y perfeccionar la accesibilidad y la experiencia de usuario antes del desarrollo final, se elaboró un prototipo interactivo centrado en la navegación web. Este modelo funcional permite simular de forma integral el recorrido del usuario dentro del sitio, facilitando la exploración directa de sus secciones, elementos y flujos de interacción tal como se espera en su versión final online.
+
+El prototipo fue diseñado siguiendo principios de arquitectura de la información clara, jerarquía visual lógica y diseño inclusivo, priorizando siempre la facilidad de uso. Se cuidó que cada componente respete estándares de usabilidad y coherencia visual, lo que favorece una navegación fluida e intuitiva.
+
+A partir de maquetas de alta fidelidad y criterios de usabilidad previamente definidos, esta versión navegable actúa como una fiel representación de la futura interfaz web. Así, se convierte en una herramienta clave para validar decisiones de diseño, detectar posibles fricciones y garantizar una experiencia consistente y accesible desde el navegador.
+
+Video explicativo: https://youtu.be/KXpBorl-CXY
+
+Link al prototipo interactivo: https://www.figma.com/proto/eKCqZoU0IF7n3wNTA8kuZc/livria?page-id=192%3A596&node-id=255-816&p=f&viewport=-121%2C-24%2C0.12&t=bikOaC0wuxQpGsNk-1&scaling=min-zoom&content-scaling=fixed 
+
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+
+<p align="center">
+  <img src="https://imgur.com/bM6CYx4.png" alt="ContextD" width="500">
+</p>
+
+### 4.6.2. Software Architecture Container Diagram
+
+<p align="center">
+  <img src="https://imgur.com/LufYExk.png" alt="ContainerD" width="500">
+</p>
+
+### 4.6.3. Software Architecture Components Diagram
+
+<p align="center">
+  <img src="https://imgur.com/LufYExk.png" alt="ComponentsD" width="500">
+</p>
+
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagram
+
+<p align="center">
+  <img src="https://imgur.com/LCfcMJU.png" alt="Class" width="500">
+</p>
+
+### 4.7.2. Class Dictionary
+* USUARIO: Representa a cualquier persona registrada en la plataforma. Puede leer, comprar, valorar libros, interactuar en comunidades y gestionar su perfil.
+* LIBRO: Entidad que contiene toda la información sobre los libros disponibles en Livria, incluyendo su autor, precio, formato y valoraciones.
+* AUTOR: Representa a los escritores de los libros. Puede listar sus obras y está asociado a múltiples libros.
+* VALORACION: Permite a los usuarios calificar y dejar una reseña sobre un libro. Está vinculada tanto al usuario como al libro.
+* FAVORITO: Registra libros marcados como favoritos por un usuario. Facilita el acceso rápido a lecturas preferidas.
+* COMENTARIO: Contiene los mensajes que un usuario deja en una publicación dentro de la comunidad.
+* PUBLICACION: Representa una publicación dentro de la comunidad, creada por un usuario. Puede incluir texto y archivos multimedia.
+* MULTIMEDIA: Asocia archivos multimedia (como imágenes o videos) a una publicación. Guarda información sobre el tipo y tamaño del archivo.
+* COMUNIDAD: Agrupa a los usuarios según intereses comunes. Permite la interacción social a través de publicaciones.
+* Notificacion: Mensajes enviados a los usuarios para informar sobre eventos importantes, actualizaciones o interacciones relevantes.
+* PEDIDO: Registro de compra de libros. Contiene información del costo, fecha, estado y está asociado al usuario.
+* DETALLE_PEDIDO: Elemento que desglosa cada libro dentro de un pedido, incluyendo cantidad y vínculo con el pedido y el usuario.
+* ENTREGA: Representa el proceso de entrega de un pedido físico. Incluye información del repartidor, fecha y estado.
+* REPARTIDOR: Persona encargada de realizar entregas. Tiene datos personales como nombre y teléfono.
+* PAGO: Registra información sobre pagos realizados, como monto, fecha y usuario asociado.
+* SUSCRIPCION: Vinculada al usuario, define el tipo de plan y sus beneficios. habilita funciones exclusivas.
+
+## 4.8. Database Design
+### 4.8.1. Database Diagram
+
+<p align="center">
+  <img src="https://imgur.com/qBScqXS.png" alt="Database" width="500">
+</p>
+
+URL: https://lucid.app/lucidchart/34ab5908-200e-4dc9-955d-49052617f49a/edit?viewport_loc=-384%2C-73%2C3906%2C1898%2CHWEp-vi-RSFO&invitationId=inv_881117db-e3c0-4cb4-b4b3-de363adf0664
