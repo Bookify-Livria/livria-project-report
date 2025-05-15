@@ -2760,7 +2760,7 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
   <img src="https://imgur.com/xvZst7H.png" alt="EE220" width="500">
 </p>
 
-Video del Sprint Review: https://youtu.be/D3Qu6SNdWEk
+Video del Sprint Review 2: https://youtu.be/D3Qu6SNdWEk
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante el Sprint 2, el desarrollo del frontend de Livria para las funcionalidades del catálogo de libros, carrito de compra, orden de compra, comunidades, notificaciones y suscripciones se implementó con la API fake. La API está localizada en la carpeta server y dentro se encuentra el archivo db.json, en el cual contiene toda la información de los datos utilizados. Además, estas fakes API logran simular una base de datos sin tenerla de verdad. 
