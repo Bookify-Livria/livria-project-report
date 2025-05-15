@@ -2595,11 +2595,33 @@ En este capítulo se presenta el progreso alcanzado durante el Sprint 2 en el de
 
 |   Repository  |   Branch  |   Commit Id  |   Commit Message  |   Commit Message Body  |   Commited on (Date)  |
 |---------------|-----------|--------------|-------------------|------------------------|-----------------------|
-|   JhosepAC/Bookify-Livria  |   feature/home-page  |   1c1c4d2  |   feat: implement initial Home section layout  |   ---  |   20/04/2025  |
-|   MarceloHkd/Bookify-Livria  |   feature/home-page  |   4a23b17  |   feat: add services section to the home page  |   ---  |   22/04/2025  |
-|   borj410/Bookify-Livria  |   feature/home-page  |   2c63a2c  |   feat: add about us section with content and layout  |   ---  |   22/04/2025  |
-|   MSS02204/Bookify-Livria  |   feature/home-page  |   03a59a8  |   feat: add contact section and footer to the home page  |   ---  |   23/04/2025  |
-|   noaa01100001/Bookify-Livria  |   feature/home-page  |   092342b  |   feat: fix bugs and update elements  |   - Fixed taskbar positioning - Updated the header font and letter spacing - Updated title and content of the third service card - Added images in the services section - Improved responsive design in "About Us" and "Hero" section - Designed custom scrollbar style - Modified card design for services section  |   25/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   c6e6d79  |   docs: add initial README for Livria Web App  |   ---  |   15/05/25  |
+|   MarceloHkd/Bookify-Livria  |   feature/home-page  |   5633e05  |   feat: add toolbar, language-switcher and footer  |   ---  |   22/04/2025  |
+|   borj410/Bookify-Livria  |   feature/home-page  |   7192f1d  |   Merge pull request #1 from Bookify-Livria/feature/public-components  |   ---  |   22/04/2025  |
+|   MSS02204/Bookify-Livria  |   feature/home-page  |   be9381c  |   feat: Add Book-Card  |   ---  |   23/04/2025  |
+|   MSS02204/Bookify-Livria  |   feature/home-page  |   190addf  |   feat: Show Book-Card  |   ---  |   23/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   f265946  |   feat: add book carousel  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   7f67b28  |   feat: create singular book view and created cart component  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   daec93d  |   feat: update general components  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5ae1391  |   eat: update general components  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5934510  |   Merge branch 'feature/books' of https://github.com/Bookify-Livria/livria-web-app into feature/books  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   1b54c31  |   feat: Update register and login  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   69586a9  |   fix: final improvements  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   a9298ae  |   Update shop.component.vue  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   d1fd39d  |   Merge pull request #2 from Bookify-Livria/hotfix/urgent-fix  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   efc6af4  |   Update shop.component.vue  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   a61f5c4  |   Merge pull request #3 from Bookify-Livria/hotfix/urgent-fix  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   538e6cb  |   Merge pull request #4 from Bookify-Livria/develop  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   be9381c  |   feat: Add: Book-Card  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   190addf  |   feat: Show: Book-Card  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   f265946  |   feat: add book carousel  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   64ed3e8  |   feat: create reviews per book  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   555e41c  |   feat: add images for every community  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   ac57ed9  |   feat: Create Card  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   0504e7e  |   feat: Create Order  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5fd0218  |   feat: update cart drawer and toolbar component  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   11edefe  |   feat: update user components and implementation of notifications  |   ---  |   15/05/25  |
+
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
 Durante el Sprint 2, se desarrollaron 17 historias de usuario centradas en la implementación de la aplicación web de Livria. Este sprint se enfocó en crear funcionalidades clave como la navegación entre libros, la integración de comunidades literarias, el proceso de compra y la personalización de recomendaciones de libros. Las historias incluyen tanto el diseño de interfaces de usuario como la implementación de funciones como la compra de libros, la creación de comunidades y la interacción con la sección de comentarios.
@@ -2773,13 +2795,97 @@ En las siguientes imágenes representa el resultado de acceder al endpoint http:
 **BookApiService realiza una solicitud GET y PUT**
 
 <p align="center">
-  <img src="https://imgur.com/jptiEzU.png" alt="SDE24" width="500">
+  <img src="https://i.imgur.com/dg6JXw1.png" alt="SDE24" width="500">
 </p>
 
 La documentación de los servicios implementados en la aplicación web Livria, durante el sprint 2, se enfocó principalmente en la API simulada utilizando el json-server y el archivo db.json. Esto representa una base inicial para, posteriormente, integrar servicios RESTful reales conectados a una base de datos en el siguiente sprint #3.  
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint, el equipo llevó a cabo el proceso de despliegue inicial de la aplicación Vue.js utilizando Firebase Hosting. Esto permite que el proyecto sea accesible públicamente en un entorno de producción.
+
+Como primer paso hemos creado el proyecto en Firebase:
+
+<p align="center">
+  <img src="https://i.Imgur.com/HFKIGvM.png" alt="SDFS21" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/9O3iWoA.png" alt="SDFS22" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/91XdXGJ.png" alt="SDFS23" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/Drlaz7d.png" alt="SDFS24" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/gASc8sB.png" alt="SDFS25" width="500">
+</p>
+
+Una vez creado el proyecto en Firebase realizamos los siguientes pasos desde nuestro proyecto en WebStorm:
+
+<p align="center">
+  <img src="https://i.imgur.com/IcPpePc.png" alt="SDFS26" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/fapIm72.png" alt="SDFS27" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/g34WHla.png" alt="SDFS28" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/IhXGeht.png" alt="SDFS29" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/PX7zEzs.png" alt="SDFS210" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/PGrn4Fq.png" alt="SDFS211" width="500">
+</p>
+
+**Actividades realizadas:**
+
+1. Instalación de Firebase CLI
+
+Se instaló Firebase CLI globalmente en el entorno local para poder gestionar el despliegue.
+
+*npm install -g firebase-tools*
+
+2. Autenticación en Firebase
+
+Se autenticó la cuenta de Firebase.
+
+*firebase login*
+
+3. Inicialización del Proyecto en Firebase
+
+Se inicializó el proyecto Firebase en la raíz del proyecto Vue.js.
+
+*firebase init*
+
+Durante la inicialización, se configuró Firebase Hosting para que apunte al directorio dist/, que es la carpeta generada al realizar la construcción de producción de la aplicación Vue.js.
+
+4. Construcción del Proyecto para Producción
+
+Se generó la versión optimizada de producción de la aplicación Vue.js. 
+
+*npm run build*
+
+5. Despliegue en Firebase Hosting
+
+Se desplegó la aplicación en Firebase Hosting.
+
+*firebase deploy*
+
 
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
@@ -2792,7 +2898,59 @@ Durante este Sprint, el equipo se centró en la implementación de las funcional
 * Se aplicaron Vue Router para la navegación entre las diferentes secciones de la plataforma y Vuex para la gestión del estado global de la aplicación, facilitando la integración de la interfaz con las funcionalidades backend.
 * JavaScript fue utilizado para implementar interacciones y funcionalidades específicas como el registro de usuario, la compra de libros, la interacción con las comunidades literarias y las recomendaciones personalizadas.
 
+**Análisis de colaboración en GitHub:**
 
+A continuación, se muestra un resumen visual de la participación activa de los miembros del equipo a través de las contribuciones realizadas en el repositorio:
+
+**Historial de commits:**
+
+<p align="center">
+  <img src="https://i.imgur.com/MN0MIBb.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/kbA7LKn.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/XOE0oXr.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/kl1bgYt.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/sv9iqcr.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/8XnkJyB.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/Pkd7jFs.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/LyGO2Ie.png" alt="SDFS211" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/4VOSaB5.png" alt="SDFS211" width="500">
+</p>
+
+**Colaboradores activos en el repositorio:**
+
+<p align="center">
+  <img src="https://i.imgur.com/wCVJ2NM.png" alt="SDFS211" width="500">
+</p>
+
+**Histograma de contribuciones en el tiempo:**
+
+<p align="center">
+  <img src="https://i.imgur.com/uGOLmUD.png" alt="SDFS211" width="500">
+</p>
 
 # CONCLUSIONES Y RECOMENDACIONES
 
