@@ -2606,10 +2606,10 @@ En este capítulo se presenta el progreso alcanzado durante el Sprint 2 en el de
 |   Repository  |   Branch  |   Commit Id  |   Commit Message  |   Commit Message Body  |   Commited on (Date)  |
 |---------------|-----------|--------------|-------------------|------------------------|-----------------------|
 |   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   c6e6d79  |   docs: add initial README for Livria Web App  |   ---  |   15/05/25  |
-|   MarceloHkd/Bookify-Livria  |   feature/home-page  |   5633e05  |   feat: add toolbar, language-switcher and footer  |   ---  |   22/04/2025  |
-|   borj410/Bookify-Livria  |   feature/home-page  |   7192f1d  |   Merge pull request #1 from Bookify-Livria/feature/public-components  |   ---  |   22/04/2025  |
-|   MSS02204/Bookify-Livria  |   feature/home-page  |   be9381c  |   feat: Add Book-Card  |   ---  |   23/04/2025  |
-|   MSS02204/Bookify-Livria  |   feature/home-page  |   190addf  |   feat: Show Book-Card  |   ---  |   23/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   5633e05  |   feat: add toolbar, language-switcher and footer  |   ---  |   22/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   7192f1d  |   Merge pull request #1 from Bookify-Livria/feature/public-components  |   ---  |   22/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   be9381c  |   feat: Add Book-Card  |   ---  |   23/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   190addf  |   feat: Show Book-Card  |   ---  |   23/04/2025  |
 |   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   f265946  |   feat: add book carousel  |   ---  |   15/05/25  |
 |   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   7f67b28  |   feat: create singular book view and created cart component  |   ---  |   15/05/25  |
 |   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   daec93d  |   feat: update general components  |   ---  |   15/05/25  |
