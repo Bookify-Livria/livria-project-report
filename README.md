@@ -2760,7 +2760,7 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
   <img src="https://imgur.com/xvZst7H.png" alt="EE220" width="500">
 </p>
 
-
+Video del Sprint Review: https://youtu.be/D3Qu6SNdWEk
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review
 Durante el Sprint 2, el desarrollo del frontend de Livria para las funcionalidades del catálogo de libros, carrito de compra, orden de compra, comunidades, notificaciones y suscripciones se implementó con la API fake. La API está localizada en la carpeta server y dentro se encuentra el archivo db.json, en el cual contiene toda la información de los datos utilizados. Además, estas fakes API logran simular una base de datos sin tenerla de verdad. 
@@ -2812,6 +2812,22 @@ La documentación de los servicios implementados en la aplicación web Livria, d
 
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+Para el despliegue de nuestra aplicación utilizamos Firebase como plataforma principal. Paralelamente, migramos nuestra API falsa (fake API) a Render, una herramienta que facilita la publicación de servicios backend simulados como json-server.
+
+El primer paso fue subir el archivo db.json a un repositorio de GitHub, junto con la configuración necesaria para que Render pudiera utilizarlo correctamente.
+
+Una vez listo el repositorio, accedimos a Render y creamos un nuevo Web Service, conectando el repositorio de GitHub previamente creado. Durante la configuración, seleccionamos una instancia del tipo gratuita (Free instance) y completamos los pasos requeridos para iniciar el despliegue.
+
+Creación del Web Service en Render:
+
+Después de unos minutos, Render marcó el servicio como "Live", indicando que la API estaba desplegada correctamente y disponible públicamente.
+
+Despliegue exitoso del Web Service en Render:
+
+Para verificar que todo funcionara como esperado, accedimos al enlace público proporcionado por Render y probamos los endpoints disponibles. Confirmada su operatividad, reemplazamos en nuestro proyecto las URLs locales de la API falsa por el nuevo enlace público de Render.
+
+Este cambio permitió que nuestra aplicación pudiera acceder a los datos de manera remota y funcional en cualquier entorno.
+
 Durante este Sprint, el equipo llevó a cabo el proceso de despliegue inicial de la aplicación Vue.js utilizando Firebase Hosting. Esto permite que el proyecto sea accesible públicamente en un entorno de producción.
 
 Como primer paso hemos creado el proyecto en Firebase:
@@ -3051,3 +3067,7 @@ Torres-Vega, E. (2025). Comprensión lectora en estudiantes de secundaria en Per
 # ANEXOS
 
 Diagrama C4: https://drive.google.com/file/d/14LIW0V4P1bBFikrUViIq4owWTtexcsCh/view?usp=sharing
+
+Link de la landing page: https://bookify-livria.github.io/livria.github.io/
+
+Link de la aplicación web: https://livria.netlify.app/
