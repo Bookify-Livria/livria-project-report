@@ -129,10 +129,21 @@
 ABET - EAC - Student Outcome 5
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.
 
+**TB1**
+
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |:------------------------|:-------------------------|:-----------------|
 | **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | - Argomedo Camacho, Jhosep Jamil (TB1) <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián (TB1) <br> - Castillo Garay, Ainhoa Lucía (TB1) <br> - Sulca Silva, Melisa Geraldine (TB1) | El equipo de Livria ha demostrado una destacada capacidad para trabajar de manera colaborativa y ejercer un liderazgo compartido a lo largo del proyecto. Desde la definición del perfil de la startup hasta el diseño del producto, se aprecia una organización sólida y una distribución efectiva de roles, donde cada integrante aportó su conocimiento especializado. La implementación de metodologías como Lean UX y Domain-Driven Design, sumada a la planificación de la arquitectura de software y el diseño de la interfaz, refleja una visión alineada y un liderazgo distribuido a través de todas las etapas del proceso. |
 | **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | - Argomedo Camacho, Jhosep Jamil (TB1) <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián (TB1) <br> - Castillo Garay, Ainhoa Lucía (TB1) <br> - Sulca Silva, Melisa Geraldine (TB1) | El desarrollo de Livria también resalta la creación de un entorno de trabajo cooperativo y abierto a la participación activa. El profundo trabajo de recopilación y análisis de requisitos, a través de entrevistas, técnicas de needfinding y la elaboración de user personas, evidencia un compromiso genuino por entender a los usuarios y responder a sus necesidades reales. La definición clara de los objetivos del producto y de los segmentos de usuarios objetivo muestra una planificación estratégica sólida. La organización de tareas se ve plasmada en la estructuración del documento, la construcción del Product Backlog y la preparación del primer sprint enfocado en el desarrollo de la landing page. El progreso alcanzado en la fase inicial de implementación reafirma la capacidad del equipo para convertir la planificación en resultados concretos. |
+
+**TP**
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|:------------------------|:-------------------------|:-----------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | - Argomedo Camacho, Jhosep Jamil (TP) <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián (TP) <br> - Castillo Garay, Ainhoa Lucía (TP) <br> - Sulca Silva, Melisa Geraldine (TP) | **Argomedo Camacho, Jhosep Jamil** <br> Demostró habilidades de liderazgo al coordinar las tareas del equipo durante el Sprint 2, fomentando una toma de decisiones colectiva para optimizar el flujo de trabajo en las funcionalidades de 'Comunidad'. <br> Participó activamente en la gestión del equipo, asegurando que cada integrante tuviera claridad sobre sus responsabilidades en las historias de usuario asignadas para el segundo sprint. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Desempeñó un rol clave en la definición de prioridades del Sprint 2, guiando al equipo hacia el cumplimiento de los objetivos establecidos para las funcionalidades de 'Home y categorías'. <br> Mantuvo una comunicación constante con los miembros del equipo para alinear los esfuerzos hacia un propósito común, asegurando que las historias de usuario se implementaran correctamente. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Contribuyó al liderazgo del equipo al proponer estrategias para mejorar la eficiencia en el desarrollo de las funcionalidades del Sprint 2, enfocadas en diferentes secciones, priorizando el registro, logueo y configuración de perfil. <br> Asumió responsabilidades adicionales para apoyar a sus compañeros en la implementación de funcionalidades críticas. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Se destacó como líder en la organización de tareas visuales y diseño para el Sprint 2, asegurando que los entregables cumplieran con los estándares de calidad en la interfaz de usuario. E implementando la sección de 'Home'. <br> Facilitó la integración de nuevas ideas en el proyecto mediante una comunicación abierta y efectiva con el equipo, promoviendo un diseño intuitivo y accesible. <br> <br> **Sulca Silva, Melisa Geraldine** <br> <br> Lideró iniciativas para optimizar la experiencia del usuario durante el Sprint 2, promoviendo soluciones innovadoras en el diseño de interfaces para las funcionalidades de notificaciones. <br> Colaboró en la definición de estrategias para mejorar la coordinación y colaboración dentro del equipo, asegurando que las metas del sprint fueran alcanzadas. |
+**Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | - Argomedo Camacho, Jhosep Jamil (TP) <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián (TP) <br> - Castillo Garay, Ainhoa Lucía (TP) <br> - Sulca Silva, Melisa Geraldine (TP) | **Argomedo Camacho, Jhosep Jamil** <br> Fomentó un ambiente inclusivo durante el Sprint 2, promoviendo la participación activa de todos los miembros del equipo en las decisiones del proyecto, especialmente en las funcionalidades de 'Comunidades'. <br> Contribuyó a la planificación de tareas, asegurando que los objetivos fueran alcanzados en cada sprint. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Facilitó la colaboración efectiva al establecer metas claras y distribuir tareas de acuerdo a las fortalezas del equipo durante el Sprint 2, promoviendo el éxito en diferentes funcionalidades. <br> Participó en la creación de un entorno positivo y motivador que impulsó el rendimiento del equipo durante el segundo sprint, asegurando que las secciones principales sean implementadas de manera correcta. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Apoyó a sus compañeros en la planificación y ejecución de tareas del Sprint 2, promoviendo un trabajo colaborativo y eficiente para las funcionalidades principalmente de registro. <br> Contribuyó a la creación de un entorno inclusivo mediante la integración de ideas diversas en el desarrollo del proyecto. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Facilitó la comunicación entre los miembros del equipo, asegurando que todos comprendieran los objetivos del Sprint 2 para las funcionalidades y secciones principales. <br> Ayudó en la organización de tareas y seguimiento de los avances para cumplir con los plazos establecidos durante el segundo sprint. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Promovió un entorno de colaboración inclusiva al integrar nuevas perspectivas en el diseño de soluciones para las funcionalidades del Sprint 2. <br> Colaboró en la planificación de tareas para garantizar que los objetivos del proyecto fueran alcanzados de manera eficiente. |
+
+
 # CAPÍTULO 1: INTRODUCCIÓN
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción del Startup
@@ -2479,25 +2490,388 @@ A continuación, se presenta evidencia visual de la participación de todos los 
 
 **Nota:** Marcelo Binda también ha participado en el desarrollo de la Landing Page, no obstante, por un problema de usuario el repositorio no lo ha considerado en las estadísticas. Pero, se puede ver su aporte en las anteriores evidencias (Historial de commits por miembro).
 
+### 5.2.2. Sprint 2
+#### 5.2.2.1. Sprint Planning
+El Sprint Planning es la reunión que da inicio al sprint y define qué se va a construir y cómo se logrará. En esta reunión el equipo Scrum estableció tareas a cada integrante para desarrollar las siete historias relevantes seleccionadas para la aplicación web.
+
+A continuación se mostrará la tabla del Sprint Planning:
+
+| Sprint # | Sprint 2 |
+|---------|-----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-04-29 |
+| **Hour** | 05:30 PM |
+| **Location** | Virtual |
+| **Prepared By** | Ainhoa Lucía Castillo Garay, Marcelo Alejandro Indo Arbañil |
+| **Attendees (to planning meeting)** | Ainhoa Lucía Castillo Garay / Marcelo Alejandro Indo Arbañil / Gabriel Sebastián Borja Molina / Jhosep Jamil Argomedo Camacho / Melisa Geraldine Solis Suárez |
+| **Sprint n - 2 Review Summary** | Durante el Sprint, se desarrollaron 18 historias de usuario enfocadas en el apartado de Frontend de la aplicación web, lo que nos permitió establecer una visión clara de las funcionalidades clave a desarrollar dentro de nuestra plataforma. El equipo de desarrollo, conformado por Gabriel Borja, destacó que la adecuada distribución de tareas permitió realizar una colaboración exitosa y mantener un ritmo de trabajo estable. La diseñadora UX/UI, Ainhoa Castillo, señaló que la elaboración de un diseño que integra estética y funcionalidad facilitó el proceso de implementación. El product owner, Marcelo Binda, expresó satisfacción general, destacando el moderno e intuitivo diseño de la interfaz, que invita al usuario a explorar el servicio y mejora su experiencia de interacción. |
+| **Sprint n - 2 Retrospective Summary** | Durante el Sprint, el equipo destacó como aciertos la adecuada organización de tareas y la comunicación eficiente entre miembros del equipo de desarrollo. Se lograron avances significativos en el desarrollo de la aplicación web. Se completó el desarrollo de funcionalidades clave, tales como la visualización del catálogo a través de la pantalla principal, la implementación de la interfaz de compra y el sistema de registro e inicio de sesión. Para el siguiente sprint, se debe buscar lograr optimizar los procesos involucrados, realizar correcciones de errores menores e implementar el apartado de backend. |
+| **Sprint Goal & User Stories** | |
+| **Sprint Goal** | Our focus is on developing and implementing the core frontend functionalities of the web application, focusing on user interface design and initial user interaction flows such as catalog visualization, purchase interface, and login/registration screens. We believe it delivers a solid visual and functional foundation for the platform, allowing users to intuitively explore the service while setting the stage for backend integration in upcoming sprints. <br><br> This will be confirmed when users can navigate through the main interface, view the catalog, access the purchase section, and complete registration or login actions using the developed frontend components. |
+| **Sprint Velocity** | 50 |
+| **Sum of Story Points** | 48 |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+Durante el desarrollo del Sprint 2, se han identificado distintos aspectos funcionales relacionados al diseño y construcción de la aplicación web de Livria. Con el objetivo de organizar el trabajo del equipo de manera eficiente, se ha elaborado una matriz de Liderazgo y Colaboración (LACX), donde se asigna a cada integrante el rol de líder (L) en uno de los aspectos clave del desarrollo, y el rol de colaborador (C) en otros aspectos.
+
+Los aspectos definidos para este Sprint son:
+
+1. Home de la aplicación web
+2. Sección de recomendaciones
+3. Secciones de libros
+4. Sección de comunidad
+5. Sección de cuenta de usuario
+6. Sección de carrito
+7. Sección de orden
+8. Sección de suscripción
+9. Sección de notificaciones
+10. Revisión general y mejoras
+
+| Team Member (Last Name, First Name) | GitHub Username | Home Page | Recommendations section | Books section | Community section | User account | Cart section | Order section | Suscription section | Notification section | Review and improvements |
+|-------------------------------------|-----------------|--------------|------------------|------------------|----------------------------|--------------------------------------|------------------|------------------|------------------|------------------|------------------|
+| Castillo Garay, Ainhoa Lucía | noaa01100001 | L | C | C | L | C | C | L | C | C | L |
+| Binda Arbañil, Marcelo Alejandro | MarceloHkd | C | L | L | L | C | C | C | L | C | C |
+| Borja Molina, Gabriel Sebastián | borj410 | C | C | C | C | L | C | C | C | C | C |
+| Argomedo Camacho, Jhosep Jamil | JhosepAC | C | - | - | C | - | - | - | - | C | C |
+| Sulca Silva, Melisa Geraldine | MSS02204 | C | - | - | - | - | - | - | - | L | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+Durante el Sprint 2, nos enfocamos en la implementación de tareas para mejorar la experiencia del usuario en la app web. Además, se busca mejorar la interfaz de usuario, optimizar el proceso de compra de libros, permitir interacciones dentro de comunidades literarias y facilitar el proceso de pago. Las tareas incluyen la creación de interfaces intuitivas, el proceso de compra de un libro, y la implementación de funcionalidades para recomendaciones personalizadas y la valoración de libros. Al finalizar este sprint, se espera tener una plataforma funcional que permita a los usuarios navegar de manera eficiente, realizar compras y participar en comunidades literarias.
+
+|      Sprint #     |  Sprint #2 |                 |                        |                 |                                                           |
+|-------------------|------------|-----------------|------------------------|-----------------|-----------------------------------------------------------|
+|    1     | **Work-Item / Task** |                 |                        |                 |                                                           |
+| **User Story ID** |   **Id**   | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review/Sprint# / Done)** |
+| US17 | 1 | Visualización de la pantalla de las recomendaciones personalizadas. | 3 | Developer Team | Done |
+|      | 2 | Acceso al libro recomendado por la aplicación. | 3 | Developer Team | Done |
+| US27 | 1 | Diseño de la funcionalidad para crear nuevas reseñas y realizar valoraciones. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad para que los usuarios puedan escribir reseñas de cualquier libro en la aplicación. | 2 | Developer Team | Done |
+|      | 3 | Implementar la funcionalidad para que los usuarios puedan realizar valoraciones de cualquier libro. | 2 | Developer Team | To-do |
+| US16 | 1 | Diseño del inicio de sesión y registro de un usuario. | 4 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad del registro de un nuevo usuario. | 3 | Developer Team | Done |
+|      | 3 | Implementar la funcionalidad del inicio de sesión de un usuario registrado. | 3 | Developer Team | Done |
+| US19 | 1 | Implementación de la funcionalidad de cierre de sesión. | 2 | Developer Team | Done |
+| US28 | 1 | Diseño de la pantalla de suscripción al Plan Community. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de cambio de plan (actualización) al Plan Community. | 3 | Developer Team | Done |
+|      | 3 | Diseño de la confirmación del pago del Plan Community. | 1 | Developer Team | Done |
+|      | 4 | Implementar la funcionalidad de reversión al plan gratuito. | 3 | Developer Team | To-do |
+| US30 | 1 | Darle a conocer al usuario que la transacción es segura y privada por medio de la aplicación. | 2 | Developer Team | Done |
+| US14 | 1 | Diseño del apartado de notificaciones. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de confirmación de envío de notificaciones. | 3 | Developer Team | Done |
+| US20 | 1 | Diseño del apartado de publicaciones en comunidades. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de creación de publicaciones. | 4 | Developer Team | Done |
+| US21 | 1 | Diseño del apartado de comunidades. | 4 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de creación de comunidades. | 3 | Developer Team | Done |
+|      | 3 | Implementar la funcionalidad de unirse a una comunidad existente. | 4 | Developer Team | To-do |
+| US22 | 1 | Diseño de comentarios en las publicaciones | 2 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de creación de un nuevo comentario. | 3 | Developer Team | Done |
+|      | 3 | Implementar la funcionalidad de eliminar un comentario existente. | 3 | Developer Team | Done |
+| US23 | 1 | Diseño de carrito de compra. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de carrito de compra. | 4 | Developer Team | Done |
+|      | 3 | Diseño de orden de compra de un libro digital. | 2 | Developer Team | Done |
+|      | 4 | Diseño de orden de compra de un libro físico. | 2 | Developer Team | Done |
+|      | 5 | Diseño del pedido de compra. | 3 | Developer Team | Done |
+|      | 6 | Implementar la funcionalidad del pedido de compra. | 3 | Developer Team | Done |
+| US24 | 1 | Diseño de la pantalla de búsqueda. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de búsqueda de libros específicos y autores. | 4 | Developer Team | Done |
+|      | 3 | Implementar la funcionalidad de búsqueda sin coincidencias exactas. | 2 | Developer Team | Done |
+| US25 | 1 | Diseño de la pantalla de gestión de envío de libros físicos. | 2 | Developer Team | Done |
+|      | 2 | Diseño de la confirmación de entrega del libro en el perfil. | 1 | Developer Team | Done |
+| US26 | 1 | Diseño de la pantalla de pago exitoso. | 2 | Developer Team | Done |
+|      | 2 | Diseño de la pantalla de pago erróneo. | 3 | Developer Team | To-do |
+| US33 | 1 | Diseño de la pantalla de filtrado de libro con respecto al género seleccionado. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad de filtrado de libro con respecto a la género seleccionado. | 4 | Developer Team | Done |
+| US34 | 1 | Implementar la funcionalidad para filtrar libros según los criterios del usuario. | 3 | Developer Team | Done |
+|      | 2 | Implementar la funcionalidad para filtrar libros con respecto al idioma seleccionado. | 2 | Developer Team | Done |
+|      | 3 | Implementar la funcionalidad de borrado de filtros aplicados. | 2 | Developer Team | Done |
+| US29 | 1 | Acceso sin interrupciones a la aplicación. | 1 | Developer Team | Done |
+| US31 | 1 | Diseño general de la aplicación. | 3 | Developer Team | Done |
+|      | 2 | Navegación clara y sencilla. | 3 | Developer Team | Done |
+
+
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+En este capítulo se presenta el progreso alcanzado durante el Sprint 2 en el desarrollo de la aplicación web. A través de la colaboración del equipo y el enfoque ágil, hemos avanzado en la implementación de funcionalidades clave y mejoras de la interfaz de usuario. Este sprint ha permitido consolidar una base sólida para el desarrollo posterior y asegurar que se cumplen los objetivos establecidos.
+
+|   Repository  |   Branch  |   Commit Id  |   Commit Message  |   Commit Message Body  |   Commited on (Date)  |
+|---------------|-----------|--------------|-------------------|------------------------|-----------------------|
+|   JhosepAC/Bookify-Livria  |   feature/home-page  |   1c1c4d2  |   feat: implement initial Home section layout  |   ---  |   20/04/2025  |
+|   MarceloHkd/Bookify-Livria  |   feature/home-page  |   4a23b17  |   feat: add services section to the home page  |   ---  |   22/04/2025  |
+|   borj410/Bookify-Livria  |   feature/home-page  |   2c63a2c  |   feat: add about us section with content and layout  |   ---  |   22/04/2025  |
+|   MSS02204/Bookify-Livria  |   feature/home-page  |   03a59a8  |   feat: add contact section and footer to the home page  |   ---  |   23/04/2025  |
+|   noaa01100001/Bookify-Livria  |   feature/home-page  |   092342b  |   feat: fix bugs and update elements  |   - Fixed taskbar positioning - Updated the header font and letter spacing - Updated title and content of the third service card - Added images in the services section - Improved responsive design in "About Us" and "Hero" section - Designed custom scrollbar style - Modified card design for services section  |   25/04/2025  |
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+Durante el Sprint 2, se desarrollaron 17 historias de usuario centradas en la implementación de la aplicación web de Livria. Este sprint se enfocó en crear funcionalidades clave como la navegación entre libros, la integración de comunidades literarias, el proceso de compra y la personalización de recomendaciones de libros. Las historias incluyen tanto el diseño de interfaces de usuario como la implementación de funciones como la compra de libros, la creación de comunidades y la interacción con la sección de comentarios.
+
+El equipo completó con éxito todas las tareas planificadas, excepto las valoraciones de libros y las recomendaciones personalizadas, que aún están pendientes. Además, se logró un diseño responsive para todas las secciones clave de la aplicación, con una experiencia de usuario fluida, funcional y alineada con los objetivos estratégicos de la plataforma.
+
+**Evidencia visual:**
+
+A continuación, se presentan capturas de pantalla de las vistas implementadas en este Sprint: 
+
+*Interfaz de iniciar sesión*
+
+<p align="center">
+  <img src="https://imgur.com/0g176aR.png" alt="EE21" width="500">
+</p>
+
+*Interfaz de registro:*
+
+<p align="center">
+  <img src="https://imgur.com/xXrHzE8.png" alt="EE22" width="500">
+</p>
+
+*Interfaz principal (Home):*
+
+<p align="center">
+  <img src="https://imgur.com/24U8gSl.png" alt="EE23" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/H0pajZ8.png" alt="EE24" width="500">
+</p>
+
+*Sección de recomendaciones personalizadas:*
+
+<p align="center">
+  <img src="https://imgur.com/IxbPhvf.png" alt="EE25" width="500">
+</p>
+
+*Sección de categoría “literatura”:*
+
+<p align="center">
+  <img src="https://imgur.com/EUcx8TS.png" alt="EE26" width="500">
+</p>
+
+*Sección de categoría “no ficción”*
+
+<p align="center">
+  <img src="https://imgur.com/trTUaDd.png" alt="EE27" width="500">
+</p>
+
+*Sección de categoría “ficción”*
+
+<p align="center">
+  <img src="https://imgur.com/U9nlDPQ.png" alt="EE28" width="500">
+</p>
+
+*Sección de categoría “mangas y comics”*
+
+<p align="center">
+  <img src="https://imgur.com/xC0Oo1Q.png" alt="EE29" width="500">
+</p>
+
+*Sección de categoría “juvenil”*
+
+<p align="center">
+  <img src="https://imgur.com/jv3JN5e.png" alt="EE210" width="500">
+</p>
+
+*Sección de categoría “infantil”*
+
+<p align="center">
+  <img src="https://imgur.com/MtDtnLg.png" alt="EE211" width="500">
+</p>
+
+*Sección de categoría “ebooks y audiolibros”*
+
+<p align="center">
+  <img src="https://imgur.com/KJ5hdQH.png" alt="EE212" width="500">
+</p>
+
+*Interfaz de detalles de libros:*
+
+<p align="center">
+  <img src="https://imgur.com/mwQ7kLb.png" alt="EE213" width="500">
+</p>
+
+*Interfaz de tienda física:*
+
+<p align="center">
+  <img src="https://imgur.com/BIinlh9.png" alt="EE214" width="500">
+</p>
+
+*Interfaz de notificaciones:*
+
+<p align="center">
+  <img src="https://imgur.com/KiFPCTB.png" alt="EE215" width="500">
+</p>
+
+*Interfaz de cuenta:*
+
+<p align="center">
+  <img src="https://imgur.com/cfFHARq.png" alt="EE216" width="500">
+</p>
+
+*Interfaz de carro de compras:*
+
+<p align="center">
+  <img src="https://imgur.com/xfW0Qrw.png" alt="EE217" width="500">
+</p>
+
+*Interfaz de iniciar compras:*
+
+<p align="center">
+  <img src="https://imgur.com/zOIQTNE.png" alt="EE218" width="500">
+</p>
+
+*Interfaz de comunidades:*
+
+<p align="center">
+  <img src="https://imgur.com/XMmPE4v.png" alt="EE219" width="500">
+</p>
+
+*Interfaz de detalle comunidades:*
+
+<p align="center">
+  <img src="https://imgur.com/xvZst7H.png" alt="EE220" width="500">
+</p>
+
+
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+Durante el Sprint 2, el desarrollo del frontend de Livria para las funcionalidades del catálogo de libros, carrito de compra, orden de compra, comunidades, notificaciones y suscripciones se implementó con la API fake. La API está localizada en la carpeta server y dentro se encuentra el archivo db.json, en el cual contiene toda la información de los datos utilizados. Además, estas fakes API logran simular una base de datos sin tenerla de verdad. 
+
+|  Endpoint Simulado (Fake API)  |  Entidad Principal Gestionada  |  Operaciones CRUD Soportadas (Simuladas) vía JSON Server  |  Futuro Alcance con OpenAPI  |
+|---------------|-----------|--------------|-------------------|
+|  http://localhost:3000/books   |  Libros(Books)  |  GET, PUT (para reviews)  |   Documentación para obtener información de los libros, de los reviews, poder realizar una búsqueda de libros y poder recomendar libros personalizados.   |
+|  http://localhost:3000/communities    |  Comunidades (Communities)  |  GET, PUT (para posts)  |  Documentación para obtener información de las comunidades, los posts y para la creación de las comunidades.    |
+|  http://localhost:3000/notificaciones    |  Notificaciones (Notifications)  |  GET, POST, DELETE (por ID)  |   Documentación para gestionar las notificaciones cuando se inicia sesión, al momento de crear una orden, activar un plan de suscripción y recibir likes en tus respectivos posts.    |
+|  http://localhost:3000/cart    |  Carrito de Compra (cart)  |  GET, POST, DELETE (por ID)  |   Documentación para gestionar los libros seleccionados para posible elección de compra.   |
+|  http://localhost:3000/order   |  Orden de Compra (Order)  |  GET, POST(por ID)  |   Documentación para gestionar el proceso de compra como la confirmación de orden y la finalización de compra.   |
+|  http://localhost:3000/users   |  Usuarios (Users)  |  GET, POST, PUT, DELETE (para Login, order)  |   Documentación para la información detallada de cada persona registrada en la aplicación web.   |
+|  http://localhost:3000/userlogin   |  Inicio de sesión (Login)  |  GET, POST(por ID)  |   Documentación para obtener los datos de acceso del usuario.   |
+
+
+URL de la API Simulada (Local): http://localhost:3000/
+
+El uso de Axios y JSON Server logró gestionar las solicitudes HTTP hacia la fake API desde el código de frontend a través de la estructura de db.json y los endpoints simulados.
+
+A continuación,  se mostrará el proceso de interacción del frontend de Livria con el endpoint simulado /books para obtener datos de los posts que realizan los usuarios en un determinado libro utilizando.
+
+En las siguientes imágenes representa el resultado de acceder al endpoint http://localhost:3000/books en la página web con el json-server usando el db.json. Se visualiza la estructura JSON de “books”, en la que se incluye los “reviews”.
+
+<p align="center">
+  <img src="https://imgur.com/l8AnRDN.png" alt="SDE21" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/X2XuIa7.png" alt="SDE22" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/NzmCvXO.png" alt="SDE23" width="500">
+</p>
+
+* Acción: Obtener los datos de los libros, dentro se encuentra el detalle de los reviews
+* Servicio Frontend Involucrado: BooksApiService
+* Método del Servicio: getBooks(), updateBook(book)
+* Verbo HTTP: GET, PUT
+* Sintaxis de Llamada (URL usado por axios): http://localhost:3000/books 
+
+**BookApiService realiza una solicitud GET y PUT**
+
+<p align="center">
+  <img src="https://imgur.com/jptiEzU.png" alt="SDE24" width="500">
+</p>
+
+La documentación de los servicios implementados en la aplicación web Livria, durante el sprint 2, se enfocó principalmente en la API simulada utilizando el json-server y el archivo db.json. Esto representa una base inicial para, posteriormente, integrar servicios RESTful reales conectados a una base de datos en el siguiente sprint #3.  
+
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+Durante este Sprint, el equipo se centró en la implementación de las funcionalidades clave del frontend para la aplicación web de Livria, utilizando Vue.js como el marco principal de desarrollo. Se trabajó en la creación de interfaces de usuario intuitivas y en la integración de diversas funcionalidades, como la visualización del catálogo de libros, el proceso de compra y la interacción con comunidades literarias. Además, se desarrollaron pantallas esenciales para la experiencia de usuario, tales como la sección de recomendaciones personalizadas, el inicio de sesión y las notificaciones.
+
+**Actividades de implementación:**
+
+* El diseño de la interfaz de usuario fue realizado en Figma, lo que permitió una visión clara y precisa de los flujos de usuario.
+* Utilizando Vue.js, se desarrollaron las estructuras dinámicas de la aplicación, con componentes reutilizables que gestionan el estado de la UI de manera eficiente.
+* Se aplicaron Vue Router para la navegación entre las diferentes secciones de la plataforma y Vuex para la gestión del estado global de la aplicación, facilitando la integración de la interfaz con las funcionalidades backend.
+* JavaScript fue utilizado para implementar interacciones y funcionalidades específicas como el registro de usuario, la compra de libros, la interacción con las comunidades literarias y las recomendaciones personalizadas.
+
+
+
 # CONCLUSIONES Y RECOMENDACIONES
+
+*TB1*
+
 **Conclusiones**
+
 1.	Problem Statements y Validación
+
 El problema central identificado–la baja tasa de lectura y comprensión lectora en adolescentes y jóvenes– fue validado mediante entrevistas y estudios citados (como la Encuesta Nacional de Lectura 2022). Los usuarios confirmaron barreras como falta de acceso a libros atractivos, dificultades en la búsqueda de material y la competencia con redes sociales. 
 Nuestra solución propuesta (Livria) aborda estas barreras al integrar un catálogo diversos, recomendaciones personalizadas, y especialmente, una comunidad lectora. 
+
 2.	Assumptions vs. Realidad
+
 Features asumidos:
 Las recomendaciones personalizadas y la sección de comunidad fueron validadas como prioritarias por los usuarios, especialmente por estudiantes y lectores casuales. 
 La preferencia por múltiples formatos (físico, digital, audiolibros) se confirmó, destacando la necesidad de accesibilidad inmediata.
+
 3.	Diseño centrado en el usuario
+
 A través del enfoque de Lean UX, Livria prioriza en todo momento la experiencia y necesidades del usuario final. Desde la investigación inicial, que incluyó entrevistas y análisis de necesidades, hasta el diseño de la interfaz, se garantizaron soluciones que respondieron de manera precisa a las expectativas de los lectores.
 
 **Recomendaciones:**
+
 1.	Integración de métricas de seguimiento
+
 Durante las fases iniciales de lanzamiento, se debe integrar un sistema de medición de métricas de uso que permita validar continuamente los indicadores de éxito planteados (lectura de un libro por mes, interacción en comunidad, diversificación de accesos multiplataforma). 
+
 2.	Consolidación de Roadmap de Producto
+
 En el Roadmap de Livria, se deben definir los siguientes hitos inmediatos:
+
 1.	Fase 2: Desarrollo Backend y documentación de API RESTful con OpenAPI (Swagger).
 2.	Fase 3: Integración de algoritmos de recomendación y motor de comunidad.
+
+*TP*
+
+1. Avance integral en el Frontend en la experiencia de usuario.
+
+En este avance, el equipo logró desarrollar con éxito las funcionalidades claves del frontend, incluyendo la visualización del catálogo de libros, la gestión del carrito de compra, las órdenes de compra, comunidades literarias, notificaciones y sistemas de suscripción. La integración de Vite+Vue permitió crear una interfaz intuitiva y fluida, lo que ayuda a alinear con los objetivos estratégicos y centrarse en mejorar la interacción del usuario con la plataforma.
+
+2. Uso efectivo de herramientas y APIs Simuladas(fake API) para asegurar la calidad del desarrollo
+
+Se utilizó una fake API basada en json-server y el archivo db.json para simular operaciones CRUD en distintas entidades creadas, durante el desarrollo del código, lo que permitió un desarrollo ágil y controlado del frontend sin tener que depender de un backend (base de datos) real. Los servicios implementados, como por ejemplo, BookApiService, facilitaron la gestión de datos y la integración con la interfaz de usuario (UI), lo que forma las bases para una transición fluida a servicios RESTful reales en los próximos sprints.
+
+3. Planificación y Retos para futuros avances
+
+Se realizó una planificación efectiva y una ejecución colaborativa del equipo, con la distribución de tareas claras entre los integrantes del equipo para cubrir los aspectos funcionales de la aplicación web Livria. Sin embargo, algunas funcionalidades, como la de inventario por parte de un usuario administrativo quedaron pendientes, lo que quiere decir que debemos priorizar este punto para el próximo sprint y mejorar la interfaz del usuario asegurando que todas las secciones sean responsive. 
+
+4. Despliegue en Firebase hosting: 
+
+El proyecto fue desplegado correctamente en Firebase Hosting, lo que hizo que el entorno de producción estuviera disponible para pruebas de usuarios reales. La implementación inicial utilizando Firebase como hosting ofrece una infraestructura confiable para el manejo de la aplicación web en producción.
+
+5. Enfoque en la calidad  y mejora continua
+
+El equipo mostró compromiso al asegurarse de lograr la calidad del producto al momento de implementar pruebas y revisiones constantemente durante el desarrollo del sprint 2. La utilización de metodologías ágiles facilitó la rápida identificación y corrección de errores, así como el envío de feedback interno entre los integrantes del equipo. Este enfoque asegura que la aplicación web Livria cumpla los requisitos funcionales y ofrezca una experiencia de usuario buena y confiable, lo que permite prepararnos para futuras interacciones con funcionalidades más complejas y con un backend ya integrado a la aplicación. 
+
+**Recomendaciones:**
+
+1. Optimización del Backend y Transición a API RESTful Real:
+
+Aunque se ha utilizado una API simulada con JSON Server para pruebas iniciales, se recomienda migrar a una API RESTful real que se conecte a una base de datos real. Esto proporcionará un entorno más robusto y escalable, permitiendo el manejo de datos de manera más eficiente. La documentación de la API con OpenAPI (Swagger) debe ser priorizada en el siguiente sprint para garantizar que las integraciones futuras sean fluidas.
+
+2. Escalabilidad del Catálogo de Libros:
+
+Dado que el catálogo de libros es uno de los pilares de Livria, debemos asegurarnos de que el sistema sea capaz de escalar a medida que aumenten el número de libros, usuarios y recomendaciones. En futuras fases, se implementarán características como la carga dinámica de contenido (lazy loading) para mantener la velocidad de carga de la página en niveles óptimos, incluso a medida que el catálogo crezca.
+
+3. Integración de la Funcionalidad de Búsqueda Avanzada:
+
+Sabemos que el motor de búsqueda es fundamental en una plataforma con un catálogo extenso de libros. Por lo tanto, nos debemos asegurar de que la búsqueda permita a los usuarios encontrar libros no solo por nombre o autor, sino también por criterios más específicos como género, idioma y rango de precio. También debemos garantizar que la búsqueda sin coincidencias exactas sea robusta y brinde alternativas relevantes, lo cual es esencial para mejorar la experiencia del usuario y asegurar que encuentren lo que buscan.
+
+4. Accesibilidad y Multiplataforma
+
+Es fundamental que Livria sea accesible en una amplia variedad de dispositivos, como smartphones, tablets y desktops. Iremos mejorando la optimización para diferentes tamaños de pantalla. La accesibilidad debe ser una prioridad, por lo que deberíamos incluir funciones como la compatibilidad con lectores de pantalla y opciones de personalización del contraste y tamaño de texto. Esto garantizará una experiencia inclusiva para todos los usuarios, sin importar sus necesidades.
+
+5. Nueva Interfaz para el Usuario Administrador
+
+Para el siguiente entregable, desarrollaremos una interfaz de administración más intuitiva y eficiente. Esta nueva interfaz debe permitir una gestión centralizada del catálogo de libros, usuarios y transacciones. Además, será completamente responsiva y ofreceremos una experiencia de usuario fluida tanto en dispositivos móviles como de escritorio. Esto permitirá a los administradores gestionar la plataforma de forma más ágil y optimizada.
+
 
 # BIBLIOGRAFÍA 
 Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
