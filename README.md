@@ -21,7 +21,8 @@
 | **Versión**  | **Fecha**   | **Autor/es**                                                                                           | **Descripción**                                                                                                                |
 |--------------|-------------|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 1.0 (TB1)    | 25/04/25    | - Argomedo Camacho, Jhosep Jamil <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián <br> - Castillo Garay, Ainhoa Lucía <br> - Sulca Silva, Melisa Geraldine <br> | Capítulo I: Introducción <br> Capítulo II: Requirements Elicitation & Analysis <br> Capítulo III: Requirements Specification <br> Capítulo IV: Product Design <br> Capítulo V: Product Implementation, Validation & Deployment |
-| 1.0 (TP)    | 15/05/25    | - Argomedo Camacho, Jhosep Jamil <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián <br> - Castillo Garay, Ainhoa Lucía <br> - Sulca Silva, Melisa Geraldine <br> | Correciones de la TB1 <br> Capítulo V: Product Implementation, Validation & Deployment <br> Frontend de Livria |
+| 2.0 (TP)    | 15/05/25    | - Argomedo Camacho, Jhosep Jamil <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián <br> - Castillo Garay, Ainhoa Lucía <br> - Sulca Silva, Melisa Geraldine <br> | Correciones de la TB1 <br> Capítulo V: Product Implementation, Validation & Deployment <br> Frontend de Livria |
+| 3.0 (TP)    | 21/05/25    | - Argomedo Camacho, Jhosep Jamil <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián <br> - Castillo Garay, Ainhoa Lucía <br> - Sulca Silva, Melisa Geraldine <br> | Correciones del TP <br> Capítulo V: Product Implementation, Validation & Deployment <br> Backend de Livria |
 
 # Project Report Collaboration Insights
 
@@ -125,6 +126,20 @@
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    + [5.2.3. Sprint 3](#522-sprint-2)
+      - [5.2.3.1. Sprint Planning](#5221-sprint-planning)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 2](#5223-sprint-backlog-2)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+  * [5.3. Validation Interviews](#53-validation-interviews)
+    + [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+    + [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+    + [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    + [5.3.4. Video About-the-Product](#534-video-about--the--product)
 
 - [Conclusiones](#conclusiones)
   
@@ -153,6 +168,12 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 | **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | - Argomedo Camacho, Jhosep Jamil (TP) <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián (TP) <br> - Castillo Garay, Ainhoa Lucía (TP) <br> - Sulca Silva, Melisa Geraldine (TP) | **Argomedo Camacho, Jhosep Jamil** <br> Demostró habilidades de liderazgo al coordinar las tareas del equipo durante el Sprint 2, fomentando una toma de decisiones colectiva para optimizar el flujo de trabajo en las funcionalidades de 'Comunidad'. <br> Participó activamente en la gestión del equipo, asegurando que cada integrante tuviera claridad sobre sus responsabilidades en las historias de usuario asignadas para el segundo sprint. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Desempeñó un rol clave en la definición de prioridades del Sprint 2, guiando al equipo hacia el cumplimiento de los objetivos establecidos para las funcionalidades de 'Home y categorías'. <br> Mantuvo una comunicación constante con los miembros del equipo para alinear los esfuerzos hacia un propósito común, asegurando que las historias de usuario se implementaran correctamente. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Contribuyó al liderazgo del equipo al proponer estrategias para mejorar la eficiencia en el desarrollo de las funcionalidades del Sprint 2, enfocadas en diferentes secciones, priorizando el registro, logueo y configuración de perfil. <br> Asumió responsabilidades adicionales para apoyar a sus compañeros en la implementación de funcionalidades críticas. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Se destacó como líder en la organización de tareas visuales y diseño para el Sprint 2, asegurando que los entregables cumplieran con los estándares de calidad en la interfaz de usuario. E implementando la sección de 'Home'. <br> Facilitó la integración de nuevas ideas en el proyecto mediante una comunicación abierta y efectiva con el equipo, promoviendo un diseño intuitivo y accesible. <br> <br> **Sulca Silva, Melisa Geraldine** <br> <br> Lideró iniciativas para optimizar la experiencia del usuario durante el Sprint 2, promoviendo soluciones innovadoras en el diseño de interfaces para las funcionalidades de notificaciones. <br> Colaboró en la definición de estrategias para mejorar la coordinación y colaboración dentro del equipo, asegurando que las metas del sprint fueran alcanzadas. |
 **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | - Argomedo Camacho, Jhosep Jamil (TP) <br> - Binda Arbañil, Marcelo Alejandro <br> - Borja Molina, Gabriel Sebastián (TP) <br> - Castillo Garay, Ainhoa Lucía (TP) <br> - Sulca Silva, Melisa Geraldine (TP) | **Argomedo Camacho, Jhosep Jamil** <br> Fomentó un ambiente inclusivo durante el Sprint 2, promoviendo la participación activa de todos los miembros del equipo en las decisiones del proyecto, especialmente en las funcionalidades de 'Comunidades'. <br> Contribuyó a la planificación de tareas, asegurando que los objetivos fueran alcanzados en cada sprint. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Facilitó la colaboración efectiva al establecer metas claras y distribuir tareas de acuerdo a las fortalezas del equipo durante el Sprint 2, promoviendo el éxito en diferentes funcionalidades. <br> Participó en la creación de un entorno positivo y motivador que impulsó el rendimiento del equipo durante el segundo sprint, asegurando que las secciones principales sean implementadas de manera correcta. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Apoyó a sus compañeros en la planificación y ejecución de tareas del Sprint 2, promoviendo un trabajo colaborativo y eficiente para las funcionalidades principalmente de registro. <br> Contribuyó a la creación de un entorno inclusivo mediante la integración de ideas diversas en el desarrollo del proyecto. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Facilitó la comunicación entre los miembros del equipo, asegurando que todos comprendieran los objetivos del Sprint 2 para las funcionalidades y secciones principales. <br> Ayudó en la organización de tareas y seguimiento de los avances para cumplir con los plazos establecidos durante el segundo sprint. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Promovió un entorno de colaboración inclusiva al integrar nuevas perspectivas en el diseño de soluciones para las funcionalidades del Sprint 2. <br> Colaboró en la planificación de tareas para garantizar que los objetivos del proyecto fueran alcanzados de manera eficiente. |
 
+**TB2**
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|:------------------------|:-------------------------|:-----------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | - Argomedo Camacho, Jhosep Jamil (TB2): <br>   - Desarrollo e implementación de la base de datos <br>   - Interfaz de administrador (Dashboard) <br>   - Creación y gestión de servidor de base de datos (Azure) <br>   - Mejoramiento de la landing page <br> - Binda Arbañil, Marcelo Alejandro (TB2): <br>   - Desarrollo e implementación de los bounded Context <br> - Borja Molina, Gabriel Sebastián (TB2): <br>   - Desarrollo e implementación de los Bounded Context <br> - Castillo Garay, Ainhoa Lucía (TB2): <br>   - Corrección del frontend <br>   - Desarrollo de nuevas funcionalidades <br> - Sulca Silva, Melisa Geraldine (TB2): <br>   - Internalización de la interfaz de administrador (Dashboard) <br>   - Redacción del sprint 3 (informe) | **Argomedo Camacho, Jhosep Jamil** <br> Jhosep coordinó eficazmente las tareas técnicas, gestionando la base de datos y el dashboard. Su liderazgo fue clave para asegurar una integración exitosa entre las distintas partes del proyecto. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Marcelo lideró la implementación de los bounded contexts, optimizando la estructura del proyecto y promoviendo un enfoque claro y organizado dentro del equipo. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Gabriel desempeñó un papel clave en la implementación de bounded contexts, garantizando una distribución lógica de las tareas y una colaboración fluida entre los miembros del equipo. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Ainhoa lideró las mejoras del frontend, asegurando que las nuevas funcionalidades se integraran de forma coherente, y promovió la colaboración en las decisiones de diseño. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Melisa destacó en la planificación y documentación del proyecto, asegurando que el equipo mantuviera una visión clara y coherente, mientras promovía un entorno inclusivo. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | - Argomedo Camacho, Jhosep Jamil (TB2) <br> - Binda Arbañil, Marcelo Alejandro (TB2) <br> - Borja Molina, Gabriel Sebastián (TB2) <br> - Castillo Garay, Ainhoa Lucía (TB2) <br> - Sulca Silva, Melisa Geraldine (TB2) | **Argomedo Camacho, Jhosep Jamil** <br> Jhosep facilitó un entorno inclusivo, distribuyendo tareas de manera equitativa y asegurando que todos comprendieran los objetivos del proyecto, lo que permitió un desarrollo fluido. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Marcelo estableció metas claras y distribuyó tareas según las fortalezas del equipo, lo que permitió avanzar eficazmente en el desarrollo del proyecto y alcanzar los objetivos establecidos. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Gabriel apoyó en la planificación de tareas y promovió un entorno colaborativo, asegurando que los objetivos del proyecto se alcanzaran sin dificultades, con un enfoque inclusivo. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Ainhoa contribuyó a la organización del trabajo, manteniendo una comunicación constante dentro del equipo y asegurando que todos los objetivos del proyecto fueran cumplidos eficientemente. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Melisa promovió un entorno inclusivo, integrando perspectivas diversas y manteniendo una planificación clara, lo que permitió que el equipo avanzara hacia los objetivos de manera coordinada. |
 
 # CAPÍTULO 1: INTRODUCCIÓN
 ## 1.1. Startup Profile
@@ -1067,6 +1088,333 @@ Para mejor visualización de los to-Be Scenarios de Livria, acceder al siguiente
 | **Acceptance Criteria #4** | Dado que el usuario tiene una preferencia por el idioma<br>Cuando selecciona el idioma de su preferencia<br>Entonces se muestran los libros que coincidan con el idioma elegido. |
 | **Acceptance Criteria #5** | Dado que el usuario ha aplicado filtros<br>Cuando presiona el botón “Borrar selección”<br>Entonces se eliminan todos los filtros activos<br>Y la lista vuelve a su estado inicial. |
 
+---
+### User Story: US35
+
+| **User Story ID** | US35 |
+|-------------------|------|
+| **Epic ID** | EP09 |
+| **Title** | Obtener todos los libros |
+| **Description** | Como administrador, quiero obtener todos los libros disponibles en la base de datos para realizar un seguimiento de los productos y gestionarlos eficientemente. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver todos los libros**<br>Dado que el administrador accede a la base de datos,<br>Cuando consulta los libros,<br>Entonces se muestra la lista completa de libros disponibles en la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Filtro de libros por categoría**<br>Dado que hay muchos libros,<br>Y el administrador quiere filtrar los libros,<br>Cuando el administrador consulta con un filtro específico (categoría, autor o disponibilidad),<br>Entonces el sistema recupera y muestra solo los libros que coinciden con el filtro seleccionado. |
+
+---
+### User Story: US36
+
+| **User Story ID** | US36 |
+|-------------------|------|
+| **Epic ID** | EP09 |
+| **Title** | Obtener detalles de un libro |
+| **Description** | Como administrador, quiero ver los detalles completos de un libro en la base de datos para poder gestionarlo adecuadamente. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver detalles del libro**<br>Dado que el administrador consulta un libro específico,<br>Cuando lo selecciona,<br>Entonces se muestra toda la información relacionada con ese libro en la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Ver disponibilidad**<br>Dado que el administrador ve los detalles,<br>Cuando consulta la sección de disponibilidad,<br>Entonces se muestra el estado actual del libro. |
+
+---
+### User Story: US37
+
+| **User Story ID** | US37 |
+|-------------------|------|
+| **Epic ID** | EP09 |
+| **Title** | Crear una reseña de un libro |
+| **Description** | Como administrador, quiero gestionar las reseñas que los usuarios crean para los libros, permitiendo que se guarden en la base de datos. |
+| **Acceptance Criteria #1** | **Escenario 1: Crear una nueva reseña**<br>Dado que el administrador ha recibido una reseña de un usuario,<br>Cuando el sistema guarda la reseña en la base de datos automáticamente,<br>Entonces la reseña se asocia al libro correspondiente en la base de datos y es visible para los usuarios. |
+| **Acceptance Criteria #2** | **Escenario 2: Validación automática de reseña**<br>Dado que el administrador supervisa las reseñas que se ingresan al sistema,<br>Cuando el sistema detecta que una reseña no cumple con los requisitos de formato o contenido,<br>Entonces el sistema notifica al administrador sobre el error para que el contenido no válido no sea publicado. |
+
+---
+### User Story: US38
+
+| **User Story ID** | US38 |
+|-------------------|------|
+| **Epic ID** | EP09 |
+| **Title** | Obtener todas las reseñas de un libro |
+| **Description** | Como administrador, quiero acceder a todas las reseñas de un libro para gestionarlas desde el backend. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver todas las reseñas**<br>Dado que el administrador consulta las reseñas de un libro,<br>Cuando las consulta,<br>Entonces se muestran todas las reseñas almacenadas en la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Ordenar reseñas por fecha**<br>Dado que el administrador consulta las reseñas,<br>Cuando las ordena por fecha,<br>Entonces las reseñas se organizan de la más reciente a la más antigua. |
+
+---
+### User Story: US39
+
+| **User Story ID** | US39 |
+|-------------------|------|
+| **Epic ID** | EP09 |
+| **Title** | Agregar un libro al carrito |
+| **Description** | Como administrador, quiero gestionar la adición de libros al carrito de compra para realizar un seguimiento del proceso de compra. |
+| **Acceptance Criteria #1** | **Escenario 1: Agregar libro al carrito**<br>Dado que el usuario agrega un libro,<br>Cuando se realiza la acción,<br>Entonces el libro se almacena en el carrito del usuario en la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Confirmar adición al carrito**<br>Dado que el libro se ha agregado,<br>Cuando el usuario consulta su carrito,<br>Entonces el libro aparece correctamente con su cantidad y precio. |
+
+---
+### User Story: US40
+
+| **User Story ID** | US40 |
+|-------------------|------|
+| **Epic ID** | EP09 |
+| **Title** | Gestión de un pedido |
+| **Description** | Como administrador, quiero gestionar la creación de pedidos para que los usuarios puedan finalizar sus compras. |
+| **Acceptance Criteria #1** | **Escenario 1: Crear un pedido**<br>Dado que un usuario ha agregado productos al carrito,<br>Cuando finaliza la compra,<br>Entonces se genera un pedido y se almacena en la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Ver confirmación de pedido**<br>Dado que el pedido ha sido realizado,<br>Cuando se guarda,<br>Entonces el sistema muestra un mensaje de éxito y asigna un código de pedido único. |
+
+---
+### User Story: US41
+
+| **User Story ID** | US41 |
+|-------------------|------|
+| **Epic ID** | EP09 |
+| **Title** | Ver detalles de un pedido |
+| **Description** | Como administrador, quiero poder ver los detalles de un pedido para gestionar el envío y los pagos. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver resumen del pedido**<br>Dado que el administrador consulta un pedido,<br>Cuando lo selecciona,<br>Entonces se muestran los detalles del pedido, como los libros comprados y el estado. |
+| **Acceptance Criteria #2** | **Escenario 2: Ver estado de la entrega**<br>Dado que el administrador consulta un pedido,<br>Cuando observa su estado,<br>Entonces se muestra el estado actual del envío (en proceso, enviado, entregado). |
+
+---
+### User Story: US42
+
+| **User Story ID** | US42 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Obtener todas las comunidades |
+| **Description** | Como administrador, quiero acceder a la lista completa de comunidades para tener un control centralizado de las comunidades de la plataforma. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver todas las comunidades**<br>Dado que el administrador consulta las comunidades,<br>Cuando accede a ellas,<br>Entonces se muestra una lista completa de las comunidades en la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Buscar comunidad específica**<br>Dado que el administrador desea encontrar una comunidad,<br>Cuando realiza la búsqueda,<br>Entonces se muestran los resultados correspondientes. |
+
+---
+### User Story: US43
+
+| **User Story ID** | US43 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Gestión de creación de una comunidad |
+| **Description** | Como administrador, quiero gestionar la creación automática de comunidades por parte de los usuarios y almacenarlas correctamente en la base de datos. |
+| **Acceptance Criteria #1** | **Escenario 1: Registrar comunidad creada por el usuario**<br>Dado que un usuario ha creado una comunidad,<br>Cuando el usuario envía la información de la comunidad creada,<br>Entonces el sistema valida los datos y almacena esta información automáticamente en la base de datos, asignando un ID único a la comunidad. |
+| **Acceptance Criteria #2** | **Escenario 2: Confirmación automática de creación de comunidad**<br>Dado que el sistema ha registrado correctamente una nueva comunidad creada por un usuario,<br>Cuando la comunidad es registrada en la base de datos,<br>Entonces el sistema genera una confirmación automática que es enviada al usuario que creó la comunidad. |
+
+---
+### User Story: US44
+
+| **User Story ID** | US44 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Publicación en una comunidad |
+| **Description** | Como administrador, quiero gestionar las publicaciones dentro de las comunidades para asegurarnos de que sean válidas y se guarden en la base de datos. |
+| **Acceptance Criteria #1** | **Escenario 1: Crear publicación en comunidad**<br>Dado que un usuario ha creado una publicación dentro de una comunidad,<br>Cuando el sistema guarda la publicación en la base de datos,<br>Entonces la publicación se asocia correctamente a la comunidad y es visible para los miembros. |
+| **Acceptance Criteria #2** | **Escenario 2: Verificación de contenido de publicación**<br>Dado que el sistema recibe una publicación de un usuario,<br>Cuando la publicación se envía al backend para ser procesada,<br>Entonces el administrador verifica que la publicación cumpla con las reglas y que no haya contenido vacío no permitido; si lo hay, se elimina la publicación después de unos minutos. |
+
+---
+### User Story: US45
+
+| **User Story ID** | US45 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Obtener todos los usuarios |
+| **Description** | Como administrador, quiero poder consultar todos los usuarios registrados para gestionar su acceso y actividad. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver lista de usuarios (clientes)**<br>Dado que el administrador accede a la lista de usuarios de tipo cliente,<br>Cuando consulta los datos,<br>Entonces se muestra la lista completa de usuarios. |
+| **Acceptance Criteria #2** | **Escenario 2: Búsqueda de usuario (cliente)**<br>Dado que el administrador quiere buscar un usuario específico,<br>Cuando ingresa el nombre,<br>Entonces se muestran los resultados correspondientes. |
+
+---
+### User Story: US46
+
+| **User Story ID** | US46 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Gestión de creación de un nuevo usuario |
+| **Description** | Como administrador, quiero gestionar la creación de nuevos usuarios para que puedan acceder y participar en la plataforma. |
+| **Acceptance Criteria #1** | **Escenario 1: Creación automática de un nuevo usuario**<br>Dado que un usuario se ha registrado a través del formulario de registro,<br>Cuando el usuario envía sus datos correctamente,<br>Entonces el sistema automáticamente registra al nuevo usuario en la base de datos y le asigna un ID único. |
+| **Acceptance Criteria #2** | **Escenario 2: Validación automática de datos**<br>Dado que el usuario ha enviado un formulario con datos incompletos o inválidos,<br>Cuando el sistema detecta que faltan campos obligatorios o los datos no son válidos,<br>Entonces el sistema bloquea la creación del usuario, muestra un mensaje de error e indica los campos faltantes. |
+
+---
+### User Story: US47
+
+| **User Story ID** | US47 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Eliminar un usuario |
+| **Description** | Como administrador, quiero poder eliminar un usuario que ya no utilizará la plataforma, para mantener la base de datos actualizada. |
+| **Acceptance Criteria #1** | **Escenario 1: Eliminar usuario**<br>Dado que el administrador selecciona un usuario para eliminar,<br>Cuando confirma,<br>Entonces el usuario es eliminado de la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Confirmación de eliminación**<br>Dado que el administrador ha confirmado la eliminación,<br>Cuando el sistema elimina el usuario de la base de datos,<br>Entonces se evidencia que ya no existe ese usuario en la base de datos. |
+
+---
+### User Story: US48
+
+| **User Story ID** | US48 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Gestión de creación de una notificación |
+| **Description** | Como administrador, quiero poder crear y enviar notificaciones a los usuarios para mantenerlos informados de actualizaciones importantes. |
+| **Acceptance Criteria #1** | **Escenario 1: Notificación automática cuando un usuario agrega un libro al carrito de compras**<br>Dado que un usuario agrega un libro al carrito de compras,<br>Cuando el sistema registra esta acción,<br>Entonces automáticamente se crea una notificación para enviar al usuario informándole que el libro ha sido agregado al carrito. |
+| **Acceptance Criteria #2** | **Escenario 2: Notificación automática cuando un usuario se une a una comunidad**<br>Dado que un usuario se une a una comunidad,<br>Cuando el sistema registra la acción de unión,<br>Entonces automáticamente se envía una notificación a todos los miembros de la comunidad informando sobre la nueva incorporación. |
+
+---
+### User Story: US49
+
+| **User Story ID** | US49 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Gestión de asignación de favorito |
+| **Description** | Como administrador, quiero poder ver los detalles de la lista de un usuario en particular y modificarla para mantener control sobre las relaciones entre clientes y favoritos. |
+| **Acceptance Criteria #1** | **Escenario 1: Asignación de favorito desde vista de administrador**<br>Dado que el administrador selecciona un usuario al que agregar un favorito,<br>Cuando registre la id de un libro y confirme la acción,<br>Entonces automáticamente se creará una tabla de relación entre el usuario y el libro asignado como favorito. |
+| **Acceptance Criteria #2** | **Escenario 2: Eliminación de favorito desde vista de administrador**<br>Dado que el administrador selecciona un usuario al que eliminar un favorito,<br>Cuando registre la id de un libro asignado previamente como favorito y confirme la acción,<br>Entonces automáticamente se eliminará una tabla de relación entre el usuario y el libro asignado como favorito. |
+| **Acceptance Criteria #3** | **Escenario 3: Usuario asigna un favorito desde la plataforma**<br>Dado que un usuario se encuentra en la página individual de un libro,<br>Cuando realice la operación de asignación de favorito mediante el botón designado,<br>Entonces automáticamente se creará una tabla de relación entre el usuario y el libro asignado como favorito. |
+| **Acceptance Criteria #4** | **Escenario 4: Usuario elimina un favorito desde la plataforma**<br>Dado que un usuario se encuentra en la página individual de un libro,<br>Cuando realice la operación de eliminación de favorito mediante el botón designado,<br>Entonces automáticamente se eliminará la tabla de relación entre el usuario y el libro asignado como favorito. |
+
+---
+### User Story: US50
+
+| **User Story ID** | US50 |
+|-------------------|------|
+| **Epic ID** | EP10 |
+| **Title** | Creación de recomendaciones en base a favoritos |
+| **Description** | Como administrador, quiero poder generar de manera automática recomendaciones para cada usuario en base a sus libros favoritos para mejorar la experiencia del usuario. |
+| **Acceptance Criteria #1** | **Escenario 1: Generación de recomendación**<br>Dado que el usuario ha asignado libros como favoritos previamente,<br>Cuando confirme la operación de generar recomendaciones,<br>Entonces automáticamente se recomendarán libros en base a los géneros de sus libros favoritos. |
+
+---
+### User Story: US51
+
+| **User Story ID** | US51 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Acceso rápido a las secciones del sistema desde el Dashboard |
+| **Description** | Como administrador, quiero tener acceso rápido a las principales secciones del sistema desde el home del dashboard, para poder acceder a la gestión libros, pedidos, inventarios, estadísticas y configuraciones de manera rápida. |
+| **Acceptance Criteria #1** | **Escenario 1: Acceso a “Books” desde el Dashboard**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando el administrador hace clic en el botón de "Books" en la sección de “Quick Actions”,<br>Entonces el sistema redirige al administrador a la sección de libros. |
+| **Acceptance Criteria #2** | **Escenario 2: Acceso a “Orders” desde el Dashboard**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando el administrador hace clic en el botón de "Orders" en la sección de “Quick Actions”,<br>Entonces el sistema redirige al administrador a la sección de pedidos. |
+| **Acceptance Criteria #3** | **Escenario 3: Acceso a “Inventory” desde el Dashboard**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando el administrador hace clic en el botón de "Inventory" en la sección de “Quick Actions”,<br>Entonces el sistema redirige al administrador a la sección de inventarios. |
+| **Acceptance Criteria #4** | **Escenario 4: Acceso a “Stadistics” desde el Dashboard**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando el administrador hace clic en el botón de "Statistics" en la sección de “Quick Actions”,<br>Entonces el sistema redirige al administrador a la sección de estadísticas. |
+| **Acceptance Criteria #5** | **Escenario 5: Acceso a “Settings” desde el Dashboard**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando el administrador hace clic en el botón de "Settings" en la sección de “Quick Actions”,<br>Entonces el sistema redirige al administrador a la sección de configuraciones. |
+
+---
+### User Story: US52
+
+| **User Story ID** | US52 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Visualización de estadísticas de libros en Books en la sección estadísticas |
+| **Description** | Como administrador, quiero ver estadísticas relevantes sobre los libros en la sección estadísticas en Books, para poder tomar decisiones informadas sobre los libros más populares, más vendidos y otros datos clave del inventario. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver el total de libros y el total de géneros**<br>Dado que el administrador se encuentra en Books en la sección de estadísticas,<br>Cuando el administrador accede a esta sección,<br>Entonces se muestra el total de libros disponibles en el sistema y el total de géneros de libros registrados en la base de datos. |
+| **Acceptance Criteria #2** | **Escenario 2: Ver el precio promedio de los libros**<br>Dado que el administrador se encuentra en Books en la sección de estadísticas,<br>Cuando el administrador consulta las estadísticas,<br>Entonces se muestra el precio promedio de todos los libros en el sistema. |
+| **Acceptance Criteria #3** | **Escenario 3: Ver la cantidad de libros en stock**<br>Dado que el administrador se encuentra en Books en la sección de estadísticas,<br>Cuando el administrador consulta las estadísticas,<br>Entonces se muestra el número total de libros en stock, es decir, aquellos disponibles para la venta. |
+| **Acceptance Criteria #4** | **Escenario 4: Ver el libro más visto y el libro más vendido**<br>Dado que el administrador se encuentra en Books en la sección de estadísticas,<br>Cuando el administrador consulta las estadísticas,<br>Entonces se muestra el libro más visto en la plataforma y el libro más vendido de la plataforma. |
+
+---
+### User Story: US53
+
+| **User Story ID** | US53 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Búsqueda de libros en Books la sección "Book Collection" |
+| **Description** | Como administrador, quiero poder buscar libros de la colección en Books en la sección "Book Collection", utilizando diversos filtros, para encontrar fácilmente el libro que me interesa saber su información. |
+| **Acceptance Criteria #1** | **Escenario 1: Búsqueda por título o autor**<br>Dado que el usuario se encuentra en la sección "Book Collection",<br>Cuando el usuario ingresa un título o autor en el campo de búsqueda,<br>Entonces el sistema muestra los libros que coinciden con el título o autor ingresado. |
+| **Acceptance Criteria #2** | **Escenario 2: Filtro por género e idioma**<br>Dado que el usuario se encuentra en la sección "Book Collection",<br>Cuando el usuario selecciona un género en el filtro o un idioma en el filtro,<br>Entonces el sistema muestra los libros que pertenecen a ese género específico o a ese idioma en específico. |
+| **Acceptance Criteria #3** | **Escenario 3: Ordenamiento de libros**<br>Dado que el usuario se encuentra en la sección "Book Collection",<br>Cuando el usuario selecciona un criterio de ordenamiento (por ejemplo, precio, popularidad, fecha de publicación),<br>Entonces el sistema ordena los libros según el criterio seleccionado. |
+
+---
+### User Story: US54
+
+| **User Story ID** | US54 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Visualización del precio y detalles completos del libro en la sección "Book Collection" |
+| **Description** | Como administrador, quiero ver el precio de un libro y su información básica en la sección "Libro de Colección", y acceder a una ventana con más detalles completos del libro, para poder tomar decisiones informadas sobre la gestión de mis productos. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver el precio del libro**<br>Dado que el administrador está visualizando un libro en la sección "Book Collection",<br>Cuando el administrador consulta los detalles del libro,<br>Entonces el sistema muestra claramente el precio del libro. |
+| **Acceptance Criteria #2** | **Escenario 2: Ver la información básica del libro**<br>Dado que el administrador está visualizando un libro en la sección "Book Collection",<br>Cuando el administrador consulta los detalles del libro,<br>Entonces el sistema muestra una breve descripción del libro, autor, género, idioma y otros datos clave como stock y reviews. |
+| **Acceptance Criteria #3** | **Escenario 3: Botón "View" para acceder a más detalles del libro**<br>Dado que el administrador está visualizando un libro en la sección "Libro de Colección",<br>Cuando el administrador hace clic en el botón de "View",<br>Entonces el sistema muestra al administrador una ventana con información detallada sobre el libro, incluyendo la sinopsis, autor y datos relacionados con su precio de compra, de venta y de stock. |
+
+---
+### User Story: US55
+
+| **User Story ID** | US55 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Visualización de estadísticas y análisis de órdenes en "Manage and Analyze All Livria Orders" |
+| **Description** | Como administrador, quiero ver estadísticas clave sobre todas las órdenes en la sección "Manage and Analyze All Livria Orders”, para poder realizar un análisis completo y tomar decisiones informadas sobre las ventas. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver el total de órdenes y de ganancias**<br>Dado que el administrador se encuentra en la sección "Manage and Analyze All Livria Orders",<br>Cuando el administrador consulta las estadísticas,<br>Entonces el sistema muestra el total de órdenes realizadas en la plataforma y el total de ganancias generadas por todas las órdenes. |
+| **Acceptance Criteria #2** | **Escenario 2: Ver órdenes pendientes y completas**<br>Dado que el administrador se encuentra en la sección "Manage and Analyze All Livria Orders",<br>Cuando el administrador consulta las estadísticas,<br>Entonces el sistema muestra el número total de órdenes pendientes de procesamiento o envío y el número total de órdenes completas que han sido procesadas y entregadas. |
+| **Acceptance Criteria #3** | **Escenario 3: Ver el promedio del valor de las órdenes**<br>Dado que el administrador se encuentra en la sección "Manage and Analyze All Livria Orders",<br>Cuando el administrador consulta las estadísticas,<br>Entonces el sistema muestra el valor promedio de las órdenes realizadas en la plataforma. |
+| **Acceptance Criteria #4** | **Escenario 4: Ver el libro más popular pedido**<br>Dado que el administrador se encuentra en la sección "Manage and Analyze All Livria Orders",<br>Cuando el administrador consulta las estadísticas,<br>Entonces el sistema muestra el libro más popular, basado en la cantidad de veces que ha sido solicitado en las órdenes. |
+
+---
+### User Story: US56
+
+| **User Story ID** | US56 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Búsqueda y filtrado de órdenes en la sección "Order List" en Orders |
+| **Description** | Como administrador, quiero poder buscar órdenes por ID de pedido o por el nombre del cliente, y poder filtrar de distintas formas, para encontrar fácilmente las órdenes que me interesan. |
+| **Acceptance Criteria #1** | **Escenario 1: Buscar por ID de orden o por nombre del cliente**<br>Dado que el administrador se encuentra en la sección "Order List",<br>Cuando el administrador ingresa un ID de orden o el nombre del cliente en el campo de búsqueda,<br>Entonces el sistema muestra las órdenes que coinciden con ese ID o asociadas a ese cliente. |
+| **Acceptance Criteria #2** | **Escenario 2: Filtrar por estado del pedido**<br>Dado que el administrador se encuentra en la sección "Order List",<br>Cuando el administrador selecciona un estado de pedido (pendiente, completado, cancelado, etc.),<br>Entonces el sistema muestra sólo las órdenes con el estado seleccionado. |
+| **Acceptance Criteria #3** | **Escenario 3: Filtrar por fecha**<br>Dado que el administrador se encuentra en la sección "Order List",<br>Cuando el administrador selecciona un rango de fechas,<br>Entonces el sistema muestra sólo las órdenes que corresponden a ese rango de fechas. |
+| **Acceptance Criteria #4** | **Escenario 4: Filtrar por ordenamiento**<br>Dado que el administrador se encuentra en la sección "Order List",<br>Cuando el administrador selecciona un criterio de ordenamiento (por ejemplo, por fecha, por total, por estado),<br>Entonces el sistema ordena las órdenes según el criterio seleccionado. |
+
+---
+### User Story: US57
+
+| **User Story ID** | US57 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Visualización de la tabla con detalles de las órdenes en la sección "Order List" |
+| **Description** | Como administrador, quiero que después de realizar una búsqueda o un filtro, el sistema me muestre una tabla con los detalles de las órdenes, incluyendo el código de orden, el cliente, el beneficiario, la fecha, el total, el estado, el ítem y las acciones disponibles, para gestionar las órdenes de manera eficiente. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver la tabla con detalles de las órdenes**<br>Dado que el administrador ha realizado la búsqueda o el filtrado de las órdenes,<br>Cuando se muestran los resultados,<br>Entonces el sistema muestra una tabla con diversos atributos relacionados comúnmente a una orden. |
+
+---
+### User Story: US58
+
+| **User Story ID** | US58 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Búsqueda y filtrado en el "Book Collection" de Inventario |
+| **Description** | Como administrador, quiero tener una barra de búsqueda y filtros en la sección "Book Collection" del inventario, para poder buscar fácilmente un libro específico dentro del inventario. |
+| **Acceptance Criteria #1** | **Escenario 1: Barra de búsqueda**<br>Dado que el administrador está en la sección "Book Collection" del inventario,<br>Cuando el administrador ingresa un término en la barra de búsqueda,<br>Entonces el sistema muestra los libros que coinciden con el término de búsqueda. |
+| **Acceptance Criteria #2** | **Escenario 2: Filtro por género o por lenguaje**<br>Dado que el administrador está en la sección "Book Collection" del inventario,<br>Cuando el administrador selecciona un género en el filtro o un lenguaje en el filtro,<br>Entonces el sistema muestra los libros que pertenecen a ese género específico o los libros disponibles en ese lenguaje. |
+| **Acceptance Criteria #3** | **Escenario 3: Ordenamiento de libros**<br>Dado que el administrador está en la sección "Book Collection" del inventario,<br>Cuando el administrador selecciona un criterio de ordenamiento (por ejemplo, por precio, por stock, por fecha de publicación),<br>Entonces el sistema ordena los libros según el criterio seleccionado. |
+
+---
+### User Story: US59
+
+| **User Story ID** | US59 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Visualización de la tabla de "Book Collection" en Inventario |
+| **Description** | Como administrador, quiero ver una tabla en la sección "Book Collection" del inventario que contenga los detalles de cada libro, como su portada, título, autor, etc., para gestionar fácilmente el inventario de libros. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver la tabla con detalles del libro**<br>Dado que el administrador está en la sección "Book Collection" del inventario,<br>Cuando se muestran los libros,<br>Entonces el sistema presenta una tabla con los campos de Portada, título, autor, género, lenguaje, stock, precio de compra, cantidad y acción. |
+| **Acceptance Criteria #2** | **Escenario 2: Añadir un libro a la colección**<br>Dado que el administrador está visualizando la tabla de "Book Collection" en el inventario,<br>Cuando hace clic en el botón "+" para un libro,<br>Entonces el sistema permite al administrador agregar el libro al inventario de la colección. |
+
+---
+### User Story: US60
+
+| **User Story ID** | US60 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Gestión de la configuración del perfil en "Settings" |
+| **Description** | Como administrador, quiero poder gestionar mi perfil desde la sección "Settings", para poder ver, actualizar mi información personal o cambiar mi contraseña si es necesario. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver información del perfil**<br>Dado que el administrador se encuentra en la sección "Settings",<br>Cuando el administrador accede a la pestaña "Profile Information",<br>Entonces se muestra la información del perfil actual del administrador, incluyendo su nombre, nombre de usuario, correo electrónico y un campo de contraseña. |
+| **Acceptance Criteria #2** | **Escenario 2: Actualizar la información del perfil**<br>Dado que el administrador está en la sección "Settings",<br>Cuando el administrador realiza cambios en su nombre, nombre de usuario o correo electrónico,<br>Entonces el sistema permite al administrador guardar los cambios al hacer clic en "Save Changes". |
+| **Acceptance Criteria #3** | **Escenario 3: Cambiar la contraseña**<br>Dado que el administrador está en la sección "Settings",<br>Cuando el administrador hace clic en "Change Password",<br>Entonces el sistema permite al administrador ingresar y actualizar su contraseña. |
+
+---
+### User Story: US61
+
+| **User Story ID** | US61 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Gestión de la configuración de la aplicación en "Application Settings" |
+| **Description** | Como administrador, quiero poder gestionar la configuración de la aplicación desde la sección "Application Settings", para poder activar o desactivar notificaciones, alertas por correo electrónico, autoguardado de cambios y cambiar la configuración de la cantidad de elementos por página. |
+| **Acceptance Criteria #1** | **Escenario 1: Activar/desactivar notificaciones en la aplicación**<br>Dado que el administrador se encuentra en la sección "Application Settings",<br>Cuando el administrador marca o desmarca la opción "Receive notifications in the app",<br>Entonces el sistema habilita o deshabilita las notificaciones dentro de la aplicación según la elección del administrador. |
+| **Acceptance Criteria #2** | **Escenario 2: Activar/desactivar alertas por correo electrónico**<br>Dado que el administrador se encuentra en la sección "Application Settings",<br>Cuando el administrador marca o desmarca la opción "Receive email alerts",<br>Entonces el sistema habilita o deshabilita las alertas por correo electrónico según la elección del administrador. |
+| **Acceptance Criteria #3** | **Escenario 3: Activar/desactivar auto guardado de cambios**<br>Dado que el administrador se encuentra en la sección "Application Settings",<br>Cuando el administrador marca o desmarca la opción "Automatically save changes",<br>Entonces el sistema habilita o deshabilita el guardado automático de los cambios en la configuración de la aplicación. |
+| **Acceptance Criteria #4** | **Escenario 4: Configurar el tamaño de página**<br>Dado que el administrador se encuentra en la sección "Application Settings",<br>Cuando el administrador ajusta el número de "Items per page" (por ejemplo, a 5, 10, 20, 50),<br>Entonces el sistema ajusta la cantidad de elementos que se muestran por página según la configuración seleccionada. |
+| **Acceptance Criteria #5** | **Escenario 5: Guardar los cambios realizados en la configuración**<br>Dado que el administrador ha realizado cambios en las opciones de "Application Settings",<br>Cuando el administrador hace clic en "Save Changes",<br>Entonces el sistema guarda los cambios y los aplica inmediatamente a la configuración de la aplicación. |
+
+---
+### User Story: US62
+
+| **User Story ID** | US62 |
+|-------------------|------|
+| **Epic ID** | EP11 |
+| **Title** | Barra lateral de navegación en el dashboard del administrador |
+| **Description** | Como administrador, quiero tener una barra lateral en el dashboard que contenga la información fundamental del dashboard, para poder navegar de forma rápida y eficiente a las diferentes áreas del sistema. |
+| **Acceptance Criteria #1** | **Escenario 1: Ver título de la plataforma**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando mira la barra lateral,<br>Entonces el sistema muestra el título de la plataforma, "LIVRIA", en la parte superior. |
+| **Acceptance Criteria #2** | **Escenario 2: Ver imagen de perfil y nombre del administrador**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando mira la barra lateral,<br>Entonces el sistema muestra la imagen de perfil del administrador y su nombre ("Super Administrador") debajo del título de la plataforma. |
+| **Acceptance Criteria #3** | **Escenario 3: Ver secciones principales de navegación**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando mira la barra lateral,<br>Entonces el sistema muestra las secciones de Home, Books, Orders, Inventory y Stadistics. |
+| **Acceptance Criteria #4** | **Escenario 4: Ver botón para cambiar el idioma**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando mira la barra lateral,<br>Entonces el sistema muestra un botón para cambiar el idioma entre "EN" (inglés) y "ES" (español). |
+| **Acceptance Criteria #5** | **Escenario 5: Ver configuraciones y cerrar sesión**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando mira la barra lateral,<br>Entonces el sistema muestra un enlace a la sección "Settings" (configuraciones) y un botón para "Log out" (cerrar sesión). |
+
 ### 3.2.3. Epicas
 
 | **EPIC 01:** | Descubrimiento y comprensión de Livria |
@@ -1142,6 +1490,49 @@ Para mejor visualización de los to-Be Scenarios de Livria, acceder al siguiente
 | US29 | Disponibilidad 24/7 |
 | US31 | Interfaz amigable |
 | US32 | Soporte multiplataforma |
+
+| **EPIC 09:** | Backend de gestión de libros, carrito de compra y pedidos |
+|:------------:|:-------------------------------------------------------|
+| | Como administrador, quiero gestionar eficientemente el backend de la plataforma, con funcionalidades de gestión de libros, carrito de compra y pedidos, para asegurarme de que la plataforma funcione de manera fluida y segura. |
+| **User Story ID** | **Título** |
+| US35 | Obtener todos los libros |
+| US36 | Obtener detalles de un libro |
+| US37 | Crear una reseña de un libro |
+| US38 | Obtener todas las reseñas de un libro |
+| US39 | Agregar un libro al carrito |
+| US40 | Gestión de un pedido |
+| US41 | Ver detalles de un pedido |
+
+| **EPIC 10:** | Backend de gestión de comunidades, usuarios y notificaciones |
+|:------------:|:-----------------------------------------------------------|
+| | Como administrador, quiero gestionar eficientemente las comunidades, usuarios y notificaciones de la plataforma, asegurando que todo esté bien organizado y actualizado para mantener una operación fluida y eficaz. |
+| **User Story ID** | **Título** |
+| US42 | Obtener todas las comunidades |
+| US43 | Gestión de creación de una comunidad |
+| US44 | Publicación en una comunidad |
+| US45 | Obtener todos los usuarios |
+| US46 | Gestión de creación de un nuevo usuario |
+| US47 | Eliminar un usuario |
+| US48 | Gestión de creación de una notificación |
+| US49 | Gestión de asignación de favorito |
+| US50 | Creación de recomendaciones en base a favoritos |
+
+| **EPIC 11:** | Gestión del dashboard del administrador |
+|:------------:|:---------------------------------------|
+| | Como administrador, quiero tener un dashboard con acceso rápido a las principales secciones del sistema, así como una barra lateral con la información básica del sistema, para navegar de manera eficiente entre las áreas clave del sistema, gestionar mi perfil, cambiar el idioma y cerrar sesión sin complicaciones. |
+| **User Story ID** | **Título** |
+| US51 | Acceso rápido a las secciones del sistema desde el Dashboard |
+| US52 | Visualización de estadísticas de libros en Books en la sección estadísticas |
+| US53 | Búsqueda y visualización de libros en Books la sección "Book Collection" |
+| US54 | Visualización del precio y detalles completos del libro en la sección "Book Collection" |
+| US55 | Visualización de estadísticas y análisis de órdenes en "Manage and Analyze All Livria Orders" |
+| US56 | Búsqueda y filtrado de órdenes en la sección "Order List" en Orders |
+| US57 | Visualización de la tabla con detalles de las órdenes en la sección "Order List" |
+| US58 | Búsqueda y filtrado en el "Book Collection" de Inventario |
+| US59 | Visualización de la tabla de "Book Collection" en Inventario |
+| US60 | Gestión de la configuración del perfil en "Settings" |
+| US61 | Gestión de la configuración de la aplicación en "Application Settings" |
+| US62 | Barra lateral de navegación en el dashboard del administrador |
 
 ## 3.3. Impact Mapping
 El Impact Mapping de Livria es una herramienta visual que conecta el objetivo principal del negocio, aumentar en un 60% el número de usuarios que finalizan al menos un libro por mes, con los usuarios clave (estudiantes universitarios y lectores casuales), los impactos deseados en su comportamiento, las funcionalidades necesarias para lograr esos cambios y las historias de usuario que reflejan sus necesidades reales. Entre los impactos buscados están el uso preferente de Livria para buscar libros, la descarga o compra desde la app, y el descubrimiento frecuente de nuevas lecturas. Para lograrlo, se plantean funcionalidades como recomendaciones personalizadas, búsqueda avanzada, comparadores de precios y formatos, acceso digital directo, y comunidad con reseñas. Estas funcionalidades se traducen en historias de usuario que guían el desarrollo centrado en mejorar la experiencia de lectura y aumentar el compromiso con la plataforma.
@@ -2978,6 +3369,1127 @@ A continuación, se muestra un resumen visual de la participación activa de los
   <img src="https://i.imgur.com/uGOLmUD.png" alt="SDFS211" width="500">
 </p>
 
+### 5.2.3. Sprint 3
+#### 5.2.3.1. Sprint Planning
+En esta reunión del **Sprint Planning** se va a construir el **backend** de nuestro proyecto Livria y realizar mejoras del **frontend** de nuestra aplicación. En esta reunión, el equipo Scrum estableció distintas tareas a cada integrante para desarrollar 14 historias de usuarios relevantes para la aplicación web.
+
+A continuación, se mostrará la tabla del Sprint Planning 3:
+
+| Sprint # | Sprint 3 |
+|---|---|
+| **Sprint Planning Background** | |
+| **Date** | 2025-06-14 |
+| **Time** | 05:20 PM |
+| **Location** | Virtual |
+| **Prepared By** | Ainhoa Lucía Castillo Garay, Marcelo Alejandro Binda Arbañil |
+| **Attendees (to planning meeting)** | Ainhoa Lucía Castillo Garay / Marcelo Alejandro Binda Arbañil / Gabriel Sebastián Borja Molina / Jhosep Jamil Argomedo Camacho / Melisa Geraldine Sulca Silva |
+| **Sprint n - 3 Review Summary** | Durante el Sprint 3, se desarrollaron **14 historias de usuarios** centradas en el desarrollo del **backend** de la aplicación Livria. El trabajo realizado permitió consolidar la arquitectura de la **base de datos** y las funcionalidades clave del backend, como la gestión de productos, carritos de compra, comunidades y pedidos. Se implementaron los **endpoints RESTful** para las tablas principales, incluyendo libros, carritos de compra, pedidos y usuarios, lo que permitió una integración eficiente entre el frontend y el backend.<br><br>El equipo de programadores, conformado por **Joseph Argomedo**, se destacó en la **optimización de las consultas SQL** y en la mejora de la estructura de la base de datos, lo que resultó en una mayor eficiencia en la consulta de datos a la base de datos MySQL. Su contribución fue clave para asegurar que las operaciones de lectura y escritura se realizarán de manera rápida y fluida.<br><br>**Gabriel Borja** y **Melisa Sulca** trabajaron conjuntamente en la estructuración de las relaciones entre las tablas y en la correcta **normalización de la base de datos**, asegurando la integridad referencial y evitando problemas de duplicación de datos, lo cual facilita el mantenimiento y escalabilidad de la plataforma.<br><br>**Marcelo Binda** y **Ainhoa Castillo** contribuyeron significativamente en la implementación de las **APIs RESTful** para funcionalidades clave, como la gestión de carritos de compra, comunidades literarias, pedidos y notificaciones, garantizando que todas las interacciones fueran seguras y eficientes.<br><br>En cuanto a la **documentación de las APIs**, se utilizó **Swagger** para facilitar la visualización e interacción con los endpoints, lo que permitió al equipo desarrollar de manera más ágil y transparente. Además, la **documentación OpenAPI** se implementó para estandarizar los endpoints y facilitar futuras integraciones, asegurando que la aplicación esté lista para escalar y conectarse con otros servicios en el futuro. |
+| **Sprint n - 3 Retrospective Summary** | Durante el Sprint 3, se estableció una base sólida del **backend** de la plataforma Livria. El equipo logró avanzar significativamente en la integración de los servicios clave. En cuanto a los avances están la **optimización de la base de datos**, donde las consultas SQL están optimizadas correctamente, mejorando notablemente el rendimiento del backend. El trabajo en equipo fue eficiente, permitiendo completar las tareas de backend de manera sincronizada. Mientras que la **estructuración de APIs** se logró implementar las APIs para el manejo de libros, carritos de compra y otros componentes clave. En la **documentación API**: La implementación de Swagger y la documentación OpenAPI facilitó tanto la integración como la prueba de los endpoints, mejorando la transparencia del proyecto. Para el siguiente sprint se debe realizar una **optimización continua de las consultas SQL** y la base de datos, realizar **correcciones de errores menores** si es que hay alguno detectado durante las pruebas del backend, realizar una **ampliación de la documentación de las APIs**, especialmente para los endpoints más complejos y realizar **revisión y mejora de la seguridad** en la API y la base de datos. |
+| **Sprint Goal & User Stories** | |
+| **Sprint Goal** | Our focus is on the development of the **backend infrastructure** for the Livria web app, particularly in implementing key **RESTful APIs**, optimizing database queries. This includes managing essential entities such as users, books, orders, cart items, communities, and reviews.<br><br>We believe it delivers a **robust backend system** capable of handling user interactions, processing orders, managing data efficiently, and providing essential API endpoints for the frontend. Additionally, the integration of **OpenAPI and Swagger** will ensure smooth documentation and facilitate future expansions.<br><br>This will be confirmed when all the user stories related to backend functionalities, such as authentication, cart management, community interactions, and order processing, are implemented and tested successfully. We will also verify the efficiency of the APIs and database queries, ensuring they meet performance benchmarks. |
+| **Sprint Velocity** | 57 |
+| **Sum of Story Points** | 53 |
+
+#### 5.2.3.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 3, hemos identificado diversos aspectos funcionales relacionados con el desarrollo del **backend** de la aplicación web Livria, así como algunos ajustes en el frontend. Para organizar de manera eficiente las tareas del equipo, hemos creado una matriz de **Liderazgo y Colaboración (LACX)**. En esta matriz, a cada miembro se le asigna el rol de **líder (L)** en áreas clave del desarrollo del backend y ciertos ajustes del frontend, mientras que en otras áreas asumen el rol de **colaborador (C)**.
+
+Los aspectos definidos para este Sprint son:
+
+1.  Bounded Context de Commerce
+2.  Bounded Context de Communities
+3.  Bounded Context de Users
+4.  Bounded Context de Notifications
+5.  Corrección del Frontend
+6.  Dashboard de administrador en el Frontend
+7.  Desarrollo de la base de datos
+
+| Team Member (Last Name, First Name) | GitHub Username | B. C. de Commerce | B. C. de Communities | B. C. de Users | B. C. de Notifications | Corrección del Frontend | Dashboard del administrador en el Frontend | Desarrollo de la base de datos |
+|-------------------------------------|-----------------|-------------------|----------------------|----------------|------------------------|-------------------------|--------------------------------------------|-------------------------------|
+| Castillo Garay, Ainhoa Lucía        | noaa01100001    | C                 | C                    | C              | C                      | L                       | C                                          | C                             |
+| Binda Arbañil, Marcelo Alejandro    | MarceloHkd      | L                 | L                    | L              | L                      | C                       | C                                          | C                             |
+| Borja Molina, Gabriel Sebastián     | borj410         | C                 | C                    | C              | C                      | C                       | C                                          | C                             |
+| Argomedo Camacho, Jhosep Jamil      | JhosepAC        | C                 | C                    | C              | C                      | C                       | L                                          | L                             |
+| Sulca Silva, Melisa Geraldine       | MSS02204        | C                 | C                    | C              | C                      | C                       | C                                          | C                             |
+
+#### 5.2.3.3. Sprint Backlog 3
+
+Durante el Sprint 3, el objetivo principal fue desarrollar la versión inicial del **backend** de la aplicación Livria, con un enfoque en eficiencia, seguridad y escalabilidad. El equipo trabajó en crear una infraestructura robusta que permitiera a los usuarios interactuar sin problemas con la plataforma, gestionando de manera eficaz aspectos clave como el registro e inicio de sesión de los usuarios, el manejo de productos de libros, la gestión de carritos de compra, y la interacción con las comunidades. Este primer paso fue fundamental para garantizar un rendimiento óptimo del backend y preparar el sistema para futuras expansiones y nuevas funcionalidades, asegurando una experiencia robusta desde el primer contacto con la aplicación.
+
+| Sprint # | Sprint #3 | | | | |
+|---|---|---|---|---|---|
+| | **Work-Item / Task** | | | | |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review / Sprint# / Done)** |
+| **US35** | | **Obtener todos los libros** | | | | |
+| | 1 | Consultar todos los libros disponibles | Realizar una consulta a la base de datos para recuperar todos los registros de libros de la tabla `books`. | 5 | Developer Team | Done |
+| | 2 | Implementar filtro por campo de categoría | Crear consultas dinámicas que filtren los libros por campos específicos como `category`, `author` o `availability`. | 6 | Developer Team | Done |
+| **US36** | | **Obtener detalles de un libro** | | | | |
+| | 1 | Consultar detalles del libro | Crear una consulta SQL que recupere todos los campos de la tabla `books` para un libro específico identificado por su `id` del libro. | 4 | Developer Team | Done |
+| | 2 | Consultar disponibilidad del libro | Crear una consulta para verificar el campo `availability` en la tabla `books` y retornar el estado actual. | 4 | Developer Team | Done |
+| **US37** | | **Crear una reseña de un libro** | | | | |
+| | 1 | Gestionar creación de reseñas | Implementar una funcionalidad que guarde reseñas de los usuarios en la tabla `reviews` asociando el `id` del libro y del usuario. | 6 | Developer Team | Done |
+| | 2 | Validación de reseña antes de guardar | Validar con una consulta que los campos no estén vacíos y cumplan los requisitos establecidos. | 5 | Developer Team | In-Process |
+| **US38** | | **Obtener todas las reseñas de un libro** | | | | |
+| | 1 | Consultar todas las reseñas del libro | Crear una consulta SQL que recupere todas las reseñas de un libro específico desde la tabla `reviews`. | 5 | Developer Team | Done |
+| **US39** | | **Agregar un libro al carrito** | | | | |
+| | 1 | Agregar libro al carrito | Crear una nueva entrada en la tabla `cart_items` para asociar un `id` del libro y del usuario. | 5 | Developer Team | Done |
+| | 2 | Confirmación de adición al carrito | Verificar que el libro haya sido agregado al carrito y actualizar el campo de cantidad en la tabla de `cart_items`. | 6 | Developer Team | Done |
+| **US40** | | **Gestión de un pedido** | | | | |
+| | 1 | Crear pedido | Crear una nueva entrada en la tabla `orders` con los detalles del carrito del usuario. | 6 | Developer Team | Done |
+| **US41** | | **Ver detalles de un pedido** | | | | |
+| | 1 | Consultar detalles de un pedido | Crear una consulta SQL que recupere los detalles del pedido desde la tabla `order_items` y `orders`. | 5 | Developer Team | Done |
+| | 2 | Consultar estado de la entrega | Crear una consulta que verifique el estado del pedido en el campo de estado de la tabla `orders`. | 4 | Developer Team | Done |
+| **US42** | | **Obtener todas las comunidades** | | | | |
+| | 1 | Consultar todas las comunidades | Consultar la tabla `communities` y retornar todos los registros disponibles. | 5 | Developer Team | Done |
+| | 2 | Buscar una comunidad específica | Implementar una búsqueda con un `Where` para encontrar comunidades específicas por nombre en la tabla `communities`. | 4 | Developer Team | Done |
+| **US43** | | **Gestión de creación de una comunidad** | | | | |
+| | 1 | Validación de creación de comunidad | Validar que los campos obligatorios (nombre, descripción) no estén vacíos antes de guardar la comunidad en la tabla `communities`. | 6 | Developer Team | Done |
+| | 2 | Confirmación de creación de comunidad | Verificar que los datos se hayan guardado correctamente en la base de datos, asignando un `id` a la comunidad único. | 6 | Developer Team | Done |
+| **US44** | | **Publicación en una comunidad** | | | | |
+| | 1 | Crear publicación en una comunidad | Guardar la publicación del usuario en la tabla `posts` y asociarla con un `id` community. | 6 | Developer Team | Done |
+| | 2 | Validación del contenido de publicación | Verificar que la publicación cumpla con las reglas y que no haya contenido vacío; si no cumple, eliminarla automáticamente. | 5 | Developer Team | To-do |
+| **US45** | | **Obtener todos los usuarios** | | | | |
+| | 1 | Consultar todos los usuarios | Obtener lista completa de usuarios registrados. | 5 | Developer Team | Done |
+| | 2 | Buscar un usuario específico | Crear una consulta SQL que recupere todos los usuarios registrados desde las tablas `users`, `userclients` y `useradmins`. | 5 | Developer Team | Done |
+| **US46** | | **Gestión de creación de un nuevo usuario** | | | | |
+| | 1 | Crear nuevo usuario | Crear una nueva entrada en la tabla `userclients` cuando un nuevo usuario se registre. | 4 | Developer Team | Done |
+| | 2 | Validación automática de datos | Validar que los campos del formulario de registro (nombre, email, contraseña) estén completos y sean válidos. | 6 | Developer Team | In-Process |
+| **US47** | | **Eliminar un usuario** | | | | |
+| | 1 | Eliminar un usuario | Crear una consulta SQL que elimine un usuario de la tabla `usersclients` con base en su `id` del `userclient`. | 5 | Developer Team | Done |
+| | 2 | Confirmación de eliminación | Verificar que el usuario ha sido correctamente eliminado de la base de datos. | 5 | Developer Team | Done |
+| **US48** | | **Gestión de creación de una notificación** | | | | |
+| | 1 | Crear notificación de carrito agregado | Crear una notificación en la tabla `notifications` cuando un usuario agrega un libro al carrito. | 6 | Developer Team | Done |
+| | 2 | Crear notificación de unión a comunidad | Crear una notificación en la tabla `notifications` cuando un usuario se une a una comunidad. | 4 | Developer Team | Done |
+| **US49** | | **Gestión de asignación de favorito** | | | | |
+| | 1 | Asignar favorito (administrador) | Agregar un favorito a un usuario desde la vista de administrador. | 6 | Developer Team | Done |
+| | 2 | Eliminar favorito (administrador) | Eliminar un favorito de un usuario desde la vista de administrador. | 3 | Developer Team | Done |
+| | 3 | Asignar favorito (cliente) | Agregar un favorito a un usuario desde la aplicación web. | 4 | Developer Team | Done |
+| | 4 | Eliminar favorito (cliente) | Eliminar un favorito de un usuario desde la plataforma web. | 3 | Developer Team | Done |
+| **US50** | | **Creación de recomendaciones en base a favoritos** | | | | |
+| | 1 | Generación automática de recomendación | Generar recomendaciones en base a libros marcados como favoritos por un usuario. | 3 | Developer Team | Done |
+| **US51** | | **Acceso rápido desde el Dashboard** | | | | |
+| | 1 | Acceso rápido a secciones | Implementar navegación rápida desde el dashboard a las principales secciones. | 5 | Developer Team | Done |
+| **US52** | | **Estadísticas en Books** | | | | |
+| | 1 | Total libros y géneros | Mostrar conteo total de libros y géneros. | 3 | Developer Team | Done |
+| | 2 | Precio promedio | Mostrar precio promedio de libros. | 2 | Developer Team | In-Process |
+| | 3 | Libros en stock | Mostrar cantidad total de libros en stock. | 2 | Developer Team | Done |
+| | 4 | Libro más visto y vendido | Mostrar estadísticas de libro más visto y más vendido. | 3 | Developer Team | In-Process |
+| **US53** | | **Búsqueda en Book Collection** | | | | |
+| | 1 | Búsqueda por título o autor | Implementar campo de búsqueda por título o autor. | 3 | Developer Team | Done |
+| | 2 | Filtros por género e idioma | Agregar filtros de género e idioma. | 3 | Developer Team | Done |
+| | 3 | Ordenamiento | Ordenar libros por criterio. | 3 | Developer Team | Done |
+| **US54** | | **Visualización de detalles del libro** | | | | |
+| | 1 | Precio e info básica | Mostrar precio, descripción, autor, etc. | 3 | Developer Team | Done |
+| | 2 | Ver más detalles | Mostrar ventana modal con detalles completos del libro. | 3 | Developer Team | Done |
+| **US55** | | **Estadísticas de órdenes** | | | | |
+| | 1 | Total órdenes y ganancias | Mostrar número total de órdenes y ganancias. | 3 | Developer Team | Done |
+| | 2 | Órdenes pendientes y completas | Mostrar estadísticas de estado de órdenes. | 2 | Developer Team | Done |
+| | 3 | Promedio valor de órdenes | Mostrar el valor promedio de las órdenes. | 2 | Developer Team | In-Process |
+| | 4 | Libro más popular pedido | Mostrar el libro más ordenado. | 2 | Developer Team | In-Process |
+| **US56** | | **Búsqueda y filtro en Order List** | | | | |
+| | 1 | Búsqueda por ID o nombre | Implementar campo de búsqueda. | 3 | Developer Team | Done |
+| | 2 | Filtro por estado | Filtrar por estado del pedido. | 2 | Developer Team | Done |
+| | 3 | Filtro por fecha | Implementar filtro por rango de fechas. | 2 | Developer Team | Done |
+| | 4 | Ordenamiento | Ordenar órdenes por criterio. | 2 | Developer Team | Done |
+| **US57** | | **Tabla de órdenes** | | | | |
+| | 1 | Tabla con detalles de órdenes | Mostrar tabla con columnas: código, cliente, ítems, total, etc. | 3 | Developer Team | Done |
+| **US58** | | **Filtros en Inventario** | | | | |
+| | 1 | Barra de búsqueda | Búsqueda por término. | 2 | Developer Team | Done |
+| | 2 | Filtro por género/lenguaje | Filtros de género y lenguaje. | 2 | Developer Team | Done |
+| | 3 | Ordenamiento | Ordenar libros por stock, precio, etc. | 2 | Developer Team | Done |
+| **US59** | | **Tabla de libros en inventario** | | | | |
+| | 1 | Tabla de libros | Mostrar tabla con campos clave (portada, autor, etc.). | 3 | Developer Team | Done |
+| | 2 | Aumentar stock de libro | Botón para aumentar stock del libro en el inventario. | 2 | Developer Team | Done |
+| **US60** | | **Configuración de perfil** | | | | |
+| | 1 | Ver info perfil | Mostrar información actual del usuario. | 2 | Developer Team | Done |
+| | 2 | Editar info | Editar y guardar nombre, usuario, correo. | 2 | Developer Team | Done |
+| | 3 | Cambiar contraseña | Permitir actualización de contraseña. | 2 | Developer Team | Done |
+| **US61** | | **Configuración aplicación** | | | | |
+| | 1 | Notificaciones app | Activar/desactivar notificaciones in-app. | 2 | Developer Team | Done |
+| | 2 | Alertas email | Activar/desactivar alertas por correo. | 2 | Developer Team | Done |
+| | 3 | Auto guardado | Activar/desactivar auto save. | 2 | Developer Team | Done |
+| | 4 | Items por página | Configurar cantidad de elementos por página. | 2 | Developer Team | Done |
+| | 5 | Guardar cambios | Botón para guardar configuración. | 1 | Developer Team | Done |
+| **US62** | | **Barra lateral navegación** | | | | |
+| | 1 | Mostrar título plataforma | Mostrar "LIVRIA". | 1 | Developer Team | Done |
+| | 2 | Foto y nombre del admin | Mostrar imagen + “Super Administrador”. | 1 | Developer Team | Done |
+| | 3 | Secciones principales | Mostrar links: Home, Books, etc. | 2 | Developer Team | Done |
+| | 4 | Cambiar idioma | Botón para cambiar entre EN/ES. | 2 | Developer Team | Done |
+| | 5 | Settings y logout | Enlace a settings + botón cerrar sesión. | 1 | Developer Team | Done |
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+
+En este capítulo se detalla el progreso logrado durante el **Sprint 3** en el desarrollo del **backend** de la aplicación web. Gracias a la colaboración continua del equipo y al enfoque ágil, hemos avanzado en la implementación de funcionalidades clave en el backend, así como en las correcciones realizadas en el frontend. Este sprint ha sido fundamental para consolidar la infraestructura del backend, asegurando que todas las funcionalidades de gestión de datos, pedidos, usuarios y notificaciones estén bien integradas y optimizadas, lo que sienta las bases para el desarrollo de las siguientes fases del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/Bookify-Livria/livria.github.io | master | d5bf72b | feat: add link to web application | --- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 13f3250 | feat: admin preview pages and inheritance in Users classes | --- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | dc93622 | fix: duplicate folders | --- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 42b1f1c | feat: admin validation access page | --- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | a8cb685 | Merge branch 'feat/admin' into develop | --- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 7ce211e | feat: update admin components | --- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 6663fdf | feat: stars in individual review | --- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 59c2b78 | Merge branch 'develop' into feature/books | --- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 4a715b0 | feat: form validations | --- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 4a748f7 | feat: design modifications | --- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 75d0bffc | feat: added order status | --- | 19/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 1a828e5 | feat: PUT method for admin and design improvements | --- | 19/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 434bd0d | feat: recommendations and book markings | --- | 19/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 509b4a9 | feat: Inventory management components | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 129997d | feat: upgrade in books management and addition of inventory components | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | cbfec1f7 | feat: update in admin orders view | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | main | 15ef27f | Initial commit | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/users | 15ef27f | feat: Add Users Bounded Context | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/community | b743855 | feat: Add Community Bounded Context | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/commerce | f683592 | feat: Add Commerce Bounded Context | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/data-annotations | 7e68f3a | feat: Add validation, data annotations localization and Shared validation | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/recommendations | 7ac229e | feat: Add validation, data annotations localization and Shared validation | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/commerce | ab8144e | Fix: Commerce Bounded Context | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/data-annotations | e07aaac | feat: Add user bounded context validation | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/notifications | 8120432 | feat: Update notifications | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | c5904ce | feat: LIVRIA TB2 | --- | 20/06/25 |
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 3, se desarrollaron múltiples historias de usuario centradas principalmente en la implementación del **backend** de la aplicación web de Livria, con especial enfoque en la gestión de productos, usuarios, comunidades, pedidos y notificaciones. Este sprint se centró en la mejora de la infraestructura y la integración de funcionalidades críticas, como la gestión de libros, carritos de compra, comunidades literarias, y la implementación de un sistema robusto de notificaciones.
+
+Además, se implementó la **documentación y prueba de las APIs** a través de **OpenAPI y Swagger**, lo que permite tener una visión clara y accesible de todos los endpoints disponibles en el backend, facilitando la interacción y desarrollo de nuevas funcionalidades.
+
+El equipo completó varias tareas clave, como la implementación de las funcionalidades para obtener y crear libros, gestionar carritos y pedidos, así como la gestión de comunidades y la integración de funcionalidades de notificaciones. A lo largo de este sprint, se hicieron ajustes en la base de datos (**db.json**) para mejorar la estructura de usuarios y se corrigieron aspectos en el frontend de la sección de administración.
+
+#### Avances realizados:
+
+**Commerce:**
+* **Books:** Implementación de funcionalidades para obtener todos los libros (**GetAll**) y obtener detalles de un libro específico (**GetById**) y actualizar el stock de un libro.
+* **Reviews:** Implementación de la funcionalidad de crear reseñas de libros (**GetAll, GetById, Create**).
+* **CartItems:** Implementación de la funcionalidad para gestionar el carrito de compras (**GetAll, Update, Delete, Post**).
+* **Orders:** Implementación de la creación de pedidos (**Create**) y la visualización de detalles de un pedido (**GetAll, GetById**).
+* **Recommendations:** Implementación de la creación de recomendaciones del catálogo de libros para los usuarios (**GetAll**).
+
+**Communities:**
+* **Communities:** Implementación de funcionalidades para obtener todas las comunidades (**GetAll**), obtener detalles de una comunidad (**GetById**), y crear nuevas comunidades (**Create**).
+* **Post:** Implementación de funcionalidades para obtener publicaciones (**GetAll**), obtener detalles de una publicación (**GetById**), y crear nuevas publicaciones (**Create**).
+
+**Users:**
+* **UserClients:** Gestión de clientes, con la capacidad de obtener todos los clientes (**GetAll**), obtener detalles de un cliente (**GetById**), y realizar operaciones de creación (**Create**), eliminación, eliminar clientes (**Delete**) y actualización de clientes (**Update**).
+* **UserAdmins:** Funcionalidad para gestionar administradores, con la capacidad de obtener todos los administradores (**GetAll**) y realizar actualizaciones de datos (**Update**).
+
+**Notification:**
+* Implementación de funcionalidades para gestionar notificaciones, con la capacidad de obtener todas las notificaciones (**GetAll**), obtener detalles de una notificación específica (**GetById**), crear notificaciones (**Create**) y ocultar notificaciones (**Patch**).
+
+#### Contribuciones del equipo:
+
+Se implementaron las funcionalidades relacionadas con los bounded contexts anteriormente mencionados, se realizó la **corrección de la fake API (db.json)** para usuarios, y completó la **corrección y mejoras en el frontend de la sección de administración**. Se trabajó en la implementación de **DataAnnotations**, validaciones y la **internacionalización** de la aplicación, se realizó la sección del **administrador en el frontend** y se realizó la **corrección de errores y mejoras en el diseño frontend**, especialmente para la sección de administración.
+
+#### Evidencia visual:
+
+A continuación, se presentan capturas de pantalla de las vistas implementadas en este Sprint:
+
+**Sección Home del dashboard del administrador:**
+
+<p align="center">
+  <img src="https://imgur.com/50Mzjh3.png" alt="bruh1" width="500">
+</p>
+
+**Sección Books del dashboard del administrador:**
+
+<p align="center">
+  <img src="https://imgur.com/SNyZiBq.png" alt="bruh2" width="500">
+</p>
+
+**Sección Orders del dashboard del administrador:**
+
+<p align="center">
+  <img src="https://imgur.com/AifaHr7.png" alt="bruh3" width="500">
+</p>
+
+**Sección Settings del dashboard del administrador:**
+
+<p align="center">
+  <img src="https://imgur.com/Jqh4AIQ.png" alt="bruh4" width="500">
+</p>
+
+**Backend de los bounded context de Livria:**
+<p align="center">
+  <img src="https://imgur.com/WbG3OC5.png" alt="bruh5" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/gy9EE91.png" alt="bruh6" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/YQmJCfP.png" alt="bruh7" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/qDWmLYf.png" alt="bruh8" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/CGdtVLQ.png" alt="bruh9" width="500">
+</p>
+
+**Video Sprint Review 3**
+
+*Frontend*
+https://drive.google.com/file/d/1PfDVySKwf-HpYugEF7xXwTlmyMUvm0ul/view?usp=sharing
+
+*Backend*
+https://drive.google.com/file/d/1Kk48d_cboV3UpPt4qyteE4DP60uIiPLs/view?usp=sharing
+
+---
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3, el enfoque se centró en la implementación del **backend real** para la aplicación web de Livria, reemplazando la API fake utilizada en el Sprint 2 con servicios backend funcionales. Ahora, el sistema está conectado a una base de datos real y las operaciones CRUD para gestionar libros, carritos, pedidos, usuarios, comunidades, notificaciones y otras entidades están completamente implementadas y operativas.
+
+En lugar de utilizar una API simulada, ahora se está trabajando con una **API RESTful real** construida con **.NET y conectada a MySQL**. A continuación, se detallan los endpoints de la nueva API, los métodos implementados y la documentación correspondiente:
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Request | Ejemplo de Response | Explicación |
+|---|---|---|---|---|---|---|---|
+| `/api/v1/books` | Obtener los datos de todos los libros. | `GET` | `GET /api/v1/books` | Ninguno | `http://localhost:5119/api/v1/books` | `{"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 49,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []}` | Esta solicitud GET obtiene los datos de todos los libros disponibles. Muestra una lista completa de los libros registrados en el sistema. |
+| `/api/v1/books` | Crear un nuevo libro. | `POST` | `GET /api/v1/books` | Ninguno | `{"title": "XD","description": "string","author": "string","salePrice": 4,"stock": 20,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english"}` | `{"id": 3,"title": "XD","description": "string","author": "string","salePrice": 4,"stock": 20,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []}` | Esta solicitud POST crea un nuevo libro en el sistema. Permite registrar un libro con su título, descripción, autor, precio, stock, imagen de portada, género y idioma. |
+| `/api/v1/books/{id}` | Obtener los datos de un libro en específico. | `GET` | `GET /api/v1/books/{id}` | `id: Integer` | `http://localhost:5119/api/v1/books/1` | `{"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 50,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []}` | Esta solicitud GET obtiene los datos de un libro en específico, utilizando su ID. Muestra los detalles del libro solicitado. |
+| `/api/vi/books/{bookId}/stock` | Actualizar el stock de un libro. | `PUT` | `PUT /api/vi/books/{bookId}/stock` | `bookId: Integer`, `stock: Integer` | `{"newStock": 50}` | `{"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 50,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []}` | Esta solicitud PUT actualiza el stock disponible de un libro específico, usando su ID. Permite modificar la cantidad de libros en existencia. |
+| `/api/v1/cart-items` | Crear un nuevo ítem en el carrito. | `POST` | `POST /api/v1/cart-items` | Ninguno | `{"bookId": 1,"quantity": 1,"userClientId": 2}` | `{"id": 2,"book": {"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 50,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []},"quantity": 1}` | Esta solicitud POST crea un nuevo ítem en el carrito de un usuario. Permite añadir un libro con una cantidad específica al carrito de un cliente. |
+| `/api/v1/cart-items/{id}/users/{userClientId}` | Actualizar la cantidad de libros de un ítem de un carrito existente. | `PUT` | `PUT /api/v1/cart-items/{id}/users/{userClientId}` | `id: Integer`, `userClientId: Integer` | `{"newQuantity": 2}` | `{"id": 1,"book": {"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 50,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []},"quantity": 2,"userClientId": 2}` | Esta solicitud PUT actualiza la cantidad de un libro en un ítem de carrito específico. Permite modificar la cantidad de un libro ya existente en el carrito de un usuario. |
+| `/api/v1/cart-items/{id}/users/{userClientId}` | Eliminar un item de un carrito de un UserClient previamente creado. | `DELETE` | `DELETE /api/v1/cart-items/{id}/users/{userClientId}` | `id: Integer`, `userClientId: Integer` | `Id: 1`, `userClientId: 1` | `CartItem eliminado exitosamente.` | Esta solicitud DELETE elimina un ítem específico del carrito de un usuario. Borra un libro determinado del carrito de compras. |
+| `/api/v1/cart-items/{id}` | Obtener los datos de un libro perteneciente a un carrito en especificado. | `GET` | `GET /api/v1/cart-items/{id}` | `id: Integer` | `http://localhost:5119/api/v1/cart-items/3` | `{"id": 3,"book": {"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 49,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []},"quantity": 3,"userClientId": 2}` | Esta solicitud GET obtiene los datos de un libro perteneciente a un carrito en específico, utilizando el ID del ítem del carrito. Muestra los detalles del libro y la cantidad en el carrito. |
+| `/api/v1/cart-items/users/{userClientId}` | Obtener los datos del carrito del usuario en específico. | `GET` | `GET /api/v1/cart-items/users/{userClientId}` | `userClientId: Integer` | `http://localhost:5119/api/v1/cart-items/users/2` | `{"id": 3,"book": {"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 49,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []},"quantity": 3,"userClientId": 2}` | Esta solicitud GET obtiene todos los ítems del carrito de un usuario específico. Muestra los libros y sus cantidades en el carrito de ese usuario. |
+| `/api/v1/communities` | Crear una nueva comunidad. | `POST` | `POST /api/v1/communities` | Ninguno | `{"name": "string","description": "string","type": "string","image": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","banner": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg"}` | `{"id": 1,"name": "string","description": "string","type": "string","image": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","banner": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","posts": []}` | Esta solicitud POST crea una nueva comunidad en el sistema. Permite registrar una comunidad con su nombre, descripción, tipo, imagen y banner. |
+| `/api/v1/communities` | Obtener los datos de todas las comunidades. | `GET` | `GET /api/v1/communities` | Ninguno | `http://localhost:5119/api/v1/communities` | `{"id": 1,"name": "string","description": "string","type": "string","image": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","banner": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","posts": [{"id": 1,"communityId": 1,"userId": 2,"username": "string","content": "string","img": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","createdAt": "2025-06-21T05:40:19.554941"}]}` | Esta solicitud GET obtiene los datos de todas las comunidades existentes. Muestra una lista de comunidades con sus detalles. |
+| `/api/v1/communities/{id}` | Obtener los datos de una comunidad en específico. | `GET` | `GET /api/v1/communities/{id}` | `id: Integer` | `Id: 1` | `{"id": 1,"name": "string","description": "string","type": "string","image": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","banner": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","posts": [{"id": 1,"communityId": 1,"userId": 2,"username": "string","content": "string","img": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","createdAt": "2025-06-21T05:40:19.554941"}]}` | Esta solicitud GET obtiene los datos de una comunidad en específico, utilizando su ID. Muestra los detalles de la comunidad buscada. |
+| `/api/v1/communities/join` | Unirse a una comunidad existente. | `POST` | `POST /api/v1/communities/join` | `id: Integer` | `{"userClientId": 2,"communityId": 1}` | `{"userClientId": 2,"communityId": 1,"joinedDate": "2025-06-21T05:38:02.722597Z"}` | Esta solicitud POST permite a un usuario unirse a una comunidad existente. Asocia un usuario a una comunidad específica. |
+| `/api/v1/reviews` | Crear una nueva review. | `POST` | `POST /api/v1/reviews` | Ninguno | `{"bookId": 1,"userClientId": 2,"content": "string","stars": 4}` | `{"id": 1,"bookId": 1,"username": "string","content": "string","stars": 4}` | Esta solicitud POST crea una nueva reseña en el sistema. Permite añadir una reseña con calificación y contenido para un libro y un usuario. |
+| `/api/v1/reviews` | Obtener los datos de todas las reseñas. | `GET` | `GET /api/v1/reviews` | Ninguno | `http://localhost:5119/api/v1/reviews` | `{"id": 1,"bookId": 1,"username": "string","content": "string","stars": 4}` | Esta solicitud GET obtiene los datos de todas las reseñas. Muestra una lista completa de todas las reseñas en el sistema. |
+| `/api/v1/reviews/{id}` | Obtener los datos de una reseña en específico. | `GET` | `GET /api/v1/reviews/{id}` | `id: Integer` | `Id: 1` | `{"id": 1,"bookId": 1,"username": "string","content": "string","stars": 4}` | Esta solicitud GET obtiene los datos de una reseña en específico, usando su ID.Muestra los detalles de la reseña buscada. |
+| `/api/v1/reviews/book/{bookId}` | Obtener todas las reseñas para un libro específico. | `GET` | `GET /api/v1/reviews/book/{bookId}` | `bookId: Integer` | `BookId: 1` | `{"id": 1,"bookId": 1,"username": "string","content": "string","stars": 4}` | Esta solicitud GET obtiene todas las reseñas para un libro específico. Muestra una lista de todas las reseñas asociadas a un libro dado. |
+| `/api/v1/userAdmin` | Obtener los datos del usuario administrador | `GET` | `GET /api/v1/userAdmin` | Ninguno | `http://localhost:5119/api/v1/useradmins` | `{"adminAccess": true,"securityPin": "0000","id": 1,"display": "Super Administrador","username": "admin_default","email": "admin@livria.com"}` | Esta solicitud GET obtiene los datos del usuario administrador. Muestra la información del usuario con privilegios de administrador. |
+| `/api/v1/userAdmin/{id}` | Actualizar los datos de UserAdmin | `PUT` | `PUT /api/v1/userAdmin/{id}` | `ud: Integer` | `Id: 1` | `{"display": "string","username": "string","email": "string","password": "string","adminAccess": true,"securityPin": "string"}` | Esta solicitud PUT actualiza los datos de un usuario administrador. Permite modificar la información del usuario con privilegios de administrador. |
+| `/api/v1/userClients` | Añadir nuevo cliente | `POST` | `POST /api/v1/userClients` | Ninguno | `{"display": "XDDDDDDDD","username": "CDSF","email": "string@gmail.com","password": "string","icon": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","phrase": "string"}` | `{"icon": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","phrase": "string","orders": [],"subscription": "freeplan","id": 4,"display": "XDDDDDDDD","username": "CDSF","email": "string@gmail.com"}` | Este POST request crea un nuevo cliente en el sistema. Incluye información de visualización, un correo electrónico, una URL de ícono y una suscripción predeterminada 'freeplan'. |
+| `/api/v1/userClients` | Obtener los datos de todos los clientes | `GET` | `GET /api/v1/userClients` | Ninguno | `http://localhost:5119/api/v1/userclients` | `{"icon": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","phrase": "string","orders": [{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "delivered","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": [{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}]}],"subscription": "communityplan","id": 2,"display": "string","username": "string","email": "user@example.com"}` | Esta solicitud GET obtiene los datos de todos los clientes registrados. Devuelve una lista de objetos cliente con sus detalles. |
+| `/api/v1/userClients/{id}` | Obtener los datos de un usuario en específico | `GET` | `GET /api/v1/userClients/{id}` | `id: Integer` | `Id: 2` | `{"icon": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","phrase": "string","orders": [],"subscription": "freeplan","id": 2,"display": "string","username": "string","email": "string@gmail.com"}` | Esta solicitud GET obtiene los datos de un usuario específico, utilizando su ID. Muestra los detalles completos del cliente buscado. |
+| `/api/v1/userClients/{id}` | Actualizar los datos de un UserClient existente | `PUT` | `PUT /api/v1/userClients/{id}` | `id: Integer` | `Id: 1` | `{"display": "string","username": "string","email": "user@example.com","password": "string","icon": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","phrase": "string","subscription": "freeplan"}` | Esta solicitud PUT actualiza los datos de un cliente existente, utilizando su ID. Permite modificar campos como display, username, password, icon, phrase y subscription. |
+| `/api/v1/userClients/{id}` | Eliminar un UserClient previamente creado | `DELETE` | `DELETE /api/v1/userClients/{id}` | `id: Integer` | `Id: 3` | `userClient eliminado exitosamente.` | Esta solicitud DELETE elimina un cliente previamente creado del sistema, usando su ID. Borra por completo el registro del cliente. |
+| `/api/v1/userClients/{id}/subscription` | Actualizar el plan de suscripción de un cliente de usuario | `PUT` | `PUT /api/v1/userClients/{id}/suscription` | `id: Integer` | `Id: 4` | `{"icon": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","phrase": "string","orders": [],"subscription": "communityplan","id": 4,"display": "XDDDDDDDD","username": "CDSF","email": "string@gmail.com"}` | Esta solicitud PUT actualiza la suscripción de un cliente específico, dado su ID. Permite cambiar la suscripción entre 'freeplan' y 'communityplan'. |
+| `/api/v1/userClients/{id}/favorites/{bookId}` | Agregar un libro existente como favorito | `POST` | `POST /api/v1/userClients/{id}/favorites/{bookId}` | `id: Integer`, `bookId: Integer` | `userClientId: 1`, `BookId: 1` | `{"icon": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","phrase": "string","orders": [{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "delivered","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": [{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}]}],"subscription": "communityplan","id": 2,"display": "string","username": "string","email": "user@example.com"}` | Esta solicitud POST agrega un libro existente como favorito a un usuario. Permite añadir un libro a la lista de favoritos de un cliente. |
+| `/api/v1/userClients/{id}/favorites/{bookId}` | Eliminar un libro favorito de un UserClient previamente creado | `DELETE` | `DELETE /api/v1/userClients/{id}/favorites/{bookId}` | `id: Integer`, `bookId: Integer` | `Id: 2` | `favorito eliminado exitosamente.` | Esta solicitud DELETE elimina un libro de la lista de favoritos de un usuario. Permite quitar un libro de los favoritos de un cliente. |
+| `/api/v1/userClients/{userClientId}/favorites` | Obtener los datos de los favoritos que le pertenecen a un usuario en específico | `GET` | `GET /api/v1/userClients/{userClientId}/favorites` | `id: Integer` | `http://localhost:5119/api/v1/userclients/2/favorites` | `{"id": 1,"title": "string","description": "string","author": "string","salePrice": 4,"stock": 49,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []}` | Esta solicitud GET obtiene los libros favoritos de un usuario específico. Muestra la lista de libros marcados como favoritos por el usuario. |
+| `/api/v1/notifications/user/{userClientId}` | Obtener las notificaciones activas de un usuario | `GET` | `GET /api/v1/notifications/user/{userClientId}` | `id: Integer` | `userClientId: 2` | `[{"id": 4,"userClientId": 2,"createdAt": "2025-06-21T05:39:05.365242","type": 2,"title": "Order Received","content": "Thanks for your order! It's being processed.","isRead": false,"isHidden": false}]` | Esta solicitud GET obtiene las notificaciones activas de un usuario específico. Muestra las notificaciones que no han sido ocultadas para ese usuario. |
+| `/api/v1/notifications/{id}` | Obtener los datos de una notificación en específicos | `GET` | `GET /api/v1/notifications/{id}` | `id: Integer` | `Id: 1` | `{"id": 1,"userClientId": 2,"createdAt": "2025-06-21T05:29:40.197533","type": 0,"title": "Welcome to Livria!","content": "We're thrilled to have you here.","isRead": false,"isHidden": true}` | Esta solicitud GET obtiene los datos de una notificación en específico, utilizando su ID. Muestra los detalles de la notificación buscada. |
+| `/api/v1/notifications/hide-all` | Ocultar todas las notificaciones de un usuario | `PATCH` | `PATCH /api/v1/notifications/hide-all` | `userClientId: Integer` | `{"userClientId": 2}` | `content-language: es-ESdate: Sat,21 Jun 2025 07:14:07 GMTserver: Kestrel` | Esta solicitud PATCH oculta todas las notificaciones activas de un usuario. Marca las notificaciones como ocultas (eliminación lógica) sin borrarlas físicamente. |
+| `/api/v1/orders` | Crear una nueva orden | `POST` | `POST /api/v1/orders` | Ninguno | `{"userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shippingDetails": {"address": "string","city": "string","district": "string","reference": "string"},"cartItemIds": [2]}` | `{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.2790128Z","items": [{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}]}` | Esta solicitud POST crea una nueva orden en el sistema. Permite registrar una compra con detalles del cliente, envío y los ítems comprados. |
+| `/api/v1/orders/{id}` | Obtener los datos de un orden en específico | `GET` | `GET /api/v1/orders/{id}` | `id: Integer` | `Id: 1` | `{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": [{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}]}` | Esta solicitud GET obtiene los datos de una orden en específico, usando su ID. Muestra los detalles de la orden buscada. |
+| `/api/v1/orders/code/{code}` | Obtener los datos de una orden en específico por medio de su código | `GET` | `GET /api/v1/orders/code/{code}` | `code: String` | `code: 292W4X` | `{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "pending","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": [{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}]}` | Esta solicitud GET obtiene los datos de una orden específica por medio de su código. Muestra los detalles de la orden que coincida con el código. |
+| `/api/v1/orders/users/{userClientId}` | Obtener los datos de las órdenes de un usuario cliente en específico. | `GET` | `GET /api/v1/orders/users/{userClientId}` | `userClientId: Integer` | `userClientId: 2` | `[{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "delivered","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": [{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}]}]` | Esta solicitud GET obtiene todas las órdenes de un usuario cliente específico, usando su ID. Muestra una lista de todas las compras realizadas por ese usuario. |
+| `/api/v1/orders/{orderId}/status` | Actualizar el estado de una orden | `PUT` | `PUT /api/v1/orders/{orderId}/status` | `status: string` | `{"status": "in progress"}` | `{"id": 1,"code": "292W4X","userClientId": 2,"userEmail": "string@gmail.com","userPhone": "123123123","userFullName": "string","recipientName": "string","status": "in progress","isDelivery": true,"shipping": {"address": "string","city": "string","district": "string","reference": "string"},"total": 4,"date": "2025-06-21T05:39:05.279012","items": [{"id": 1,"bookId": 1,"bookTitle": "string","bookAuthor": "string","bookPrice": 4,"bookCover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","quantity": 1,"itemTotal": 4}]}` | Esta solicitud PUT actualiza el estado de una orden, usando su ID. Permite cambiar el estado de una orden entre 'pending', 'in progress' o 'delivered'. |
+| `/api/v1/posts/community/{communityId}` | Crear una nueva publicación de una comunidad existente | `POST` | `POST /api/v1/posts/community/{communityId}` | `communityId: integer` | `{"username": "string","content": "string","img": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg"}` | `{"id": 1,"communityId": 1,"userId": 2,"username": "string","content": "string","img": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","createdAt": "2025-06-21T05:40:19.5549411Z"}` | Esta solicitud POST crea una nueva publicación en una comunidad existente, dado el ID de la comunidad. Permite añadir contenido a una comunidad específica. |
+| `/api/v1/posts/{id}` | Obtener los datos de una publicación en específico | `GET` | `GET /api/v1/posts/{id}` | `id: Integer` | `Id: 1` | `{"id": 1,"communityId": 1,"userId": 2,"username": "string","content": "string","img": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","createdAt": "2025-06-21T05:40:19.554941"}` | Esta solicitud GET obtiene los datos de una publicación específica, usando su ID. Muestra los detalles de la publicación buscada. |
+| `/api/v1/posts` | Obtener los datos de todas las publicaciones | `GET` | `GET /api/v1/posts` | Ninguno | `http://localhost:5119/api/v1/posts` | `[{"id": 1,"communityId": 1,"userId": 2,"username": "string","content": "string","img": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","createdAt": "2025-06-21T05:40:19.554941"}]` | Esta solicitud GET obtiene los datos de todas las publicaciones existentes. Muestra una lista completa de todas las publicaciones en el sistema. |
+| `/api/v1/posts/community/{communityId}` | Obtener todas las publicaciones para una comunidad específica | `GET` | `GET /api/v1/posts/community/{communityId}` | `communityId: Integer` | `communityId: 1` | `{"id": 1,"communityId": 1,"userId": 2,"username": "string","content": "string","img": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","createdAt": "2025-06-21T05:40:19.554941"}` | Esta solicitud GET obtiene todas las publicaciones para una comunidad específica, usando el ID de la comunidad. Muestra una lista de las publicaciones asociadas a esa comunidad. |
+| `/api/v1/recommendations/users/{userClientId}` | Obtener las recomendaciones de libros que le pertenecen a un usuario en específico | `GET` | `GET /api/v1/recommendations/users/{userClientId}` | `userClientId: Integer` | `userClientId: 2` | `{"userClientId": 2,"recommendedBooks": [{"id": 2,"title": "XDDDDD","description": "string","author": "string","salePrice": 4,"stock": 20,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []},{"id": 3,"title": "XD","description": "string","author": "string","salePrice": 4,"stock": 20,"cover": "https://i.kinja-img.com/image/upload/c_fit,q_60,w_645/3403984c00db62389e225eac46008f21.jpg","genre": "noficcion","language": "english","reviews": []}]}` | Esta solicitud GET obtiene las recomendaciones de libros que le pertenecen a un usuario específico. Muestra una lista de libros recomendados para el usuario. |
+
+**Capturas:**
+
+<p align="center">
+  <img src="https://imgur.com/dtO3lmD.png" alt="full1" width="500">
+</p>
+
+Este POST request crea un nuevo cliente en el sistema. Incluye información de visualización, un correo electrónico, una URL de ícono y una suscripción predeterminada 'freeplan'.
+
+<p align="center">
+  <img src="https://imgur.com/lLsIuf2.png" alt="full2" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de todos los clientes registrados. Devuelve una lista de objetos cliente con sus detalles.
+
+<p align="center">
+  <img src="https://imgur.com/Ki0vl75.png" alt="full3" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de un usuario específico, utilizando su ID. Muestra los detalles completos del cliente buscado.
+
+<p align="center">
+  <img src="https://imgur.com/d1HSXAG.png" alt="full4" width="500">
+</p>
+
+Esta solicitud PUT actualiza los datos de un cliente existente, utilizando su ID. Permite modificar campos como display, username, password, icon, phrase y subscription.
+
+<p align="center">
+  <img src="https://imgur.com/jIvZ7Bi.png" alt="full5" width="500">
+</p>
+
+Esta solicitud DELETE elimina un cliente previamente creado del sistema, usando su ID. Borra por completo el registro del cliente.
+
+<p align="center">
+  <img src="https://imgur.com/nflpq90.png" alt="full6" width="500">
+</p>
+
+Esta solicitud PUT actualiza la suscripción de un cliente específico, dado su ID. Permite cambiar la suscripción entre 'freeplan' y 'communityplan'.
+
+<p align="center">
+  <img src="https://imgur.com/t15DYXD.png" alt="full7" width="500">
+</p>
+
+Esta solicitud POST crea un nuevo libro en el sistema. Permite registrar un libro con su título, descripción, autor, precio, stock, imagen de portada, género y idioma.
+
+<p align="center">
+  <img src="https://imgur.com/g0bkAO7.png" alt="full8" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de todos los libros disponibles. Muestra una lista completa de los libros registrados en el sistema.
+
+<p align="center">
+  <img src="https://imgur.com/UbBQar6.png" alt="full9" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de un libro en específico, utilizando su ID. Muestra los detalles del libro solicitado.
+
+<p align="center">
+  <img src="https://imgur.com/q3a1SbD.png" alt="full10" width="500">
+</p>
+
+Esta solicitud PUT actualiza el stock disponible de un libro específico, usando su ID. Permite modificar la cantidad de libros en existencia.
+
+<p align="center">
+  <img src="https://imgur.com/rBbgIKs.png" alt="full11" width="500">
+</p>
+
+Esta solicitud POST crea un nuevo ítem en el carrito de un usuario. Permite añadir un libro con una cantidad específica al carrito de un cliente.
+
+<p align="center">
+  <img src="https://imgur.com/pp46tNx.png" alt="full12" width="500">
+</p>
+
+Esta solicitud PUT actualiza la cantidad de un libro en un ítem de carrito específico. Permite modificar la cantidad de un libro ya existente en el carrito de un usuario.
+
+<p align="center">
+  <img src="https://imgur.com/c3xrOWq.png" alt="full13" width="500">
+</p>
+
+Esta solicitud DELETE elimina un ítem específico del carrito de un usuario. Borra un libro determinado del carrito de compras.
+
+<p align="center">
+  <img src="https://imgur.com/WVyn4mY.png" alt="full14" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de un libro perteneciente a un carrito en específico, utilizando el ID del ítem del carrito. Muestra los detalles del libro y la cantidad en el carrito.
+
+<p align="center">
+  <img src="https://imgur.com/6TjQL0k.png" alt="full15" width="500">
+</p>
+
+Esta solicitud GET obtiene todos los ítems del carrito de un usuario específico. Muestra los libros y sus cantidades en el carrito de ese usuario.
+
+<p align="center">
+  <img src="https://imgur.com/GMBARLu.png" alt="full16" width="500">
+</p>
+
+Esta solicitud POST crea una nueva comunidad en el sistema. Permite registrar una comunidad con su nombre, descripción, tipo, imagen y banner.
+
+<p align="center">
+  <img src="https://imgur.com/zVodsyw.png" alt="full17" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de todas las comunidades existentes. Muestra una lista de comunidades con sus detalles.
+
+<p align="center">
+  <img src="https://imgur.com/HUggucF.png" alt="full18" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de una comunidad en específico, utilizando su ID. Muestra los detalles de la comunidad buscada.
+
+<p align="center">
+  <img src="https://imgur.com/AWJROU6.png" alt="full19" width="500">
+</p>
+
+Esta solicitud POST permite a un usuario unirse a una comunidad existente. Asocia un usuario a una comunidad específica.
+
+<p align="center">
+  <img src="https://imgur.com/j674dfs.png" alt="full20" width="500">
+</p>
+
+Esta solicitud GET obtiene las notificaciones activas de un usuario específico. Muestra las notificaciones que no han sido ocultadas para ese usuario.
+
+<p align="center">
+  <img src="https://imgur.com/PM6znU0.png" alt="full21" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de una notificación en específico, utilizando su ID. Muestra los detalles de la notificación buscada.
+
+<p align="center">
+  <img src="https://imgur.com/ovmm8Hu.png" alt="full22" width="500">
+</p>
+
+Esta solicitud PATCH oculta todas las notificaciones activas de un usuario. Marca las notificaciones como ocultas (eliminación lógica) sin borrarlas físicamente.
+
+<p align="center">
+  <img src="https://imgur.com/JEB5TDV.png" alt="full23" width="500">
+</p>
+
+Esta solicitud POST crea una nueva orden en el sistema. Permite registrar una compra con detalles del cliente, envío y los ítems comprados.
+
+<p align="center">
+  <img src="https://imgur.com/6ENuDtq.png" alt="full24" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de una orden en específico, usando su ID. Muestra los detalles de la orden buscada.
+
+<p align="center">
+  <img src="https://imgur.com/LEmkypK.png" alt="full25" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de una orden específica por medio de su código. Muestra los detalles de la orden que coincida con el código.
+
+<p align="center">
+  <img src="https://imgur.com/8QY7Glg.png" alt="full26" width="500">
+</p>
+
+Esta solicitud GET obtiene todas las órdenes de un usuario cliente específico, usando su ID. Muestra una lista de todas las compras realizadas por ese usuario.
+
+<p align="center">
+  <img src="https://imgur.com/UPNliBS.png" alt="full27" width="500">
+</p>
+
+Esta solicitud PUT actualiza el estado de una orden, usando su ID. Permite cambiar el estado de una orden entre 'pending', 'in progress' o 'delivered'.
+
+<p align="center">
+  <img src="https://imgur.com/c9ZGm2O.png" alt="full28" width="500">
+</p>
+
+Esta solicitud POST crea una nueva publicación en una comunidad existente, dado el ID de la comunidad. Permite añadir contenido a una comunidad específica.
+
+<p align="center">
+  <img src="https://imgur.com/jpn6juJ.png" alt="full29" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de una publicación específica, usando su ID. Muestra los detalles de la publicación buscada.
+
+<p align="center">
+  <img src="https://imgur.com/wQHx8qi.png" alt="full30" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de todas las publicaciones existentes. Muestra una lista completa de todas las publicaciones en el sistema.
+
+<p align="center">
+  <img src="https://imgur.com/X8MVpqn.png" alt="full31" width="500">
+</p>
+
+Esta solicitud GET obtiene todas las publicaciones para una comunidad específica, usando el ID de la comunidad. Muestra una lista de las publicaciones asociadas a esa comunidad.
+
+<p align="center">
+  <img src="https://imgur.com/LhqlCHD.png" alt="full32" width="500">
+</p>
+
+Esta solicitud POST agrega un libro existente como favorito a un usuario. Permite añadir un libro a la lista de favoritos de un cliente.
+
+<p align="center">
+  <img src="https://imgur.com/SBGtiSx.png" alt="full33" width="500">
+</p>
+
+Esta solicitud DELETE elimina un libro de la lista de favoritos de un usuario. Permite quitar un libro de los favoritos de un cliente.
+
+<p align="center">
+  <img src="https://imgur.com/qfIdFbB.png" alt="full34" width="500">
+</p>
+
+Esta solicitud GET obtiene los libros favoritos de un usuario específico. Muestra la lista de libros marcados como favoritos por el usuario.
+
+<p align="center">
+  <img src="https://imgur.com/gsLW8Q1.png" alt="full35" width="500">
+</p>
+
+Esta solicitud GET obtiene las recomendaciones de libros que le pertenecen a un usuario específico. Muestra una lista de libros recomendados para el usuario.
+
+<p align="center">
+  <img src="https://imgur.com/M2Y0idz.png" alt="full36" width="500">
+</p>
+
+Esta solicitud POST crea una nueva reseña en el sistema. Permite añadir una reseña con calificación y contenido para un libro y un usuario.
+
+<p align="center">
+  <img src="https://imgur.com/0dOakhX.png" alt="full37" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de todas las reseñas. Muestra una lista completa de todas las reseñas en el sistema.
+
+<p align="center">
+  <img src="https://imgur.com/HwaJHXD.png" alt="full38" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos de una reseña en específico, usando su ID. Muestra los detalles de la reseña buscada.
+
+<p align="center">
+  <img src="https://imgur.com/EVNdXF9.png" alt="full39" width="500">
+</p>
+
+Esta solicitud GET obtiene todas las reseñas para un libro específico. Muestra una lista de todas las reseñas asociadas a un libro dado.
+
+<p align="center">
+  <img src="https://imgur.com/SjqpRH0.png" alt="full40" width="500">
+</p>
+
+Esta solicitud GET obtiene los datos del usuario administrador. Muestra la información del usuario con privilegios de administrador.
+
+<p align="center">
+  <img src="https://imgur.com/L67ESLr.png" alt="full41" width="500">
+</p>
+
+Esta solicitud PUT actualiza los datos de un usuario administrador. Permite modificar la información del usuario con privilegios de administrador.
+
+#### 1. Libros (Books)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de todos los libros.
+    * `GET`: Obtener los datos de un libro en específico por Id.
+    * `POST`: Crear un nuevo libro.
+    * `PUT`: Actualizar el stock de un libro.
+* **Descripción:** Proporciona funcionalidades para obtener información sobre los libros, agregar reseñas, y obtener detalles de libros específicos.
+
+#### 2. Reseñas de los libros (Reviews)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de todas las reseñas.
+    * `GET`: Obtener los datos de una reseña en específico.
+    * `GET`: Obtener todas las reseñas para un libro específico.
+    * `POST`: Crear una nueva reseña.
+* **Descripción:** Permite gestionar las reseñas de libros, permitiendo que los usuarios puedan crear y consultar comentarios sobre los libros disponibles en la plataforma.
+
+#### 3. Comunidades (Communities)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de todas las comunidades.
+    * `GET`: Obtener los datos de una comunidad en específico por id.
+    * `POST`: Crear una nueva comunidad.
+    * `POST`: Unirse a una comunidad existente.
+* **Descripción:** Permite gestionar las comunidades literarias, crear nuevas comunidades y realizar publicaciones dentro de ellas.
+
+#### 4. Publicaciones en comunidades (Posts)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de una publicación en específico.
+    * `GET`: Obtener los datos de todas las publicaciones.
+    * `GET`: Obtener todas las publicaciones para una comunidad específica.
+    * `POST`: Crear una nueva publicación en una comunidad existente.
+* **Descripción:** Gestiona las publicaciones dentro de las comunidades literarias, permitiendo a los usuarios compartir contenido y participar activamente en discusiones dentro de sus comunidades literarias favoritas.
+
+#### 5. Notificaciones (Notifications)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener las notificaciones activas de un usuario.
+    * `GET`: Obtener los datos de una notificación en específico.
+    * `POST`: Crear una nueva notificación.
+    * `PATCH`: Ocultar todas las notificaciones de un usuario.
+* **Descripción:** Permite la gestión de notificaciones, incluyendo la notificación de acciones de usuario, como la creación de órdenes o actualizaciones de suscripciones.
+
+#### 6. Carrito de Compra (CartItems)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de un libro perteneciente a un carrito en específico.
+    * `GET`: Obtener los datos del carrito del usuario especificado.
+    * `POST`: Crear un nuevo ítem en el carrito.
+    * `PUT`: Actualizar la cantidad de libros de un ítem de un carrito existente.
+    * `DELETE`: Eliminar un ítem de un carrito de un UserClient previamente creado.
+* **Descripción:** Permite gestionar los productos seleccionados para compra, actualizar cantidades y realizar eliminaciones.
+
+#### 7. Orden de Compra (Orders)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de una orden en específico.
+    * `GET`: Obtener los datos de una orden en específico por medio de su código.
+    * `GET`: Obtener los datos de las órdenes de un usuario cliente en específico.
+    * `POST`: Crear una nueva orden.
+    * `PUT`: Actualiza el estado de una orden.
+* **Descripción:** Gestiona el proceso de compra, incluyendo la creación de órdenes y la obtención de detalles sobre pedidos específicos.
+
+#### 8. Usuario Administrador (UserAdmins)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos del usuario administrador.
+    * `PUT`: Actualizar los datos del UserAdmin.
+* **Descripción:** Permite gestionar la información de los usuarios administradores, incluyendo detalle de registro y actualización.
+
+#### 9. Usuarios (UserClients)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de todos los clientes.
+    * `GET`: Obtener los datos de un usuario en específico.
+    * `GET`: Obtener los datos de los favoritos que le pertenecen a un usuario en específico.
+    * `POST`: Añadir nuevo cliente.
+    * `POST`: Agregar un libro existente como favorito.
+    * `PUT`: Actualizar los datos de UserClient existente.
+    * `PUT`: Actualizar el plan de suscripción de un cliente de usuario.
+    * `DELETE`: Eliminar un usuario cliente de la plataforma.
+    * `DELETE`: Eliminar un libro favorito de un UserCliente previamente creado.
+* **Descripción:** Permite gestionar la información de los usuarios clientes, incluyendo detalle de registro y actualización.
+
+#### 10. Recomendaciones (Recommendations)
+* **Operaciones CRUD soportadas:**
+    * `GET`: Obtener los datos de las recomendaciones que le pertenecen a un usuario en específico.
+* **Descripción:** Permite obtener una lista de libros recomendados para un usuario según sus preferencias y su historial de actividad. La solicitud de recomendaciones se realiza mediante el `userClientId`, que identifica al usuario dentro de la plataforma de Livria.
+
+La documentación de la API ha sido integrada utilizando OpenAPI y Swagger. Estos permiten a los desarrolladores acceder a una interfaz interactiva para explorar y probar los endpoints de la API. Además, Swagger proporciona una visión detallada de todos los endpoints disponibles, los métodos soportados, los parámetros requeridos y las respuestas esperadas, facilitando así la integración de nuevos servicios y la extensión de la API.
+
+En nuestro proyecto, a través de la interfaz Swagger, nos permite visualizar y probar los endpoints para gestionar libros, carritos de compra, pedidos, usuarios, comunidades y notificaciones. Esto proporciona una herramienta útil y mejora la eficiencia en el desarrollo de nuevas funcionalidades.
+
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+Durante este Sprint 3, el equipo se centró en el desarrollo y despliegue de las funcionalidades backend para la aplicación web de Livria. A continuación, se detallan los pasos realizados para asegurar que el backend estuviera correctamente implementado y desplegado en el entorno de producción.
+
+#### Actividades de Despliegue:
+
+1.  **Desarrollo de la API Backend:**
+    * La API RESTful fue desarrollada utilizando **.NET** como el marco principal de trabajo y **MySQL** como sistema de gestión de bases de datos. La API permite la gestión de entidades clave como libros, carritos de compra, pedidos, usuarios, comunidades y notificaciones.
+
+2.  **Despliegue en el Entorno de Desarrollo:**
+    * Se utilizó **Swagger** para documentar la API y proporcionar una interfaz interactiva que permite explorar y probar todos los endpoints.
+
+3.  **Despliegue en el Entorno de Producción:**
+    * La API fue desplegada en el entorno de producción, y se configuraron las instancias necesarias en el servidor para asegurar la disponibilidad continua.
+    * **MySQL** fue configurado en el servidor de producción para manejar moderados volúmenes de datos, y se optimizó la base de datos para garantizar un rendimiento eficiente.
+
+4.  **Configuración y Gestión de la Base de Datos:**
+    * La base de datos fue migrada a **MySQL**, y se implementaron todas las relaciones necesarias entre las tablas para garantizar la integridad de los datos.
+    * Se realizaron pruebas de rendimiento en las consultas de la base de datos para asegurarse de que las operaciones de lectura y escritura fueran rápidas y escalables.
+
+<p align="center">
+  <img src="https://imgur.com/yYQRizP.png" alt="confi1" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/FazSUmG.png" alt="confi2" width="500">
+</p>
+
+#### 5. Deployment en Azure
+
+Para realizar la publicación del proyecto en Azure se siguieron los pasos a continuación:
+
+* **Instalar el plugin de Azure en Rider:**
+
+<p align="center">
+  <img src="https://imgur.com/Kn1sgYI.png" alt="confi3" width="500">
+</p>
+
+* **Acceder a la cuenta de Azure a utilizar mediante Sign-In para conectarlo con Rider:**
+
+<p align="center">
+  <img src="https://imgur.com/3JhSeyL.png" alt="confi4" width="500">
+</p>
+
+* **Antes de continuar, asegurarse de que Swagger esté habilitado para producción. Para ello, contar con las siguientes líneas de código en Program.cs:**
+
+<p align="center">
+  <img src="https://imgur.com/Ok945Jw.png" alt="confi5" width="500">
+</p>
+
+* **Dar click derecho en el proyecto y seleccionar la opción de Publish (Publicar). Seguidamente, elegir la opción de Azure:**
+
+<p align="center">
+  <img src="https://imgur.com/heZSBPQ.png" alt="confi6" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/0gZSPV4.png" alt="confi7" width="500">
+</p>
+
+* **A continuación, configuramos la publicación del proyecto. Se debe crear una nueva Web App y seleccionar la opción de More settings. Ahí, se debe seleccionar un Resource Group en Azure existente o crear uno nuevo:**
+
+<p align="center">
+  <img src="https://imgur.com/uy8opZC.png" alt="confi8" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/wgBHr5H.png" alt="confi9" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/WiHTSAu.png" alt="confi10" width="500">
+</p>
+
+* **Tras haber seleccionado las opciones de Ok y de Run en las ventanas anteriores, el proyecto empezará con el deployment. Al finalizar, mostrará el link de conexión:**
+
+<p align="center">
+  <img src="https://imgur.com/LVrzjD9.png" alt="confi11" width="500">
+</p>
+
+* **Al hacer click en este link, nos llevará a la aplicación web deployada. Inicialmente, saldrá que la página web no se encuentra. Para ello, colocar “/swagger/index.html” al final de la URL y aparecerá la pestaña de Swagger con nuestros endpoints:**
+
+<p align="center">
+  <img src="https://imgur.com/qP4cNJd.png" alt="confi12" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/neGM8Qg.png" alt="confi13" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/fFt36E5.png" alt="confi14" width="500">
+</p>
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint 3, el equipo se centró en la implementación de las funcionalidades clave del **backend** para la aplicación web de Livria. Utilizando **.NET** como marco principal de desarrollo y **MySQL** como sistema de gestión de bases de datos, se lograron avances significativos en la gestión de datos, incluyendo la creación de **APIs RESTful** para operaciones CRUD esenciales como la gestión de libros, carritos de compra, pedidos, usuarios, comunidades, y notificaciones. Además, se integró la documentación de la API a través de **OpenAPI y Swagger**, lo que facilita la comprensión, prueba y uso de los endpoints para los desarrolladores.
+
+#### Actividades de implementación:
+
+* **Estructura del Backend:** Se implementaron los endpoints necesarios para gestionar las entidades clave de la aplicación. Las APIs fueron desarrolladas usando .NET y se conectaron a una base de datos MySQL para almacenar y gestionar los datos de libros, carritos, pedidos, usuarios, comunidades, notificaciones y recomendar libros.
+* **Operaciones CRUD:** Las funcionalidades básicas de Create, Read, Update, y Delete fueron implementadas para cada entidad, asegurando que el sistema pudiera manejar de manera eficiente los datos del catálogo de libros, la información del usuario, las publicaciones en las comunidades, los pedidos de compra, etc.
+* **Documentación con OpenAPI y Swagger:** Se implementó la documentación interactiva de la API utilizando OpenAPI y Swagger, permitiendo a los desarrolladores explorar los endpoints de manera visual y probar cada uno de ellos directamente desde la interfaz. Swagger facilita la interacción con los endpoints de la API, garantizando que las funcionalidades sean fáciles de integrar y probar en el entorno de desarrollo.
+* **Base de Datos MySQL:** La base de datos fue diseñada con relaciones bien estructuradas entre las tablas, lo que permite una gestión eficiente y escalable de los datos. Las operaciones de lectura y escritura fueron optimizadas para asegurar un rendimiento adecuado incluso con moderados volúmenes de datos.
+* **Mejoras en el Frontend:** Se realizaron correcciones y mejoras en el frontend, específicamente en la sección de usuarios. Se corrigieron algunos errores de diseño y se optimizó la experiencia de usuario en la plataforma, asegurando una navegación más fluida y visualmente atractiva.
+* **Dashboard para Administradores:** Se incorporó una nueva sección de Dashboard en el frontend dedicada exclusivamente a los administradores. Esta sección permite gestionar los libros, ver estadísticas de ventas y supervisar las operaciones clave de la plataforma, lo que facilita la administración del sistema de forma centralizada.
+
+#### Analítica de colaboración en GitHub:
+
+##### Repositorio livria-web-app
+* Historial de commits:
+
+  <p align="center">
+  <img src="https://imgur.com/zMNAKvd.png" alt="confi15" width="500">
+  </p>
+
+* Colaboradores activos en el repositorio:
+
+  <p align="center">
+  <img src="https://imgur.com/deWOqo2.png" alt="confi16" width="500">
+  </p>
+  
+* Histograma de contribuciones en el tiempo:
+  
+  <p align="center">
+  <img src="https://imgur.com/scsgZbe.png" alt="confi17" width="500">
+  </p>
+  
+##### Repositorio livria-backend
+* Historial de commits:
+
+  <p align="center">
+  <img src="https://imgur.com/MPGqeMr.png" alt="confi18" width="500">
+  </p>
+  
+* Colaboradores activos en el repositorio:
+
+  <p align="center">
+  <img src="https://imgur.com/FYXgufk.png" alt="confi19" width="500">
+  </p>
+  
+* Histograma de contribuciones en el tiempo:
+
+  <p align="center">
+  <img src="https://imgur.com/cY3fNhY.png" alt="confi20" width="500">
+  </p>
+
+##### Repositorio livria-db-scripts
+* Historial de commits:
+
+  <p align="center">
+  <img src="https://imgur.com/AAPXo2D.png" alt="confi21" width="500">
+  </p>
+  
+* Colaboradores activos en el repositorio:
+
+  <p align="center">
+  <img src="https://imgur.com/pwJDUK7.png" alt="confi22" width="500">
+  </p>
+  
+* Histograma de contribuciones en el tiempo: 
+
+  <p align="center">
+  <img src="https://imgur.com/rlJhzYZ.png" alt="confi23" width="500">
+  </p>
+  
+##### Repositorio livria.github.io
+* Historial de commits:
+
+  <p align="center">
+  <img src="https://imgur.com/E2nr6Xz.png" alt="confi24" width="500">
+  </p>
+  
+* Colaboradores activos en el repositorio:
+
+  <p align="center">
+  <img src="https://imgur.com/H4diLGH.png" alt="confi25" width="500">
+  </p>
+  
+* Histograma de contribuciones en el tiempo:
+
+  <p align="center">
+  <img src="https://imgur.com/bWuN3Qd.png" alt="confi26" width="500">
+  </p>
+
+## 5.3. Validation Interviews
+
+### 5.3.1. Diseño de Entrevistas
+
+**User flows utilizados:**
+
+* **Segmento 1: Estudiantes y jóvenes universitarios**
+    * Como usuario, quiero poder realizar la búsqueda de libros en base a diferentes criterios y obtener resultados relacionados.
+    * Como usuario, quiero poder navegar rápidamente entre categorías y géneros de libros.
+
+* **Segmento 2: Lectores casuales y aficionados a la lectura**
+    * Como usuario, quiero poder expresarme mediante mi perfil y tener la capacidad de editarlo en cualquier momento.
+    * Como usuario, quiero poder realizar compras desde la plataforma de manera segura y bien explicada.
+
+**Preguntas:**
+
+##### Segmento Objetivo #1: Estudiantes y jóvenes universitarios
+
+**Perfil del entrevistado:**
+* ¿Cuál es tu nombre y a qué te dedicas actualmente?
+* ¿Qué herramientas o aplicaciones usas actualmente para estudiar o leer libros digitales académicos?
+
+**Tras mostrar la Landing Page:**
+* ¿Qué entendiste que ofrece Livria?
+* ¿Crees que esta plataforma está pensada para alguien como tú, que estudia?
+* ¿Qué mejorarías en la página para hacerla más atractiva o útil para estudiantes como tú?
+
+**Tras la demostración de la aplicación web:**
+* ¿Qué impresión general te dio la plataforma Livria?
+* ¿Te parece útil para tu gestión diaria de lecturas académicas?
+* ¿Fue fácil de usar y entender cómo funciona la plataforma?
+* ¿Te gustaría que la aplicación tuviera alguna funcionalidad adicional para tus estudios, para facilitar la organización de tus lecturas o tareas?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de Livria?
+* ¿Usarías esta herramienta regularmente para tus estudios? ¿Por qué?
+
+##### Segmento Objetivo #2: Lectores casuales y aficionados a la lectura
+
+**Perfil del entrevistado:**
+* ¿Cuál es tu nombre y qué tipo de lectura disfrutas?
+* ¿Qué plataformas o aplicaciones usas para leer libros digitales o descubrir nuevos títulos?
+
+**Tras mostrar la Landing Page:**
+* ¿Qué entendiste que ofrece Livria?
+* ¿Crees que esta aplicación sería adecuada para alguien como tú, que disfruta leer libros por placer?
+* ¿Qué mejorarías en la página para que te resulte más atractiva y útil como lector casual?
+
+**Tras la demostración de la aplicación web:**
+* ¿Qué impresión general te dio la plataforma Livria?
+* ¿Te parece que la plataforma es adecuada para la lectura de libros de entretenimiento y ficción?
+* ¿Fue fácil navegar y encontrar libros que te interesaran en la aplicación?
+* ¿Cómo calificarías la experiencia de recibir recomendaciones personalizadas según tus gustos literarios?
+* ¿Te gustaría que la aplicación incluya más funciones sociales, como comentarios o foros de discusión sobre libros?
+
+**Cierre:**
+* ¿Qué es lo que más te gustó de la plataforma?
+* ¿Volverías a usar Livria para encontrar nuevos libros? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas
+
+#### Segmento objetivo #1: Estudiantes y jóvenes universitarios
+
+##### Entrevistado #1: Joaquin Cuentas
+* Edad: 22
+* Distrito: San Miguel
+
+  <p align="center">
+  <img src="https://imgur.com/UYoVtxe.png" alt="ent1" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #1 Joaquin Cuentas.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/ER_Rc3KXonBIjFT_HoFH4YMBuL8ZB7b84LXsGFZ2-oq9cQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2gcRXT)
+
+Joaquin Cuentas, quien es un estudiante universitario, nos comenta que suele leer libros académicos digitalmente a través de google académico o PDF de revistas académicas. Él entiende que Livria  no solo se dedica a la venta de libros digitales y físicos, sino que también ofrece una plataforma única para que los usuarios compartan sus intereses de manera efectiva. Sin embargo, considera que sería útil ampliar las categorías de textos académicos disponibles y que mejoremos el color de la barra de búsqueda para mayor visibilidad, ya que considera que no se aprecia de la mejor manera. Lo que realmente le impresionó de Livria fue la sección de comunidades, ya que no solo se trata de un espacio para comprar libros, sino también para que los usuarios interactúen y compartan intereses en diversas disciplinas académicas. 
+Joaquín también considera que la organización de las opciones en la plataforma es intuitiva y llamativa, lo que le resulta muy útil para su gestión diaria. Si él pudiera añadir una funcionalidad, sugeriría incorporar una sección de edición de PDFs en la que los usuarios pudieran resaltar puntos importantes, agregar resúmenes y realizar anotaciones en los textos.  Además, le gustaría que las comunidades se organizaran por carreras universitarias, permitiendo a los estudiantes conectarse con otros de su misma área de estudio. 
+En resumen, Joaquín destaca especialmente la sección de comunidades, ya que le permite conocer a personas con intereses y pasiones similares, lo que añade un valor único a la plataforma.
+
+##### Entrevistado #2: Ernesto Rodas
+* Edad: 19
+* Distrito: San Isidro
+
+  <p align="center">
+  <img src="https://imgur.com/EzIUtja.png" alt="ent2" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #1 Ernesto Rodas.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/Ec3OJQvjWFdAvfsNkzKUid0BAFYJ-GqIM1RQzoR0WuthPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=b1rtGM)
+
+Ernesto Rodas, un estudiante universitario, menciona que no posee el hábito de leer mucho libros académicos en aplicaciones o apps webs, sino que usa más los repositorios de las universidades para realizar tareas de su carrera. Él entiende que Livria ofrece un acceso abierto a cualquier tipo de público, permitiéndole leer lo que desee, ya que la plataforma cuenta con diversas categorías, lo que considera innovador. 
+Destaca que la landing page si es concisa y precisa, explicando claramente lo que la plataforma ofrece de manera efectiva. Sobre la interfaz, la describe como simple y accesible, pensada para todo tipo de público. Asimismo, él afirma que sí lo usaría para estudiar, ya que la considera práctica. Además, sugiere que la sección académica  podría mejorarse y que sería beneficioso tener más libros digitales en esa categoría. A Ernesto, le sorprendió la calidad de la plataforma, destaca que está bien hecha la interfaz del proceso de pago, dice que es muy realista. Lo que valora positivamente son las funcionalidades de las comunidades, los comentarios, los comentarios que se encuentran en cada libro y el botón de cambio de idioma. 
+Para su gestión de lecturas académicas, Ernesto considera que los filtros y la barra de búsqueda son herramientas muy útiles, ya que le ahorran tiempo al facilitar la búsqueda de contenido. En general, describe la plataforma como interactiva y didáctica, destacando que todo está al alcance de la mano, desde la búsqueda de libros hasta el proceso de pago y las comunidades. Él nos sugiere agregar secciones relacionadas con programación e inteligencia artificial dentro de las categorías disponibles. En resumen, lo que más le gustó de Livria fue que toda la información está fácilmente accesible, y la landing page explica muy bien las funciones que ofrece la plataforma. Él usaría la aplicación porque le permite ahorrar tiempo, haciendo que la búsqueda de lo que necesita sea más rápida y sencilla.
+
+##### Entrevistado #3: Wendy García 
+* Edad: 25
+* Distrito: Lince
+
+  <p align="center">
+  <img src="https://imgur.com/wZXkz90.png" alt="ent3" width="500">
+  </p>
+
+Link: [Validación de entrevista Segmento #1 Wendy Garcia.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/EdzYjY04ldtKqWTMmU9mRNwBIKyDejfwcKrxyL97GZhJIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FGxVb2)
+
+Wendy Garcia, quien es una estudiante universitaria, nos comenta que suele leer ebooks y en Google Académico. Ella entiende que Livria posee diversas categorías de libros, incluyendo formatos digitales, físicos y audiolibros. Wendy, considera que esta plataforma está diseñada para personas como ella, ya que es dinámica y práctica. Sin embargo, menciona que mejoraría las sinopsis de los libros, ya que las actuales son demasiado breves. Ella sugiere que estas sinopsis deberían ser más detalladas y que se incluyan etiquetas en los libros para facilitar la identificación de su contenido y público objetivo. La impresión general que le dejó la plataforma es positiva, destacando su dinamismo y el buen uso de la paleta de colores. Lo que más le impresionó fue la posibilidad de cambiar el idioma de la plataforma con tan solo un click, lo que consideró una función muy conveniente. 
+Asimismo, ella nos menciona que le parece una herramienta útil para su gestión diaria de lecturas académicas, especialmente porque la sección de comunidades le permite compartir intereses con otros usuarios, intercambiar opiniones sobre libros académicos, resúmenes y perspectivas personales. Le gustaría que la plataforma ofreciera resúmenes de libros como funcionalidad adicional para poder decidir si desea leerlos o no. También, destaca que la interacción con la plataforma es fácil y fluida, y le encanta la sección de comunidades, pues la considera un espacio donde se pueden compartir ideas y experiencias. Además, valora la disposición de las categorías en la barra superior, lo que hace que navegar por la plataforma sea más dinámico y práctico. En la sección de cuenta, le agrada poder consultar las órdenes que ha realizado. 
+En resumen, si usaría la aplicación, debido a que le encanta lo dinámica que es. Además, le encantó la sección de la comunidad y la opción disponible de audiolibros.
+
+#### Segmento objetivo #2: Lectores casuales y aficionados a la lectura
+
+##### Entrevistado #1: Andree Cardenas 
+* Edad: 24
+* Distrito: San Miguel 
+
+  <p align="center">
+  <img src="https://imgur.com/xTdyQ6W.png" alt="ent4" width="500">
+  </p>
+  
+Link: [Validación de entrevista Segmento #2 Andree Cardenas.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/EdTSIQLzmMNNhHPaz4jZ7YsBJLpqkVhFw74deOAjV6-q8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QtMn9K)
+
+Andree Cardenas nos señala que disfruta principalmente lecturas de ciencia ficción, así como también un poco de romance, suspenso y drama. Él suele usar cualquier página web para mangas, pero más Webtoon. Andree entiende que Livria ofrece un catálogo de libros, adecuado para un público diverso. Él considera que la plataforma es cómoda y atractiva, destaca su diseño. Le resulta tan cautivador que le motivaría a comprar libros en la plataforma.  Una sugerencia que señala es que, en el proceso de comprar un libro,  encuentres reseñas con fotos de otros usuarios sobre su experiencia de compra, así como la posibilidad de valorar tanto el libro como el servicio de envío. 
+La impresión general que le dio la plataforma fue muy positiva, la detalla como simple, llamativa y acogedora. Asimismo, considera que Livria si es ideal para leer, ya que es intuitiva y bien organizada, con las categorías bien dispuestas. Destaca que la comunidad es muy buena, ya que puedes entablar conversaciones con otros usuarios sobre temas en común. Además, destaca la posibilidad de crear nuevas comunidades dentro de Livria.  Le encanta la opción de recomendaciones personalizadas y considera que eso gratifica la experiencia en el uso de la plataforma. 
+En resumen, Andree se siente muy satisfecho con el diseño y el orden de la plataforma.  Menciona que esta ofrece que contiene un diseño cómodo y señala que si utilizaría Livria, debido a que lo considera fascinante y menciona que brinda una experiencia cómoda y amigable para el usuario.
+
+##### Entrevistado #2: Fiorella Gomez 
+* Edad: 24
+* Distrito: Magdalena del mar
+
+  <p align="center">
+  <img src="https://imgur.com/NNDHH3c.png" alt="ent5" width="500">
+  </p>
+  
+Link: [Validación de entrevista Segmento #2 Fiorella Gomez Leon.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/ER7z6G8S8P9HpQtAhg4Lk68BxlS9N59iyoOLx_qcYtHQ1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tOdjrF)
+
+Fiorella Gomez, una aficionada a la lectura, nos comenta que disfruta de la lectura que contiene el drama y romance, aunque también suele leer comedia. Menciona que las plataformas que utiliza para leer de manera digital son Wattpad y AO3.  Ella entiende que Livria ofrece una amplia variedad de libros en distintas categorías,  lo que la hace atractiva para todo tipo de público. Además, considera que la plataforma sería útil para ella, principalmente por la diversidad de contenido y la sección de comunidad. Sin embargo,  sugiere mejorar la visibilidad de la opción de cerrar la sesión, debido a que es necesario entrar a la sección de cuenta del usuario para poder cerrarla. También, propone que la sección de notificaciones esté en un lugar diferente, ya que la encuentra algo confusa al estar al lado de otras opciones. 
+En general, Livria le causó una buena impresión, ya que es fácil de usar y el registro es sencillo, y, también, agrega que le agradan los comentarios en cada libro, debido a que estos le ayudan a decidir si desea leer un título o no. Fiorella menciona que  fue fácil encontrar los libros que le gustan, debido a que están bien organizados por categorías. Además, valora la opción de recibir recomendaciones personalizadas, ya que le permite descubrir libros que podrían interesarle. A su vez, sugiere que los usuarios puedan agregar fotos de cómo les llegó su pedido, para que otros puedan conocer la calidad del envío. Asimismo, le gustaría que en cada párrafo de la lectura, se pueda comentar para que haya más interacción entre los usuarios. 
+Lo que más le gustó a Fiorella fue la facilidad del registro (sencillo y rápido). En resumen, utilizará Livria debido a la variedad de categorías de libros disponibles.
+
+##### Entrevistado #3: Manuel Tumi
+* Edad: 26
+* Distrito: Surco
+
+  <p align="center">
+  <img src="https://imgur.com/1fYMPez.png" alt="ent6" width="500">
+  </p>
+  
+Link: [Validación de Entrevista Segmento #2 Manuel Tumi.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202224602_upc_edu_pe/EfcRiMRM-1xBtOkM4J2jfUgBpPHh5Uf7ilWbNDo6x1pX8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=HgXkO8)
+
+Manuel Tumi, un aficionado a la lectura, nos señala que lo más lee son mangas y manhwas, aunque en el pasado solía leer más ficción, pero lo ha dejado de lado. Suele buscar cualquier página web de mangas o manhwas y se queda con la que ofrezca la mejor traducción del manga o manhwa o poseea menos anuncios. Manuel entendió que Livria está más enfocada en la compra de libros, pero cree que es adecuada para leer allí, debido a que las comunidades pueden guiarte a descubrir nuevos libros para leer. Una de las sugerencias de Manuel es mejorar la interfaz de la plataforma, señalando que algunas secciones, como la de detalles del libro, se ven un poco vacías. Propone que  la sinopsis de los libros se ubique en el lado derecho para equilibrar visualmente la página. A pesar de esto, le sorprendió la calidad de la plataforma, destacando la sección de las comunidades, que él considera una idea innovadora. Para él, es una excelente oportunidad para compartir gustos con otros usuarios y explorar nuevas categorías de libros. 
+Manuel considera que el enfoque de la plataforma es que te interese la lectura más que solo que compres sus productos. Añade que la sección de ebooks y audiolibros es algo interesante, y sugiere que sería genial incluir una opción para leer los libros en formato PDF o en un modo que simule las páginas de un libro físico (ambas caras). También, le gustaría que haya una funcionalidad como bookmarks, que le permita señalar la página donde se quedó, de modo que la plataforma lo lleve directamente allí la próxima vez que ingrese.   Asimismo, dice que fue intuitivo la plataforma y y que la barra de búsqueda y el filtro le ayudan a encontrar fácilmente los libros que le interesan. Sin embargo, sugiere cambiar el color de la barra de búsqueda, ya que actualmente no se aprecia claramente. También valora mucho las recomendaciones personalizadas, ya que le ayudan a decidir qué libro leer, ya que suele demorarse en escoger uno. Señala que aprecia los comentarios de otros usuarios, ya que le sirven para tomar una decisión informada sobre qué libros leer. Manuel también sugeriría la creación de un foro global para interactuar con usuarios activos en ese momento, lo que enriquecería la experiencia de la comunidad. 
+En resumen, lo que más le gustó a Manuel fue la sección de comunidades, ya que no solo permite comentar, sino que también genera una sensación de conexión con personas que comparten sus mismos gustos y opiniones. Finalmente, señala que utilizaría Livria debido a su simplicidad y facilidad de uso, lo que hace que la plataforma sea muy amigable para el usuario.
+
+### 5.3.3. Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+
+**CARRERA**: Ingeniería de Software
+**CURSO**: Aplicaciones Web
+**SECCIÓN**: 4388
+**PROFESORES**: Alex Humberto Sánchez Ponce
+**AUDITOR**: LIVRIA
+**CLIENTE(S)**:
+* Joaquin Cuentas
+* Ernesto Rodas
+* Wendy Garcia
+* Andree Cardenas
+* Fiorella Gomez
+* Manuel Tumi
+
+**SITE O APP A EVALUAR**: Livria
+
+**TAREAS A EVALUAR**:
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+* Búsqueda de libros
+* Uso de filtros en el catálogo de libros
+* Procesos de pago
+* Gestión de cuentas de usuario
+* Navegación entre las categorías de libros
+* Opciones de personalización del perfil de usuario
+* Sección de tienda de Livria
+* Sección de recomendaciones personalizadas
+* Sección de comunidades
+* Notificaciones
+* Dashboard del administrador
+* Sección del detalle de libro específico
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+* Agregar a favoritos un libro en específico
+* Algoritmo de recomendaciones en base a libros favoritos
+* Mejora de diseño en la sección de dashboard del administrador
+* Mejora en la estadística del dashboard del administrador
+
+**ESCALA DE SEVERIDAD**:
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción                                                                                                                                      |
+| :---- | :----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | **Problema superficial**: puede ser fácilmente superado por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| 2     | **Problema menor**: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| 3     | **Problema mayor**: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| 4     | **Problema muy grave**: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+#### TABLA RESUMEN:
+
+| # | Problema                                                                                        | Escala de severidad | Heurística/Principio violada(o)       |
+| :- | :---------------------------------------------------------------------------------------------- | :------------------ | :------------------------------------ |
+| 1 | La sinopsis de los libros son demasiados breves, lo que no permite al usuario tener suficiente información para decidir si leer el libro. | 2                   | Proveer retroalimentación de manera adecuada. |
+| 2 | La interfaz de la sección de detalles de los libros está un poco vacía causando una mala distribución visual. | 1                   | Diseño visual y minimalismo           |
+| 3 | El proceso de cierre de sesión no es claro, ya que dirigirse a la cuenta del usuario para intentar cerrar sesión. | 1                   | Control y libertad del usuario        |
+| 4 | La barra de búsqueda tiene un color que no es fácilmente visible, lo que podría afectar la accesibilidad. | 1                   | Diseño visual y accesibilidad         |
+
+#### PROBLEMA #1:
+* **Severidad**: 2
+* **Heurística violada**: Proveer retroalimentación de manera adecuada
+* **Problema**: Las sinopsis de los libros son demasiado breves y no proporcionan suficiente información al usuario sobre el contenido del libro. Esto dificulta la toma de decisiones para aquellos que no están familiarizados con el título.
+
+**Figura**
+
+  <p align="center">
+  <img src="https://imgur.com/ggrO20o.png" alt="fig1" width="500">
+  </p>
+
+*Nota. Elaboración propia.*
+
+**Recomendación**:
+Ampliar la longitud de las sinopsis para dar más detalles sobre el libro, lo que permitiría a los usuarios tomar decisiones más informadas.
+
+#### PROBLEMA #2:
+* **Severidad**: 1
+* **Heurística violada**: Diseño visual y minimalismo
+* **Problema**: La interfaz de la sección de detalles de los libros está un poco vacía en el lado derecho causando que la página se vea algo desordenada y poco atractiva visualmente.
+
+**Figura**
+
+  <p align="center">
+  <img src="https://imgur.com/5v0eyLw.png" alt="fig2" width="500">
+  </p>
+  
+*Nota. Elaboración propia.*
+
+**Recomendación**:
+Añadir más contenido visual y texto en el lado derecho de la sección de detalles del libro. Como al costado del precio, poner la sinopsis y que en el lado izquierdo solo vaya la imagen del libro.
+
+#### PROBLEMA #3:
+* **Severidad**: 1
+* **Heurística violada**: Control y libertad del usuario
+* **Problema**: El proceso de cierre de sesión no es claro, ya que los usuarios deben ir a la cuenta del usuario para cerrar la sesión, lo cual no es ideal.
+
+**Figura**
+
+  <p align="center">
+  <img src="https://imgur.com/DchnNTO.png" alt="fig3" width="500">
+  </p>
+
+  <p align="center">
+  <img src="https://imgur.com/9eDQfml.png" alt="fig4" width="500">
+  </p>
+
+  
+*Nota. Elaboración propia.*
+
+**Recomendación**:
+Colocar una opción más visible para cerrar sesión en el menú principal o en un lugar más intuitivo de la interfaz.
+
+#### PROBLEMA #4:
+* **Severidad**: 1
+* **Heurística violada**: Diseño visual y accesibilidad
+* **Problema**: El color de la barra de búsqueda no es fácilmente visible, lo que podría afectar la accesibilidad para usuarios con dificultades visuales.
+
+**Figura**
+
+  <p align="center">
+  <img src="https://imgur.com/KJIDZQG.png" alt="fig5" width="500">
+  </p>
+  
+*Nota. Elaboración propia.*
+
+**Recomendación**:
+Ajustar el contraste de la barra de búsqueda para que sea más accesible y visible para todos los usuarios, especialmente para aquellos con dificultades visuales.
+
+## 5.4. Video About-the-Product
+
+Link del video: [VideoAbout-the-Product](https://drive.google.com/file/d/1U1pLQrU2ldrs_Q6LWjTs4EhoLLXARXQD/view?usp=sharing)
+
 # CONCLUSIONES Y RECOMENDACIONES
 
 *TB1*
@@ -3013,6 +4525,8 @@ En el Roadmap de Livria, se deben definir los siguientes hitos inmediatos:
 2.	Fase 3: Integración de algoritmos de recomendación y motor de comunidad.
 
 *TP*
+
+**Conclusiones**
 
 1. Avance integral en el Frontend en la experiencia de usuario.
 
@@ -3056,6 +4570,36 @@ Es fundamental que Livria sea accesible en una amplia variedad de dispositivos, 
 
 Para el siguiente entregable, desarrollaremos una interfaz de administración más intuitiva y eficiente. Esta nueva interfaz debe permitir una gestión centralizada del catálogo de libros, usuarios y transacciones. Además, será completamente responsiva y ofreceremos una experiencia de usuario fluida tanto en dispositivos móviles como de escritorio. Esto permitirá a los administradores gestionar la plataforma de forma más ágil y optimizada.
 
+*TB2*
+
+**Conclusiones**
+
+1. Avances significativos en el desarrollo del backend
+
+El equipo logró implementar las funcionalidades clave del backend de la plataforma Livria, como la gestión de productos, usuarios, carritos de compra, recomendaciones, comunidades y notificaciones, utilizando .NET y MySQL. Además, la implementación de APIs RESTful para estas entidades fue exitosa, lo que proporcionó la infraestructura necesaria para que el frontend pudiera interactuar de manera eficiente con el backend. La integración de OpenAPI y Swagger permitió una documentación clara y accesible de los endpoints, facilitando las pruebas y futuras expansiones de la plataforma.
+
+2. Mejoras en la experiencia de usuario del frontend
+
+A pesar de que el enfoque principal fue el backend, se realizaron correcciones y mejoras en el frontend, especialmente en la sección de administración, optimizando la experiencia de usuario y la funcionalidad de la plataforma. Se agregó un dashboard para administradores, permitiendo la gestión eficiente de libros, pedidos y estadísticas, lo que centraliza las operaciones y mejora la administración de la plataforma. Además, se modificó la sección de usuarios también.
+
+3. Evaluación de usabilidad y áreas de mejora para Livria
+
+Las entrevistas de validación de nuestra plataforma nos indica que los usuarios entrevistados perciben a Livria como una plataforma intuitiva y atractiva, con una buena variedad de libros y funcionalidades, destacando la sección de comunidades. Sin embargo, existen áreas clave que los entrevistados sugieren que le demos atención, como la mejora en la visualización de la sinopsis de libros, la distribución visual en la sección de detalles del libro seleccionado y la accesibilidad de la barra de búsqueda, lo que podría mejorar significativamente la experiencia del usuario.  
+
+**Recomendaciones**
+
+1. Optimización continua del rendimiento del backend
+
+Si bien el rendimiento de la base de datos y las consultas SQL fueron optimizadas durante este sprint, se recomienda continuar con el monitoreo y la mejora continua de la base de datos para garantizar un rendimiento óptimo, especialmente cuando la plataforma crezca y maneje más datos. Esto incluirá la optimización de las consultas más complejas y la implementación de índices adecuados para asegurar tiempos de respuesta rápidos.
+
+2. Ampliación de la documentación y la seguridad
+
+Aunque la documentación de la API se realizó a través de Swagger y OpenAPI, es fundamental continuar ampliando la documentación para los endpoints más complejos, especialmente para aquellos que interactúan con funcionalidades avanzadas. Además, se debe revisar la seguridad tanto del backend como del sistema de autenticación de usuarios para garantizar que la plataforma sea resistente a vulnerabilidades y esté lista para enfrentar posibles riesgos en un entorno de producción.
+
+3. Sugerencias para mejorar la experiencia del usuario en Livria
+
+Se recomienda realizar modificaciones en el frontend en la próxima entrega, enfocados en mejorar la visibilidad de elementos clave como la sinopsis y la barra de búsqueda, así como ofrecer opciones más intuitivas para cerrar sesión y mejorar la organización visual de las secciones de detalles del libro. Esto contribuye a una experiencia más fluida y accesible para los usuarios.  
+
 
 # BIBLIOGRAFÍA 
 Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
@@ -3071,3 +4615,6 @@ Diagrama C4: https://drive.google.com/file/d/14LIW0V4P1bBFikrUViIq4owWTtexcsCh/v
 Link de la landing page: https://bookify-livria.github.io/livria.github.io/
 
 Link de la aplicación web: https://livria.netlify.app/
+
+Link del backend: https://app-250621110953.azurewebsites.net/swagger/index.html
+
