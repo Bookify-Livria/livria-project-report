@@ -26,6 +26,14 @@
 
 # Project Report Collaboration Insights
 
+Repositorio donde está el project report: https://github.com/Bookify-Livria/livria-project-report
+
+Para la elaboración del informe, se utilizó Google Docs como plataforma de trabajo colaborativo, y posteriormente se migró el contenido al archivo README del repositorio principal. En esta entrega, el README ha sido actualizado para incluir los avances del Sprint 3 y los resultados de las entrevistas de validación de producto, las cuales fueron fundamentales para llevar a cabo las evaluaciones heurísticas.
+
+<p align="center">
+  <img src="https://imgur.com/sWRIMA3.png" alt="PRCI" width="500">
+</p>
+
 # Contenido
 - [Livria](#livria)
   
@@ -4616,5 +4624,5 @@ Link de la landing page: https://bookify-livria.github.io/livria.github.io/
 
 Link de la aplicación web: https://livria.netlify.app/
 
-Link del backend: https://app-250621110953.azurewebsites.net/swagger/index.html
+Link del backend: https://app-250621192653.azurewebsites.net/swagger/index.html
 
