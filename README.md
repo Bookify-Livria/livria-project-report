@@ -4004,15 +4004,19 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
 
 **Backend de los bounded context de Livria:**
 <p align="center">
-  <img src="https://imgur.com/WbG3OC5.png" alt="bruh5" width="500">
+  <img src="https://i.imgur.com/orIqhjD.png" alt="bruh5" width="500">
 </p>
 
 <p align="center">
-  <img src="https://imgur.com/gy9EE91.png" alt="bruh6" width="500">
+  <img src="https://i.imgur.com/5g3qwJF.png" alt="bruh6" width="500">
 </p>
 
 <p align="center">
-  <img src="https://imgur.com/YQmJCfP.png" alt="bruh7" width="500">
+  <img src="https://i.imgur.com/wAeXqdE.png" alt="bruh7" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/mNNqjlv.png" alt="bruh7" width="500">
 </p>
 
 <p align="center">
@@ -5032,6 +5036,26 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
 
 **Backend de los bounded context de Livria:**
 
+<p align="center">
+  <img src="https://i.imgur.com/tCAKjri.png" alt="bruh5" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/B0YOSYP.png" alt="bruh6" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/bVHFROV.png" alt="bruh7" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/jVgViCQ.png" alt="bruh7" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/mq8RHkZ.png" alt="bruh8" width="500">
+</p>
+
 
 
 **Video Sprint Review 4**
@@ -5053,9 +5077,33 @@ A diferencia del Sprint 3, en el cual se implementaron funcionalidades en distin
 
 **Capturas:**
 
+<p align="center">
+  <img src="https://i.imgur.com/fXx6jLF.png" alt="full38" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/50D901M.png" alt="full38" width="500">
+</p>
+
 Esta solicitud POST recupera los datos de un usuario recién registrado en el sistema, guarda su información y envía un mensaje confirmando el registro exitoso.
 
+<p align="center">
+  <img src="https://i.imgur.com/2bkcPmm.png" alt="full38" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/N1uaeZX.png" alt="full38" width="500">
+</p>
+
 Esta solicitud POST auténtica al administrador con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
+
+<p align="center">
+  <img src="https://i.imgur.com/mupEhMS.png" alt="full38" width="500">
+</p>
+
+<p align="center">
+  <img src="https://i.imgur.com/n5lIlyq.png" alt="full38" width="500">
+</p>
 
 Esta solicitud POST auténtica al cliente con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
 
@@ -5084,24 +5132,46 @@ Durante este Sprint 4, el equipo se centró en la integración completa del fron
 
 #### Analítica de colaboración en GitHub:
 
-##### Repositorio livria-backend
-
-* Historial de commits:
-
-* Colaboradores activos en el repositorio:
-
-* Histograma de contribuciones en el tiempo:
-
 ##### Repositorio livria-web-app
+
 * Historial de commits:
+
+  <p align="center">
+  <img src="https://i.imgur.com/KRXSgIs.png" alt="confi24" width="500">
+  </p>
 
 * Colaboradores activos en el repositorio:
 
+  <p align="center">
+  <img src="https://i.imgur.com/Wre4F3p.png" alt="confi24" width="500">
+  </p>
+
+* Histograma de contribuciones en el tiempo:
+
+  <p align="center">
+  <img src="https://i.imgur.com/xx97V4q.png" alt="confi24" width="500">
+  </p>
+
+##### Repositorio livria-backend
+* Historial de commits:
+
+  <p align="center">
+  <img src="https://i.imgur.com/aWoK6YM.png" alt="confi24" width="500">
+  </p>
+
+* Colaboradores activos en el repositorio:
+
+  <p align="center">
+  <img src="https://imgur.com/FYXgufk.png" alt="confi19" width="500">
+  </p>
   
 * Histograma de contribuciones en el tiempo:
-  
-  
 
+  <p align="center">
+  <img src="https://i.imgur.com/FY5G4mQ.png" alt="confi24" width="500">
+  </p>
+  
+  
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
