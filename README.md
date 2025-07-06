@@ -144,15 +144,15 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
       - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-  + [5.2.3. Sprint 4](#522-sprint-2)
-      - [5.2.4.1. Sprint Planning](#5221-sprint-planning)
-      - [5.2.4.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.4.3 Sprint Backlog 4](#5223-sprint-backlog-2)
-      - [5.2.4.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.4.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.4.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    + [5.2.4. Sprint 4](#524-sprint-4)
+      - [5.2.4.1. Sprint Planning](#5241-sprint-planning)
+      - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+      - [5.2.4.3 Sprint Backlog 4](#5243-sprint-backlog-2)
+      - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+      - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+      - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
   * [5.3. Validation Interviews](#53-validation-interviews)
     + [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     + [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
@@ -1433,7 +1433,253 @@ Para mejor visualización de los to-Be Scenarios de Livria, acceder al siguiente
 | **Acceptance Criteria #4** | **Escenario 4: Ver botón para cambiar el idioma**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando mira la barra lateral,<br>Entonces el sistema muestra un botón para cambiar el idioma entre "EN" (inglés) y "ES" (español). |
 | **Acceptance Criteria #5** | **Escenario 5: Ver configuraciones y cerrar sesión**<br>Dado que el administrador se encuentra en el dashboard,<br>Cuando mira la barra lateral,<br>Entonces el sistema muestra un enlace a la sección "Settings" (configuraciones) y un botón para "Log out" (cerrar sesión). |
 
-### 3.2.3. Epicas
+---
+### User Story: US63
+
+| **User Story ID** | US63 |
+|-------------------|------|
+| **Epic ID** | EP13 |
+| **Title** | Registro de cuenta con control y seguridad. |
+| **Description** | Como administrador, quiero registrarme en la plataforma mediante un formulario seguro, para crear una cuenta protegida y acceder posteriormente mediante autenticación segura. |
+| **Acceptance Criteria** | **Escenario 1: Registro exitoso de administrador**<br>Dado que un administrador nuevo intenta registrarse en la plataforma,<br>Y proporciona un nombre de usuario, correo electrónico, contraseña y PIN de seguridad válidos,<br>Cuando envía el formulario de registro,<br>Entonces el sistema valida los datos proporcionados, crea una cuenta con rol de administrador y confirma el registro como exitoso. <br><br> **Escenario 2: Registro con datos existentes**<br>Dado que un administrador intenta registrarse en la plataforma,<br>Y proporciona un nombre de usuario o correo electrónico ya existente,<br>Cuando envía el formulario de registro,<br>Entonces el sistema rechaza el registro y retorna un mensaje de error indicando que el usuario o correo ya están registrados. |
+
+
+---
+### User Story: US64
+
+| **User Story ID** | US64 |
+|-------------------|------|
+| **Epic ID** | EP13 |
+| **Title** | Inicio de sesión con autenticación JWT. |
+| **Description** | Como administrador, quiero iniciar sesión en la plataforma utilizando un sistema de autenticación basado en JWT, para acceder de manera segura a las funcionalidades administrativas. |
+| **Acceptance Criteria** | **Escenario 1: Inicio de sesión exitoso**<br>Dado que un administrador registrado intenta iniciar sesión,<br>Y proporciona un nombre de usuario, contraseña y PIN válidos,<br>Cuando envía las credenciales,<br>Entonces el sistema valida las credenciales, genera un token JWT con el rol "Admin" y lo devuelve al usuario. <br><br> **Escenario 2: Inicio de sesión con credenciales inválidas**<br>Dado que un administrador intenta iniciar sesión,<br>Y proporciona un nombre de usuario o contraseña incorrectos,<br>Cuando envía las credenciales,<br>Entonces el sistema devuelve un error con un mensaje indicando que las credenciales son inválidas. |
+
+
+---
+### User Story: US65
+
+| **User Story ID** | US65 |
+|-------------------|------|
+| **Epic ID** | EP13 |
+| **Title** | Registro de usuario cliente |
+| **Description** | Como usuario, quiero registrarme en la plataforma con un sistema seguro, para crear una cuenta y acceder a mis recursos personales como cliente. |
+| **Acceptance Criteria** | **Escenario 1: Registro exitoso**<br>Dado que un usuario nuevo intenta registrarse,<br>Y proporciona un nombre de usuario y contraseña válidos,<br>Cuando envía el formulario de registro,<br>Entonces el sistema crea una cuenta de usuario y confirma como exitoso el registro. <br><br> **Escenario 2: Registro con información duplicada**<br>Dado que un usuario intenta registrarse,<br>Y proporciona un username y/o contraseña ya registrado,<br>Cuando envía el formulario de registro,<br>Entonces el sistema devuelve un error con un mensaje indicando que el username o la contraseña ya está en uso. |
+
+
+---
+### User Story: US66
+
+| **User Story ID** | US66 |
+|-------------------|------|
+| **Epic ID** | EP13 |
+| **Title** | Acceso seguro a la cuenta mediante JWT. |
+| **Description** | Como usuario, quiero iniciar sesión en la plataforma utilizando autenticación JWT, para acceder de manera segura a mis recursos personales. |
+| **Acceptance Criteria** | **Escenario 1: Inicio de sesión exitoso**<br>Dado que un usuario registrado intenta iniciar sesión,<br>Y proporciona un nombre de usuario y contraseña válidos,<br>Cuando envía las credenciales,<br>Entonces el sistema valida las credenciales, genera un token JWT con el rol "Cliente" y se lo devuelve. <br><br> **Escenario 2: Intento de acceso con credenciales inválidas**<br>Dado que un usuario intenta iniciar sesión,<br>Y proporciona un nombre de usuario o contraseña incorrectos,<br>Cuando envía las credenciales,<br>Entonces el sistema devuelve un error con un mensaje indicando que las credenciales son inválidas. |
+
+
+
+### 3.2.3. Historias Técnicas
+
+---
+### Technical story: TS01
+
+| **Technical story ID** | TS01 |
+|-------------------|------|
+| **Epic ID** | EP12 |
+| **Title** | Configuración inicial de la base de datos MySQL. |
+| **Description** | Como Developer, debo configurar la conexión segura entre el backend (.NET) y la base de datos MySQL, asegurando que las credenciales estén protegidas con variables de entorno. |
+| **Acceptance Criteria** | **Escenario 1: Conexión exitosa a la base de datos**<br>Dado que el servidor backend está en ejecución,<br>Cuando se realiza una petición a cualquier endpoint que requiera datos,<br>Entonces la API debe responder con status 200 y los datos correctos,<br> Y la conexión debe usar SSL para encriptación.  |
+
+
+---
+### Technical story: TS02
+
+| **Technical story ID** | TS02 |
+|-------------------|------|
+| **Epic ID** | EP12 |
+| **Title** | Implementación de autenticación JWT. |
+| **Description** | Como Developer, debo implementar autenticación basada en tokens JWT para proteger endpoints críticos (ej: gestión de usuarios, pedidos). |
+| **Acceptance Criteria** | **Escenario 1: Acceso a endpoint protegido sin token**<br>Dado que un usuario no autenticado,<br>Cuando intenta acceder a /api/v1/orders,<br>Entonces la API debe responder con status 401 (Unauthorized). <br><br> **Escenario 2: Acceso con token válido**<br>Dado que un usuario con token JWT válido,<br>Cuando realiza una petición a /api/v1/orders,<br>Entonces la API debe responder con status 200 y los datos del pedido. |
+
+
+---
+### Technical story: TS03
+
+| **Technical story ID** | TS03 |
+|-------------------|------|
+| **Epic ID** | EP12 |
+| **Title** | Documentación de APIs con Swagger/OpenAPI |
+| **Description** | Como Developer, debo generar documentación interactiva de los endpoints usando Swagger UI, incluyendo ejemplos de requests/responses y esquemas de datos. |
+| **Acceptance Criteria** | **Escenario 1: Visualización de documentación**<br>Dado que un administrador accede a /swagger,<br>Cuando navega por los endpoints,<br>Entonces debe ver descripciones, parámetros y opciones para probar cada endpoint,<br> Y los esquemas de Books, Orders, Users deben estar correctamente definidos. |
+
+
+---
+### Technical story: TS04
+
+| **Technical story ID** | TS04 |
+|-------------------|------|
+| **Epic ID** | EP12 |
+| **Title** | Optimización de consultas SQL para carritos. |
+| **Description** | Como Developer, debo optimizar las consultas SQL de las tablas cart_items y orders para reducir el tiempo de respuesta en un 30%. |
+| **Acceptance Criteria** | **Escenario 1: Consulta de carrito con 100+ ítems**<br>Dado que un usuario con 150 libros en su carrito,<br>Cuando solicita su carrito (/api/v1/cart-items/users/{id}),<br>Entonces la respuesta debe demorar <500ms.<br>Y la consulta debe usar índices en `bookId` y `userClientId` |
+
+
+---
+### Technical story: TS05
+
+| **Technical story ID** | TS05 |
+|-------------------|------|
+| **Epic ID** | EP12 |
+| **Title** | Implementación de logs de errores. |
+| **Description** | Como Developer, debo configurar un sistema de logging centralizado para registrar errores en la API (ej: fallos en consultas SQL, requests inválidos). |
+| **Acceptance Criteria** | **Escenario 1: Error en consulta SQL**<br>Dado que un endpoint con error de sintaxis SQL,<br>Cuando se realiza una petición,<br>Entonces el sistema debe registrar el error en un archivo `logs/api_errors.log`<br> Y la API debe responder con status 500 y un mensaje genérico. |
+
+
+---
+### Technical story: TS06
+
+| **Technical story ID** | TS06 |
+|-------------------|------|
+| **Epic ID** | EP12 |
+| **Title** | Configuración de CORS para el frontend. |
+| **Description** | Como Developer, debo habilitar CORS en el backend para permitir solicitudes solo desde los dominios autorizados (ej: https://livriabybookify.netlify.app/). |
+| **Acceptance Criteria** | **Escenario 1: Petición desde dominio no autorizado**<br>Dado que un frontend en `malicious.com`,<br>Cuando intenta acceder a /api/v1/books,<br>Entonces la API debe responder con status 403 (Forbidden).<br><br> **Escenario 2: Petición desde livria.com**<br>Dado que el frontend oficial en `app.livria.com`,<br>Cuando realiza una petición GET a /api/v1/books,<br>Entonces la API debe responder con status 200. |
+
+
+---
+### Technical story: TS07
+
+| **Technical story ID** | TS07 |
+|-------------------|------|
+| **Epic ID** | EP15 |
+| **Title** | Creación del Endpoint RESTful para Registro de Administrador con Validación de Datos. |
+| **Description** | Como Developer, debo crear el endpoint RESTful para el registro de un administrador, el cual recibirá un conjunto de datos como nombre de usuario, correo electrónico, contraseña y PIN de seguridad. Además, debe validar la existencia de los datos y generar un registro en la base de datos de forma segura. |
+| **Acceptance Criteria** | **Escenario 1: Registro exitoso de administrador**<br>Dado que un administrador nuevo envía una solicitud POST a /register con los datos de nombre de usuario, correo electrónico, contraseña y PIN de seguridad válidos,<br>Cuando se valida que los datos no existen en la base de datos y son correctos,<br>Entonces la  API debe devolver un estado 201 (Creado)),<br> Y debe incluir en la respuesta un mensaje confirmando el registro exitoso y los detalles del nuevo administrador (sin contraseña ni PIN).<br><br> **Escenario 2: Registro con datos existentes**<br>Dado que un administrador intenta registrar un nombre de usuario o correo electrónico ya registrado<br>Cuando se envía la solicitud POST a /register con los datos mencionados,<br>Entonces la API debe devolver un estado 400 (Bad Request), <br> Y la respuesta debe contener un mensaje de error indicando que el nombre de usuario o correo electrónico ya están registrados. |
+
+
+---
+### Technical story: TS08
+
+| **Technical story ID** | TS08 |
+|-------------------|------|
+| **Epic ID** | EP15 |
+| **Title** | Configuración del endpoint de inicio de sesión (POST /login). |
+| **Description** | Como Developer, debo crear el endpoint RESTful para el inicio de sesión de un usuario registrado, el cual recibirá las credenciales (nombre de usuario y contraseña) y devolverá un token JWT si son válidas. |
+| **Acceptance Criteria** | **Escenario 1: Inicio de sesión exitoso**<br>Dado que un usuario registrado envía una solicitud POST a /login con un nombre de usuario y contraseña válidos,<br>Cuando se validan las credenciales contra la base de datos,<br>Entonces la API debe devolver un estado 200 (OK),<br>Y la respuesta debe incluir un token JWT con el rol "Cliente" que el usuario puede usar para acceder a recursos protegidos.<br><br> **Escenario 2: Intento de acceso con credenciales inválidas**<br>Dado que un usuario intenta iniciar sesión con un nombre de usuario o contraseña incorrectos,<br>Cuando se envía la solicitud POST a /login con credenciales incorrectas,<br>Entonces la  API debe devolver un estado 401 (Unauthorized),<br> Y la respuesta debe incluir un mensaje de error indicando que las credenciales son inválidas. |
+
+
+---
+### Technical story: TS09
+
+| **Technical story ID** | TS09 |
+|-------------------|------|
+| **Epic ID** | EP15 |
+| **Title** | Configuración de validación de entrada para el registro (validación de nombre de usuario y correo electrónico). |
+| **Description** | Como Developer, debo asegurarme de que la API valida correctamente los datos proporcionados en el proceso de registro (nombre de usuario, correo electrónico, contraseña y PIN de seguridad), asegurando que el nombre de usuario y correo electrónico no existan previamente. |
+| **Acceptance Criteria** | **Escenario 1: Validación de nombre de usuario y correo electrónico**<br>Dado que un administrador envía una solicitud POST a /register,<br>Cuando se valida que el nombre de usuario y correo electrónico no existan en la base de datos,<br>Entonces la API debe devolver un estado 400 (Bad Request),<br>Y el mensaje de error debe indicar que el nombre de usuario o correo electrónico ya existen en el sistema. |
+
+
+---
+### Technical story: TS10
+
+| **Technical story ID** | TS10 |
+|-------------------|------|
+| **Epic ID** | EP15 |
+| **Title** | Generación y Validación de Token JWT para Usuario Cliente. |
+| **Description** | Como Developer, debo implementar la generación de un token JWT seguro para los usuarios que inician sesión con credenciales válidas, asegurando que el token tenga una fecha de expiración y un rol asociado. |
+| **Acceptance Criteria** | **Escenario 1: Generación de token JWT**<br>Dado que un usuario ha iniciado sesión con credenciales válidas,<br>Cuando el sistema genera el token JWT,<br>Entonces el token debe incluir un campo "role" con el valor "Cliente",<br>Y el token debe tener una expiración de 1 hora<br>Y el token debe estar firmado de manera segura utilizando una clave privada. |
+
+
+---
+### Technical story: TS11
+
+| **Technical story ID** | TS11 |
+|-------------------|------|
+| **Epic ID** | EP16 |
+| **Title** | Autenticación de solicitudes con token JWT. |
+| **Description** | Como Developer, debo garantizar que las solicitudes a endpoints protegidos requieran un token JWT válido en el encabezado de la solicitud para permitir el acceso. |
+| **Acceptance Criteria** | **Escenario 1: Autenticación exitosa con token JWT válido**<br>Dado que un usuario ha iniciado sesión y tiene un token JWT válido,<br>Cuando se realiza una solicitud GET a un endpoint protegido (por ejemplo, /user/profile),<br>Entonces la API debe validar el token JWT,<br>Y la respuesta debe ser 200 (OK) si el token es válido y el usuario tiene acceso al recurso. <br><br> **Escenario 2: Acceso denegado con token JWT inválido**<br>Dado que un usuario intenta acceder a un endpoint protegido con un token JWT inválido,<br>Cuando se  envía la solicitud con el token inválido,<br>Entonces la API debe devolver un estado 401 (Unauthorized),<br>Y la respuesta debe contener un mensaje de error indicando que el token es inválido o ha expirado. |
+
+
+---
+### Technical story: TS12
+
+| **Technical story ID** | TS12 |
+|-------------------|------|
+| **Epic ID** | EP16 |
+| **Title** | Asignación de roles en el registro de clientes y administradores. |
+| **Description** | Como desarrollador, quiero implementar la asignación de roles durante el registro de clientes y administradores, para garantizar que tengan los permisos adecuados según su tipo de cuenta. |
+| **Acceptance Criteria** | **Escenario 1: Asignación de rol “Admin” al registrar un administrador**<br>Dado que un administrador se registra en la plataforma,<br>Cuando se crea la cuenta,<br>Entonces el sistema asigna el rol “Admin”. <br><br> **Escenario 2: Asignación de rol “Cliente” al registrar un usuario**<br>Dado que un cliente se registra en la plataforma,<br>Cuando se crea la cuenta,<br>Entonces el sistema asigna el rol “Cliente”. |
+
+
+---
+### Technical story: TS13
+
+| **Technical story ID** | TS13 |
+|-------------------|------|
+| **Epic ID** | EP16 |
+| **Title** | Middleware de control de acceso basado en roles JWT. |
+| **Description** | Como desarrollador, quiero implementar un middleware que controle el acceso a los recursos basado en los roles incluidos en el token JWT, para restringir el acceso según el rol del usuario. |
+| **Acceptance Criteria** | **Escenario 1: Acceso permitido a recurso con rol correcto**<br>Dado que un usuario con rol “Admin” envía una solicitud a un endpoint protegido por la política “AdminAccess”,<br>Cuando el middleware valida el token JWT,<br>Entonces el sistema permite el acceso al recurso. <br><br> **Escenario 2: Acceso denegado por rol incorrecto**<br>Dado que un usuario con rol “Client” envía una solicitud a un endpoint protegido por la política “AdminAccess”,<br>Cuando el middleware valida el token JWT,<br>Entonces el sistema devuelve un error HTTP 403 (forbidden). |
+
+
+---
+### Technical story: TS14
+
+| **Technical story ID** | TS14 |
+|-------------------|------|
+| **Epic ID** | EP17 |
+| **Title** | Integrar el backend con el frontend para la autenticación de usuarios. |
+| **Description** | Como desarrollador, quiero integrar el frontend con el backend para gestionar la autenticación de usuarios mediante JWT, asegurando una experiencia de usuario fluida. |
+| **Acceptance Criteria** | **Escenario 1: Autenticación exitosa desde el frontend**<br>Dado que un usuario envía credenciales válidas desde el frontend,<br>Cuando el frontend realiza una solicitud al endpoint de autenticación del backend,<br>Entonces el backend devuelve un token JWT, y el frontend lo almacena para solicitudes futuras.<br><br> **Escenario 2: Manejo de autenticación fallida**<br>Dado que un usuario envía credenciales inválidas desde el frontend,<br>Cuando frontend realiza una solicitud al endpoint de autenticación,<br>Entonces el backend devuelve un error HTTP 401, y el frontend muestra un mensaje de error al usuario. |
+
+
+---
+### Technical story: TS15
+
+| **Technical story ID** | TS15 |
+|-------------------|------|
+| **Epic ID** | EP17 |
+| **Title** | Manejar errores de autenticación en el frontend. |
+| **Description** | Como desarrollador, quiero implementar el manejo de errores de autenticación en el frontend, para informar a los usuarios sobre problemas durante el inicio de sesión o el acceso a recursos. |
+| **Acceptance Criteria** | **Escenario 1:  Mostrar error de credenciales inválidas**<br>Dado que el backend devuelve un error HTTP 401 (No autorizado) durante el inicio de sesión,<br>Cuando el frontend recibe la respuesta,<br>Entonces muestra un mensaje claro al usuario indicando que las credenciales son incorrectas. |
+
+
+---
+### Technical story: TS16
+
+| **Technical story ID** | TS16 |
+|-------------------|------|
+| **Epic ID** | EP17 |
+| **Title** | Asegurar la correcta sincronización de datos entre el frontend y el backend. |
+| **Description** | Como desarrollador, quiero garantizar que los datos entre el frontend y el backend estén sincronizados, para evitar inconsistencias en la experiencia del usuario. |
+| **Acceptance Criteria** | **Escenario 1: Sincronización de datos tras actualización**<br>Dado que un usuario actualiza datos en el frontend, por ejemplo, en su perfil,<br>Cuando el frontend  envía la solicitud al backend,<br>Entonces el backend actualiza los datos y devuelve una respuesta que el frontend refleja correctamente en la interfaz. <br><br> **Escenario 2: Manejo de errores de sincronización**<br>Dado que el frontend recibe la respuesta,<br>Cuando el frontend  envía la solicitud al backend,<br>Entonces muestra un mensaje de error al usuario y no actualiza los datos en la interfaz.|
+
+
+---
+### Technical story: TS17
+
+| **Technical story ID** | TS17 |
+|-------------------|------|
+| **Epic ID** | EP17 |
+| **Title** | Garantizar que la navegación entre el frontend y el backend sea segura. |
+| **Description** | Como desarrollador, quiero asegurar que la comunicación entre el frontend y el backend sea segura, utilizando HTTPS y tokens JWT, para proteger los datos del usuario. |
+| **Acceptance Criteria** | **Escenario 1: Comunicación segura con HTTPS**<br>Dado que el frontend realiza solicitudes al backend,<br>Cuando se envía una solicitud,<br>Entonces la solicitud se realiza a través de HTTPS, asegurando la encriptación de los datos.<br><br> **Escenario 2: Protección con token JWT**<br>Dado que el frontend envía una solicitud a un endpoint protegido,<br>Cuando incluye un token JWT válido en el encabezado,<br>Entonces el backend procesa la solicitud. De lo contrario, devuelve un error HTTP 401 (No autorizado). |
+
+
+---
+### Technical story: TS18
+
+| **Technical story ID** | TS18 |
+|-------------------|------|
+| **Epic ID** | EP17 |
+| **Title** | Optimizar la comunicación entre el frontend y el backend para la carga de datos. |
+| **Description** | Como desarrollador, quiero optimizar las solicitudes entre el frontend y el backend, para reducir la latencia y mejorar la experiencia de carga de datos. |
+| **Acceptance Criteria** | **Escenario 1: Carga eficiente de datos**<br>Dado que el frontend solicita una lista de recursos, por ejemplo, libros,<br>Cuando el backend devuelve los datos,<br>Entonces el frontend los procesa y muestra en menos de 2 segundos, asumiendo una conexión estable. |
+
+
+
+### 3.2.4. Epicas
 
 | **EPIC 01:** | Descubrimiento y comprensión de Livria |
 |:------------:|:--------------------------------------|
@@ -1552,6 +1798,59 @@ Para mejor visualización de los to-Be Scenarios de Livria, acceder al siguiente
 | US61 | Gestión de la configuración de la aplicación en "Application Settings" |
 | US62 | Barra lateral de navegación en el dashboard del administrador |
 
+| **EPIC 12:** | Desarrollo del backend |
+|:------------:|:---------------------------------------|
+| | Como desarrollador, quiero implementar, configurar y optimizar aspectos del backend, para asegurar que el sistema sea seguro, eficiente y fácil de mantener. |
+| **Technical story ID** | **Título** |
+| TS01 | Configuración inicial de la base de datos MYSQL |
+| TS02 | Implementación de autenticación JWT |
+| TS03 | Documentación de APIs con Swagger/OpenAPI |
+| TS04 | Optimización de consultas SQL para carritos |
+| TS05 | Implementación de logs de errores |
+| TS06 | Configuración de CORS para el frontend |
+
+| **EPIC 13:** | Gestión de IAM con JWT para administradores |
+|:------------:|:---------------------------------------|
+| | Como administrador, quiero utilizar un sistema de autenticación y autorización basado en JWT para poder acceder de manera segura a las funcionalidades y recursos protegidos de la plataforma. |
+| **User story ID** | **Título** |
+| US63 | Registro de cuenta con seguridad JWT |
+| US64 | Inicio de sesión con autenticación JWT |
+
+| **EPIC 14:** | Gestión de inicio de sesión seguro |
+|:------------:|:---------------------------------------|
+| | Como usuario, quiero tener acceso a mi cuenta y recursos personales mediante autenticación segura con JWT, para iniciar sesión de manera segura. |
+| **User story ID** | **Título** |
+| US65 | Registro de usuario con generación de token JWT |
+| US66 | Acceso seguro a la cuenta mediante JWT |
+
+| **EPIC 15:** | Desarrollo del backend de la autenticación con JWT |
+|:------------:|:---------------------------------------|
+| | Como desarrollador, quiero implementar la lógica de autenticación con el token JWT en el backend para gestionar el inicio de sesión de nuestros usuarios. |
+| **Technical story ID** | **Título** |
+| TS07 | Creación del Endpoint RESTful para Registro de Administrador con Validación de Datos |
+| TS08 | Configuración del endpoint de inicio de sesión (POST /login) |
+| TS09 | Configuración de validación de entrada para el registro (validación de nombre de usuario y correo electrónico) |
+| TS10 | Generación y Validación de Token JWT para Usuario Cliente |
+
+| **EPIC 16:** | Desarrollo del Bounded Context de IAM |
+|:------------:|:---------------------------------------|
+| | Como desarrollador, quiero implementar el Identity and Access Management (IAM) en el backend para gestionar la autenticación, la autorización y los roles de los usuarios mediante JWT, asegurando que los usuarios tengan acceso a los recursos adecuados según su rol. |
+| **Technical story ID** | **Título** |
+| TS11 | Autenticación de solicitudes con token JWT |
+| TS12 | Asignación de roles en el registro de clientes y administradores |
+| TS13 | Middleware de control de acceso basado en roles JWT |
+
+| **EPIC 17:** | Desarrollo de la integración del frontend con el backend |
+|:------------:|:---------------------------------------|
+| | Como desarrollador, quiero integrar el frontend con el backend para asegurar que las funcionalidades de la aplicación funcione de manera fluida y eficiente, permitiendo que los usuarios puedan interactuar sin problemas con los recursos y funcionalidades disponibles. |
+| **Technical story ID** | **Título** |
+| TS14 | Integrar el backend con el frontend para la autenticación de usuarios |
+| TS15 | Manejar errores de autenticación en el frontend |
+| TS16 | Asegurar la correcta sincronización de datos entre el frontend y el backend |
+| TS17 | Garantizar que la navegación entre el frontend y el backend sea segura |
+| TS18 | Optimizar la comunicación entre el frontend y el backend para la carga de datos |
+
+
 ## 3.3. Impact Mapping
 El Impact Mapping de Livria es una herramienta visual que conecta el objetivo principal del negocio, aumentar en un 60% el número de usuarios que finalizan al menos un libro por mes, con los usuarios clave (estudiantes universitarios y lectores casuales), los impactos deseados en su comportamiento, las funcionalidades necesarias para lograr esos cambios y las historias de usuario que reflejan sus necesidades reales. Entre los impactos buscados están el uso preferente de Livria para buscar libros, la descarga o compra desde la app, y el descubrimiento frecuente de nuevas lecturas. Para lograrlo, se plantean funcionalidades como recomendaciones personalizadas, búsqueda avanzada, comparadores de precios y formatos, acceso digital directo, y comunidad con reseñas. Estas funcionalidades se traducen en historias de usuario que guían el desarrollo centrado en mejorar la experiencia de lectura y aumentar el compromiso con la plataforma.
 
@@ -1572,33 +1871,89 @@ Link: https://drive.google.com/drive/folders/1zJEVEmTVXp3wqfTOmNEAVbZhEzfipoDu?u
 | 5 | US21 | Como usuario, quiero poder crear y unirme a comunidades relacionadas con mis intereses literarios con el fin de conectar con distintos lectores o autores de títulos reconocidos. | 5 |
 | 6 | US28 | Como usuario, quiero poder actualizar mi plan de suscripción, recibir notificaciones sobre pagos y revertir cambios si me arrepiento, para tener un mayor control sobre mi experiencia en la plataforma. | 5 |
 | 7 | US23 | Como usuario, quiero poder comprar libros digitales y físicos desde la plataforma para acceder a lecturas nuevas de manera inmediata o recibir ediciones impresas en mi domicilio. | 5 |
-| 8 | US14 | Como usuario, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto de mis pagos, descuentos únicos y recomendaciones otorgadas por el algoritmo de Livria. | 3 |
-| 9 | US15 | Como usuario, quiero poder indicar si un libro me interesa o no, para personalizar mis futuras recomendaciones. | 3 |
-| 10 | US30 | Como usuario, quiero que mi información personal y actividad en Livria estén protegidas, para sentirme seguro mientras navego, leo o realizo compras en la plataforma. | 3 |
-| 11 | US22 | Como usuario, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. | 3 |
-| 12 | US27 | Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. | 3 |
-| 13 | US18 | Como usuario, quiero obtener diferentes recomendaciones cada cierto tiempo para encontrar nuevas posibles lecturas que se adapten a mi gusto. | 3 |
-| 14 | US17 | Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. | 3 |
-| 15 | US31 | Como usuario, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. | 3 |
-| 16 | US25 | Como usuario, quiero poder organizar y dar seguimiento al envío de mis libros físicos comprados, para saber cuándo y cómo recibiré mi pedido. | 3 |
-| 17 | US32 | Como usuario, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. | 3 |
-| 18 | US34 | Como usuario, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. | 3 |
-| 19 | US05 | Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. | 2 |
-| 20 | US19 | Como usuario, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. | 2 |
-| 21 | US29 | Como usuario, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. | 2 |
-| 22 | US16 | Como usuario, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. | 2 |
-| 23 | US07 | Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. | 2 |
-| 24 | US03 | Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. | 2 |
-| 25 | US13 | Como usuario, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. | 2 |
-| 26 | US33 | Como usuario, quiero acceder rápidamente a las categorías presentes en la barra superior de navegación para descubrir libros organizados según mis intereses personales. | 2 |
-| 27 | US11 | Como visitante, quiero dejar mi información para que el equipo de Bookify - Livria me contacte para resolver una duda o trabajar con ellos. | 2 |
-| 28 | US08 | Como visitante, quiero tener un acceso directo a la aplicación de Livria, para empezar a utilizar la aplicación. | 1 |
-| 29 | US10 | Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. | 1 |
-| 30 | US09 | Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. | 1 |
-| 31 | US06 | Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. | 1 |
-| 32 | US04 | Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece. | 1 |
-| 33 | US02 | Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. | 1 |
-| 34 | US01 | Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las características únicas de la aplicación. | 1 |
+| 8 | US37 | Como administrador, quiero gestionar las reseñas que los usuarios crean para los libros, permitiendo que se guarden en la base de datos. | 5 |
+| 9 | US40 | Como administrador, quiero gestionar la creación de pedidos para que los usuarios puedan finalizar sus compras. | 5 |
+| 10 | US44 | Como administrador, quiero gestionar las publicaciones dentro de las comunidades para asegurarnos de que sean válidas y se guarden en la base de datos. | 5 |
+| 11 | US49 | Como administrador, quiero poder ver los detalles de la lista de un usuario en particular y modificarla para mantener control sobre las relaciones entre clientes y favoritos. | 5 |
+| 12 | US50 | Como administrador, quiero poder generar de manera automática recomendaciones para cada usuario en base a sus libros favoritos para mejorar la experiencia del usuario. | 5 |
+| 13 | US56 | Como administrador, quiero poder buscar órdenes por ID de pedido o por el nombre del cliente, y poder filtrar de distintas formas, para encontrar fácilmente las órdenes que me interesan. | 5 |
+| 14 | US58 | Como administrador, quiero tener una barra de búsqueda y filtros en la sección "Book Collection" del inventario, para poder buscar fácilmente un libro específico dentro del inventario. | 5 |
+| 15 | US60 | Como administrador, quiero poder gestionar mi perfil desde la sección "Settings", para poder ver, actualizar mi información personal o  cambiar mi contraseña si es necesario. | 5 |
+| 16 | US14 | Como usuario, quiero recibir notificaciones instantáneas en la aplicación, para mantenerme al tanto de mis pagos, descuentos únicos y recomendaciones otorgadas por el algoritmo de Livria. | 3 |
+| 17 | US15 | Como usuario, quiero poder indicar si un libro me interesa o no, para personalizar mis futuras recomendaciones. | 3 |
+| 18 | US30 | Como usuario, quiero que mi información personal y actividad en Livria estén protegidas, para sentirme seguro mientras navego, leo o realizo compras en la plataforma. | 3 |
+| 19 | US22 | Como usuario, quiero poder comentar en las publicaciones dentro de las comunidades literarias, para compartir opiniones, intercambiar ideas sobre libros y conectar con otros lectores. | 3 |
+| 20 | US27 | Como usuario, quiero poder valorar y dejar reseñas en los libros que he leído, para compartir mi opinión y ayudar a otros lectores en su elección. | 3 |
+| 21 | US18 | Como usuario, quiero obtener diferentes recomendaciones cada cierto tiempo para encontrar nuevas posibles lecturas que se adapten a mi gusto. | 3 |
+| 22 | US17 | Como usuario, quiero observar mis recomendaciones de manera ordenada y atractiva para poder elegir mi siguiente lectura. | 3 |
+| 23 | US31 | Como usuario, quiero una interfaz intuitiva y fácil de usar, para navegar entre libros, comunidades y configuraciones sin complicaciones ni curvas de aprendizaje. | 3 |
+| 24 | US25 | Como usuario, quiero poder organizar y dar seguimiento al envío de mis libros físicos comprados, para saber cuándo y cómo recibiré mi pedido. | 3 |
+| 25 | US32 | Como usuario, quiero ingresar a Livria desde distintos dispositivos, para acceder a mis libros y comunidades desde cualquier lugar y sin perder mi progreso. | 3 |
+| 26 | US34 | Como usuario, quiero filtrar los libros según subcategorías, orden de precio o título, formato e idioma para encontrar más fácilmente el contenido que me interesa. | 3 |
+| 27 | US35 | Como administrador, quiero obtener todos los libros disponibles en la base de datos para realizar un seguimiento de los productos y gestionarlos eficientemente. | 3 |
+| 28 | US38 | Como administrador, quiero acceder a todas las reseñas de un libro para gestionarlas desde el backend. | 3 |
+| 29 | US41 | Como administrador, quiero poder ver los detalles de un pedido para gestionar el envío y los pagos. | 3 |
+| 30 | US43 | Como administrador, quiero gestionar la creación automática de comunidades por parte de los usuarios y almacenarlas correctamente en la base de datos. | 3 |
+| 31 | US46 | Como administrador, quiero gestionar la creación de nuevos usuarios para que puedan acceder y participar en la plataforma. | 3 |
+| 32 | US48 | Como administrador, quiero poder crear y enviar notificaciones a los usuarios para mantenerlos informados de actualizaciones importantes. | 3 |
+| 33 | US51 | Como administrador, quiero tener acceso rápido a las principales secciones del sistema desde el home del dashboard, para poder acceder a la gestión libros, pedidos, inventarios, estadísticas y configuraciones de manera rápida. | 3 |
+| 34 | US53 | Como administrador, quiero poder buscar libros de la colección en Books en la sección "Book Collection", utilizando diversos filtros, para encontrar fácilmente el libro que me interesa saber su información. | 3 |
+| 35 | US55 | Como administrador, quiero ver estadísticas clave sobre todas las órdenes en la sección "Manage and Analyze All Livria Orders”, para poder realizar un análisis completo y tomar decisiones informadas sobre las ventas. | 3 |
+| 36 | US57 | Como administrador, quiero que después de realizar una búsqueda o un filtro, el sistema me muestre una tabla con los detalles de las órdenes, incluyendo el código de orden, el cliente, el beneficiario, la fecha, el total, el estado, el ítem y las acciones disponibles, para gestionar las órdenes de manera eficiente. | 3 |
+| 37 | US59 | Como administrador, quiero ver una tabla en la sección "Book Collection" del inventario que contenga los detalles de cada libro, como su portada, título, autor, etc. , para gestionar fácilmente el inventario de libros. | 3 |
+| 38 | US61 | Como administrador, quiero poder gestionar la configuración de la aplicación desde la sección "Application Settings", para poder activar o desactivar notificaciones, alertas por correo electrónico, autoguardado de cambios y cambiar la configuración de la cantidad de elementos por página. | 3 |
+| 39 | US63 | Como administrador, quiero registrarme en la plataforma mediante un formulario seguro, para crear una cuenta protegida y acceder posteriormente mediante autenticación segura. | 3 |
+| 40 | US64 | Como administrador, quiero iniciar sesión en la plataforma utilizando un sistema de autenticación basado en JWT, para acceder de manera segura a las funcionalidades administrativas. | 3 |
+| 41 | US66 | Como usuario, quiero iniciar sesión en la plataforma utilizando autenticación JWT, para acceder de manera segura a mis recursos personales. | 3 |
+| 42 | US05 | Como visitante, quiero identificar fácilmente la sección “Contáctanos”, para poder establecer comunicación en caso de necesitar información adicional sobre la plataforma o tener interés en colaborar con el equipo de Livria. | 2 |
+| 43 | US19 | Como usuario, quiero poder cerrar sesión de mi cuenta cuando lo desee, para proteger mi información personal y asegurar la privacidad de mis datos al finalizar el uso de la plataforma. | 2 |
+| 44 | US29 | Como usuario, quiero que la plataforma esté disponible en cualquier momento del día, para acceder a mis libros, comunidades y funcionalidades sin importar el lugar o la hora. | 2 |
+| 45 | US16 | Como usuario, quiero poder registrarme e iniciar sesión con mis credenciales, para acceder a la plataforma y descubrir nuevos títulos de mi agrado. | 2 |
+| 46 | US07 | Como visitante, quiero que la landing page sea visualmente atractiva, para sentirme interesado por Livria y motivado a usar la aplicación que ofrecen. | 2 |
+| 47 | US03 | Como visitante, quiero navegar por la plataforma en mi idioma preferido, para comprender fácilmente el contenido de presentación de Livria. | 2 |
+| 48 | US13 | Como usuario, quiero tener la posibilidad de personalizar mis preferencias de notificación, para recibir únicamente la información que realmente me interesa y así mejorar mi experiencia dentro de la plataforma. | 2 |
+| 49 | US33 | Como usuario, quiero acceder rápidamente a las categorías presentes en la barra superior de navegación para descubrir libros organizados según mis intereses personales. | 2 |
+| 50 | US11 | Como visitante, quiero dejar mi información para que el equipo de Bookify - Livria me contacte para resolver una duda o trabajar con ellos. | 2 |
+| 51 | US36 | Como administrador, quiero ver los detalles completos de un libro en la base de datos para poder gestionarlo adecuadamente. | 2 |
+| 52 | US39 | Como administrador, quiero gestionar la adición de libros al carrito de compra para realizar un seguimiento del proceso de compra. | 2 |
+| 53 | US42 | Como administrador, quiero acceder a la lista completa de comunidades para tener un control centralizado de las comunidades de la plataforma. | 2 |
+| 54 | US45 | Como administrador, quiero poder consultar todos los usuarios registrados para gestionar su acceso y actividad. | 2 |
+| 55 | US47 | Como administrador, quiero poder eliminar un usuario que ya no utilizará la plataforma, para mantener la base de datos actualizada. | 2 |
+| 56 | US52 | Como administrador, quiero ver estadísticas relevantes sobre los libros en la sección estadísticas en Books, para poder tomar decisiones informadas sobre los libros más populares, más vendidos y otros datos clave del inventario. | 2 |
+| 57 | US54 | Como administrador, quiero ver el precio de un libro y su información básica en la sección "Libro de Colección", y acceder a una ventana con más detalles completos del libro, para poder tomar decisiones informadas sobre la gestión de mis productos. | 2 |
+| 58 | US62 | Como administrador, quiero tener una barra lateral en el dashboard que contenga la información fundamental de dashboard, para poder navegar de forma rápida y eficiente a las diferentes áreas del sistema. | 2 |
+| 59 | US65 | Como usuario, quiero registrarme en la plataforma con un sistema seguro, para crear una cuenta y acceder a mis recursos personales como cliente. | 2 |
+| 60 | US08 | Como visitante, quiero tener un acceso directo a la aplicación de Livria, para empezar a utilizar la aplicación. | 1 |
+| 61 | US10 | Como visitante, quiero visualizar un apartado en el pie de página con las secciones de la landing page, para retornar a cualquiera de ellas. | 1 |
+| 62 | US09 | Como visitante, quiero poder navegar a las redes sociales oficiales de Livria, para mantenerme informado sobre sus novedades y explorar contenido adicional. | 1 |
+| 63 | US06 | Como visitante, quiero visualizar un encabezado con las secciones de la landing page, para navegar fácil y rápidamente entre ellas. | 1 |
+| 64 | US04 | Como visitante, quiero leer un resumen sobre qué es Livria en el inicio de la página, para entender rápidamente qué producto me ofrece. | 1 |
+| 65 | US02 | Como visitante, quiero acceder fácilmente a la sección “Sobre Nosotros”, para conocer la trayectoria de los creadores de Livria, comprender en qué consiste la plataforma y descubrir las funcionalidades que ofrece. | 1 |
+| 66 | US01 | Como visitante, quiero ver información relevante sobre las funcionalidades principales que ofrece Livria, para conocer las características únicas de la aplicación. | 1 |
+
+<br><br>
+
+| # Orden | Technical Story ID | Descripción | Story Points (1/2/3/5) |
+|:-------:|:-------------:|:------------|:----------------------:|
+| 1 | TS01 | Como Developer, debo configurar la conexión segura entre el backend (.NET) y la base de datos MySQL, asegurando que las credenciales estén protegidas con variables de entorno. | 5 |
+| 2 | TS02 | Como Developer, debo implementar autenticación basada en tokens JWT para proteger endpoints críticos (ej: gestión de usuarios, pedidos). | 5 |
+| 3 | TS04 | omo Developer, debo optimizar las consultas SQL de las tablas cart_items y orders para reducir el tiempo de respuesta en un 30%. | 5 |
+| 4 | TS07 | Como Developer, debo crear el endpoint RESTful para el registro de un administrador, el cual recibirá un conjunto de datos como nombre de usuario, correo electrónico, contraseña y PIN de seguridad. Además, debe validar la existencia de los datos y generar un registro en la base de datos de forma segura. | 5 |
+| 5 | TS08 | Como Developer, debo crear el endpoint RESTful para el inicio de sesión de un usuario registrado, el cual recibirá las credenciales (nombre de usuario y contraseña) y devolverá un token JWT si son válidas. | 5 |
+| 6 | TS10 | Como Developer, debo implementar la generación de un token JWT seguro para los usuarios que inician sesión con credenciales válidas, asegurando que el token tenga una fecha de expiración y un rol asociado. | 5 |
+| 7 | TS11 | Como Developer, debo garantizar que las solicitudes a endpoints protegidos requieran un token JWT válido en el encabezado de la solicitud para permitir el acceso. | 5 |
+| 8 | TS13 | Como desarrollador, quiero implementar un middleware que controle el acceso a los recursos basado en los roles incluidos en el token JWT, para restringir el acceso según el rol del usuario. | 5 |
+| 9 | TS14 | Como desarrollador, quiero integrar el frontend con el backend para gestionar la autenticación de usuarios mediante JWT, asegurando una experiencia de usuario fluida. | 5 |
+| 10 | TS17 | Como desarrollador, quiero asegurar que la comunicación entre el frontend y el backend sea segura, utilizando HTTPS y tokens JWT, para proteger los datos del usuario. | 5 |
+| 11 | TS16 | Como desarrollador, quiero garantizar que los datos entre el frontend y el backend estén sincronizados, para evitar inconsistencias en la experiencia del usuario. | 5 |
+| 12 | TS05 | Como Developer, debo configurar un sistema de logging centralizado para registrar errores en la API (ej: fallos en consultas SQL, requests inválidos). | 5 |
+| 13 | TS09 | Como Developer, debo asegurarme de que la API valida correctamente los datos proporcionados en el proceso de registro (nombre de usuario, correo electrónico, contraseña y PIN de seguridad), asegurando que el nombre de usuario y correo electrónico no existan previamente. | 5 |
+| 14 | TS03 | Como Developer, debo generar documentación interactiva de los endpoints usando Swagger UI, incluyendo ejemplos de requests/responses y esquemas de datos.| 5 |
+| 15 | TS06 | Como Developer, debo habilitar CORS en el backend para permitir solicitudes solo desde los dominios autorizados (ej: https://livriabybookify.netlify.app/). | 5 |
+| 16 | TS12 | Como desarrollador, quiero implementar la asignación de roles durante el registro de clientes y administradores, para garantizar que tengan los permisos adecuados según su tipo de cuenta. | 3 |
+| 17 | TS15 | Como desarrollador, quiero implementar el manejo de errores de autenticación en el frontend, para informar a los usuarios sobre problemas durante el inicio de sesión o el acceso a recursos. | 3 |
+| 18 | TS18 | Como desarrollador, quiero optimizar las solicitudes entre el frontend y el backend, para reducir la latencia y mejorar la experiencia de carga de datos. | 3 |
+
 
 # CAPÍTULO 4: PRODUCT UX/UI DESIGN
 ## 4.1. Style Guidelines
@@ -3534,6 +3889,25 @@ Durante el Sprint 3, el objetivo principal fue desarrollar la versión inicial d
 | | 3 | Secciones principales | Mostrar links: Home, Books, etc. | 2 | Developer Team | Done |
 | | 4 | Cambiar idioma | Botón para cambiar entre EN/ES. | 2 | Developer Team | Done |
 | | 5 | Settings y logout | Enlace a settings + botón cerrar sesión. | 1 | Developer Team | Done |
+| **TS01** | | **Configuración inicial de la base de datos MySQL** | | | | |
+| | 1 | Configuración de conexión con base de datos MySQL | Configurar la conexión entre el backend (.NET) y la base de datos MySQL, protegiendo las credenciales con variables de entorno. | 6 | Developer Team | Done |
+| | 2 | Implementación de conexión segura con SSL | Asegurarse de que la conexión entre el backend y la base de datos MySQL utilice SSL para encriptar los datos. | 5 | Developer Team | Done |
+| **TS02** | | **Implementación de autenticación JWT** | | | | |
+| | 1 | Protección de endpoints con autenticación JWT | Crear la lógica para validar el token JWT en los endpoints protegidos, como /api/v1/orders. | 6 | Developer Team | Done |
+| | 2 | Validación de acceso sin token | Asegurarse de que la API devuelva un estado 401 cuando se intente acceder a un endpoint protegido sin un token válido. | 4 | Developer Team | Done |
+| **TS03** | | **Documentación de APIs con Swagger/OpenAPI** | | | | |
+| | 1 | Configuración de Swagger para documentación de API | Configurar Swagger/OpenAPI para que genere una documentación interactiva de los endpoints, mostrando ejemplos y esquemas de datos. | 5 | Developer Team | Done |
+| | 2 | Definición de esquemas en Swagger | Incluir los esquemas para las entidades Books, Orders, y Users en la documentación generada por Swagger. | 4 | Developer Team | Done |
+| **TS04** | | **Optimización de consultas SQL para carritos** | | | | |
+| | 1 | Optimización de consulta SQL para carrito de 100+ ítems | Optimizar la consulta de los carritos con más de 100 ítems para reducir el tiempo de respuesta en un 30%. | 6 | Developer Team | Done |
+| | 2 | Implementación de índices en bookId y userClientId | Crear índices en las columnas bookId y userClientId para mejorar el rendimiento de las consultas del carrito. | 4 | Developer Team | Done |
+| **TS05** | | **Implementación de logs de errores** | | | | |
+| | 1 | Configuración de logging para errores de SQL | Configurar un sistema de logging centralizado para registrar errores de SQL en el archivo logs/api_errors.log. | 5 | Developer Team | Done |
+| | 2 | Manejo de errores con respuesta genérica | Asegurarse de que la API devuelva un estado 500 y un mensaje genérico cuando ocurra un error de SQL y se registre en los logs. | 4 | Developer Team | Done |
+| **TS06** | | **Configuración de CORS para el frontend** | | | | |
+| | 1 | Implementación de CORS para frontend autorizado | Configurar CORS para que solo el dominio https://livriabybookify.netlify.app/ pueda hacer solicitudes al backend. | 5 | Developer Team | Done |
+| | 2 | Manejo de peticiones de dominio no autorizado | Asegurarse de que las solicitudes de dominios no autorizados, como malicious.com , reciban una respuesta 403. | 4 | Developer Team | Done |
+
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
