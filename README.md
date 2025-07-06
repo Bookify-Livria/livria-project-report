@@ -135,15 +135,15 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
       - [5.2.2.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
       - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    + [5.2.3. Sprint 3](#522-sprint-2)
-      - [5.2.3.1. Sprint Planning](#5221-sprint-planning)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.3.3 Sprint Backlog 3](#5223-sprint-backlog-2)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    + [5.2.3. Sprint 3](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning](#5231-sprint-planning)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3 Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
   + [5.2.3. Sprint 4](#522-sprint-2)
       - [5.2.4.1. Sprint Planning](#5221-sprint-planning)
       - [5.2.4.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
@@ -4227,6 +4227,507 @@ Durante este Sprint 3, el equipo se centró en la implementación de las funcion
   <img src="https://imgur.com/bWuN3Qd.png" alt="confi26" width="500">
   </p>
 
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Sprint Planning
+
+En esta reunión del Sprint Planning se va a integrar el frontend con el backend, se añadirá el bounded context de Identity and Access Management (IAM) usando el token Json Web Token (JWT) y se mejorará funcionalidades de los endpoints del backend. En esta reunión el equipo Scrum estableció diversas actividades a cada integrante para desarrollar 4 User Stories y 12 Technical Stories relevantes para la aplicación web.
+
+A continuación, se mostrará la tabla del Sprint Planning 4:
+
+| Sprint # | Sprint 4 |
+|---|---|
+| **Sprint Planning Background** | |
+| **Date** | 2025-07-04 |
+| **Time** | 07:30 PM |
+| **Location** | Virtual |
+| **Prepared By** | Ainhoa Lucía Castillo Garay, Marcelo Alejandro Binda Arbañil |
+| **Attendees (to planning meeting)** | Ainhoa Lucía Castillo Garay / Marcelo Alejandro Binda Arbañil / Gabriel Sebastián Borja Molina / Jhosep Jamil Argomedo Camacho / Melisa Geraldine Sulca Silva |
+| **Sprint n - 4 Review Summary** | Durante el Sprint 4, se desarrollaron 6 historias de usuarios y 12 technical stories enfocado principalmente en la implementación de autenticación y autorización para administradores y usuarios, utilizando JWT (JSON Web Token), el desarrollo del bounded context de Gestión de Identidad y Acceso (IAM), mejoras en el backend, así como en la integración y optimización del frontend y backend de la plataforma Livria. <br><br> El equipo de programadores, conformado por Marcelo Binda y Gabriel Borja se destacó en la optimización de la lógica de autenticación y manejo de sesiones con JWT, asegurando que el sistema validará los tokens de manera eficiente, mejorando la velocidad de las interacciones entre el frontend y el backend. <br><br> Jhosep Argomedo y Melisa Sulca trabajaron de manera colaborativa en la implementación del control de roles y permisos dentro del backend, garantizando que cada usuario tuviera acceso solo a los recursos adecuados, según su rol (administrador o usuario), lo que optimizó la seguridad y la autorización dentro de la plataforma. <br><br> Ainhoa Castillo desempeñó un papel crucial en la integración del frontend con el backend, asegurándose de que las funcionalidades de inicio de sesión y manejo de sesiones se realizarán sin contratiempos, permitiendo una experiencia fluida para los usuarios al interactuar con la aplicación. También trabajaron en la sincronización correcta de los datos entre ambas partes y en la implementación de las medidas de seguridad necesarias para proteger los datos de los usuarios. |
+| **Sprint n - 4 Retrospective Summary** | Durante el Sprint 4, se prevé un alto enfoque en la integración entre el frontend y backend, y gestión de identidad y acceso. <br><br> Los aspectos que se destacarán durante este sprint incluyen la implementación segura de JWT, la cual es asegurarse de que los tokens sean generados y gestionados de manera eficiente y segura. También, la autenticación y autorización en backend que consiste en la implementación de endpoints de autenticación que se integrarán con el sistema de backend y se gestionan las rutas para manejar tokens JWT. Además,se agregará la integración fluida entre frontend y backend, en la cual se garantizará que la comunicación entre el frontend y el backend sea estable y funcional, utilizando el mecanismo de autenticación basado en JWT para todas las solicitudes seguras. |
+| **Sprint Goal & User Stories** | |
+| **Sprint Goal** | **Our focus is** on implementing Identity and Access Management (IAM) with JSON Web Tokens (JWT) for secure authentication and authorization in the Livria web app. We will also focus on integrating the frontend with the backend to ensure seamless communication and secure user interactions across the platform. <br><br> **We believe it delivers** a robust security framework for user authentication, ensuring that only authorized users can access protected resources. Additionally, the integration of JWT with the frontend and backend will enable secure communication and efficient access management. <br><br> **This will be confirmed when** all user authentication endpoints are secured with JWT, the frontend properly sends and receives JWT tokens, and successful integration between the frontend and backend is verified. We will also verify that the system is secure, protected against common vulnerabilities. |
+| **Sprint Velocity** | 93 |
+| **Sum of Story Points** | 89 |
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+Durante el Sprint 4, se ha avanzado significativamente en la implementación de la autenticación y autorización de usuarios mediante JWT, mejoras en el backend, así como en la integración del frontend con el backend de la aplicación Livria. Para organizar de manera eficiente las tareas del equipo, se ha creado una matriz de Liderazgo y Colaboración (LACX), donde se asignan responsabilidades específicas a cada miembro del equipo. Algunos integrantes asumieron el rol de líder (L) y otros desempeñaron el rol de colaborador (C).
+
+Los aspectos definidos para este Sprint son:
+
+1.  Bounded Context de Gestión de Identidad y Acceso (IAM)
+2.  Implementación del token JWT
+3.  Mejoras en el backend
+4.  Integración del frontend con el backend
+5.  Finalización de la landing page
+
+| Team Member (Last Name, First Name) | GitHub Username | B. C. de Gestión de Identidad y Acceso (IAM) | Implementación del token JWT | Mejoras en el backend | Integración del frontend con el backend | Finalización de la landing page |
+|-------------------------------------|-----------------|----------------------------------------------|------------------------------|-----------------------|-----------------------------------------|---------------------------------|
+| Castillo Garay, Ainhoa Lucía        | noaa01100001    | C                 | C                    | C              | L                      | C                       |
+| Binda Arbañil, Marcelo Alejandro    | MarceloHkd      | L                 | C                    | L              | C                      | C                       |
+| Borja Molina, Gabriel Sebastián     | borj410         | C                 | L                    | C              | C                      | C                       |
+| Argomedo Camacho, Jhosep Jamil      | JhosepAC        | C                 | C                    | C              | C                      | L                       |
+| Sulca Silva, Melisa Geraldine       | MSS02204        | C                 | C                    | C              | C                      | C                       |
+
+
+#### 5.2.4.3. Sprint Backlog 4
+
+Durante el Sprint 4, el objetivo principal fue consolidar la integración entre el frontend y el backend de la aplicación Livria, con un enfoque en la autenticación segura, la gestión de acceso, la sincronización eficiente de datos y mejoras en el backend. El equipo trabajó en la implementación del bounded context de IAM (Identity and Access Management), lo que permitió establecer un sistema de gestión de identidad para los usuarios, asegurando que tanto administradores como clientes pudieran interactuar con la plataforma de manera segura mediante tokens JWT.
+
+
+<table class="c12">
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="1"><p>Sprint #</p></td>
+<td class="c16" colspan="7" rowspan="1"><p>Sprint 4</p></td>
+</tr>
+<tr class="c5">
+<td class="c13" colspan="2" rowspan="1"><p>User Story</p></td>
+<td class="c17" colspan="6" rowspan="1"><p>Work Item/Task</p></td>
+</tr>
+<tr class="c11">
+<td class="c3" colspan="1" rowspan="1"><p>Id</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Title</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>Id</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Title</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Description</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>Estimation (Hours)</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Assigned To</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Status (To-do / InProcess / ToReview / Done)</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US63</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Registro de cuenta con control y seguridad.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Registro de administrador.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar el registro correcto de datos y creación de cuenta de administrador.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Validación de datos de registro.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Validar que los datos del administrador (nombre de usuario, correo, contraseña, PIN) sean correctos.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US64</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Inicio de sesión con autenticación JWT.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Inicio de sesión del administrador con autenticación.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar el inicio de sesión que genere el token JWT al validar las credenciales.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Manejo de credenciales inválidas.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurarse de que el sistema devuelva un error 401 si las credenciales son incorrectas.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US65</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Registro de usuario cliente.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Registro de cliente.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear el registro datos y creación de cuenta de cliente.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Validación de usuario cliente.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Validar que el nombre de usuario y contraseña del cliente no existan ya en la base de datos.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="1"><p>US66</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Acceso seguro a la cuenta mediante JWT.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Acceso a la cuenta con token.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la validación del token JWT para el acceso a recursos del cliente.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS07</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Creación del Endpoint RESTful para Registro de Administrador.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación del endpoint de registro.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear el endpoint /register para registrar un administrador con validación de nombre de usuario, correo, contraseña y PIN.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Validación de datos durante el registro.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Validar que el nombre de usuario y el correo electrónico no existan previamente en la base de datos antes de crear el administrador.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS08</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Configuración del endpoint de inicio de sesión (POST /login).</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación del endpoint de inicio de sesión.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear el endpoint /login para permitir que los usuarios inicien sesión con nombre de usuario y contraseña y obtengan un token JWT.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Manejo de credenciales inválidas.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurarse de que el sistema devuelva un estado 401 y un mensaje de error si las credenciales son inválidas.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="1"><p>TS09</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Configuración de validación de entrada para el registro.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Validación de nombre de usuario y correo electrónico.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Validar que el nombre de usuario y el correo electrónico no existan en la base de datos al realizar el registro de un administrador.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS10</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Generación y Validación de Token JWT para Usuario Cliente.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación de generación de token JWT.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica para generar un token JWT con un campo "role" como "Cliente", con una espiración de 1 hora.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Validación del token JWT para acceso a recursos.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Validar que el token JWT generado sea correcto y permita el acceso a recursos protegidos.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS11</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Autenticación de solicitudes con token JWT.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación de protección con token JWT.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica para que los endpoints protegidos validen el token JWT en las solicitudes.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Respuesta de error para token inválido.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurarse de que la API devuelva un estado 401 y un mensaje claro cuando el token JWT sea inválido o haya expirado.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS12</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Asignación de roles en el registro de clientes y administradores.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Asignación de rol "Admin" al registrar un administrador.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica de asignación de rol al crear un nuevo administrador en la base de datos, asegurando que el rol "Admin" sea asignado correctamente y guardado en el campo de rol del registro.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Asignación de rol "Cliente" al registrar un cliente.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica de asignación de rol al crear un nuevo usuario en la base de datos, asegurando que el rol "Cliente" sea asignado correctamente y guardado en el campo de rol del registro.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS13</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Middleware de control de acceso basado en roles JWT.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Middleware de control de acceso basado en el rol "Admin".</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un middleware que valide el token JWT y asegure que solo los usuarios con el rol "Admin" puedan acceder a ciertos endpoints protegidos. El middleware debe comprobar el campo role del JWT y, si el valor no es "Admin", devolver un error.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Middleware de control de acceso basado en el rol "Cliente".</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un middleware que valide el token JWT y asegure que solo los usuarios con el rol "Cliente" puedan acceder a ciertos endpoints protegidos. El middleware debe comprobar el campo role del JWT y, si el valor no es "Cliente", devolver error.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS14</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Integrar el backend con el frontend para la autenticación de usuarios.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Flujo de autenticación.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar el flujo de autenticación en el frontend, enviando credenciales y recibiendo el token JWT desde el backend.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Almacenamiento y manejo del token JWT.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Almacenar el token JWT recibido en el frontend y utilizarlo en solicitudes futuras.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS15</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Manejar errores de autenticación en el frontend.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Manejo de error de credenciales inválidas en el frontend.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Mostrar un mensaje claro en el frontend cuando el backend devuelva un error 401 por credenciales inválidas.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Manejo de error de token expirado en el frontend.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Mostrar un mensaje de error claro en el frontend cuando el backend devuelva un error 401 debido a un token expirado.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS16</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Asegurar la correcta sincronización de datos entre el frontend y el backend.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Sincronización de datos entre frontend y backend.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurar que el frontend reciba los datos correctos del backend y que cualquier actualización se refleje inmediatamente.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Validación de datos sincronizados.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Verificar que los datos enviados desde el frontend sean correctamente procesados y actualizados en el backend.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>TS17</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Garantizar que la navegación entre el frontend y el backend sea segura.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación de HTTPS para comunicaciones seguras.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Configurar el backend para el uso de HTTPS para todas las comunicaciones entre el frontend y el backend.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Protección de datos con JWT.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurar que todas las solicitudes con datos sensibles sean protegidas mediante un token JWT válido, transmitido de forma segura.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="3"><p>TS18</p></td>
+<td class="c8" colspan="1" rowspan="3"><p>Optimizar la comunicación entre el frontend y el backend para la carga de datos.</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Optimización de las solicitudes para la carga de datos.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Reducir la latencia de las solicitudes entre el frontend y el backend para una carga más rápida de los datos.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación de carga diferida para datos.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar una técnica de carga diferida (lazy loading) para mejorar la experiencia del usuario y optimizar el rendimiento.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-Do</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Monitorización de la comunicación.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Establecer un sistema para monitorear y optimizar la eficiencia de la comunicación entre el frontend y el backend.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-Do</p></td>
+</tr></table>
+
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+En este capítulo se detalla el progreso logrado durante el Sprint 4 en las mejoras y la sección añadida del bounded context IAM al backend de la plataforma Livria y la integración del frontend con el backend de la aplicación web. Con el trabajo colaborativo del equipo y siguiendo un enfoque ágil, se logró implementar un sistema robusto de gestión de identidad y acceso (IAM), que permite la autenticación y autorización seguras de los usuarios, diferenciando entre administradores y clientes a través de tokens JWT.
+Se completó con éxito la integración del frontend con el backend, lo que asegura que la información se gestione correctamente y se refleje de manera dinámica en la interfaz de usuario. Este avance ha optimizado la experiencia del usuario, permitiendo un registro e inicio de sesión seguro, además de garantizar la correcta sincronización entre los datos almacenados en la base de datos y las vistas en el frontend.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+|---|---|---|---|---|---|
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 74b389c | feat: "Replace 'display' with 'username' in ReviewCommandService.cs" | ----------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 1fdb637 | feat: update Controller authorization | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 0cc01e2f | Update UserClientsController.cs | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 4a02384 | feat: add IAM bounded context, authorization configuration, role management and authentication endpoints | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | d0bb3db | feat: ADD CAPITAL IN LIVRIA | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 8722c44 | Merge branch 'develop' of https://github.com/Bookify-Livria/livria-backend into develop | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 2483d9f | feat: Add "fiction" | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 0e76d75 | feat: Update Program.cs | ----------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | aae6a7e | feat: update deployment configuration | ----------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | c48dc26 | feat: update appsettings and add CORS Policy | ----------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 450e3da | Merge branch 'develop' of https://github.com/Bookify-Livria/livria-backend into develop | ----------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 8dee7bd | feat: update LIVRIA | ------------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 5c84579 | feat: User Authentications using JWT | ----------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 0f6dd27 | Pull latest changes into the Users branch | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 0f6dd27 | Pull latest changes into the Users branch | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 5c84579 | feat: User Authentications using JWT | ----------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | d5d290b | feat: User Conection to database | ----------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 9e46c43 | feat: GET and POST methods for Review and Post | ----------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 76e5418 | feat: Books conection to database and fix of books display by genre | ----------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 0f6dd27 | Pull latest changes into the Users branch | ----------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 5c84579 | feat: User Authentications using JWT | ----------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | d5d290b | feat: User Conection to database | ----------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 9e46c43 | feat: GET and POST methods for Review and Post | ----------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 76e5418 | feat: Books conection to database and fix of books display by genre | ----------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria.github.io  | master |  |  | ----------- | 06/07/2025 |
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 4, el equipo se enfocó en la integración y desarrollo del bounded context de IAM (Identity and Access Management) dentro del backend de Livria y mejoras a algunas funcionalidades. Este nuevo módulo permitió robustecer la gestión de autenticación y autorización de usuarios, diferenciando claramente los flujos de acceso para administradores y clientes.
+
+Se implementaron controladores REST específicos para el manejo de registro y autenticación. Además, se desarrollaron los correspondientes command y servicios para procesar las solicitudes de autenticación y generación de tokens JWT, asegurando así la protección y gestión segura de las sesiones de usuario.
+
+El equipo también avanzó en la definición de modelos de dominio, comandos y repositorios relacionados con la identidad, permitiendo una arquitectura más modular y escalable. Se realizaron pruebas de integración para validar los nuevos endpoints y se documentaron las rutas y respuestas esperadas, facilitando la colaboración entre los distintos equipos de desarrollo.
+
+En cuanto a la integración del frontend con el backend, se trabajó estrechamente para asegurar que el sistema funcionara de manera fluida en ambos lados. El equipo de frontend implementó los flujos de inicio de sesión, gestión de sesiones y control de acceso a información de la aplicación, conectándose correctamente con los endpoints del backend para obtener y validar los datos. 
+
+
+#### Avances realizados:
+
+**IAM:**
+* **Identity:** Implementación de funcionalidades para la gestión de la autenticación y autorización de usuarios, con la capacidad de registrar nuevos usuarios en la plataforma (**POST**), iniciar sesión como administrador (**POST**) e iniciar sesión como cliente (**POST**).
+
+#### Contribuciones del equipo:
+
+Se realizaron mejoras en el backend y se desarrollaron funcionalidades relacionadas con el bounded context de IAM en el backend, consolidando un sistema robusto para la autenticación y autorización de usuarios. Además, se integró correctamente el frontend con el backend de la aplicación. Se trabajó en la implementación de la autenticación con JWT, utilizando tokens JWT para validar el acceso de administradores y clientes a los recursos protegidos. Los usuarios pueden ahora iniciar sesión, obtener tokens seguros y acceder a su información personal de manera segura. También, se realizaron pruebas de integración para garantizar que el frontend y el backend estuvieran correctamente sincronizados.
+
+#### Evidencia visual:
+
+A continuación, se presentan capturas de pantalla de las vistas implementadas en este Sprint:
+
+
+**Backend de los bounded context de Livria:**
+
+
+
+**Video Sprint Review 4**
+
+
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 4, el enfoque se centró en la implementación y fortalecimiento del bounded context de IAM (Identity and Access Management) dentro del backend de la aplicación web de Livria. Este nuevo módulo permitió la integración de un sistema de autenticación y autorización para los usuarios, diferenciando claramente los flujos de acceso entre administradores y clientes. Además, se consolidó el sistema de gestión de roles y la protección de las rutas mediante el uso de tokens JWT.
+A diferencia del Sprint 3, en el cual se implementaron funcionalidades en distintos bounded contexts con una API RESTful conectada a una base de datos real (MySQL), el Sprint 4 incorporó de manera eficaz la lógica de gestión de identidad dentro de la aplicación, asegurando que las sesiones de los usuarios sean protegidas adecuadamente.
+
+
+| Endpoint | Acción | Verbo HTTP | Sintaxis de llamada | Parámetros | Ejemplo de Request | Ejemplo de Response | Explicación |
+|---|---|---|---|---|---|---|---|
+| `/api/v1/authentication/register` | Crear un registro de un usuario. | `POST` | `POST /api/v1/authentication/register` | Ninguno | `{"username": "rodrigo", "password": "contrasea", "confirmPassword": "contrasea", "display": "Rodrigo", "email": "rodrigo.bolomo@example.com", "icon": "https://example.com/icon.png", "phrase": "¡la vida!"}` | `{"message": "Registration successful."}` | Esta solicitud POST crea un nuevo registro de un usuario de la plataforma. Permite registrar un usuario proporcionando información como el username, password, confirmPassword, display, email, icon y phrase. |
+| `/api/v1/authentication/sign-in/admin` | Iniciar sesión como administrador. | `POST` | `POST /api/v1/authentication/sign-in/admin` | Ninguno | `{"username": "admin_default", "password": "0000", "securityPin": "0000"}` | `{"identityId": 1, "userId": 1, "username": "admin_default", "success": true, "message": "Login successful.", "token": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTIzNTkzOTksImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjEiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5fZGVmYXVsdCIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwiaWF0IjoxNzUxNzU0NTk5LCJuYmYiOjE3NTE3NTQ1OTl9.mGcSdBaMrrP7-DEZTf8gjy5I82pm7Ts9bSfHYKVgypo"}` | Esta solicitud POST permite iniciar sesión como administrador en la plataforma. El administrador ingresa con su username, password y securityPin. |
+| `/api/v1/authentication/sign-in/client` | Iniciar sesion como cliente. | `POST` | `POST /api/v1/authentication/sign-in/client` | Ninguno | `{"username": "rodrigo", "password": "contrasea"}` | `{"identityId": 7, "userId": 7, "username": "rodrigo", "success": true, "message": "Login successful.", "token": "eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NTIzNTk0ODQsImh0dHA6Ly9zY2hlbWFzLnhtbHNvYXAub3JnL3dzLzIwMDUvMDUvaWRlbnRpdHkvY2xhaW1zL3NpZCI6IjciLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicm9kcmlnbyIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IlVzZXJDbGllbnQiLCJpYXQiOjE3NTE3NTQ2ODQsIm5iZiI6MTc1MTc1NDY4NH0.0VhD4A-bCEMh-X0ItAKe1utt5HKBO-j5jbnQn2MVk4E"}` | Esta solicitud POST permite iniciar sesión como cliente en la plataforma. El cliente ingresa con su username y password. |
+
+**Capturas:**
+
+Esta solicitud POST recupera los datos de un usuario recién registrado en el sistema, guarda su información y envía un mensaje confirmando el registro exitoso.
+
+Esta solicitud POST auténtica al administrador con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
+
+Esta solicitud POST auténtica al cliente con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Durante este Sprint 4, el equipo se centró en el despliegue del frontend conectado al backend de la aplicación web de Livria. Este sprint incluyó la integración completa de ambos componentes, asegurando que el frontend pudiera interactuar correctamente con el backend, permitiendo que las funcionalidades de la plataforma funcionen de manera fluida.
+Se implementó la autenticación de usuarios, incluyendo el registro e inicio de sesión seguro con JWT, tanto para administradores como para clientes. El sistema ahora maneja las solicitudes de inicio de sesión de manera efectiva, generando los tokens correspondientes para asegurar las sesiones de los usuarios.
+
+#### Actividades de Despliegue:
+
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
+Durante este Sprint 4, el equipo se centró en la integración completa del frontend con el backend de la aplicación web de Livria, asegurando que la plataforma funcione de manera fluida y sincronizada. Utilizando .NET para el backend y una base de datos MySQL, se mejoró el backend, se implementó el registro e inicio de sesión de usuarios clientes y administradores, ahora asegurados mediante el uso de tokens JWT.
+
+#### Actividades de implementación:
+
+* **Estructura del Backend:** Se implementó los endpoints requeridos para gestionar la entidad Identity añadida en este sprint. Las APIs se desarrollaron en .NET y se conectaron a la base de datos MySQL.
+* **Operaciones CRUD:** La funcionalidad básica de Create fue implementada para la entidad Identity, asegurando que el sistema maneje de manera correcta los datos del registro de usuario y el inicio de sesión del cliente y del administrador. 
+* **Integración del frontend con el backend:** Con la integración de ambos, se aseguró que las interacciones del usuario se actualizarán en tiempo real a través de los datos almacenados en la base de datos. Esto permite que la plataforma proporcione una experiencia dinámica, fluida, segura y sin errores de datos de los usuarios.
+* **Desarrollo del bounded context de Gestión de identidad y acceso (IAM):** Se añadió un sistema de gestión de identidad que controla los flujos de acceso, roles y permisos dentro de la plataforma Livria, usando JWT para asegurar que los usuarios puedan acceder solamente a los recursos adecuados según su rol, administrador o cliente.
+* **Implementación del token JWT:** Se agregó el token Json Web token para la autenticación y autorización de los usuarios, ya que este asegura que la sesión de los usuarios funcione correctamente y permite que el acceso a los recursos de la plataforma sea controlado.
+* **Mejoras en el backend:** Se mejoró las funcionalidades de las tipos de comunidades (communities), en ocultar las notificaciones (notifications),  en el stock de los libros (books), en el estado de la orden (order) y en la suscripción del cliente en la plataforma (userClients).
+
+
+#### Analítica de colaboración en GitHub:
+
+##### Repositorio livria-backend
+
+* Historial de commits:
+
+* Colaboradores activos en el repositorio:
+
+* Histograma de contribuciones en el tiempo:
+
+##### Repositorio livria-web-app
+* Historial de commits:
+
+* Colaboradores activos en el repositorio:
+
+  
+* Histograma de contribuciones en el tiempo:
+  
+  
+
 ## 5.3. Validation Interviews
 
 ### 5.3.1. Diseño de Entrevistas
@@ -4617,6 +5118,31 @@ Aunque la documentación de la API se realizó a través de Swagger y OpenAPI, e
 3. Sugerencias para mejorar la experiencia del usuario en Livria
 
 Se recomienda realizar modificaciones en el frontend en la próxima entrega, enfocados en mejorar la visibilidad de elementos clave como la sinopsis y la barra de búsqueda, así como ofrecer opciones más intuitivas para cerrar sesión y mejorar la organización visual de las secciones de detalles del libro. Esto contribuye a una experiencia más fluida y accesible para los usuarios.  
+
+*TF*
+
+**Conclusiones**
+
+1. Implementación del sistema de autenticación y autorización con JWT
+
+Se consolidó un sistema robusto de autenticación y autorización utilizando tokens JWT, lo que mejoró significativamente la seguridad de la plataforma. La integración de IAM (Identity and Access Management) permitió diferenciar y gestionar adecuadamente los flujos de acceso para administradores y clientes, brindando a cada tipo de usuario un control adecuado sobre los recursos de la aplicación. Con esta implementación, los usuarios ahora pueden iniciar sesión de manera segura, lo que garantiza que solo aquellos con los permisos adecuados accedan a las funcionalidades protegidas.
+
+
+2. Despliegue completo y funcionamiento del frontend con el backend
+
+La integración del frontend con el backend fue completada, asegurando que todas las funcionalidades de la aplicación web Livria estuvieran operativas y sincronizadas. Tras la implementación de la autenticación segura y el manejo de tokens JWT, el frontend fue correctamente vinculado al backend, lo que permitió que los usuarios pudieran interactuar con la aplicación de manera fluida. El proyecto fue desplegado exitosamente, lo que permitió que la plataforma estuviera disponible en un entorno de producción para pruebas de usuarios reales. El despliegue proporcionó una infraestructura confiable para garantizar el correcto funcionamiento de la aplicación web en un entorno real. 
+
+
+**Recomendaciones**
+
+1. Revisión en la infraestructura y escalabilidad del backend
+
+Se logró mejorar la infraestructura del backend, enfocándose en la escalabilidad y optimización de recursos. Sin embargo, a medida que Livria crece y el número de usuarios, productos y transacciones aumenta, se debe garantizar que el backend pueda manejar una mayor carga sin comprometer el rendimiento. Para ello, es esencial continuar con el uso de estrategias de escalabilidad, como la implementación de microservicios o el uso de caches en las consultas más pesadas. El sistema de base de datos debe ser monitoreado y ajustado para asegurarse de que los tiempos de respuesta sigan siendo rápidos incluso con una mayor cantidad de datos.
+
+
+2. Seguir mejorando la experiencia de nuestros usuarios
+
+Es fundamental que Livria continúe enfocándose en mejorar constantemente la experiencia de usuario para garantizar que los usuarios disfruten de una plataforma fluida, intuitiva y agradable. Para ello, se recomienda optimizar la navegación para asegurar que los usuarios puedan encontrar lo que buscan de manera rápida y eficiente. Además, realizar pruebas de usabilidad constante con usuarios reales, permitirá identificar puntos débiles en la experiencia y actuar rápidamente para solucionarlos.
 
 
 # BIBLIOGRAFÍA 
