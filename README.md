@@ -121,7 +121,7 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
       - [5.2.1.1. Sprint Planning](#5211-sprint-planning)
       - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
       - [5.2.1.3 Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5124-development-evidence-for-sprint-review)
+      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
       - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
       - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
       - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
@@ -147,7 +147,7 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
     + [5.2.4. Sprint 4](#524-sprint-4)
       - [5.2.4.1. Sprint Planning](#5241-sprint-planning)
       - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
-      - [5.2.4.3 Sprint Backlog 4](#5243-sprint-backlog-2)
+      - [5.2.4.3 Sprint Backlog 4](#5243-sprint-backlog-4)
       - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
       - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
       - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
@@ -157,13 +157,13 @@ Para la elaboración del informe, se utilizó Google Docs como plataforma de tra
     + [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
     + [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
     + [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-  * [5.4. Video About-the-Product](#534-video-about--the--product)
+  * [5.4. Video About-the-Product](#54-video-about-the-product)
 
-- [Conclusiones](#conclusiones)
+- [Conclusiones y Recomendaciones](#conclusiones-y-recomendaciones)
   
-- [Recomendaciones](#recomendaciones)
+- [Video About-the-Team](#video-about-the-team)
   
-- [Bibliografía](#bibliografÍa)
+- [Bibliografía](#bibliografía)
   
 - [Anexos](#anexos)
 
@@ -3744,7 +3744,7 @@ A continuación, se muestra un resumen visual de la participación activa de los
 
 ### 5.2.3. Sprint 3
 #### 5.2.3.1. Sprint Planning
-En esta reunión del **Sprint Planning** se va a construir el **backend** de nuestro proyecto Livria y realizar mejoras del **frontend** de nuestra aplicación. En esta reunión, el equipo Scrum estableció distintas tareas a cada integrante para desarrollar 14 historias de usuarios relevantes para la aplicación web.
+En esta reunión del **Sprint Planning** se va a construir el **backend** de nuestro proyecto Livria y realizar mejoras del **frontend** de nuestra aplicación. En esta reunión, el equipo Scrum estableció distintas tareas a cada integrante para desarrollar 28 historias de usuarios y 6 technical stories relevantes para la aplicación web.
 
 A continuación, se mostrará la tabla del Sprint Planning 3:
 
@@ -3756,12 +3756,12 @@ A continuación, se mostrará la tabla del Sprint Planning 3:
 | **Location** | Virtual |
 | **Prepared By** | Ainhoa Lucía Castillo Garay, Marcelo Alejandro Binda Arbañil |
 | **Attendees (to planning meeting)** | Ainhoa Lucía Castillo Garay / Marcelo Alejandro Binda Arbañil / Gabriel Sebastián Borja Molina / Jhosep Jamil Argomedo Camacho / Melisa Geraldine Sulca Silva |
-| **Sprint n - 3 Review Summary** | Durante el Sprint 3, se desarrollaron **14 historias de usuarios** centradas en el desarrollo del **backend** de la aplicación Livria. El trabajo realizado permitió consolidar la arquitectura de la **base de datos** y las funcionalidades clave del backend, como la gestión de productos, carritos de compra, comunidades y pedidos. Se implementaron los **endpoints RESTful** para las tablas principales, incluyendo libros, carritos de compra, pedidos y usuarios, lo que permitió una integración eficiente entre el frontend y el backend.<br><br>El equipo de programadores, conformado por **Joseph Argomedo**, se destacó en la **optimización de las consultas SQL** y en la mejora de la estructura de la base de datos, lo que resultó en una mayor eficiencia en la consulta de datos a la base de datos MySQL. Su contribución fue clave para asegurar que las operaciones de lectura y escritura se realizarán de manera rápida y fluida.<br><br>**Gabriel Borja** y **Melisa Sulca** trabajaron conjuntamente en la estructuración de las relaciones entre las tablas y en la correcta **normalización de la base de datos**, asegurando la integridad referencial y evitando problemas de duplicación de datos, lo cual facilita el mantenimiento y escalabilidad de la plataforma.<br><br>**Marcelo Binda** y **Ainhoa Castillo** contribuyeron significativamente en la implementación de las **APIs RESTful** para funcionalidades clave, como la gestión de carritos de compra, comunidades literarias, pedidos y notificaciones, garantizando que todas las interacciones fueran seguras y eficientes.<br><br>En cuanto a la **documentación de las APIs**, se utilizó **Swagger** para facilitar la visualización e interacción con los endpoints, lo que permitió al equipo desarrollar de manera más ágil y transparente. Además, la **documentación OpenAPI** se implementó para estandarizar los endpoints y facilitar futuras integraciones, asegurando que la aplicación esté lista para escalar y conectarse con otros servicios en el futuro. |
+| **Sprint n - 3 Review Summary** | Durante el Sprint 3, se desarrollaron **28 historias de usuarios y 6 technical stories** centradas en el desarrollo del **backend** de la aplicación Livria. El trabajo realizado permitió consolidar la arquitectura de la **base de datos** y las funcionalidades clave del backend, como la gestión de productos, carritos de compra, comunidades y pedidos. Se implementaron los **endpoints RESTful** para las tablas principales, incluyendo libros, carritos de compra, pedidos y usuarios, lo que permitió una integración eficiente entre el frontend y el backend.<br><br>El equipo de programadores, conformado por **Joseph Argomedo**, se destacó en la **optimización de las consultas SQL** y en la mejora de la estructura de la base de datos, lo que resultó en una mayor eficiencia en la consulta de datos a la base de datos MySQL. Su contribución fue clave para asegurar que las operaciones de lectura y escritura se realizarán de manera rápida y fluida.<br><br>**Gabriel Borja** y **Melisa Sulca** trabajaron conjuntamente en la estructuración de las relaciones entre las tablas y en la correcta **normalización de la base de datos**, asegurando la integridad referencial y evitando problemas de duplicación de datos, lo cual facilita el mantenimiento y escalabilidad de la plataforma.<br><br>**Marcelo Binda** y **Ainhoa Castillo** contribuyeron significativamente en la implementación de las **APIs RESTful** para funcionalidades clave, como la gestión de carritos de compra, comunidades literarias, pedidos y notificaciones, garantizando que todas las interacciones fueran seguras y eficientes.<br><br>En cuanto a la **documentación de las APIs**, se utilizó **Swagger** para facilitar la visualización e interacción con los endpoints, lo que permitió al equipo desarrollar de manera más ágil y transparente. Además, la **documentación OpenAPI** se implementó para estandarizar los endpoints y facilitar futuras integraciones, asegurando que la aplicación esté lista para escalar y conectarse con otros servicios en el futuro. |
 | **Sprint n - 3 Retrospective Summary** | Durante el Sprint 3, se estableció una base sólida del **backend** de la plataforma Livria. El equipo logró avanzar significativamente en la integración de los servicios clave. En cuanto a los avances están la **optimización de la base de datos**, donde las consultas SQL están optimizadas correctamente, mejorando notablemente el rendimiento del backend. El trabajo en equipo fue eficiente, permitiendo completar las tareas de backend de manera sincronizada. Mientras que la **estructuración de APIs** se logró implementar las APIs para el manejo de libros, carritos de compra y otros componentes clave. En la **documentación API**: La implementación de Swagger y la documentación OpenAPI facilitó tanto la integración como la prueba de los endpoints, mejorando la transparencia del proyecto. Para el siguiente sprint se debe realizar una **optimización continua de las consultas SQL** y la base de datos, realizar **correcciones de errores menores** si es que hay alguno detectado durante las pruebas del backend, realizar una **ampliación de la documentación de las APIs**, especialmente para los endpoints más complejos y realizar **revisión y mejora de la seguridad** en la API y la base de datos. |
 | **Sprint Goal & User Stories** | |
 | **Sprint Goal** | Our focus is on the development of the **backend infrastructure** for the Livria web app, particularly in implementing key **RESTful APIs**, optimizing database queries. This includes managing essential entities such as users, books, orders, cart items, communities, and reviews.<br><br>We believe it delivers a **robust backend system** capable of handling user interactions, processing orders, managing data efficiently, and providing essential API endpoints for the frontend. Additionally, the integration of **OpenAPI and Swagger** will ensure smooth documentation and facilitate future expansions.<br><br>This will be confirmed when all the user stories related to backend functionalities, such as authentication, cart management, community interactions, and order processing, are implemented and tested successfully. We will also verify the efficiency of the APIs and database queries, ensuring they meet performance benchmarks. |
-| **Sprint Velocity** | 57 |
-| **Sum of Story Points** | 53 |
+| **Sprint Velocity** | 98 |
+| **Sum of Story Points** | 94 |
 
 #### 5.2.3.2. Aspect Leaders and Collaborators
 
@@ -4417,7 +4417,7 @@ La documentación de la API ha sido integrada utilizando OpenAPI y Swagger. Esto
 En nuestro proyecto, a través de la interfaz Swagger, nos permite visualizar y probar los endpoints para gestionar libros, carritos de compra, pedidos, usuarios, comunidades y notificaciones. Esto proporciona una herramienta útil y mejora la eficiencia en el desarrollo de nuevas funcionalidades.
 
 
-### 5.2.3.7. Software Deployment Evidence for Sprint Review
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
 Durante este Sprint 3, el equipo se centró en el desarrollo y despliegue de las funcionalidades backend para la aplicación web de Livria. A continuación, se detallan los pasos realizados para asegurar que el backend estuviera correctamente implementado y desplegado en el entorno de producción.
 
 #### Actividades de Despliegue:
@@ -5059,7 +5059,7 @@ Esta solicitud POST auténtica al administrador con las credenciales proporciona
 
 Esta solicitud POST auténtica al cliente con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
 
-### 5.2.4.7. Software Deployment Evidence for Sprint Review
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 Durante este Sprint 4, el equipo se centró en el despliegue del frontend conectado al backend de la aplicación web de Livria. Este sprint incluyó la integración completa de ambos componentes, asegurando que el frontend pudiera interactuar correctamente con el backend, permitiendo que las funcionalidades de la plataforma funcionen de manera fluida.
 Se implementó la autenticación de usuarios, incluyendo el registro e inicio de sesión seguro con JWT, tanto para administradores como para clientes. El sistema ahora maneja las solicitudes de inicio de sesión de manera efectiva, generando los tokens correspondientes para asegurar las sesiones de los usuarios.
@@ -5518,6 +5518,9 @@ Se logró mejorar la infraestructura del backend, enfocándose en la escalabilid
 
 Es fundamental que Livria continúe enfocándose en mejorar constantemente la experiencia de usuario para garantizar que los usuarios disfruten de una plataforma fluida, intuitiva y agradable. Para ello, se recomienda optimizar la navegación para asegurar que los usuarios puedan encontrar lo que buscan de manera rápida y eficiente. Además, realizar pruebas de usabilidad constante con usuarios reales, permitirá identificar puntos débiles en la experiencia y actuar rápidamente para solucionarlos.
 
+# VIDEO ABOUT-THE-TEAM
+
+Link del video: [VideoAbout-the-Team]()
 
 # BIBLIOGRAFÍA 
 Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
