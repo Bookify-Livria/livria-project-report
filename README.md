@@ -3061,29 +3061,194 @@ Los aspectos definidos para este Sprint son:
 #### 5.2.1.3. Sprint Backlog 1
 Durante el Sprint 1, el objetivo principal fue construir la versión inicial de la landing page con un enfoque en claridad, accesibilidad y navegación fluida. Se buscó ofrecer una experiencia informativa que permita a los usuarios entender de inmediato el propósito de la plataforma, explorar las secciones clave como “Sobre Nosotros” y “Contáctanos”, y acceder fácilmente a la aplicación y sus redes sociales. Este primer paso fue clave para establecer una imagen sólida de Livria y captar el interés de nuevos usuarios desde el primer contacto.
 
-|      Sprint #     |  Sprint #1 |                 |                        |                 |                                                           |
-|-------------------|------------|-----------------|------------------------|-----------------|-----------------------------------------------------------|
-|    1     | **Work-Item / Task** |                 |                        |                 |                                                           |
-| **User Story ID** |   **Id**   | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review/Sprint# / Done)** |
-| US01 | 1 | Redactar contenido atractivo sobre funcionalidades principales | 2 | Developer Team | Done |
-|      | 2 | Diseñar e implementar sección de servicios en landing | 2 | Developer Team | Done |
-| US02 | 1 | Maquetar y diseñar contenido de “Sobre Nosotros” | 1 | Developer Team | Done |
-|      | 2 | Implementar navegación a “Sobre Nosotros” desde menú | 1 | Developer Team | Done |
-| US03 | 1 | Implementar botón de cambio de idioma | 1 | Developer Team | Done |
-|      | 2 | Integrar traducción automática del contenido | 2 | Developer Team | Done |
-| US04 | 1 | Redactar descripción corta de Lirvia para la sección ‘Home’ | 1 | Developer Team | Done |
-|      | 2 | Maquetar y aplicar diseño a sección principal | 1 | Developer Team | Done |
-| US05 | 1 | Diseñar sección “Contáctanos” con campos básicos | 1 | Developer Team | Done |
-|      | 2 | Programar funcionalidad de envío de mensaje | 3 | Developer Team | To-do |
-| US06 | 1 | Implementar encabezado de navegación con links | 1 | Developer Team | Done |
-|      | 2 | Probar navegación responsiva entre secciones | 1 | Developer Team | Done |
-| US07 | 1 | Diseñar layout visual atractivo (colores, tipografía, imágenes) | 2 | Developer Team | Done |
-|      | 2 | Adaptar diseño responsivo a distintos dispositivos | 2 | Developer Team | Done |
-| US08 | 1 | Crear e insertar botón de acceso directo a la aplicación web | 1 | Developer Team | To-do |
-| US09 | 1 | Insertar íconos y enlaces a redes sociales | 1 | Developer Team | Done |
-| US10 | 1 | Diseñar footer con navegación rápida a secciones | 2 | Developer Team | Done |
-| US11 | 1 | Crear formulario básico (nombre, email, mensaje) | 1 | Developer Team | Done |
-|      | 2 | Integrar backend ligero para captura de datos | 2 | Developer Team | To-do |
+<table class="c12">
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="1"><p>Sprint #</p></td>
+<td class="c16" colspan="7" rowspan="1"><p>Sprint 1</p></td>
+</tr>
+<tr class="c5">
+<td class="c13" colspan="2" rowspan="1"><p>User Story</p></td>
+<td class="c17" colspan="6" rowspan="1"><p>Work Item/Task</p></td>
+</tr>
+<tr class="c11">
+<td class="c3" colspan="1" rowspan="1"><p>Id</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Title</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>Id</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Title</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Description</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>Estimation (Hours)</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Assigned To</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Status (To-do / InProcess / ToReview / Done)</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US01</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Presentación de servicios de Livria</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Redactar contenido atractivo sobre funcionalidades principales.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear contenido que explique de manera clara y atractiva las funcionalidades clave de Livria, para que los usuarios comprendan rápidamente los servicios ofrecidos.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseñar e implementar sección de servicios en landing.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la sección dentro de la landing page que detalle los servicios de Livria, asegurando que sea visualmente atractiva y fácil de navegar.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US02</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Acceso a la sección “Sobre Nosotros” desde la landing page</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Maquetar y diseñar contenido de “Sobre Nosotros”.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear el contenido y el diseño de la sección “Sobre Nosotros” en la landing page, proporcionando información clara sobre la empresa y su misión.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementar navegación a “Sobre Nosotros” desde menú.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurar que los usuarios puedan acceder a la sección "Sobre Nosotros" desde el menú de navegación de la landing page.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US03</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Cambio de idioma en la Landing Page</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementar botón de cambio de idioma.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Añadir un botón en la landing page que permita a los usuarios cambiar el idioma de la plataforma.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Integrar traducción automática del contenido.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar una funcionalidad que traduzca automáticamente el contenido de la landing page a diferentes idiomas, mejorando la accesibilidad global.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US04</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Visualización de la sección “Home” en la landing page</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Redactar descripción corta de Livria para la sección ‘Home’.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear una descripción breve y concisa de la aplicación Livria para presentar en la sección principal de la landing page.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Maquetar y aplicar diseño a sección principal.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar y aplicar la maquetación de la sección principal de la landing page para garantizar que sea atractiva y clara para los usuarios.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US05</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Acceso a la sección “Contáctanos” desde la landing</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseñar sección “Contáctanos” con campos básicos.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear una sección de contacto con los campos básicos necesarios para que los usuarios puedan comunicarse con el equipo de Livria.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Programar funcionalidad de envío de mensaje.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios enviar mensajes a través de la sección "Contáctanos".</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US06</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Navegación simple entre secciones</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementar encabezado de navegación con links.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear un encabezado de navegación simple que permita a los usuarios acceder fácilmente a las diferentes secciones de la landing page.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Probar navegación responsiva entre secciones.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Verificar que la navegación entre secciones sea fluida y funcional en dispositivos de diferentes tamaños de pantalla.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="2"><p>US07</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Diseño atractivo de la landing page</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseñar layout visual atractivo (colores, tipografía, imágenes).</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear un diseño visual atractivo para la landing page, seleccionando colores, tipografía e imágenes que sean coherentes con la marca y la experiencia del usuario.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Adaptar diseño responsivo a distintos dispositivos.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurar que el diseño de la landing page se adapte correctamente a diferentes dispositivos (móviles, tablets, desktops).</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="1"><p>US08</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Botón de acceso a la aplicación web</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Crear e insertar botón de acceso directo a la aplicación web.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un botón en la landing page que permita a los usuarios acceder directamente a la aplicación web.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="1"><p>US09</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Acceder a las redes sociales de Livria</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Insertar íconos y enlaces a redes sociales.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Insertar los íconos de redes sociales en la landing page y vincularlos a las cuentas oficiales de Livria.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="1"><p>US10</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Redirección a las secciones</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseñar footer con navegación rápida a secciones.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear un footer con enlaces a las secciones clave de la página para facilitar la navegación rápida.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="2"><p>US11</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Formulario de contacto</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Crear formulario básico (nombre, email, mensaje).</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un formulario sencillo que permita a los usuarios enviar sus datos (nombre, correo electrónico, mensaje) desde la sección "Contáctanos".</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Integrar backend ligero para captura de datos.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar e integrar un backend que capture y almacene los datos enviados a través del formulario de contacto.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
+</tr></table>
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 Esta sección presenta los principales avances en la implementación técnica del proyecto realizados durante el sprint, en función de los productos comprometidos: Landing Page, Aplicación Web y Servicios Web. Se detalla el progreso alcanzado a través de los repositorios utilizados por el equipo, identificando los commits relevantes que evidencian el desarrollo de funcionalidades, corrección de errores, mejoras en la interfaz y configuración de servicios. Esta evidencia permite evaluar el cumplimiento de los objetivos del sprint y facilita la retroalimentación en la reunión de revisión.
@@ -3312,56 +3477,418 @@ Los aspectos definidos para este Sprint son:
 #### 5.2.2.3. Sprint Backlog 2
 Durante el Sprint 2, nos enfocamos en la implementación de tareas para mejorar la experiencia del usuario en la app web. Además, se busca mejorar la interfaz de usuario, optimizar el proceso de compra de libros, permitir interacciones dentro de comunidades literarias y facilitar el proceso de pago. Las tareas incluyen la creación de interfaces intuitivas, el proceso de compra de un libro, y la implementación de funcionalidades para recomendaciones personalizadas y la valoración de libros. Al finalizar este sprint, se espera tener una plataforma funcional que permita a los usuarios navegar de manera eficiente, realizar compras y participar en comunidades literarias.
 
-|      Sprint #     |  Sprint #2 |                 |                        |                 |                                                           |
-|-------------------|------------|-----------------|------------------------|-----------------|-----------------------------------------------------------|
-|    1     | **Work-Item / Task** |                 |                        |                 |                                                           |
-| **User Story ID** |   **Id**   | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review/Sprint# / Done)** |
-| US17 | 1 | Visualización de la pantalla de las recomendaciones personalizadas. | 3 | Developer Team | Done |
-|      | 2 | Acceso al libro recomendado por la aplicación. | 3 | Developer Team | Done |
-| US27 | 1 | Diseño de la funcionalidad para crear nuevas reseñas y realizar valoraciones. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad para que los usuarios puedan escribir reseñas de cualquier libro en la aplicación. | 2 | Developer Team | Done |
-|      | 3 | Implementar la funcionalidad para que los usuarios puedan realizar valoraciones de cualquier libro. | 2 | Developer Team | To-do |
-| US16 | 1 | Diseño del inicio de sesión y registro de un usuario. | 4 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad del registro de un nuevo usuario. | 3 | Developer Team | Done |
-|      | 3 | Implementar la funcionalidad del inicio de sesión de un usuario registrado. | 3 | Developer Team | Done |
-| US19 | 1 | Implementación de la funcionalidad de cierre de sesión. | 2 | Developer Team | Done |
-| US28 | 1 | Diseño de la pantalla de suscripción al Plan Community. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de cambio de plan (actualización) al Plan Community. | 3 | Developer Team | Done |
-|      | 3 | Diseño de la confirmación del pago del Plan Community. | 1 | Developer Team | Done |
-|      | 4 | Implementar la funcionalidad de reversión al plan gratuito. | 3 | Developer Team | To-do |
-| US30 | 1 | Darle a conocer al usuario que la transacción es segura y privada por medio de la aplicación. | 2 | Developer Team | Done |
-| US14 | 1 | Diseño del apartado de notificaciones. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de confirmación de envío de notificaciones. | 3 | Developer Team | Done |
-| US20 | 1 | Diseño del apartado de publicaciones en comunidades. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de creación de publicaciones. | 4 | Developer Team | Done |
-| US21 | 1 | Diseño del apartado de comunidades. | 4 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de creación de comunidades. | 3 | Developer Team | Done |
-|      | 3 | Implementar la funcionalidad de unirse a una comunidad existente. | 4 | Developer Team | To-do |
-| US22 | 1 | Diseño de comentarios en las publicaciones | 2 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de creación de un nuevo comentario. | 3 | Developer Team | Done |
-|      | 3 | Implementar la funcionalidad de eliminar un comentario existente. | 3 | Developer Team | Done |
-| US23 | 1 | Diseño de carrito de compra. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de carrito de compra. | 4 | Developer Team | Done |
-|      | 3 | Diseño de orden de compra de un libro digital. | 2 | Developer Team | Done |
-|      | 4 | Diseño de orden de compra de un libro físico. | 2 | Developer Team | Done |
-|      | 5 | Diseño del pedido de compra. | 3 | Developer Team | Done |
-|      | 6 | Implementar la funcionalidad del pedido de compra. | 3 | Developer Team | Done |
-| US24 | 1 | Diseño de la pantalla de búsqueda. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de búsqueda de libros específicos y autores. | 4 | Developer Team | Done |
-|      | 3 | Implementar la funcionalidad de búsqueda sin coincidencias exactas. | 2 | Developer Team | Done |
-| US25 | 1 | Diseño de la pantalla de gestión de envío de libros físicos. | 2 | Developer Team | Done |
-|      | 2 | Diseño de la confirmación de entrega del libro en el perfil. | 1 | Developer Team | Done |
-| US26 | 1 | Diseño de la pantalla de pago exitoso. | 2 | Developer Team | Done |
-|      | 2 | Diseño de la pantalla de pago erróneo. | 3 | Developer Team | To-do |
-| US33 | 1 | Diseño de la pantalla de filtrado de libro con respecto al género seleccionado. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad de filtrado de libro con respecto a la género seleccionado. | 4 | Developer Team | Done |
-| US34 | 1 | Implementar la funcionalidad para filtrar libros según los criterios del usuario. | 3 | Developer Team | Done |
-|      | 2 | Implementar la funcionalidad para filtrar libros con respecto al idioma seleccionado. | 2 | Developer Team | Done |
-|      | 3 | Implementar la funcionalidad de borrado de filtros aplicados. | 2 | Developer Team | Done |
-| US29 | 1 | Acceso sin interrupciones a la aplicación. | 1 | Developer Team | Done |
-| US31 | 1 | Diseño general de la aplicación. | 3 | Developer Team | Done |
-|      | 2 | Navegación clara y sencilla. | 3 | Developer Team | Done |
-
+<table class="c12">
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="1"><p>Sprint #</p></td>
+<td class="c16" colspan="7" rowspan="1"><p>Sprint 2</p></td>
+</tr>
+<tr class="c5">
+<td class="c13" colspan="2" rowspan="1"><p>User Story</p></td>
+<td class="c17" colspan="6" rowspan="1"><p>Work Item/Task</p></td>
+</tr>
+<tr class="c11">
+<td class="c3" colspan="1" rowspan="1"><p>Id</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Title</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>Id</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Title</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Description</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>Estimation (Hours)</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Assigned To</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Status (To-do / InProcess / ToReview / Done)</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US17</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Sección de recomendaciones en la plataforma</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Visualización de la pantalla de las recomendaciones personalizadas.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la interfaz de usuario que muestre las recomendaciones personalizadas de libros para cada usuario basadas en su historial y preferencias de lectura.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Acceso al libro recomendado por la aplicación.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios acceder directamente a los libros recomendados por la aplicación al hacer clic en las recomendaciones.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="3"><p>US27</p></td>
+<td class="c8" colspan="1" rowspan="3"><p>Valoración y reseña de libros</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de funcionalidad para reseñas y valoraciones.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar y planificar la funcionalidad para que los usuarios puedan escribir reseñas a los libros en la plataforma.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Escritura de reseñas de libros.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad para permitir a los usuarios escribir y publicar reseñas sobre cualquier libro en la plataforma.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Valoración de libros por los usuarios.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la opción para que los usuarios puedan asignar valoraciones (en estrellas) a los libros en la plataforma, con la posibilidad de actualizar sus valoraciones.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="3"><p>US16</p></td>
+<td class="c8" colspan="1" rowspan="3"><p>Registro e inicio de sesión</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la funcionalidad de inicio de sesión y registro de un usuario.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar las pantallas y procesos para que los usuarios puedan registrarse en la aplicación e iniciar sesión de manera segura.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación de registro de usuario.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para que los usuarios puedan registrarse en la plataforma, almacenando sus datos en la base de datos simulada.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementar de inicio de sesión de un usuario.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad de inicio de sesión utilizando autenticación segura, permitiendo a los usuarios acceder a su cuenta.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="1"><p>US19</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Cierre de sesión</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación de la funcionalidad de cierre de sesión.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para permitir a los usuarios cerrar sesión de forma segura.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="4"><p>US28</p></td>
+<td class="c8" colspan="1" rowspan="4"><p>Actualización y gestión de suscripción</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de suscripción al Plan Community.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar la interfaz de usuario para que los usuarios puedan visualizar y suscribirse al Plan Community.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Actualización de plan al Plan Community.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios actualizar su suscripción al Plan Community.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Confirmación del pago del Plan Community.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear un sistema de confirmación visual que su pago para el Plan Community ha sido procesado con éxito.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Reversión al plan gratuito.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios revertir su suscripción al plan gratuito si deciden cancelar el Plan Community.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="1"><p>US30</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Seguridad del usuario</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Informar al usuario sobre la seguridad de la transacción.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para mostrar mensajes que aseguren al usuario que sus transacciones son seguras y privadas dentro de la aplicación.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US14</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Notificaciones instantáneas</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño del apartado de notificaciones.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar la sección de notificaciones para que los usuarios puedan ver mensajes relacionados con su actividad en la plataforma.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Confirmación del envío de notificaciones.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita confirmar a los usuarios que han recibido y leído una notificación.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US20</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Creación de publicaciones en comunidades</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño del apartado de publicaciones en comunidades.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar la sección de publicaciones dentro de las comunidades literarias, donde los usuarios puedan compartir sus pensamientos o libros recomendados.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación de la creación de publicaciones.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad que permita a los usuarios crear y publicar mensajes en las comunidades literarias.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="3"><p>US21</p></td>
+<td class="c8" colspan="1" rowspan="3"><p>Gestión de comunidades</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño del apartado de comunidades.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar la interfaz para gestionar y explorar las comunidades dentro de la plataforma.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Creación de comunidades.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad para que los usuarios puedan crear nuevas comunidades literarias.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Unirse a una comunidad existente.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para que los usuarios puedan unirse a comunidades literarias ya existentes.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="3"><p>US22</p></td>
+<td class="c8" colspan="1" rowspan="3"><p>Comentarios en publicaciones</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de comentarios en las publicaciones.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar la funcionalidad que permita a los usuarios dejar comentarios en publicaciones dentro de las comunidades.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Creación de un nuevo comentario.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la capacidad de los usuarios para escribir y publicar comentarios en las publicaciones de las comunidades.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Eliminación de un comentario existente.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para que los usuarios puedan eliminar sus propios comentarios.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="6"><p>US23</p></td>
+<td class="c8" colspan="1" rowspan="6"><p>Compra de libros digitales y físicos</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de carrito de compra.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear la interfaz para el carrito de compras donde los usuarios puedan revisar los libros que han seleccionado para comprar.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementación la funcionalidad de carrito de compra.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad que permite agregar, eliminar y modificar productos dentro del carrito de compra.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de orden de compra de un libro digital.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear la sección de la orden de compra para los libros digitales, permitiendo que los usuarios visualicen y finalicen su compra.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de orden de compra de un libro físico.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear la sección de la orden de compra para los libros físicos, permitiendo a los usuarios revisar su compra y completar el pedido.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>5</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño del pedido de compra.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar el diseño y la funcionalidad que permita a los usuarios confirmar los detalles de su pedido de compra.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>6</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Implementar la funcionalidad del pedido de compra.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad para procesar y registrar el pedido de compra en la base de datos simulada.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="3"><p>US24</p></td>
+<td class="c8" colspan="1" rowspan="3"><p>Barra de búsqueda</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de búsqueda.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear el diseño de la barra de búsqueda que permita a los usuarios buscar libros por título, autor u otros criterios.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Búsqueda de libros específicos y autores.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad de búsqueda de libros específicos y autores en la plataforma.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Búsqueda sin coincidencias exactas.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la capacidad de la búsqueda para manejar resultados sin coincidencias exactas, sugiriendo posibles alternativas.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US25</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Gestión del envío de libros físicos</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de gestión de envío de libros físicos.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Diseñar la creación de la sección de gestión para el envío de libros físicos, donde los usuarios puedan realizar el seguimiento de su pedido.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la confirmación de entrega del libro en el perfil.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar el diseño de una funcionalidad para confirmar la entrega del libro físico en el perfil del usuario.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US26</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Proceso de pago</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de pago exitoso.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear la interfaz de confirmación de pago exitoso, notificando al usuario que su pago ha sido procesado correctamente.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de pago erróneo.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la pantalla que informe al usuario en caso de que su pago haya fallado o no se haya procesado correctamente.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US33</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Navegación principal por categorías editoriales</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de filtrado de libro con respecto al género seleccionado.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear el diseño de la interfaz de filtrado de libros según el género, permitiendo a los usuarios explorar libros por categorías temáticas.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Filtrado de libro con respecto a la género seleccionado.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad de filtrado de libros según el género que el usuario seleccione.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="3"><p>US34</p></td>
+<td class="c8" colspan="1" rowspan="3"><p>Filtro lateral por atributos del libro</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Filtrado de  libros según los criterios del usuario.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la capacidad de filtrar libros según varios criterios, como autor, año, y popularidad.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Filtrar libros con respecto al idioma seleccionado.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la opción de filtrar libros según el idioma de preferencia del usuario.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Borrado de filtros aplicados.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Implementar la opción para que los usuarios puedan borrar o restablecer los filtros aplicados en la búsqueda de libros.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<td class="c3" colspan="1" rowspan="1"><p>US29</p></td>
+<td class="c8" colspan="1" rowspan="1"><p>Disponibilidad 24/7</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Acceso sin interrupciones a la aplicación.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Asegurar que los usuarios puedan acceder a la plataforma sin interrupciones o tiempos de inactividad.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c3" colspan="1" rowspan="2"><p>US31</p></td>
+<td class="c8" colspan="1" rowspan="2"><p>Interfaz amigable</p></td>
+<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Diseño general de la aplicación.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Crear el diseño general de la aplicación, asegurando una experiencia de usuario fluida y atractiva.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr>
+<tr class="c5">
+<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
+<td class="c9" colspan="1" rowspan="1"><p>Navegación clara y sencilla.</p></td>
+<td class="c7" colspan="1" rowspan="1"><p>Desarrollar una estructura de navegación simple y clara para que los usuarios puedan moverse fácilmente entre las secciones de la plataforma.</p></td>
+<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
+<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
+</tr></table>
 
 
 #### 5.2.2.4. Development Evidence for Sprint Review
@@ -5590,7 +6117,7 @@ Es fundamental que Livria continúe enfocándose en mejorar constantemente la ex
 
 # VIDEO ABOUT-THE-TEAM
 
-Link del video: [VideoAbout-the-Team]()
+Link del video: 
 
 # BIBLIOGRAFÍA 
 Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
