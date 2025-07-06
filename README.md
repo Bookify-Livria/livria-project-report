@@ -4085,19 +4085,19 @@ En lugar de utilizar una API simulada, ahora se está trabajando con una **API R
 **Capturas:**
 
 <p align="center">
-  <img src="https://imgur.com/dtO3lmD.png" alt="full1" width="500">
+  <img src="https://i.imgur.com/dlZ579h.png" alt="full1" width="500">
 </p>
 
 Este POST request crea un nuevo cliente en el sistema. Incluye información de visualización, un correo electrónico, una URL de ícono y una suscripción predeterminada 'freeplan'.
 
 <p align="center">
-  <img src="https://imgur.com/lLsIuf2.png" alt="full2" width="500">
+  <img src="https://i.imgur.com/x3T94SU.png" alt="full2" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de todos los clientes registrados. Devuelve una lista de objetos cliente con sus detalles.
 
 <p align="center">
-  <img src="https://imgur.com/Ki0vl75.png" alt="full3" width="500">
+  <img src="https://i.imgur.com/oBe6pyg.png" alt="full3" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de un usuario específico, utilizando su ID. Muestra los detalles completos del cliente buscado.
@@ -4109,109 +4109,109 @@ Esta solicitud GET obtiene los datos de un usuario específico, utilizando su ID
 Esta solicitud PUT actualiza los datos de un cliente existente, utilizando su ID. Permite modificar campos como display, username, password, icon, phrase y subscription.
 
 <p align="center">
-  <img src="https://imgur.com/jIvZ7Bi.png" alt="full5" width="500">
+  <img src="https://i.imgur.com/hgeUVYy.png" alt="full5" width="500">
 </p>
 
 Esta solicitud DELETE elimina un cliente previamente creado del sistema, usando su ID. Borra por completo el registro del cliente.
 
 <p align="center">
-  <img src="https://imgur.com/nflpq90.png" alt="full6" width="500">
+  <img src="https://i.imgur.com/iRJ52bU.png" alt="full6" width="500">
 </p>
 
 Esta solicitud PUT actualiza la suscripción de un cliente específico, dado su ID. Permite cambiar la suscripción entre 'freeplan' y 'communityplan'.
 
 <p align="center">
-  <img src="https://imgur.com/t15DYXD.png" alt="full7" width="500">
+  <img src="https://i.imgur.com/EII0Imi.png" alt="full7" width="500">
 </p>
 
 Esta solicitud POST crea un nuevo libro en el sistema. Permite registrar un libro con su título, descripción, autor, precio, stock, imagen de portada, género y idioma.
 
 <p align="center">
-  <img src="https://imgur.com/g0bkAO7.png" alt="full8" width="500">
+  <img src="https://i.imgur.com/AaiAb4V.png" alt="full8" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de todos los libros disponibles. Muestra una lista completa de los libros registrados en el sistema.
 
 <p align="center">
-  <img src="https://imgur.com/UbBQar6.png" alt="full9" width="500">
+  <img src="https://i.imgur.com/TL49BEu.png" alt="full9" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de un libro en específico, utilizando su ID. Muestra los detalles del libro solicitado.
 
 <p align="center">
-  <img src="https://imgur.com/q3a1SbD.png" alt="full10" width="500">
+  <img src="https://i.imgur.com/bAB6tPG.png" alt="full10" width="500">
 </p>
 
 Esta solicitud PUT actualiza el stock disponible de un libro específico, usando su ID. Permite modificar la cantidad de libros en existencia.
 
 <p align="center">
-  <img src="https://imgur.com/rBbgIKs.png" alt="full11" width="500">
+  <img src="https://i.imgur.com/vDtyD46.png" alt="full11" width="500">
 </p>
 
 Esta solicitud POST crea un nuevo ítem en el carrito de un usuario. Permite añadir un libro con una cantidad específica al carrito de un cliente.
 
 <p align="center">
-  <img src="https://imgur.com/pp46tNx.png" alt="full12" width="500">
+  <img src="https://i.imgur.com/DhGYLO5.png" alt="full12" width="500">
 </p>
 
 Esta solicitud PUT actualiza la cantidad de un libro en un ítem de carrito específico. Permite modificar la cantidad de un libro ya existente en el carrito de un usuario.
 
 <p align="center">
-  <img src="https://imgur.com/c3xrOWq.png" alt="full13" width="500">
+  <img src="https://i.imgur.com/APFjJ2z.png" alt="full13" width="500">
 </p>
 
 Esta solicitud DELETE elimina un ítem específico del carrito de un usuario. Borra un libro determinado del carrito de compras.
 
 <p align="center">
-  <img src="https://imgur.com/WVyn4mY.png" alt="full14" width="500">
+  <img src="https://i.imgur.com/DRh4Uy6.png" alt="full14" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de un libro perteneciente a un carrito en específico, utilizando el ID del ítem del carrito. Muestra los detalles del libro y la cantidad en el carrito.
 
 <p align="center">
-  <img src="https://imgur.com/6TjQL0k.png" alt="full15" width="500">
+  <img src="https://i.imgur.com/OU3G46S.png" alt="full15" width="500">
 </p>
 
 Esta solicitud GET obtiene todos los ítems del carrito de un usuario específico. Muestra los libros y sus cantidades en el carrito de ese usuario.
 
 <p align="center">
-  <img src="https://imgur.com/GMBARLu.png" alt="full16" width="500">
+  <img src="https://i.imgur.com/5E7XqP4.png" alt="full16" width="500">
 </p>
 
 Esta solicitud POST crea una nueva comunidad en el sistema. Permite registrar una comunidad con su nombre, descripción, tipo, imagen y banner.
 
 <p align="center">
-  <img src="https://imgur.com/zVodsyw.png" alt="full17" width="500">
+  <img src="https://i.imgur.com/zW5ISIJ.png" alt="full17" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de todas las comunidades existentes. Muestra una lista de comunidades con sus detalles.
 
 <p align="center">
-  <img src="https://imgur.com/HUggucF.png" alt="full18" width="500">
+  <img src="https://i.imgur.com/u4BAZQ6.png" alt="full18" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de una comunidad en específico, utilizando su ID. Muestra los detalles de la comunidad buscada.
 
 <p align="center">
-  <img src="https://imgur.com/AWJROU6.png" alt="full19" width="500">
+  <img src="https://i.imgur.com/MRYQlc6.png" alt="full19" width="500">
 </p>
 
 Esta solicitud POST permite a un usuario unirse a una comunidad existente. Asocia un usuario a una comunidad específica.
 
 <p align="center">
-  <img src="https://imgur.com/j674dfs.png" alt="full20" width="500">
+  <img src="https://i.imgur.com/XUhu6tI.png" alt="full20" width="500">
 </p>
 
 Esta solicitud GET obtiene las notificaciones activas de un usuario específico. Muestra las notificaciones que no han sido ocultadas para ese usuario.
 
 <p align="center">
-  <img src="https://imgur.com/PM6znU0.png" alt="full21" width="500">
+  <img src="https://i.imgur.com/eAzLWeI.png" alt="full21" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de una notificación en específico, utilizando su ID. Muestra los detalles de la notificación buscada.
 
 <p align="center">
-  <img src="https://imgur.com/ovmm8Hu.png" alt="full22" width="500">
+  <img src="https://i.imgur.com/9oZ3gvF.png" alt="full22" width="500">
 </p>
 
 Esta solicitud PATCH oculta todas las notificaciones activas de un usuario. Marca las notificaciones como ocultas (eliminación lógica) sin borrarlas físicamente.
@@ -4223,109 +4223,109 @@ Esta solicitud PATCH oculta todas las notificaciones activas de un usuario. Marc
 Esta solicitud POST crea una nueva orden en el sistema. Permite registrar una compra con detalles del cliente, envío y los ítems comprados.
 
 <p align="center">
-  <img src="https://imgur.com/6ENuDtq.png" alt="full24" width="500">
+  <img src="https://i.imgur.com/grxBCqC.png" alt="full24" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de una orden en específico, usando su ID. Muestra los detalles de la orden buscada.
 
 <p align="center">
-  <img src="https://imgur.com/LEmkypK.png" alt="full25" width="500">
+  <img src="https://i.imgur.com/OVoTg8s.png" alt="full25" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de una orden específica por medio de su código. Muestra los detalles de la orden que coincida con el código.
 
 <p align="center">
-  <img src="https://imgur.com/8QY7Glg.png" alt="full26" width="500">
+  <img src="https://i.imgur.com/PYroDqD.png" alt="full26" width="500">
 </p>
 
 Esta solicitud GET obtiene todas las órdenes de un usuario cliente específico, usando su ID. Muestra una lista de todas las compras realizadas por ese usuario.
 
 <p align="center">
-  <img src="https://imgur.com/UPNliBS.png" alt="full27" width="500">
+  <img src="https://i.imgur.com/Y8QMdNE.png" alt="full27" width="500">
 </p>
 
 Esta solicitud PUT actualiza el estado de una orden, usando su ID. Permite cambiar el estado de una orden entre 'pending', 'in progress' o 'delivered'.
 
 <p align="center">
-  <img src="https://imgur.com/c9ZGm2O.png" alt="full28" width="500">
+  <img src="https://i.imgur.com/Nnq1Zl0.png" alt="full28" width="500">
 </p>
 
 Esta solicitud POST crea una nueva publicación en una comunidad existente, dado el ID de la comunidad. Permite añadir contenido a una comunidad específica.
 
 <p align="center">
-  <img src="https://imgur.com/jpn6juJ.png" alt="full29" width="500">
+  <img src="https://i.imgur.com/RHMoC0z.png" alt="full29" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de una publicación específica, usando su ID. Muestra los detalles de la publicación buscada.
 
 <p align="center">
-  <img src="https://imgur.com/wQHx8qi.png" alt="full30" width="500">
+  <img src="https://i.imgur.com/nEdQR3q.png" alt="full30" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de todas las publicaciones existentes. Muestra una lista completa de todas las publicaciones en el sistema.
 
 <p align="center">
-  <img src="https://imgur.com/X8MVpqn.png" alt="full31" width="500">
+  <img src="https://i.imgur.com/rG7RgU5.png" alt="full31" width="500">
 </p>
 
 Esta solicitud GET obtiene todas las publicaciones para una comunidad específica, usando el ID de la comunidad. Muestra una lista de las publicaciones asociadas a esa comunidad.
 
 <p align="center">
-  <img src="https://imgur.com/LhqlCHD.png" alt="full32" width="500">
+  <img src="https://i.imgur.com/R7e2tza.png" alt="full32" width="500">
 </p>
 
 Esta solicitud POST agrega un libro existente como favorito a un usuario. Permite añadir un libro a la lista de favoritos de un cliente.
 
 <p align="center">
-  <img src="https://imgur.com/SBGtiSx.png" alt="full33" width="500">
+  <img src="https://i.imgur.com/vJYwjQF.png" alt="full33" width="500">
 </p>
 
 Esta solicitud DELETE elimina un libro de la lista de favoritos de un usuario. Permite quitar un libro de los favoritos de un cliente.
 
 <p align="center">
-  <img src="https://imgur.com/qfIdFbB.png" alt="full34" width="500">
+  <img src="https://i.imgur.com/fCyYN6r.png" alt="full34" width="500">
 </p>
 
 Esta solicitud GET obtiene los libros favoritos de un usuario específico. Muestra la lista de libros marcados como favoritos por el usuario.
 
 <p align="center">
-  <img src="https://imgur.com/gsLW8Q1.png" alt="full35" width="500">
+  <img src="https://i.imgur.com/ZXUokY0.png" alt="full35" width="500">
 </p>
 
 Esta solicitud GET obtiene las recomendaciones de libros que le pertenecen a un usuario específico. Muestra una lista de libros recomendados para el usuario.
 
 <p align="center">
-  <img src="https://imgur.com/M2Y0idz.png" alt="full36" width="500">
+  <img src="https://i.imgur.com/xN5uuIE.png" alt="full36" width="500">
 </p>
 
 Esta solicitud POST crea una nueva reseña en el sistema. Permite añadir una reseña con calificación y contenido para un libro y un usuario.
 
 <p align="center">
-  <img src="https://imgur.com/0dOakhX.png" alt="full37" width="500">
+  <img src="https://i.imgur.com/o0oiTlh.png" alt="full37" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de todas las reseñas. Muestra una lista completa de todas las reseñas en el sistema.
 
 <p align="center">
-  <img src="https://imgur.com/HwaJHXD.png" alt="full38" width="500">
+  <img src="https://i.imgur.com/9xLOPYS.png" alt="full38" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos de una reseña en específico, usando su ID. Muestra los detalles de la reseña buscada.
 
 <p align="center">
-  <img src="https://imgur.com/EVNdXF9.png" alt="full39" width="500">
+  <img src="https://i.imgur.com/pRpVLGj.png" alt="full39" width="500">
 </p>
 
 Esta solicitud GET obtiene todas las reseñas para un libro específico. Muestra una lista de todas las reseñas asociadas a un libro dado.
 
 <p align="center">
-  <img src="https://imgur.com/SjqpRH0.png" alt="full40" width="500">
+  <img src="https://i.imgur.com/wxZACo7.png" alt="full40" width="500">
 </p>
 
 Esta solicitud GET obtiene los datos del usuario administrador. Muestra la información del usuario con privilegios de administrador.
 
 <p align="center">
-  <img src="https://imgur.com/L67ESLr.png" alt="full41" width="500">
+  <img src="https://i.imgur.com/hgsTEeV.png" alt="full41" width="500">
 </p>
 
 Esta solicitud PUT actualiza los datos de un usuario administrador. Permite modificar la información del usuario con privilegios de administrador.
