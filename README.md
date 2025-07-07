@@ -3069,8 +3069,40 @@ Los aspectos definidos para este Sprint son:
 #### 5.2.1.3. Sprint Backlog 1
 Durante el Sprint 1, el objetivo principal fue construir la versión inicial de la landing page con un enfoque en claridad, accesibilidad y navegación fluida. Se buscó ofrecer una experiencia informativa que permita a los usuarios entender de inmediato el propósito de la plataforma, explorar las secciones clave como “Sobre Nosotros” y “Contáctanos”, y acceder fácilmente a la aplicación y sus redes sociales. Este primer paso fue clave para establecer una imagen sólida de Livria y captar el interés de nuevos usuarios desde el primer contacto.
 
-|      Sprint #     |  Sprint #1 |                 |                        |                 |                                                           |
-|-------------------|------------|-----------------|------------------------|-----------------|-----------------------------------------------------------|
+| Sprint # | Sprint #1 | | | | |
+|---|---|---|---|---|---|
+| | **Work-Item / Task** | | | | |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review / Sprint# / Done)** |
+| **US01** | | **Presentación de servicios de Livria** | | | | |
+| | 1 | Redactar contenido atractivo sobre funcionalidades principales. | Crear contenido que explique de manera clara y atractiva las funcionalidades clave de Livria, para que los usuarios comprendan rápidamente los servicios ofrecidos. | 2 | Developer Team | Done |
+| | 2 | Diseñar e implementar sección de servicios en landing. | Desarrollar la sección dentro de la landing page que detalle los servicios de Livria, asegurando que sea visualmente atractiva y fácil de navegar. | 2 | Developer Team | Done |
+| **US02** | | **Acceso a la sección “Sobre Nosotros” desde la landing page** | | | | |
+| | 1 | Maquetar y diseñar contenido de “Sobre Nosotros”. | Crear el contenido y el diseño de la sección “Sobre Nosotros” en la landing page, proporcionando información clara sobre la empresa y su misión. | 1 | Developer Team | Done |
+| | 2 | Implementar navegación a “Sobre Nosotros” desde menú. | Asegurar que los usuarios puedan acceder a la sección "Sobre Nosotros" desde el menú de navegación de la landing page. | 1 | Developer Team | Done |
+| **US03** | | **Cambio de idioma en la Landing Page** | | | | |
+| | 1 | Implementar botón de cambio de idioma. | Añadir un botón en la landing page que permita a los usuarios cambiar el idioma de la plataforma. | 1 | Developer Team | Done |
+| | 2 | Integrar traducción automática del contenido. | Implementar una funcionalidad que traduzca automáticamente el contenido de la landing page a diferentes idiomas, mejorando la accesibilidad global. | 2 | Developer Team | Done |
+| **US04** | | **Visualización de la sección “Home” en la landing page** | | | | |
+| | 1 | Redactar descripción corta de Livria para la sección ‘Home’. | Crear una descripción breve y concisa de la aplicación Livria para presentar en la sección principal de la landing page. | 1 | Developer Team | Done |
+| | 2 | Maquetar y aplicar diseño a sección principal. | Diseñar y aplicar la maquetación de la sección principal de la landing page para garantizar que sea atractiva y clara para los usuarios. | 1 | Developer Team | Done |
+| **US05** | | **Acceso a la sección “Contáctanos” desde la landing** | | | | |
+| | 1 | Diseñar sección “Contáctanos” con campos básicos. | Crear una sección de contacto con los campos básicos necesarios para que los usuarios puedan comunicarse con el equipo de Livria. | 1 | Developer Team | Done |
+| | 2 | Programar funcionalidad de envío de mensaje. | Implementar la funcionalidad que permita a los usuarios enviar mensajes a través de la sección "Contáctanos". | 3 | Developer Team | To-do |
+| **US06** | | **Navegación simple entre secciones** | | | | |
+| | 1 | Implementar encabezado de navegación con links. | Crear un encabezado de navegación simple que permita a los usuarios acceder fácilmente a las diferentes secciones de la landing page. | 1 | Developer Team | Done |
+| | 2 | Probar navegación responsiva entre secciones. | Verificar que la navegación entre secciones sea fluida y funcional en dispositivos de diferentes tamaños de pantalla. | 1 | Developer Team | Done |
+| **US07** | | **Diseño atractivo de la landing page** | | | | |
+| | 1 | Diseñar layout visual atractivo (colores, tipografía, imágenes). | Crear un diseño visual atractivo para la landing page, seleccionando colores, tipografía e imágenes que sean coherentes con la marca y la experiencia del usuario. | 2 | Developer Team | Done |
+| | 2 | Adaptar diseño responsivo a distintos dispositivos. | Asegurar que el diseño de la landing page se adapte correctamente a diferentes dispositivos (móviles, tablets, desktops). | 2 | Developer Team | Done |
+| **US08** | | **Botón de acceso a la aplicación web** | | | | |
+| | 1 | Crear e insertar botón de acceso directo a la aplicación web. | Desarrollar un botón en la landing page que permita a los usuarios acceder directamente a la aplicación web. | 1 | Developer Team | To-do |
+| **US09** | | **Acceder a las redes sociales de Livria** | | | | |
+| | 1 | Insertar íconos y enlaces a redes sociales. | Insertar los íconos de redes sociales en la landing page y vincularlos a las cuentas oficiales de Livria. | 1 | Developer Team | Done |
+| **US10** | | **Redirección a las secciones** | | | | |
+| | 1 | Diseñar footer con navegación rápida a secciones. | Crear un footer con enlaces a las secciones clave de la página para facilitar la navegación rápida. | 2 | Developer Team | Done |
+| **US11** | | **Formulario de contacto** | | | | |
+| | 1 | Crear formulario básico (nombre, email, mensaje). | Desarrollar un formulario sencillo que permita a los usuarios enviar sus datos (nombre, correo electrónico, mensaje) desde la sección "Contáctanos". | 1 | Developer Team | Done |
+| | 2 | Integrar backend ligero para captura de datos. | Desarrollar e integrar un backend que capture y almacene los datos enviados a través del formulario de contacto. | 2 | Developer Team | To-do |
 
 
 #### 5.2.1.4. Development Evidence for Sprint Review
@@ -3078,10 +3110,10 @@ Esta sección presenta los principales avances en la implementación técnica de
 
 |   Repository  |   Branch  |   Commit Id  |   Commit Message  |   Commit Message Body  |   Commited on (Date)  |
 |---------------|-----------|--------------|-------------------|------------------------|-----------------------|
-|   JhosepAC/Bookify-Livria  |   feature/home-page  |   1c1c4d2  |   feat: implement initial Home section layout  |   ---  |   20/04/2025  |
-|   MarceloHkd/Bookify-Livria  |   feature/home-page  |   4a23b17  |   feat: add services section to the home page  |   ---  |   22/04/2025  |
-|   borj410/Bookify-Livria  |   feature/home-page  |   2c63a2c  |   feat: add about us section with content and layout  |   ---  |   22/04/2025  |
-|   MSS02204/Bookify-Livria  |   feature/home-page  |   03a59a8  |   feat: add contact section and footer to the home page  |   ---  |   23/04/2025  |
+|   JhosepAC/Bookify-Livria  |   feature/home-page  |   1c1c4d2  |   feat: implement initial Home section layout  |   ------------------  |   20/04/2025  |
+|   MarceloHkd/Bookify-Livria  |   feature/home-page  |   4a23b17  |   feat: add services section to the home page  |   ------------------  |   22/04/2025  |
+|   borj410/Bookify-Livria  |   feature/home-page  |   2c63a2c  |   feat: add about us section with content and layout  |   ------------------  |   22/04/2025  |
+|   MSS02204/Bookify-Livria  |   feature/home-page  |   03a59a8  |   feat: add contact section and footer to the home page  |   ------------------  |   23/04/2025  |
 |   noaa01100001/Bookify-Livria  |   feature/home-page  |   092342b  |   feat: fix bugs, update elements and responsive design  |   - Fixed taskbar positioning - Updated the header font and letter spacing - Updated title and content of the third service card - Added images in the services section - Improved responsive design in "About Us" and "Hero" section - Designed custom scrollbar style - Modified card design for services section  |   25/04/2025  |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
@@ -3304,7 +3336,7 @@ Durante el Sprint 2, nos enfocamos en la implementación de tareas para mejorar 
 |---|---|---|---|---|---|
 | | **Work-Item / Task** | | | | |
 | **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review / Sprint# / Done)** |
-| **US17** | | *Sección de recomendaciones en la plataforma** | | | | |
+| **US17** | | **Sección de recomendaciones en la plataforma** | | | | |
 | | 1 | Visualización de la pantalla de las recomendaciones personalizadas. | Desarrollar la interfaz de usuario que muestre las recomendaciones personalizadas de libros para cada usuario basadas en su historial y preferencias de lectura. | 3 | Developer Team | Done |
 | | 2 | Acceso al libro recomendado por la aplicación. | Implementar la funcionalidad que permita a los usuarios acceder directamente a los libros recomendados por la aplicación al hacer clic en las recomendaciones. | 3 | Developer Team | Done |
 | **US27** | | **Valoración y reseña de libros** | | | | |
@@ -3373,32 +3405,32 @@ En este capítulo se presenta el progreso alcanzado durante el Sprint 2 en el de
 
 |   Repository  |   Branch  |   Commit Id  |   Commit Message  |   Commit Message Body  |   Commited on (Date)  |
 |---------------|-----------|--------------|-------------------|------------------------|-----------------------|
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   c6e6d79  |   docs: add initial README for Livria Web App  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   5633e05  |   feat: add toolbar, language-switcher and footer  |   ---  |   22/04/2025  |
-|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   7192f1d  |   Merge pull request #1 from Bookify-Livria/feature/public-components  |   ---  |   22/04/2025  |
-|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   be9381c  |   feat: Add Book-Card  |   ---  |   23/04/2025  |
-|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   190addf  |   feat: Show Book-Card  |   ---  |   23/04/2025  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   f265946  |   feat: add book carousel  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   7f67b28  |   feat: create singular book view and created cart component  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   daec93d  |   feat: update general components  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5ae1391  |   eat: update general components  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5934510  |   Merge branch 'feature/books' of https://github.com/Bookify-Livria/livria-web-app into feature/books  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   1b54c31  |   feat: Update register and login  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   69586a9  |   fix: final improvements  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   a9298ae  |   Update shop.component.vue  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   d1fd39d  |   Merge pull request #2 from Bookify-Livria/hotfix/urgent-fix  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   efc6af4  |   Update shop.component.vue  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   a61f5c4  |   Merge pull request #3 from Bookify-Livria/hotfix/urgent-fix  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   538e6cb  |   Merge pull request #4 from Bookify-Livria/develop  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   be9381c  |   feat: Add: Book-Card  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   190addf  |   feat: Show: Book-Card  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   f265946  |   feat: add book carousel  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   64ed3e8  |   feat: create reviews per book  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   555e41c  |   feat: add images for every community  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   ac57ed9  |   feat: Create Card  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   0504e7e  |   feat: Create Order  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5fd0218  |   feat: update cart drawer and toolbar component  |   ---  |   15/05/25  |
-|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   11edefe  |   feat: update user components and implementation of notifications  |   ---  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   c6e6d79  |   docs: add initial README for Livria Web App  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   5633e05  |   feat: add toolbar, language-switcher and footer  |   ---------  |   22/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   7192f1d  |   Merge pull request #1 from Bookify-Livria/feature/public-components  |   ---------  |   22/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   be9381c  |   feat: Add Book-Card  |   ---------  |   23/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app  |   feature/home-page  |   190addf  |   feat: Show Book-Card  |   ---------  |   23/04/2025  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   f265946  |   feat: add book carousel  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   7f67b28  |   feat: create singular book view and created cart component  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   daec93d  |   feat: update general components  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5ae1391  |   eat: update general components  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5934510  |   Merge branch 'feature/books' of https://github.com/Bookify-Livria/livria-web-app into feature/books  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   1b54c31  |   feat: Update register and login  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   69586a9  |   fix: final improvements  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   a9298ae  |   Update shop.component.vue  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   d1fd39d  |   Merge pull request #2 from Bookify-Livria/hotfix/urgent-fix  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   efc6af4  |   Update shop.component.vue  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   a61f5c4  |   Merge pull request #3 from Bookify-Livria/hotfix/urgent-fix  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   538e6cb  |   Merge pull request #4 from Bookify-Livria/develop  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   be9381c  |   feat: Add: Book-Card  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   190addf  |   feat: Show: Book-Card  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   f265946  |   feat: add book carousel  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   64ed3e8  |   feat: create reviews per book  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   555e41c  |   feat: add images for every community  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   ac57ed9  |   feat: Create Card  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   0504e7e  |   feat: Create Order  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   5fd0218  |   feat: update cart drawer and toolbar component  |   ---------  |   15/05/25  |
+|   https://github.com/Bookify-Livria/livria-web-app   |   feature/home-page  |   11edefe  |   feat: update user components and implementation of notifications  |   ---------  |   15/05/25  |
 
 
 #### 5.2.2.5. Execution Evidence for Sprint Review
@@ -3791,6 +3823,106 @@ Los aspectos definidos para este Sprint son:
 
 Durante el Sprint 3, el objetivo principal fue desarrollar la versión inicial del **backend** de la aplicación Livria, con un enfoque en eficiencia, seguridad y escalabilidad. El equipo trabajó en crear una infraestructura robusta que permitiera a los usuarios interactuar sin problemas con la plataforma, gestionando de manera eficaz aspectos clave como el registro e inicio de sesión de los usuarios, el manejo de productos de libros, la gestión de carritos de compra, y la interacción con las comunidades. Este primer paso fue fundamental para garantizar un rendimiento óptimo del backend y preparar el sistema para futuras expansiones y nuevas funcionalidades, asegurando una experiencia robusta desde el primer contacto con la aplicación.
 
+| Sprint # | Sprint #3 | | | | |
+|---|---|---|---|---|---|
+| | **Work-Item / Task** | | | | |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review / Sprint# / Done)** |
+| **US35** | | **Obtener todos los libros** | | | | |
+| | 1 | Consultar todos los libros disponibles | Realizar una consulta a la base de datos para recuperar todos los registros de libros de la tabla `books`. | 5 | Developer Team | Done |
+| | 2 | Implementar filtro por campo de categoría | Crear consultas dinámicas que filtren los libros por campos específicos como `category`, `author` o `availability`. | 6 | Developer Team | Done |
+| **US36** | | **Obtener detalles de un libro** | | | | |
+| | 1 | Consultar detalles del libro | Crear una consulta SQL que recupere todos los campos de la tabla `books` para un libro específico identificado por su `id` del libro. | 4 | Developer Team | Done |
+| | 2 | Consultar disponibilidad del libro | Crear una consulta para verificar el campo `availability` en la tabla `books` y retornar el estado actual. | 4 | Developer Team | Done |
+| **US37** | | **Crear una reseña de un libro** | | | | |
+| | 1 | Gestionar creación de reseñas | Implementar una funcionalidad que guarde reseñas de los usuarios en la tabla `reviews` asociando el `id` del libro y del usuario. | 6 | Developer Team | Done |
+| | 2 | Validación de reseña antes de guardar | Validar con una consulta que los campos no estén vacíos y cumplan los requisitos establecidos. | 5 | Developer Team | In-Process |
+| **US38** | | **Obtener todas las reseñas de un libro** | | | | |
+| | 1 | Consultar todas las reseñas del libro | Crear una consulta SQL que recupere todas las reseñas de un libro específico desde la tabla `reviews`. | 5 | Developer Team | Done |
+| **US39** | | **Agregar un libro al carrito** | | | | |
+| | 1 | Agregar libro al carrito | Crear una nueva entrada en la tabla `cart_items` para asociar un `id` del libro y del usuario. | 5 | Developer Team | Done |
+| | 2 | Confirmación de adición al carrito | Verificar que el libro haya sido agregado al carrito y actualizar el campo de cantidad en la tabla de `cart_items`. | 6 | Developer Team | Done |
+| **US40** | | **Gestión de un pedido** | | | | |
+| | 1 | Crear pedido | Crear una nueva entrada en la tabla `orders` con los detalles del carrito del usuario. | 6 | Developer Team | Done |
+| **US41** | | **Ver detalles de un pedido** | | | | |
+| | 1 | Consultar detalles de un pedido | Crear una consulta SQL que recupere los detalles del pedido desde la tabla `order_items` y `orders`. | 5 | Developer Team | Done |
+| | 2 | Consultar estado de la entrega | Crear una consulta que verifique el estado del pedido en el campo de estado de la tabla `orders`. | 4 | Developer Team | Done |
+| **US42** | | **Obtener todas las comunidades** | | | | |
+| | 1 | Consultar todas las comunidades | Consultar la tabla `communities` y retornar todos los registros disponibles. | 5 | Developer Team | Done |
+| | 2 | Buscar una comunidad específica | Implementar una búsqueda con un `Where` para encontrar comunidades específicas por nombre en la tabla `communities`. | 4 | Developer Team | Done |
+| **US43** | | **Gestión de creación de una comunidad** | | | | |
+| | 1 | Validación de creación de comunidad | Validar que los campos obligatorios (nombre, descripción) no estén vacíos antes de guardar la comunidad en la tabla `communities`. | 6 | Developer Team | Done |
+| | 2 | Confirmación de creación de comunidad | Verificar que los datos se hayan guardado correctamente en la base de datos, asignando un `id` a la comunidad único. | 6 | Developer Team | Done |
+| **US44** | | **Publicación en una comunidad** | | | | |
+| | 1 | Crear publicación en una comunidad | Guardar la publicación del usuario en la tabla `posts` y asociarla con un `id` community. | 6 | Developer Team | Done |
+| | 2 | Validación del contenido de publicación | Verificar que la publicación cumpla con las reglas y que no haya contenido vacío; si no cumple, eliminarla automáticamente. | 5 | Developer Team | To-do |
+| **US45** | | **Obtener todos los usuarios** | | | | |
+| | 1 | Consultar todos los usuarios | Obtener lista completa de usuarios registrados. | 5 | Developer Team | Done |
+| | 2 | Buscar un usuario específico | Crear una consulta SQL que recupere todos los usuarios registrados desde las tablas `users`, `userclients` y `useradmins`. | 5 | Developer Team | Done |
+| **US46** | | **Gestión de creación de un nuevo usuario** | | | | |
+| | 1 | Crear nuevo usuario | Crear una nueva entrada en la tabla `userclients` cuando un nuevo usuario se registre. | 4 | Developer Team | Done |
+| | 2 | Validación automática de datos | Validar que los campos del formulario de registro (nombre, email, contraseña) estén completos y sean válidos. | 6 | Developer Team | In-Process |
+| **US47** | | **Eliminar un usuario** | | | | |
+| | 1 | Eliminar un usuario | Crear una consulta SQL que elimine un usuario de la tabla `usersclients` con base en su `id` del `userclient`. | 5 | Developer Team | Done |
+| | 2 | Confirmación de eliminación | Verificar que el usuario ha sido correctamente eliminado de la base de datos. | 5 | Developer Team | Done |
+| **US48** | | **Gestión de creación de una notificación** | | | | |
+| | 1 | Crear notificación de carrito agregado | Crear una notificación en la tabla `notifications` cuando un usuario agrega un libro al carrito. | 6 | Developer Team | Done |
+| | 2 | Crear notificación de unión a comunidad | Crear una notificación en la tabla `notifications` cuando un usuario se une a una comunidad. | 4 | Developer Team | Done |
+| **US49** | | **Gestión de asignación de favorito** | | | | |
+| | 1 | Asignar favorito (administrador) | Agregar un favorito a un usuario desde la vista de administrador. | 6 | Developer Team | Done |
+| | 2 | Eliminar favorito (administrador) | Eliminar un favorito de un usuario desde la vista de administrador. | 3 | Developer Team | Done |
+| | 3 | Asignar favorito (cliente) | Agregar un favorito a un usuario desde la aplicación web. | 4 | Developer Team | Done |
+| | 4 | Eliminar favorito (cliente) | Eliminar un favorito de un usuario desde la plataforma web. | 3 | Developer Team | Done |
+| **US50** | | **Creación de recomendaciones en base a favoritos** | | | | |
+| | 1 | Generación automática de recomendación | Generar recomendaciones en base a libros marcados como favoritos por un usuario. | 3 | Developer Team | Done |
+| **US51** | | **Acceso rápido desde el Dashboard** | | | | |
+| | 1 | Acceso rápido a secciones | Implementar navegación rápida desde el dashboard a las principales secciones. | 5 | Developer Team | Done |
+| **US52** | | **Estadísticas en Books** | | | | |
+| | 1 | Total libros y géneros | Mostrar conteo total de libros y géneros. | 3 | Developer Team | Done |
+| | 2 | Precio promedio | Mostrar precio promedio de libros. | 2 | Developer Team | In-Process |
+| | 3 | Libros en stock | Mostrar cantidad total de libros en stock. | 2 | Developer Team | Done |
+| | 4 | Libro más visto y vendido | Mostrar estadísticas de libro más visto y más vendido. | 3 | Developer Team | In-Process |
+| **US53** | | **Búsqueda en Book Collection** | | | | |
+| | 1 | Búsqueda por título o autor | Implementar campo de búsqueda por título o autor. | 3 | Developer Team | Done |
+| | 2 | Filtros por género e idioma | Agregar filtros de género e idioma. | 3 | Developer Team | Done |
+| | 3 | Ordenamiento | Ordenar libros por criterio. | 3 | Developer Team | Done |
+| **US54** | | **Visualización de detalles del libro** | | | | |
+| | 1 | Precio e info básica | Mostrar precio, descripción, autor, etc. | 3 | Developer Team | Done |
+| | 2 | Ver más detalles | Mostrar ventana modal con detalles completos del libro. | 3 | Developer Team | Done |
+| **US55** | | **Estadísticas de órdenes** | | | | |
+| | 1 | Total órdenes y ganancias | Mostrar número total de órdenes y ganancias. | 3 | Developer Team | Done |
+| | 2 | Órdenes pendientes y completas | Mostrar estadísticas de estado de órdenes. | 2 | Developer Team | Done |
+| | 3 | Promedio valor de órdenes | Mostrar el valor promedio de las órdenes. | 2 | Developer Team | In-Process |
+| | 4 | Libro más popular pedido | Mostrar el libro más ordenado. | 2 | Developer Team | In-Process |
+| **US56** | | **Búsqueda y filtro en Order List** | | | | |
+| | 1 | Búsqueda por ID o nombre | Implementar campo de búsqueda. | 3 | Developer Team | Done |
+| | 2 | Filtro por estado | Filtrar por estado del pedido. | 2 | Developer Team | Done |
+| | 3 | Filtro por fecha | Implementar filtro por rango de fechas. | 2 | Developer Team | Done |
+| | 4 | Ordenamiento | Ordenar órdenes por criterio. | 2 | Developer Team | Done |
+| **US57** | | **Tabla de órdenes** | | | | |
+| | 1 | Tabla con detalles de órdenes | Mostrar tabla con columnas: código, cliente, ítems, total, etc. | 3 | Developer Team | Done |
+| **US58** | | **Filtros en Inventario** | | | | |
+| | 1 | Barra de búsqueda | Búsqueda por término. | 2 | Developer Team | Done |
+| | 2 | Filtro por género/lenguaje | Filtros de género y lenguaje. | 2 | Developer Team | Done |
+| | 3 | Ordenamiento | Ordenar libros por stock, precio, etc. | 2 | Developer Team | Done |
+| **US59** | | **Tabla de libros en inventario** | | | | |
+| | 1 | Tabla de libros | Mostrar tabla con campos clave (portada, autor, etc.). | 3 | Developer Team | Done |
+| | 2 | Aumentar stock de libro | Botón para aumentar stock del libro en el inventario. | 2 | Developer Team | Done |
+| **US60** | | **Configuración de perfil** | | | | |
+| | 1 | Ver info perfil | Mostrar información actual del usuario. | 2 | Developer Team | Done |
+| | 2 | Editar info | Editar y guardar nombre, usuario, correo. | 2 | Developer Team | Done |
+| | 3 | Cambiar contraseña | Permitir actualización de contraseña. | 2 | Developer Team | Done |
+| **US61** | | **Configuración aplicación** | | | | |
+| | 1 | Notificaciones app | Activar/desactivar notificaciones in-app. | 2 | Developer Team | Done |
+| | 2 | Alertas email | Activar/desactivar alertas por correo. | 2 | Developer Team | Done |
+| | 3 | Auto guardado | Activar/desactivar auto save. | 2 | Developer Team | Done |
+| | 4 | Items por página | Configurar cantidad de elementos por página. | 2 | Developer Team | Done |
+| | 5 | Guardar cambios | Botón para guardar configuración. | 1 | Developer Team | Done |
+| **US62** | | **Barra lateral navegación** | | | | |
+| | 1 | Mostrar título plataforma | Mostrar "LIVRIA". | 1 | Developer Team | Done |
+| | 2 | Foto y nombre del admin | Mostrar imagen + “Super Administrador”. | 1 | Developer Team | Done |
+| | 3 | Secciones principales | Mostrar links: Home, Books, etc. | 2 | Developer Team | Done |
+| | 4 | Cambiar idioma | Botón para cambiar entre EN/ES. | 2 | Developer Team | Done |
+| | 5 | Settings y logout | Enlace a settings + botón cerrar sesión. | 1 | Developer Team | Done |
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 
@@ -3798,32 +3930,32 @@ En este capítulo se detalla el progreso logrado durante el **Sprint 3** en el d
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
-| https://github.com/Bookify-Livria/livria.github.io | master | d5bf72b | feat: add link to web application | --- | 18/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 13f3250 | feat: admin preview pages and inheritance in Users classes | --- | 17/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | dc93622 | fix: duplicate folders | --- | 17/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 42b1f1c | feat: admin validation access page | --- | 17/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | a8cb685 | Merge branch 'feat/admin' into develop | --- | 17/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 7ce211e | feat: update admin components | --- | 17/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 6663fdf | feat: stars in individual review | --- | 18/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 59c2b78 | Merge branch 'develop' into feature/books | --- | 18/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 4a715b0 | feat: form validations | --- | 18/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 4a748f7 | feat: design modifications | --- | 18/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 75d0bffc | feat: added order status | --- | 19/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 1a828e5 | feat: PUT method for admin and design improvements | --- | 19/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 434bd0d | feat: recommendations and book markings | --- | 19/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 509b4a9 | feat: Inventory management components | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 129997d | feat: upgrade in books management and addition of inventory components | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | cbfec1f7 | feat: update in admin orders view | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | main | 15ef27f | Initial commit | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/users | 15ef27f | feat: Add Users Bounded Context | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/community | b743855 | feat: Add Community Bounded Context | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/commerce | f683592 | feat: Add Commerce Bounded Context | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/data-annotations | 7e68f3a | feat: Add validation, data annotations localization and Shared validation | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/recommendations | 7ac229e | feat: Add validation, data annotations localization and Shared validation | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/commerce | ab8144e | Fix: Commerce Bounded Context | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/data-annotations | e07aaac | feat: Add user bounded context validation | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | feature/notifications | 8120432 | feat: Update notifications | --- | 20/06/25 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | c5904ce | feat: LIVRIA TB2 | --- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria.github.io | master | d5bf72b | feat: add link to web application | --------- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 13f3250 | feat: admin preview pages and inheritance in Users classes | --------- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | dc93622 | fix: duplicate folders | --------- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 42b1f1c | feat: admin validation access page | --------- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | a8cb685 | Merge branch 'feat/admin' into develop | --------- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 7ce211e | feat: update admin components | --------- | 17/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 6663fdf | feat: stars in individual review | --------- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 59c2b78 | Merge branch 'develop' into feature/books | --------- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 4a715b0 | feat: form validations | --------- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 4a748f7 | feat: design modifications | --------- | 18/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 75d0bffc | feat: added order status | --------- | 19/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 1a828e5 | feat: PUT method for admin and design improvements | --------- | 19/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 434bd0d | feat: recommendations and book markings | --------- | 19/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 509b4a9 | feat: Inventory management components | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | 129997d | feat: upgrade in books management and addition of inventory components | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feat/admin | cbfec1f7 | feat: update in admin orders view | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | main | 15ef27f | Initial commit | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/users | 15ef27f | feat: Add Users Bounded Context | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/community | b743855 | feat: Add Community Bounded Context | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/commerce | f683592 | feat: Add Commerce Bounded Context | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/data-annotations | 7e68f3a | feat: Add validation, data annotations localization and Shared validation | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/recommendations | 7ac229e | feat: Add validation, data annotations localization and Shared validation | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/commerce | ab8144e | Fix: Commerce Bounded Context | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/data-annotations | e07aaac | feat: Add user bounded context validation | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | feature/notifications | 8120432 | feat: Update notifications | --------- | 20/06/25 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | c5904ce | feat: LIVRIA TB2 | --------- | 20/06/25 |
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -4535,306 +4667,57 @@ Los aspectos definidos para este Sprint son:
 
 Durante el Sprint 4, el objetivo principal fue consolidar la integración entre el frontend y el backend de la aplicación Livria, con un enfoque en la autenticación segura, la gestión de acceso, la sincronización eficiente de datos y mejoras en el backend. El equipo trabajó en la implementación del bounded context de IAM (Identity and Access Management), lo que permitió establecer un sistema de gestión de identidad para los usuarios, asegurando que tanto administradores como clientes pudieran interactuar con la plataforma de manera segura mediante tokens JWT.
 
-<table class="c12">
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="1"><p>Sprint #</p></td>
-<td class="c16" colspan="7" rowspan="1"><p>Sprint 4</p></td>
-</tr>
-<tr class="c5">
-<td class="c13" colspan="2" rowspan="1"><p>User Story</p></td>
-<td class="c17" colspan="6" rowspan="1"><p>Work Item/Task</p></td>
-</tr>
-<tr class="c11">
-<td class="c3" colspan="1" rowspan="1"><p>Id</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Title</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>Id</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Title</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Description</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>Estimation (Hours)</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Assigned To</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Status (To-do / InProcess / ToReview / Done)</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US63</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Registro de cuenta con control y seguridad.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Registro de administrador.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar el registro correcto de datos y creación de cuenta de administrador.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Validación de datos de registro.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Validar que los datos del administrador (nombre de usuario, correo, contraseña, PIN) sean correctos.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US64</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Inicio de sesión con autenticación JWT.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Inicio de sesión del administrador con autenticación.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar el inicio de sesión que genere el token JWT al validar las credenciales.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Manejo de credenciales inválidas.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurarse de que el sistema devuelva un error 401 si las credenciales son incorrectas.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US65</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Registro de usuario cliente.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Registro de cliente.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear el registro datos y creación de cuenta de cliente.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Validación de usuario cliente.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Validar que el nombre de usuario y contraseña del cliente no existan ya en la base de datos.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="1"><p>US66</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Acceso seguro a la cuenta mediante JWT.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Acceso a la cuenta con token.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la validación del token JWT para el acceso a recursos del cliente.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS07</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Creación del Endpoint RESTful para Registro de Administrador.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación del endpoint de registro.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear el endpoint /register para registrar un administrador con validación de nombre de usuario, correo, contraseña y PIN.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Validación de datos durante el registro.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Validar que el nombre de usuario y el correo electrónico no existan previamente en la base de datos antes de crear el administrador.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS08</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Configuración del endpoint de inicio de sesión (POST /login).</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación del endpoint de inicio de sesión.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear el endpoint /login para permitir que los usuarios inicien sesión con nombre de usuario y contraseña y obtengan un token JWT.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Manejo de credenciales inválidas.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurarse de que el sistema devuelva un estado 401 y un mensaje de error si las credenciales son inválidas.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="1"><p>TS09</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Configuración de validación de entrada para el registro.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Validación de nombre de usuario y correo electrónico.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Validar que el nombre de usuario y el correo electrónico no existan en la base de datos al realizar el registro de un administrador.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS10</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Generación y Validación de Token JWT para Usuario Cliente.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación de generación de token JWT.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica para generar un token JWT con un campo "role" como "Cliente", con una espiración de 1 hora.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Validación del token JWT para acceso a recursos.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Validar que el token JWT generado sea correcto y permita el acceso a recursos protegidos.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS11</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Autenticación de solicitudes con token JWT.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación de protección con token JWT.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica para que los endpoints protegidos validen el token JWT en las solicitudes.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Respuesta de error para token inválido.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurarse de que la API devuelva un estado 401 y un mensaje claro cuando el token JWT sea inválido o haya expirado.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS12</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Asignación de roles en el registro de clientes y administradores.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Asignación de rol "Admin" al registrar un administrador.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica de asignación de rol al crear un nuevo administrador en la base de datos, asegurando que el rol "Admin" sea asignado correctamente y guardado en el campo de rol del registro.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Asignación de rol "Cliente" al registrar un cliente.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la lógica de asignación de rol al crear un nuevo usuario en la base de datos, asegurando que el rol "Cliente" sea asignado correctamente y guardado en el campo de rol del registro.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS13</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Middleware de control de acceso basado en roles JWT.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Middleware de control de acceso basado en el rol "Admin".</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un middleware que valide el token JWT y asegure que solo los usuarios con el rol "Admin" puedan acceder a ciertos endpoints protegidos. El middleware debe comprobar el campo role del JWT y, si el valor no es "Admin", devolver un error.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Middleware de control de acceso basado en el rol "Cliente".</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un middleware que valide el token JWT y asegure que solo los usuarios con el rol "Cliente" puedan acceder a ciertos endpoints protegidos. El middleware debe comprobar el campo role del JWT y, si el valor no es "Cliente", devolver error.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS14</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Integrar el backend con el frontend para la autenticación de usuarios.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Flujo de autenticación.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar el flujo de autenticación en el frontend, enviando credenciales y recibiendo el token JWT desde el backend.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Almacenamiento y manejo del token JWT.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Almacenar el token JWT recibido en el frontend y utilizarlo en solicitudes futuras.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS15</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Manejar errores de autenticación en el frontend.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Manejo de error de credenciales inválidas en el frontend.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Mostrar un mensaje claro en el frontend cuando el backend devuelva un error 401 por credenciales inválidas.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Manejo de error de token expirado en el frontend.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Mostrar un mensaje de error claro en el frontend cuando el backend devuelva un error 401 debido a un token expirado.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS16</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Asegurar la correcta sincronización de datos entre el frontend y el backend.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Sincronización de datos entre frontend y backend.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurar que el frontend reciba los datos correctos del backend y que cualquier actualización se refleje inmediatamente.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Validación de datos sincronizados.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Verificar que los datos enviados desde el frontend sean correctamente procesados y actualizados en el backend.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>TS17</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Garantizar que la navegación entre el frontend y el backend sea segura.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación de HTTPS para comunicaciones seguras.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Configurar el backend para el uso de HTTPS para todas las comunicaciones entre el frontend y el backend.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Protección de datos con JWT.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurar que todas las solicitudes con datos sensibles sean protegidas mediante un token JWT válido, transmitido de forma segura.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="3"><p>TS18</p></td>
-<td class="c8" colspan="1" rowspan="3"><p>Optimizar la comunicación entre el frontend y el backend para la carga de datos.</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Optimización de las solicitudes para la carga de datos.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Reducir la latencia de las solicitudes entre el frontend y el backend para una carga más rápida de los datos.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>In-Process</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación de carga diferida para datos.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar una técnica de carga diferida (lazy loading) para mejorar la experiencia del usuario y optimizar el rendimiento.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-Do</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Monitorización de la comunicación.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Establecer un sistema para monitorear y optimizar la eficiencia de la comunicación entre el frontend y el backend.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-Do</p></td>
-</tr></table>
-
+| Sprint # | Sprint #4 | | | | |
+|---|---|---|---|---|---|
+| | **Work-Item / Task** | | | | |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review / Sprint# / Done)** |
+| **US63** | | **Registro de cuenta con control y seguridad** | | | | |
+| | 1 | Registro de administrador. | Implementar el registro correcto de datos y creación de cuenta de administrador. | 6 | Developer Team | Done |
+| | 2 | Validación de datos de registro. | Validar que los datos del administrador (nombre de usuario, correo, contraseña, PIN) sean correctos. | 5 | Developer Team | Done |
+| **US64** | | **Inicio de sesión con autenticación JWT** | | | | |
+| | 1 | Inicio de sesión del administrador con autenticación. | Implementar el inicio de sesión que genere el token JWT al validar las credenciales. | 6 | Developer Team | Done |
+| | 2 | Manejo de credenciales inválidas. | Asegurarse de que el sistema devuelva un error 401 si las credenciales son incorrectas. | 4 | Developer Team | In-Process |
+| **US65** | | **Registro de usuario cliente** | | | | |
+| | 1 | Registro de cliente. | Crear el registro datos y creación de cuenta de cliente. | 4 | Developer Team | Done |
+| | 2 | Validación de usuario cliente. | Validar que el nombre de usuario y contraseña del cliente no existan ya en la base de datos. | 4 | Developer Team | Done |
+| **US66** | | **Acceso seguro a la cuenta mediante JWT** | | | | |
+| | 1 | Acceso a la cuenta con token. | Implementar la validación del token JWT para el acceso a recursos del cliente. | 5 | Developer Team | Done |
+| **TS07** | | **Creación del Endpoint RESTful para Registro de Administrador** | | | | |
+| | 1 | Implementación del endpoint de registro. | Crear el endpoint /register para registrar un administrador con validación de nombre de usuario, correo, contraseña y PIN. | 6 | Developer Team | Done |
+| | 2 | Validación de datos durante el registro. | Validar que el nombre de usuario y el correo electrónico no existan previamente en la base de datos antes de crear el administrador. | 5 | Developer Team | Done |
+| **TS08** | | **Configuración del endpoint de inicio de sesión (POST /login)** | | | | |
+| | 1 | Implementación del endpoint de inicio de sesión. | Crear el endpoint /login para permitir que los usuarios inicien sesión con nombre de usuario y contraseña y obtengan un token JWT. | 6 | Developer Team | Done |
+| | 2 | Manejo de credenciales inválidas. | Asegurarse de que el sistema devuelva un estado 401 y un mensaje de error si las credenciales son inválidas. | 4 | Developer Team | In-Process |
+| **TS09** | | **Configuración de validación de entrada para el registro** | | | | |
+| | 1 | Validación de nombre de usuario y correo electrónico. | Validar que el nombre de usuario y el correo electrónico no existan en la base de datos al realizar el registro de un administrador. | 5 | Developer Team | Done |
+| **TS10** | | **Generación y Validación de Token JWT para Usuario Cliente** | | | | |
+| | 1 | Implementación de generación de token JWT. | Implementar la lógica para generar un token JWT con un campo "role" como "Cliente", con una espiración de 1 hora. | 6 | Developer Team | Done |
+| | 2 | Validación del token JWT para acceso a recursos. | Validar que el token JWT generado sea correcto y permita el acceso a recursos protegidos. | 5 | Developer Team | Done |
+| **TS11** | | **Autenticación de solicitudes con token JWT** | | | | |
+| | 1 | Implementación de protección con token JWT. | Implementar la lógica para que los endpoints protegidos validen el token JWT en las solicitudes. | 6 | Developer Team | Done |
+| | 2 | Respuesta de error para token inválido. | Asegurarse de que la API devuelva un estado 401 y un mensaje claro cuando el token JWT sea inválido o haya expirado. | 4 | Developer Team | In-Process |
+| **TS12** | | **Asignación de roles en el registro de clientes y administradores** | | | | |
+| | 1 | Asignación de rol "Admin" al registrar un administrador. | Implementar la lógica de asignación de rol al crear un nuevo administrador en la base de datos, asegurando que el rol "Admin" sea asignado correctamente y guardado en el campo de rol del registro. | 5 | Developer Team | Done |
+| | 2 | Asignación de rol "Cliente" al registrar un cliente. | Implementar la lógica de asignación de rol al crear un nuevo usuario en la base de datos, asegurando que el rol "Cliente" sea asignado correctamente y guardado en el campo de rol del registro. | 5 | Developer Team | Done |
+| **TS13** | | **Middleware de control de acceso basado en roles JWT** | | | | |
+| | 1 | Middleware de control de acceso basado en el rol "Admin". | Desarrollar un middleware que valide el token JWT y asegure que solo los usuarios con el rol "Admin" puedan acceder a ciertos endpoints protegidos. El middleware debe comprobar el campo role del JWT y, si el valor no es "Admin", devolver un error. | 6 | Developer Team | Done |
+| | 2 | Middleware de control de acceso basado en el rol "Cliente". | Desarrollar un middleware que valide el token JWT y asegure que solo los usuarios con el rol "Cliente" puedan acceder a ciertos endpoints protegidos. El middleware debe comprobar el campo role del JWT y, si el valor no es "Cliente", devolver error. | 6 | Developer Team | Done |
+| **TS14** | | **Integrar el backend con el frontend para la autenticación de usuarios** | | | | |
+| | 1 | Flujo de autenticación. | Implementar el flujo de autenticación en el frontend, enviando credenciales y recibiendo el token JWT desde el backend. | 6 | Developer Team | Done |
+| | 2 | Almacenamiento y manejo del token JWT. | Almacenar el token JWT recibido en el frontend y utilizarlo en solicitudes futuras. | 6 | Developer Team | In-Process |
+| **TS15** | | **Manejar errores de autenticación en el frontend** | | | | |
+| | 1 | Manejo de error de credenciales inválidas en el frontend. | Mostrar un mensaje claro en el frontend cuando el backend devuelva un error 401 por credenciales inválidas. | 4 | Developer Team | In-Process |
+| | 2 | Manejo de error de token expirado en el frontend. | Mostrar un mensaje de error claro en el frontend cuando el backend devuelva un error 401 debido a un token expirado. | 4 | Developer Team | In-Process |
+| **TS16** | | **Asegurar la correcta sincronización de datos entre el frontend y el backend** | | | | |
+| | 1 | Sincronización de datos entre frontend y backend. | Asegurar que el frontend reciba los datos correctos del backend y que cualquier actualización se refleje inmediatamente. | 6 | Developer Team | Done |
+| | 2 | Validación de datos sincronizados. | Verificar que los datos enviados desde el frontend sean correctamente procesados y actualizados en el backend. | 6 | Developer Team | Done |
+| **TS17** | | **Garantizar que la navegación entre el frontend y el backend sea segura** | | | | |
+| | 1 | Implementación de HTTPS para comunicaciones seguras. | Configurar el backend para el uso de HTTPS para todas las comunicaciones entre el frontend y el backend. | 6 | Developer Team | Done |
+| | 2 | Protección de datos con JWT. | Asegurar que todas las solicitudes con datos sensibles sean protegidas mediante un token JWT válido, transmitido de forma segura. | 6 | Developer Team | Done |
+| **TS18** | | **Optimizar la comunicación entre el frontend y el backend para la carga de datos** | | | | |
+| | 1 | Optimización de las solicitudes para la carga de datos. | Reducir la latencia de las solicitudes entre el frontend y el backend para una carga más rápida de los datos. | 5 | Developer Team | In-Process |
+| | 2 | Implementación de carga diferida para datos. | Implementar una técnica de carga diferida (lazy loading) para mejorar la experiencia del usuario y optimizar el rendimiento. | 5 | Developer Team | To-do |
+| | 3 | Monitorización de la comunicación. | Establecer un sistema para monitorear y optimizar la eficiencia de la comunicación entre el frontend y el backend. | 5 | Developer Team | To-do |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
@@ -4854,7 +4737,7 @@ Se completó con éxito la integración del frontend con el backend, lo que aseg
 | https://github.com/Bookify-Livria/livria-backend.git | develop | aae6a7e | feat: update deployment configuration | --------- | 01/07/2025 |
 | https://github.com/Bookify-Livria/livria-backend.git | develop | c48dc26 | feat: update appsettings and add CORS Policy | --------- | 01/07/2025 |
 | https://github.com/Bookify-Livria/livria-backend.git | develop | 450e3da | Merge branch 'develop' of https://github.com/Bookify-Livria/livria-backend into develop | --------- | 01/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 8dee7bd | feat: update LIVRIA | ----------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 8dee7bd | feat: update LIVRIA | --------- | 01/07/2025 |
 | https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 5c84579 | feat: User Authentications using JWT | --------- | 04/07/2025 |
 | https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 0f6dd27 | Pull latest changes into the Users branch | --------- | 03/07/2025 |
 | https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 2cd0996 | feat: modifying the assembler and api service for Reviews | --------- | 03/07/2025 |
