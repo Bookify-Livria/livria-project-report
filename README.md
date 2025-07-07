@@ -190,8 +190,16 @@ Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros ju
 
 | **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
 |:------------------------|:-------------------------|:-----------------|
-| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | - **Argomedo Camacho, Jhosep Jamil (TB2)**: <br>   - Desarrollo e implementación de la base de datos <br>   - Interfaz de administrador (Dashboard) <br>   - Creación y gestión de servidor de base de datos (Azure) <br>   - Mejoramiento de la landing page <br> - **Binda Arbañil, Marcelo Alejandro (TB2)**: <br>   - Desarrollo e implementación de los bounded Context <br> - **Borja Molina, Gabriel Sebastián (TB2)**: <br>   - Desarrollo e implementación de los Bounded Context <br> - **Castillo Garay, Ainhoa Lucía (TB2)**: <br>   - Corrección del frontend <br>   - Desarrollo de nuevas funcionalidades <br> - **Sulca Silva, Melisa Geraldine (TB2)**: <br>   - Internalización de la interfaz de administrador (Dashboard) <br>   - Redacción del sprint 3 (informe) | **Argomedo Camacho, Jhosep Jamil** <br> Jhosep coordinó eficazmente las tareas técnicas, gestionando la base de datos y el dashboard. Su liderazgo fue clave para asegurar una integración exitosa entre las distintas partes del proyecto. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Marcelo lideró la implementación de los bounded contexts, optimizando la estructura del proyecto y promoviendo un enfoque claro y organizado dentro del equipo. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Gabriel desempeñó un papel clave en la implementación de bounded contexts, garantizando una distribución lógica de las tareas y una colaboración fluida entre los miembros del equipo. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Ainhoa lideró las mejoras del frontend, asegurando que las nuevas funcionalidades se integraran de forma coherente, y promovió la colaboración en las decisiones de diseño. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Melisa destacó en la planificación y documentación del proyecto, asegurando que el equipo mantuviera una visión clara y coherente, mientras promovía un entorno inclusivo. |
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | - **Argomedo Camacho, Jhosep Jamil (TB2)**: <br>   Desarrollo e implementación de la base de datos <br>   Interfaz de administrador (Dashboard) <br>   Creación y gestión de servidor de base de datos (Azure) <br>   Mejoramiento de la landing page <br> - **Binda Arbañil, Marcelo Alejandro (TB2)**: <br>   Desarrollo e implementación de los bounded Context <br> - **Borja Molina, Gabriel Sebastián (TB2)**: <br>   Desarrollo e implementación de los Bounded Context <br> - **Castillo Garay, Ainhoa Lucía (TB2)**: <br>   Corrección del frontend <br>   Desarrollo de nuevas funcionalidades <br> - **Sulca Silva, Melisa Geraldine (TB2)**: <br>  Internalización de la interfaz de administrador (Dashboard) <br>   Redacción del sprint 3 (informe) | **Argomedo Camacho, Jhosep Jamil** <br> Jhosep coordinó eficazmente las tareas técnicas, gestionando la base de datos y el dashboard. Su liderazgo fue clave para asegurar una integración exitosa entre las distintas partes del proyecto. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Marcelo lideró la implementación de los bounded contexts, optimizando la estructura del proyecto y promoviendo un enfoque claro y organizado dentro del equipo. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Gabriel desempeñó un papel clave en la implementación de bounded contexts, garantizando una distribución lógica de las tareas y una colaboración fluida entre los miembros del equipo. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Ainhoa lideró las mejoras del frontend, asegurando que las nuevas funcionalidades se integraran de forma coherente, y promovió la colaboración en las decisiones de diseño. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Melisa destacó en la planificación y documentación del proyecto, asegurando que el equipo mantuviera una visión clara y coherente, mientras promovía un entorno inclusivo. |
 | **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | - Argomedo Camacho, Jhosep Jamil (TB2) <br> - Binda Arbañil, Marcelo Alejandro (TB2) <br> - Borja Molina, Gabriel Sebastián (TB2) <br> - Castillo Garay, Ainhoa Lucía (TB2) <br> - Sulca Silva, Melisa Geraldine (TB2) | **Argomedo Camacho, Jhosep Jamil** <br> Jhosep facilitó un entorno inclusivo, distribuyendo tareas de manera equitativa y asegurando que todos comprendieran los objetivos del proyecto, lo que permitió un desarrollo fluido. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Marcelo estableció metas claras y distribuyó tareas según las fortalezas del equipo, lo que permitió avanzar eficazmente en el desarrollo del proyecto y alcanzar los objetivos establecidos. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Gabriel apoyó en la planificación de tareas y promovió un entorno colaborativo, asegurando que los objetivos del proyecto se alcanzaran sin dificultades, con un enfoque inclusivo. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Ainhoa contribuyó a la organización del trabajo, manteniendo una comunicación constante dentro del equipo y asegurando que todos los objetivos del proyecto fueran cumplidos eficientemente. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Melisa promovió un entorno inclusivo, integrando perspectivas diversas y manteniendo una planificación clara, lo que permitió que el equipo avanzara hacia los objetivos de manera coordinada. |
+
+**TF**
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|:------------------------|:-------------------------|:-----------------|
+| **Trabaja en equipo para proporcionar liderazgo en forma conjunta** | - **Argomedo Camacho, Jhosep Jamil (TF)**: <br>  Finalización y corrección del informe (Sprint 4) <br>   Finalización de la landing page <br> - **Binda Arbañil, Marcelo Alejandro (TF)**: <br>   Corrección de errores en el backend <br> Implementación del capital en Livria para su correcto funcionamiento <br> - **Borja Molina, Gabriel Sebastián (TF)**: <br>   Implementación del sistema de autenticación mediante token <br> - **Castillo Garay, Ainhoa Lucía (TF)**: <br>   Finalización del frontend <br>  Conexión del frontend con el backend <br> - **Sulca Silva, Melisa Geraldine (TF)**: <br>   - Finalización y corrección del informe (Sprint 4) | **Argomedo Camacho, Jhosep Jamil** <br> Jhosep asumió un rol activo en la finalización del informe y en la elaboración de la landing page, mostrando liderazgo en la organización y coordinación de estas tareas clave. Su compromiso fue fundamental para cerrar el Sprint 4 de forma exitosa y promover una integración eficiente entre los entregables <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Marcelo lideró la corrección de errores en el backend e implementó el capital en Livria, asegurando la funcionalidad completa del sistema. Su intervención técnica fue clave para el rendimiento del backend y su disponibilidad facilitó la resolución de obstáculos del equipo. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Gabriel lideró la implementación del sistema de autenticación mediante token, asegurando la seguridad del acceso a la plataforma. Su enfoque técnico y trabajo colaborativo contribuyó significativamente a un desarrollo fluido y coordinado. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Ainhoa finalizó el desarrollo del frontend y logró una conexión exitosa con el backend. Su liderazgo se reflejó en su capacidad para integrar los componentes visuales y funcionales del proyecto, asegurando coherencia y eficiencia. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Melisa colaboró activamente en la finalización del informe del Sprint 4, aportando organización y claridad. Su participación constante y su liderazgo en la documentación aseguraron una comunicación precisa del avance del equipo. |
+| **Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos** | - Argomedo Camacho, Jhosep Jamil (TF) <br> - Binda Arbañil, Marcelo Alejandro (TF) <br> - Borja Molina, Gabriel Sebastián (TF) <br> - Castillo Garay, Ainhoa Lucía (TF) <br> - Sulca Silva, Melisa Geraldine (TF) | **Argomedo Camacho, Jhosep Jamil** <br> Jhosep promovió un entorno de trabajo inclusivo y colaborativo, impulsando la planificación de tareas y la coordinación entre los miembros del equipo. Su enfoque organizativo permitió avanzar de forma clara hacia los objetivos del Sprint. <br> <br> **Binda Arbañil, Marcelo Alejandro** <br> Marcelo mostró compromiso al coordinar sus tareas de backend con el resto del equipo, facilitando un entorno de trabajo colaborativo y cumpliendo con los objetivos técnicos en los plazos establecidos. <br> <br> **Borja Molina, Gabriel Sebastián** <br> Gabriel mantuvo una comunicación constante con el equipo, colaborando en la planificación de tareas relacionadas con la autenticación. Su trabajo contribuyó a mantener el ritmo del desarrollo y alcanzar los objetivos técnicos planteados. <br> <br> **Castillo Garay, Ainhoa Lucía** <br> Ainhoa fomentó la colaboración activa, manteniendo alineados los procesos del frontend con los requerimientos del backend. Estableció metas claras y contribuyó significativamente al cumplimiento de los objetivos del proyecto. <br> <br> **Sulca Silva, Melisa Geraldine** <br> Melisa contribuyó a crear un entorno inclusivo durante la redacción del informe, integrando aportes de todos los miembros y asegurando que los objetivos del Sprint fueran documentados y reflejados con claridad. |
+
 
 # CAPÍTULO 1: INTRODUCCIÓN
 ## 1.1. Startup Profile
@@ -3061,194 +3069,9 @@ Los aspectos definidos para este Sprint son:
 #### 5.2.1.3. Sprint Backlog 1
 Durante el Sprint 1, el objetivo principal fue construir la versión inicial de la landing page con un enfoque en claridad, accesibilidad y navegación fluida. Se buscó ofrecer una experiencia informativa que permita a los usuarios entender de inmediato el propósito de la plataforma, explorar las secciones clave como “Sobre Nosotros” y “Contáctanos”, y acceder fácilmente a la aplicación y sus redes sociales. Este primer paso fue clave para establecer una imagen sólida de Livria y captar el interés de nuevos usuarios desde el primer contacto.
 
-<table class="c12">
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="1"><p>Sprint #</p></td>
-<td class="c16" colspan="7" rowspan="1"><p>Sprint 1</p></td>
-</tr>
-<tr class="c5">
-<td class="c13" colspan="2" rowspan="1"><p>User Story</p></td>
-<td class="c17" colspan="6" rowspan="1"><p>Work Item/Task</p></td>
-</tr>
-<tr class="c11">
-<td class="c3" colspan="1" rowspan="1"><p>Id</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Title</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>Id</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Title</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Description</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>Estimation (Hours)</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Assigned To</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Status (To-do / InProcess / ToReview / Done)</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US01</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Presentación de servicios de Livria</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Redactar contenido atractivo sobre funcionalidades principales.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear contenido que explique de manera clara y atractiva las funcionalidades clave de Livria, para que los usuarios comprendan rápidamente los servicios ofrecidos.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseñar e implementar sección de servicios en landing.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la sección dentro de la landing page que detalle los servicios de Livria, asegurando que sea visualmente atractiva y fácil de navegar.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US02</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Acceso a la sección “Sobre Nosotros” desde la landing page</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Maquetar y diseñar contenido de “Sobre Nosotros”.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear el contenido y el diseño de la sección “Sobre Nosotros” en la landing page, proporcionando información clara sobre la empresa y su misión.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementar navegación a “Sobre Nosotros” desde menú.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurar que los usuarios puedan acceder a la sección "Sobre Nosotros" desde el menú de navegación de la landing page.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US03</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Cambio de idioma en la Landing Page</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementar botón de cambio de idioma.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Añadir un botón en la landing page que permita a los usuarios cambiar el idioma de la plataforma.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Integrar traducción automática del contenido.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar una funcionalidad que traduzca automáticamente el contenido de la landing page a diferentes idiomas, mejorando la accesibilidad global.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US04</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Visualización de la sección “Home” en la landing page</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Redactar descripción corta de Livria para la sección ‘Home’.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear una descripción breve y concisa de la aplicación Livria para presentar en la sección principal de la landing page.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Maquetar y aplicar diseño a sección principal.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar y aplicar la maquetación de la sección principal de la landing page para garantizar que sea atractiva y clara para los usuarios.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US05</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Acceso a la sección “Contáctanos” desde la landing</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseñar sección “Contáctanos” con campos básicos.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear una sección de contacto con los campos básicos necesarios para que los usuarios puedan comunicarse con el equipo de Livria.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Programar funcionalidad de envío de mensaje.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios enviar mensajes a través de la sección "Contáctanos".</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US06</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Navegación simple entre secciones</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementar encabezado de navegación con links.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear un encabezado de navegación simple que permita a los usuarios acceder fácilmente a las diferentes secciones de la landing page.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Probar navegación responsiva entre secciones.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Verificar que la navegación entre secciones sea fluida y funcional en dispositivos de diferentes tamaños de pantalla.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="2"><p>US07</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Diseño atractivo de la landing page</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseñar layout visual atractivo (colores, tipografía, imágenes).</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear un diseño visual atractivo para la landing page, seleccionando colores, tipografía e imágenes que sean coherentes con la marca y la experiencia del usuario.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Adaptar diseño responsivo a distintos dispositivos.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurar que el diseño de la landing page se adapte correctamente a diferentes dispositivos (móviles, tablets, desktops).</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="1"><p>US08</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Botón de acceso a la aplicación web</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Crear e insertar botón de acceso directo a la aplicación web.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un botón en la landing page que permita a los usuarios acceder directamente a la aplicación web.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="1"><p>US09</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Acceder a las redes sociales de Livria</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Insertar íconos y enlaces a redes sociales.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Insertar los íconos de redes sociales en la landing page y vincularlos a las cuentas oficiales de Livria.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="1"><p>US10</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Redirección a las secciones</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseñar footer con navegación rápida a secciones.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear un footer con enlaces a las secciones clave de la página para facilitar la navegación rápida.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="2"><p>US11</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Formulario de contacto</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Crear formulario básico (nombre, email, mensaje).</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar un formulario sencillo que permita a los usuarios enviar sus datos (nombre, correo electrónico, mensaje) desde la sección "Contáctanos".</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Integrar backend ligero para captura de datos.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar e integrar un backend que capture y almacene los datos enviados a través del formulario de contacto.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
-</tr></table>
+|      Sprint #     |  Sprint #1 |                 |                        |                 |                                                           |
+|-------------------|------------|-----------------|------------------------|-----------------|-----------------------------------------------------------|
+
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 Esta sección presenta los principales avances en la implementación técnica del proyecto realizados durante el sprint, en función de los productos comprometidos: Landing Page, Aplicación Web y Servicios Web. Se detalla el progreso alcanzado a través de los repositorios utilizados por el equipo, identificando los commits relevantes que evidencian el desarrollo de funcionalidades, corrección de errores, mejoras en la interfaz y configuración de servicios. Esta evidencia permite evaluar el cumplimiento de los objetivos del sprint y facilita la retroalimentación en la reunión de revisión.
@@ -3477,419 +3300,73 @@ Los aspectos definidos para este Sprint son:
 #### 5.2.2.3. Sprint Backlog 2
 Durante el Sprint 2, nos enfocamos en la implementación de tareas para mejorar la experiencia del usuario en la app web. Además, se busca mejorar la interfaz de usuario, optimizar el proceso de compra de libros, permitir interacciones dentro de comunidades literarias y facilitar el proceso de pago. Las tareas incluyen la creación de interfaces intuitivas, el proceso de compra de un libro, y la implementación de funcionalidades para recomendaciones personalizadas y la valoración de libros. Al finalizar este sprint, se espera tener una plataforma funcional que permita a los usuarios navegar de manera eficiente, realizar compras y participar en comunidades literarias.
 
-<table class="c12">
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="1"><p>Sprint #</p></td>
-<td class="c16" colspan="7" rowspan="1"><p>Sprint 2</p></td>
-</tr>
-<tr class="c5">
-<td class="c13" colspan="2" rowspan="1"><p>User Story</p></td>
-<td class="c17" colspan="6" rowspan="1"><p>Work Item/Task</p></td>
-</tr>
-<tr class="c11">
-<td class="c3" colspan="1" rowspan="1"><p>Id</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Title</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>Id</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Title</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Description</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>Estimation (Hours)</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Assigned To</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Status (To-do / InProcess / ToReview / Done)</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US17</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Sección de recomendaciones en la plataforma</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Visualización de la pantalla de las recomendaciones personalizadas.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la interfaz de usuario que muestre las recomendaciones personalizadas de libros para cada usuario basadas en su historial y preferencias de lectura.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Acceso al libro recomendado por la aplicación.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios acceder directamente a los libros recomendados por la aplicación al hacer clic en las recomendaciones.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="3"><p>US27</p></td>
-<td class="c8" colspan="1" rowspan="3"><p>Valoración y reseña de libros</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de funcionalidad para reseñas y valoraciones.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar y planificar la funcionalidad para que los usuarios puedan escribir reseñas a los libros en la plataforma.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Escritura de reseñas de libros.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad para permitir a los usuarios escribir y publicar reseñas sobre cualquier libro en la plataforma.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Valoración de libros por los usuarios.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la opción para que los usuarios puedan asignar valoraciones (en estrellas) a los libros en la plataforma, con la posibilidad de actualizar sus valoraciones.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="3"><p>US16</p></td>
-<td class="c8" colspan="1" rowspan="3"><p>Registro e inicio de sesión</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la funcionalidad de inicio de sesión y registro de un usuario.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar las pantallas y procesos para que los usuarios puedan registrarse en la aplicación e iniciar sesión de manera segura.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación de registro de usuario.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para que los usuarios puedan registrarse en la plataforma, almacenando sus datos en la base de datos simulada.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementar de inicio de sesión de un usuario.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad de inicio de sesión utilizando autenticación segura, permitiendo a los usuarios acceder a su cuenta.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="1"><p>US19</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Cierre de sesión</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación de la funcionalidad de cierre de sesión.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para permitir a los usuarios cerrar sesión de forma segura.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="4"><p>US28</p></td>
-<td class="c8" colspan="1" rowspan="4"><p>Actualización y gestión de suscripción</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de suscripción al Plan Community.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar la interfaz de usuario para que los usuarios puedan visualizar y suscribirse al Plan Community.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Actualización de plan al Plan Community.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios actualizar su suscripción al Plan Community.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Confirmación del pago del Plan Community.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear un sistema de confirmación visual que su pago para el Plan Community ha sido procesado con éxito.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Reversión al plan gratuito.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita a los usuarios revertir su suscripción al plan gratuito si deciden cancelar el Plan Community.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="1"><p>US30</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Seguridad del usuario</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Informar al usuario sobre la seguridad de la transacción.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para mostrar mensajes que aseguren al usuario que sus transacciones son seguras y privadas dentro de la aplicación.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US14</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Notificaciones instantáneas</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño del apartado de notificaciones.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar la sección de notificaciones para que los usuarios puedan ver mensajes relacionados con su actividad en la plataforma.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Confirmación del envío de notificaciones.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad que permita confirmar a los usuarios que han recibido y leído una notificación.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US20</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Creación de publicaciones en comunidades</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño del apartado de publicaciones en comunidades.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar la sección de publicaciones dentro de las comunidades literarias, donde los usuarios puedan compartir sus pensamientos o libros recomendados.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación de la creación de publicaciones.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad que permita a los usuarios crear y publicar mensajes en las comunidades literarias.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="3"><p>US21</p></td>
-<td class="c8" colspan="1" rowspan="3"><p>Gestión de comunidades</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño del apartado de comunidades.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar la interfaz para gestionar y explorar las comunidades dentro de la plataforma.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Creación de comunidades.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad para que los usuarios puedan crear nuevas comunidades literarias.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Unirse a una comunidad existente.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para que los usuarios puedan unirse a comunidades literarias ya existentes.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="3"><p>US22</p></td>
-<td class="c8" colspan="1" rowspan="3"><p>Comentarios en publicaciones</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de comentarios en las publicaciones.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar la funcionalidad que permita a los usuarios dejar comentarios en publicaciones dentro de las comunidades.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Creación de un nuevo comentario.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la capacidad de los usuarios para escribir y publicar comentarios en las publicaciones de las comunidades.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Eliminación de un comentario existente.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad para que los usuarios puedan eliminar sus propios comentarios.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="6"><p>US23</p></td>
-<td class="c8" colspan="1" rowspan="6"><p>Compra de libros digitales y físicos</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de carrito de compra.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear la interfaz para el carrito de compras donde los usuarios puedan revisar los libros que han seleccionado para comprar.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementación la funcionalidad de carrito de compra.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la funcionalidad que permite agregar, eliminar y modificar productos dentro del carrito de compra.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de orden de compra de un libro digital.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear la sección de la orden de compra para los libros digitales, permitiendo que los usuarios visualicen y finalicen su compra.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de orden de compra de un libro físico.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear la sección de la orden de compra para los libros físicos, permitiendo a los usuarios revisar su compra y completar el pedido.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>5</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño del pedido de compra.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar el diseño y la funcionalidad que permita a los usuarios confirmar los detalles de su pedido de compra.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>6</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Implementar la funcionalidad del pedido de compra.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad para procesar y registrar el pedido de compra en la base de datos simulada.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="3"><p>US24</p></td>
-<td class="c8" colspan="1" rowspan="3"><p>Barra de búsqueda</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de búsqueda.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear el diseño de la barra de búsqueda que permita a los usuarios buscar libros por título, autor u otros criterios.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Búsqueda de libros específicos y autores.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad de búsqueda de libros específicos y autores en la plataforma.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Búsqueda sin coincidencias exactas.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la capacidad de la búsqueda para manejar resultados sin coincidencias exactas, sugiriendo posibles alternativas.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US25</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Gestión del envío de libros físicos</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de gestión de envío de libros físicos.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Diseñar la creación de la sección de gestión para el envío de libros físicos, donde los usuarios puedan realizar el seguimiento de su pedido.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la confirmación de entrega del libro en el perfil.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar el diseño de una funcionalidad para confirmar la entrega del libro físico en el perfil del usuario.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US26</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Proceso de pago</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de pago exitoso.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear la interfaz de confirmación de pago exitoso, notificando al usuario que su pago ha sido procesado correctamente.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de pago erróneo.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la pantalla que informe al usuario en caso de que su pago haya fallado o no se haya procesado correctamente.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>To-do</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US33</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Navegación principal por categorías editoriales</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño de la pantalla de filtrado de libro con respecto al género seleccionado.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear el diseño de la interfaz de filtrado de libros según el género, permitiendo a los usuarios explorar libros por categorías temáticas.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Filtrado de libro con respecto a la género seleccionado.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la funcionalidad de filtrado de libros según el género que el usuario seleccione.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>4</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="3"><p>US34</p></td>
-<td class="c8" colspan="1" rowspan="3"><p>Filtro lateral por atributos del libro</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Filtrado de  libros según los criterios del usuario.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la capacidad de filtrar libros según varios criterios, como autor, año, y popularidad.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Filtrar libros con respecto al idioma seleccionado.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar la opción de filtrar libros según el idioma de preferencia del usuario.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Borrado de filtros aplicados.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Implementar la opción para que los usuarios puedan borrar o restablecer los filtros aplicados en la búsqueda de libros.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<td class="c3" colspan="1" rowspan="1"><p>US29</p></td>
-<td class="c8" colspan="1" rowspan="1"><p>Disponibilidad 24/7</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Acceso sin interrupciones a la aplicación.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Asegurar que los usuarios puedan acceder a la plataforma sin interrupciones o tiempos de inactividad.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c3" colspan="1" rowspan="2"><p>US31</p></td>
-<td class="c8" colspan="1" rowspan="2"><p>Interfaz amigable</p></td>
-<td class="c10" colspan="1" rowspan="1"><p>1</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Diseño general de la aplicación.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Crear el diseño general de la aplicación, asegurando una experiencia de usuario fluida y atractiva.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr>
-<tr class="c5">
-<td class="c10" colspan="1" rowspan="1"><p>2</p></td>
-<td class="c9" colspan="1" rowspan="1"><p>Navegación clara y sencilla.</p></td>
-<td class="c7" colspan="1" rowspan="1"><p>Desarrollar una estructura de navegación simple y clara para que los usuarios puedan moverse fácilmente entre las secciones de la plataforma.</p></td>
-<td class="c6" colspan="1" rowspan="1"><p>3</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Developer Team</p></td>
-<td class="c4" colspan="1" rowspan="1"><p>Done</p></td>
-</tr></table>
-
+| Sprint # | Sprint #2 | | | | |
+|---|---|---|---|---|---|
+| | **Work-Item / Task** | | | | |
+| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review / Sprint# / Done)** |
+| **US17** | | *Sección de recomendaciones en la plataforma** | | | | |
+| | 1 | Visualización de la pantalla de las recomendaciones personalizadas. | Desarrollar la interfaz de usuario que muestre las recomendaciones personalizadas de libros para cada usuario basadas en su historial y preferencias de lectura. | 3 | Developer Team | Done |
+| | 2 | Acceso al libro recomendado por la aplicación. | Implementar la funcionalidad que permita a los usuarios acceder directamente a los libros recomendados por la aplicación al hacer clic en las recomendaciones. | 3 | Developer Team | Done |
+| **US27** | | **Valoración y reseña de libros** | | | | |
+| | 1 | Diseño de funcionalidad para reseñas y valoraciones. | Diseñar y planificar la funcionalidad para que los usuarios puedan escribir reseñas a los libros en la plataforma. | 3 | Developer Team | Done |
+| | 2 | Escritura de reseñas de libros. | Implementar la funcionalidad para permitir a los usuarios escribir y publicar reseñas sobre cualquier libro en la plataforma. | 2 | Developer Team | Done |
+| | 3 | Valoración de libros por los usuarios. | Implementar la opción para que los usuarios puedan asignar valoraciones (en estrellas) a los libros en la plataforma, con la posibilidad de actualizar sus valoraciones. | 2 | Developer Team | To-do |
+| **US16** | | **Registro e inicio de sesión** | | | | |
+| | 1 | Diseño de la funcionalidad de inicio de sesión y registro de un usuario. | Diseñar las pantallas y procesos para que los usuarios puedan registrarse en la aplicación e iniciar sesión de manera segura. | 4 | Developer Team | Done |
+| | 2 | Implementación de registro de usuario. | Desarrollar la funcionalidad para que los usuarios puedan registrarse en la plataforma, almacenando sus datos en la base de datos simulada. | 3 | Developer Team | Done |
+| | 3 | Implementar de inicio de sesión de un usuario. | Implementar la funcionalidad de inicio de sesión utilizando autenticación segura, permitiendo a los usuarios acceder a su cuenta. | 3 | Developer Team | Done |
+| **US19** | | **Cierre de sesión** | | | | |
+| | 1 | Implementación de la funcionalidad de cierre de sesión. | Desarrollar la funcionalidad para permitir a los usuarios cerrar sesión de forma segura. | 2 | Developer Team | Done |
+| **US28** | | **Actualización y gestión de suscripción** | | | | |
+| | 1 | Diseño de la pantalla de suscripción al Plan Community. | Diseñar la interfaz de usuario para que los usuarios puedan visualizar y suscribirse al Plan Community. | 3 | Developer Team | Done |
+| | 2 | Actualización de plan al Plan Community. | Implementar la funcionalidad que permita a los usuarios actualizar su suscripción al Plan Community. | 3 | Developer Team | Done |
+| | 3 | Confirmación del pago del Plan Community. | Crear un sistema de confirmación visual que su pago para el Plan Community ha sido procesado con éxito. | 1 | Developer Team | Done |
+| | 4 | Reversión al plan gratuito. | Implementar la funcionalidad que permita a los usuarios revertir su suscripción al plan gratuito si deciden cancelar el Plan Community. | 3 | Developer Team | Done |
+| **US30** | | **Seguridad del usuario** | | | | |
+| | 1 | Informar al usuario sobre la seguridad de la transacción. | Desarrollar la funcionalidad para mostrar mensajes que aseguren al usuario que sus transacciones son seguras y privadas dentro de la aplicación. | 2 | Developer Team | Done |
+| **US14** | | **Notificaciones instantáneas** | | | | |
+| | 1 | Diseño del apartado de notificaciones. | Diseñar la sección de notificaciones para que los usuarios puedan ver mensajes relacionados con su actividad en la plataforma. | 3 | Developer Team | Done |
+| | 2 | Confirmación del envío de notificaciones. | Implementar la funcionalidad que permita confirmar a los usuarios que han recibido y leído una notificación. | 3 | Developer Team | Done |
+| **US20** | | **Creación de publicaciones en comunidades** | | | | |
+| | 1 | Diseño del apartado de publicaciones en comunidades. | Diseñar la sección de publicaciones dentro de las comunidades literarias, donde los usuarios puedan compartir sus pensamientos o libros recomendados. | 3 | Developer Team | Done |
+| | 2 | Implementación de la creación de publicaciones. | Desarrollar la funcionalidad que permita a los usuarios crear y publicar mensajes en las comunidades literarias. | 4 | Developer Team | Done |
+| **US21** | | **Gestión de comunidades** | | | | |
+| | 1 | Diseño del apartado de comunidades. | Diseñar la interfaz para gestionar y explorar las comunidades dentro de la plataforma. | 4 | Developer Team | Done |
+| | 2 | Creación de comunidades. | Implementar la funcionalidad para que los usuarios puedan crear nuevas comunidades literarias. | 3 | Developer Team | Done |
+| | 3 | Unirse a una comunidad existente. | Desarrollar la funcionalidad para que los usuarios puedan unirse a comunidades literarias ya existentes. | 4 | Developer Team | To-do |
+| **US22** | | **Comentarios en publicaciones** | | | | |
+| | 1 | Diseño de comentarios en las publicaciones. | Diseñar la funcionalidad que permita a los usuarios dejar comentarios en publicaciones dentro de las comunidades. | 2 | Developer Team | Done |
+| | 2 | Creación de un nuevo comentario. | Implementar la capacidad de los usuarios para escribir y publicar comentarios en las publicaciones de las comunidades. | 3 | Developer Team | Done |
+| | 3 | Eliminación de un comentario existente. | Desarrollar la funcionalidad para que los usuarios puedan eliminar sus propios comentarios. | 3 | Developer Team | Done |
+| **US23** | | **Compra de libros digitales y físicos** | | | | |
+| | 1 | Diseño de carrito de compra. | Crear la interfaz para el carrito de compras donde los usuarios puedan revisar los libros que han seleccionado para comprar. | 3 | Developer Team | Done |
+| | 2 | Implementación la funcionalidad de carrito de compra. | Desarrollar la funcionalidad que permite agregar, eliminar y modificar productos dentro del carrito de compra. | 4 | Developer Team | Done |
+| | 3 | Diseño de orden de compra de un libro digital. | Crear la sección de la orden de compra para los libros digitales, permitiendo que los usuarios visualicen y finalicen su compra. | 2 | Developer Team | Done |
+| | 4 | Diseño de orden de compra de un libro físico. | Crear la sección de la orden de compra para los libros físicos, permitiendo a los usuarios revisar su compra y completar el pedido. | 2 | Developer Team | Done |
+| | 5 | Diseño del pedido de compra. | Desarrollar el diseño y la funcionalidad que permita a los usuarios confirmar los detalles de su pedido de compra. | 3 | Developer Team | Done |
+| | 6 | Implementar la funcionalidad del pedido de compra. | Implementar la funcionalidad para procesar y registrar el pedido de compra en la base de datos simulada. | 3 | Developer Team | Done |
+| **US24** | | **Barra de búsqueda** | | | | |
+| | 1 | Diseño de la pantalla de búsqueda. | Crear el diseño de la barra de búsqueda que permita a los usuarios buscar libros por título, autor u otros criterios. | 3 | Developer Team | Done |
+| | 2 | Búsqueda de libros específicos y autores. | Implementar la funcionalidad de búsqueda de libros específicos y autores en la plataforma. | 4 | Developer Team | To-do |
+| | 3 | Búsqueda sin coincidencias exactas. | Desarrollar la capacidad de la búsqueda para manejar resultados sin coincidencias exactas, sugiriendo posibles alternativas. | 2 | Developer Team | Done |
+| **US25** | | **Gestión del envío de libros físicos** | | | | |
+| | 1 | Diseño de la pantalla de gestión de envío de libros físicos. | Diseñar la creación de la sección de gestión para el envío de libros físicos, donde los usuarios puedan realizar el seguimiento de su pedido. | 2 | Developer Team | Done |
+| | 2 | Diseño de la confirmación de entrega del libro en el perfil. | Implementar el diseño de una funcionalidad para confirmar la entrega del libro físico en el perfil del usuario. | 1 | Developer Team | Done |
+| **US26** | | **Proceso de pago** | | | | |
+| | 1 | Diseño de la pantalla de pago exitoso. | Crear la interfaz de confirmación de pago exitoso, notificando al usuario que su pago ha sido procesado correctamente. | 2 | Developer Team | Done |
+| | 2 | Diseño de la pantalla de pago erróneo. | Desarrollar la pantalla que informe al usuario en caso de que su pago haya fallado o no se haya procesado correctamente. | 3 | Developer Team | To-do |
+| **US33** | | **Navegación principal por categorías editoriales** | | | | |
+| | 1 | Diseño de la pantalla de filtrado de libro con respecto al género seleccionado. | Crear el diseño de la interfaz de filtrado de libros según el género, permitiendo a los usuarios explorar libros por categorías temáticas. | 3 | Developer Team | Done |
+| | 2 | Filtrado de libro con respecto a la género seleccionado. | Implementar la funcionalidad de filtrado de libros según el género que el usuario seleccione. | 4 | Developer Team | Done |
+| **US34** | | **Filtro lateral por atributos del libro** | | | | |
+| | 1 | Filtrado de  libros según los criterios del usuario. | Implementar la capacidad de filtrar libros según varios criterios, como autor, año, y popularidad. | 3 | Developer Team | Done |
+| | 2 | Filtrar libros con respecto al idioma seleccionado. | Desarrollar la opción de filtrar libros según el idioma de preferencia del usuario. | 2 | Developer Team | Done |
+| | 3 | Borrado de filtros aplicados. | Implementar la opción para que los usuarios puedan borrar o restablecer los filtros aplicados en la búsqueda de libros. | 2 | Developer Team | Done |
+| **US29** | | **Disponibilidad 24/7** | | | | |
+| | 1 | Acceso sin interrupciones a la aplicación. | Asegurar que los usuarios puedan acceder a la plataforma sin interrupciones o tiempos de inactividad. | 1 | Developer Team | Done |
+| **US31** | | **Interfaz amigable** | | | | |
+| | 1 | Diseño general de la aplicación. | Crear el diseño general de la aplicación, asegurando una experiencia de usuario fluida y atractiva. | 3 | Developer Team | Done |
+| | 2 | Navegación clara y sencilla. | Desarrollar una estructura de navegación simple y clara para que los usuarios puedan moverse fácilmente entre las secciones de la plataforma. | 3 | Developer Team | Done |
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 En este capítulo se presenta el progreso alcanzado durante el Sprint 2 en el desarrollo de la aplicación web. A través de la colaboración del equipo y el enfoque ágil, hemos avanzado en la implementación de funcionalidades clave y mejoras de la interfaz de usuario. Este sprint ha permitido consolidar una base sólida para el desarrollo posterior y asegurar que se cumplen los objetivos establecidos.
@@ -4101,7 +3578,6 @@ En las siguientes imágenes representa el resultado de acceder al endpoint http:
 
 La documentación de los servicios implementados en la aplicación web Livria, durante el sprint 2, se enfocó principalmente en la API simulada utilizando el json-server y el archivo db.json. Esto representa una base inicial para, posteriormente, integrar servicios RESTful reales conectados a una base de datos en el siguiente sprint #3.  
 
-
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
 Para el despliegue de nuestra aplicación utilizamos Firebase como plataforma principal. Paralelamente, migramos nuestra API falsa (fake API) a Render, una herramienta que facilita la publicación de servicios backend simulados como json-server.
 
@@ -4204,7 +3680,6 @@ Se desplegó la aplicación en Firebase Hosting.
 *firebase deploy*
 
 
-
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 Durante este Sprint, el equipo se centró en la implementación de las funcionalidades clave del frontend para la aplicación web de Livria, utilizando Vue.js como el marco principal de desarrollo. Se trabajó en la creación de interfaces de usuario intuitivas y en la integración de diversas funcionalidades, como la visualización del catálogo de libros, el proceso de compra y la interacción con comunidades literarias. Además, se desarrollaron pantallas esenciales para la experiencia de usuario, tales como la sección de recomendaciones personalizadas, el inicio de sesión y las notificaciones.
 
@@ -4222,51 +3697,51 @@ A continuación, se muestra un resumen visual de la participación activa de los
 **Historial de commits:**
 
 <p align="center">
-  <img src="https://i.imgur.com/MN0MIBb.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/MN0MIBb.png" alt="SDFS212" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/kbA7LKn.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/kbA7LKn.png" alt="SDFS213" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/XOE0oXr.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/XOE0oXr.png" alt="SDFS214" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/kl1bgYt.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/kl1bgYt.png" alt="SDFS215" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/sv9iqcr.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/sv9iqcr.png" alt="SDFS216" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/8XnkJyB.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/8XnkJyB.png" alt="SDFS217" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/Pkd7jFs.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/Pkd7jFs.png" alt="SDFS218" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/LyGO2Ie.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/LyGO2Ie.png" alt="SDFS219" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/4VOSaB5.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/4VOSaB5.png" alt="SDFS220" width="500">
 </p>
 
 **Colaboradores activos en el repositorio:**
 
 <p align="center">
-  <img src="https://i.imgur.com/wCVJ2NM.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/wCVJ2NM.png" alt="SDFS221" width="500">
 </p>
 
 **Histograma de contribuciones en el tiempo:**
 
 <p align="center">
-  <img src="https://i.imgur.com/uGOLmUD.png" alt="SDFS211" width="500">
+  <img src="https://i.imgur.com/uGOLmUD.png" alt="SDFS222" width="500">
 </p>
 
 ### 5.2.3. Sprint 3
@@ -4315,125 +3790,6 @@ Los aspectos definidos para este Sprint son:
 #### 5.2.3.3. Sprint Backlog 3
 
 Durante el Sprint 3, el objetivo principal fue desarrollar la versión inicial del **backend** de la aplicación Livria, con un enfoque en eficiencia, seguridad y escalabilidad. El equipo trabajó en crear una infraestructura robusta que permitiera a los usuarios interactuar sin problemas con la plataforma, gestionando de manera eficaz aspectos clave como el registro e inicio de sesión de los usuarios, el manejo de productos de libros, la gestión de carritos de compra, y la interacción con las comunidades. Este primer paso fue fundamental para garantizar un rendimiento óptimo del backend y preparar el sistema para futuras expansiones y nuevas funcionalidades, asegurando una experiencia robusta desde el primer contacto con la aplicación.
-
-| Sprint # | Sprint #3 | | | | |
-|---|---|---|---|---|---|
-| | **Work-Item / Task** | | | | |
-| **User Story ID** | **Id** | **Title** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / InProcess / To-Review / Sprint# / Done)** |
-| **US35** | | **Obtener todos los libros** | | | | |
-| | 1 | Consultar todos los libros disponibles | Realizar una consulta a la base de datos para recuperar todos los registros de libros de la tabla `books`. | 5 | Developer Team | Done |
-| | 2 | Implementar filtro por campo de categoría | Crear consultas dinámicas que filtren los libros por campos específicos como `category`, `author` o `availability`. | 6 | Developer Team | Done |
-| **US36** | | **Obtener detalles de un libro** | | | | |
-| | 1 | Consultar detalles del libro | Crear una consulta SQL que recupere todos los campos de la tabla `books` para un libro específico identificado por su `id` del libro. | 4 | Developer Team | Done |
-| | 2 | Consultar disponibilidad del libro | Crear una consulta para verificar el campo `availability` en la tabla `books` y retornar el estado actual. | 4 | Developer Team | Done |
-| **US37** | | **Crear una reseña de un libro** | | | | |
-| | 1 | Gestionar creación de reseñas | Implementar una funcionalidad que guarde reseñas de los usuarios en la tabla `reviews` asociando el `id` del libro y del usuario. | 6 | Developer Team | Done |
-| | 2 | Validación de reseña antes de guardar | Validar con una consulta que los campos no estén vacíos y cumplan los requisitos establecidos. | 5 | Developer Team | In-Process |
-| **US38** | | **Obtener todas las reseñas de un libro** | | | | |
-| | 1 | Consultar todas las reseñas del libro | Crear una consulta SQL que recupere todas las reseñas de un libro específico desde la tabla `reviews`. | 5 | Developer Team | Done |
-| **US39** | | **Agregar un libro al carrito** | | | | |
-| | 1 | Agregar libro al carrito | Crear una nueva entrada en la tabla `cart_items` para asociar un `id` del libro y del usuario. | 5 | Developer Team | Done |
-| | 2 | Confirmación de adición al carrito | Verificar que el libro haya sido agregado al carrito y actualizar el campo de cantidad en la tabla de `cart_items`. | 6 | Developer Team | Done |
-| **US40** | | **Gestión de un pedido** | | | | |
-| | 1 | Crear pedido | Crear una nueva entrada en la tabla `orders` con los detalles del carrito del usuario. | 6 | Developer Team | Done |
-| **US41** | | **Ver detalles de un pedido** | | | | |
-| | 1 | Consultar detalles de un pedido | Crear una consulta SQL que recupere los detalles del pedido desde la tabla `order_items` y `orders`. | 5 | Developer Team | Done |
-| | 2 | Consultar estado de la entrega | Crear una consulta que verifique el estado del pedido en el campo de estado de la tabla `orders`. | 4 | Developer Team | Done |
-| **US42** | | **Obtener todas las comunidades** | | | | |
-| | 1 | Consultar todas las comunidades | Consultar la tabla `communities` y retornar todos los registros disponibles. | 5 | Developer Team | Done |
-| | 2 | Buscar una comunidad específica | Implementar una búsqueda con un `Where` para encontrar comunidades específicas por nombre en la tabla `communities`. | 4 | Developer Team | Done |
-| **US43** | | **Gestión de creación de una comunidad** | | | | |
-| | 1 | Validación de creación de comunidad | Validar que los campos obligatorios (nombre, descripción) no estén vacíos antes de guardar la comunidad en la tabla `communities`. | 6 | Developer Team | Done |
-| | 2 | Confirmación de creación de comunidad | Verificar que los datos se hayan guardado correctamente en la base de datos, asignando un `id` a la comunidad único. | 6 | Developer Team | Done |
-| **US44** | | **Publicación en una comunidad** | | | | |
-| | 1 | Crear publicación en una comunidad | Guardar la publicación del usuario en la tabla `posts` y asociarla con un `id` community. | 6 | Developer Team | Done |
-| | 2 | Validación del contenido de publicación | Verificar que la publicación cumpla con las reglas y que no haya contenido vacío; si no cumple, eliminarla automáticamente. | 5 | Developer Team | To-do |
-| **US45** | | **Obtener todos los usuarios** | | | | |
-| | 1 | Consultar todos los usuarios | Obtener lista completa de usuarios registrados. | 5 | Developer Team | Done |
-| | 2 | Buscar un usuario específico | Crear una consulta SQL que recupere todos los usuarios registrados desde las tablas `users`, `userclients` y `useradmins`. | 5 | Developer Team | Done |
-| **US46** | | **Gestión de creación de un nuevo usuario** | | | | |
-| | 1 | Crear nuevo usuario | Crear una nueva entrada en la tabla `userclients` cuando un nuevo usuario se registre. | 4 | Developer Team | Done |
-| | 2 | Validación automática de datos | Validar que los campos del formulario de registro (nombre, email, contraseña) estén completos y sean válidos. | 6 | Developer Team | In-Process |
-| **US47** | | **Eliminar un usuario** | | | | |
-| | 1 | Eliminar un usuario | Crear una consulta SQL que elimine un usuario de la tabla `usersclients` con base en su `id` del `userclient`. | 5 | Developer Team | Done |
-| | 2 | Confirmación de eliminación | Verificar que el usuario ha sido correctamente eliminado de la base de datos. | 5 | Developer Team | Done |
-| **US48** | | **Gestión de creación de una notificación** | | | | |
-| | 1 | Crear notificación de carrito agregado | Crear una notificación en la tabla `notifications` cuando un usuario agrega un libro al carrito. | 6 | Developer Team | Done |
-| | 2 | Crear notificación de unión a comunidad | Crear una notificación en la tabla `notifications` cuando un usuario se une a una comunidad. | 4 | Developer Team | Done |
-| **US49** | | **Gestión de asignación de favorito** | | | | |
-| | 1 | Asignar favorito (administrador) | Agregar un favorito a un usuario desde la vista de administrador. | 6 | Developer Team | Done |
-| | 2 | Eliminar favorito (administrador) | Eliminar un favorito de un usuario desde la vista de administrador. | 3 | Developer Team | Done |
-| | 3 | Asignar favorito (cliente) | Agregar un favorito a un usuario desde la aplicación web. | 4 | Developer Team | Done |
-| | 4 | Eliminar favorito (cliente) | Eliminar un favorito de un usuario desde la plataforma web. | 3 | Developer Team | Done |
-| **US50** | | **Creación de recomendaciones en base a favoritos** | | | | |
-| | 1 | Generación automática de recomendación | Generar recomendaciones en base a libros marcados como favoritos por un usuario. | 3 | Developer Team | Done |
-| **US51** | | **Acceso rápido desde el Dashboard** | | | | |
-| | 1 | Acceso rápido a secciones | Implementar navegación rápida desde el dashboard a las principales secciones. | 5 | Developer Team | Done |
-| **US52** | | **Estadísticas en Books** | | | | |
-| | 1 | Total libros y géneros | Mostrar conteo total de libros y géneros. | 3 | Developer Team | Done |
-| | 2 | Precio promedio | Mostrar precio promedio de libros. | 2 | Developer Team | In-Process |
-| | 3 | Libros en stock | Mostrar cantidad total de libros en stock. | 2 | Developer Team | Done |
-| | 4 | Libro más visto y vendido | Mostrar estadísticas de libro más visto y más vendido. | 3 | Developer Team | In-Process |
-| **US53** | | **Búsqueda en Book Collection** | | | | |
-| | 1 | Búsqueda por título o autor | Implementar campo de búsqueda por título o autor. | 3 | Developer Team | Done |
-| | 2 | Filtros por género e idioma | Agregar filtros de género e idioma. | 3 | Developer Team | Done |
-| | 3 | Ordenamiento | Ordenar libros por criterio. | 3 | Developer Team | Done |
-| **US54** | | **Visualización de detalles del libro** | | | | |
-| | 1 | Precio e info básica | Mostrar precio, descripción, autor, etc. | 3 | Developer Team | Done |
-| | 2 | Ver más detalles | Mostrar ventana modal con detalles completos del libro. | 3 | Developer Team | Done |
-| **US55** | | **Estadísticas de órdenes** | | | | |
-| | 1 | Total órdenes y ganancias | Mostrar número total de órdenes y ganancias. | 3 | Developer Team | Done |
-| | 2 | Órdenes pendientes y completas | Mostrar estadísticas de estado de órdenes. | 2 | Developer Team | Done |
-| | 3 | Promedio valor de órdenes | Mostrar el valor promedio de las órdenes. | 2 | Developer Team | In-Process |
-| | 4 | Libro más popular pedido | Mostrar el libro más ordenado. | 2 | Developer Team | In-Process |
-| **US56** | | **Búsqueda y filtro en Order List** | | | | |
-| | 1 | Búsqueda por ID o nombre | Implementar campo de búsqueda. | 3 | Developer Team | Done |
-| | 2 | Filtro por estado | Filtrar por estado del pedido. | 2 | Developer Team | Done |
-| | 3 | Filtro por fecha | Implementar filtro por rango de fechas. | 2 | Developer Team | Done |
-| | 4 | Ordenamiento | Ordenar órdenes por criterio. | 2 | Developer Team | Done |
-| **US57** | | **Tabla de órdenes** | | | | |
-| | 1 | Tabla con detalles de órdenes | Mostrar tabla con columnas: código, cliente, ítems, total, etc. | 3 | Developer Team | Done |
-| **US58** | | **Filtros en Inventario** | | | | |
-| | 1 | Barra de búsqueda | Búsqueda por término. | 2 | Developer Team | Done |
-| | 2 | Filtro por género/lenguaje | Filtros de género y lenguaje. | 2 | Developer Team | Done |
-| | 3 | Ordenamiento | Ordenar libros por stock, precio, etc. | 2 | Developer Team | Done |
-| **US59** | | **Tabla de libros en inventario** | | | | |
-| | 1 | Tabla de libros | Mostrar tabla con campos clave (portada, autor, etc.). | 3 | Developer Team | Done |
-| | 2 | Aumentar stock de libro | Botón para aumentar stock del libro en el inventario. | 2 | Developer Team | Done |
-| **US60** | | **Configuración de perfil** | | | | |
-| | 1 | Ver info perfil | Mostrar información actual del usuario. | 2 | Developer Team | Done |
-| | 2 | Editar info | Editar y guardar nombre, usuario, correo. | 2 | Developer Team | Done |
-| | 3 | Cambiar contraseña | Permitir actualización de contraseña. | 2 | Developer Team | Done |
-| **US61** | | **Configuración aplicación** | | | | |
-| | 1 | Notificaciones app | Activar/desactivar notificaciones in-app. | 2 | Developer Team | Done |
-| | 2 | Alertas email | Activar/desactivar alertas por correo. | 2 | Developer Team | Done |
-| | 3 | Auto guardado | Activar/desactivar auto save. | 2 | Developer Team | Done |
-| | 4 | Items por página | Configurar cantidad de elementos por página. | 2 | Developer Team | Done |
-| | 5 | Guardar cambios | Botón para guardar configuración. | 1 | Developer Team | Done |
-| **US62** | | **Barra lateral navegación** | | | | |
-| | 1 | Mostrar título plataforma | Mostrar "LIVRIA". | 1 | Developer Team | Done |
-| | 2 | Foto y nombre del admin | Mostrar imagen + “Super Administrador”. | 1 | Developer Team | Done |
-| | 3 | Secciones principales | Mostrar links: Home, Books, etc. | 2 | Developer Team | Done |
-| | 4 | Cambiar idioma | Botón para cambiar entre EN/ES. | 2 | Developer Team | Done |
-| | 5 | Settings y logout | Enlace a settings + botón cerrar sesión. | 1 | Developer Team | Done |
-| **TS01** | | **Configuración inicial de la base de datos MySQL** | | | | |
-| | 1 | Configuración de conexión con base de datos MySQL | Configurar la conexión entre el backend (.NET) y la base de datos MySQL, protegiendo las credenciales con variables de entorno. | 6 | Developer Team | Done |
-| | 2 | Implementación de conexión segura con SSL | Asegurarse de que la conexión entre el backend y la base de datos MySQL utilice SSL para encriptar los datos. | 5 | Developer Team | Done |
-| **TS02** | | **Implementación de autenticación JWT** | | | | |
-| | 1 | Protección de endpoints con autenticación JWT | Crear la lógica para validar el token JWT en los endpoints protegidos, como /api/v1/orders. | 6 | Developer Team | Done |
-| | 2 | Validación de acceso sin token | Asegurarse de que la API devuelva un estado 401 cuando se intente acceder a un endpoint protegido sin un token válido. | 4 | Developer Team | Done |
-| **TS03** | | **Documentación de APIs con Swagger/OpenAPI** | | | | |
-| | 1 | Configuración de Swagger para documentación de API | Configurar Swagger/OpenAPI para que genere una documentación interactiva de los endpoints, mostrando ejemplos y esquemas de datos. | 5 | Developer Team | Done |
-| | 2 | Definición de esquemas en Swagger | Incluir los esquemas para las entidades Books, Orders, y Users en la documentación generada por Swagger. | 4 | Developer Team | Done |
-| **TS04** | | **Optimización de consultas SQL para carritos** | | | | |
-| | 1 | Optimización de consulta SQL para carrito de 100+ ítems | Optimizar la consulta de los carritos con más de 100 ítems para reducir el tiempo de respuesta en un 30%. | 6 | Developer Team | Done |
-| | 2 | Implementación de índices en bookId y userClientId | Crear índices en las columnas bookId y userClientId para mejorar el rendimiento de las consultas del carrito. | 4 | Developer Team | Done |
-| **TS05** | | **Implementación de logs de errores** | | | | |
-| | 1 | Configuración de logging para errores de SQL | Configurar un sistema de logging centralizado para registrar errores de SQL en el archivo logs/api_errors.log. | 5 | Developer Team | Done |
-| | 2 | Manejo de errores con respuesta genérica | Asegurarse de que la API devuelva un estado 500 y un mensaje genérico cuando ocurra un error de SQL y se registre en los logs. | 4 | Developer Team | Done |
-| **TS06** | | **Configuración de CORS para el frontend** | | | | |
-| | 1 | Implementación de CORS para frontend autorizado | Configurar CORS para que solo el dominio https://livriabybookify.netlify.app/ pueda hacer solicitudes al backend. | 5 | Developer Team | Done |
-| | 2 | Manejo de peticiones de dominio no autorizado | Asegurarse de que las solicitudes de dominios no autorizados, como malicious.com , reciban una respuesta 403. | 4 | Developer Team | Done |
 
 
 #### 5.2.3.4. Development Evidence for Sprint Review
@@ -4543,15 +3899,15 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/mNNqjlv.png" alt="bruh7" width="500">
+  <img src="https://i.imgur.com/mNNqjlv.png" alt="bruh8" width="500">
 </p>
 
 <p align="center">
-  <img src="https://imgur.com/qDWmLYf.png" alt="bruh8" width="500">
+  <img src="https://imgur.com/qDWmLYf.png" alt="bruh9" width="500">
 </p>
 
 <p align="center">
-  <img src="https://imgur.com/CGdtVLQ.png" alt="bruh9" width="500">
+  <img src="https://imgur.com/CGdtVLQ.png" alt="bruh10" width="500">
 </p>
 
 **Video Sprint Review 3**
@@ -5132,7 +4488,6 @@ Durante este Sprint 3, el equipo se centró en la implementación de las funcion
   <img src="https://imgur.com/bWuN3Qd.png" alt="confi26" width="500">
   </p>
 
-
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning
 
@@ -5154,7 +4509,6 @@ A continuación, se mostrará la tabla del Sprint Planning 4:
 | **Sprint Goal** | **Our focus is** on implementing Identity and Access Management (IAM) with JSON Web Tokens (JWT) for secure authentication and authorization in the Livria web app. We will also focus on integrating the frontend with the backend to ensure seamless communication and secure user interactions across the platform. <br><br> **We believe it delivers** a robust security framework for user authentication, ensuring that only authorized users can access protected resources. Additionally, the integration of JWT with the frontend and backend will enable secure communication and efficient access management. <br><br> **This will be confirmed when** all user authentication endpoints are secured with JWT, the frontend properly sends and receives JWT tokens, and successful integration between the frontend and backend is verified. We will also verify that the system is secure, protected against common vulnerabilities. |
 | **Sprint Velocity** | 93 |
 | **Sum of Story Points** | 89 |
-
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
 
@@ -5180,7 +4534,6 @@ Los aspectos definidos para este Sprint son:
 #### 5.2.4.3. Sprint Backlog 4
 
 Durante el Sprint 4, el objetivo principal fue consolidar la integración entre el frontend y el backend de la aplicación Livria, con un enfoque en la autenticación segura, la gestión de acceso, la sincronización eficiente de datos y mejoras en el backend. El equipo trabajó en la implementación del bounded context de IAM (Identity and Access Management), lo que permitió establecer un sistema de gestión de identidad para los usuarios, asegurando que tanto administradores como clientes pudieran interactuar con la plataforma de manera segura mediante tokens JWT.
-
 
 <table class="c12">
 <tr class="c5">
@@ -5490,50 +4843,50 @@ Se completó con éxito la integración del frontend con el backend, lo que aseg
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
 |---|---|---|---|---|---|
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 74b389c | feat: "Replace 'display' with 'username' in ReviewCommandService.cs" | ----------- | 05/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 1fdb637 | feat: update Controller authorization | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 0cc01e2f | Update UserClientsController.cs | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 4a02384 | feat: add IAM bounded context, authorization configuration, role management and authentication endpoints | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | d0bb3db | feat: ADD CAPITAL IN LIVRIA | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 8722c44 | Merge branch 'develop' of https://github.com/Bookify-Livria/livria-backend into develop | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 2483d9f | feat: Add "fiction" | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 0e76d75 | feat: Update Program.cs | ----------- | 01/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | aae6a7e | feat: update deployment configuration | ----------- | 01/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | c48dc26 | feat: update appsettings and add CORS Policy | ----------- | 01/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 450e3da | Merge branch 'develop' of https://github.com/Bookify-Livria/livria-backend into develop | ----------- | 01/07/2025 |
-| https://github.com/Bookify-Livria/livria-backend.git | develop | 8dee7bd | feat: update LIVRIA | ------------- | 01/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 5c84579 | feat: User Authentications using JWT | ----------- | 04/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 0f6dd27 | Pull latest changes into the Users branch | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 0f6dd27 | Pull latest changes into the Users branch | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 5c84579 | feat: User Authentications using JWT | ----------- | 04/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | d5d290b | feat: User Conection to database | ----------- | 04/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 9e46c43 | feat: GET and POST methods for Review and Post | ----------- | 05/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 76e5418 | feat: Books conection to database and fix of books display by genre | ----------- | 05/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 5dd12e9 | Merge branch 'develop' into feature/communities | ----------- | 30/06/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 0f3cf4e | feat: modifying the assembler and api service for Posts | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | d16261d | feat: Change in community.type and proper connection to the backend database | ----------- | 02/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 2cd0996 | feat: modifying the assembler and api service for Reviews | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 0f6dd27 | Pull latest changes into the Users branch | ----------- | 03/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 5c84579 | feat: User Authentications using JWT | ----------- | 04/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | d5d290b | feat: User Conection to database | ----------- | 04/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 9e46c43 | feat: GET and POST methods for Review and Post | ----------- | 05/07/2025 |
-| https://github.com/Bookify-Livria/livria-web-app.git | develop | 76e5418 | feat: Books conection to database and fix of books display by genre | ----------- | 05/07/2025 |
-| https://github.com/Bookify-Livria/livria.github.io  | master |  |  | ----------- | 06/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 74b389c | feat: "Replace 'display' with 'username' in ReviewCommandService.cs" | --------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 1fdb637 | feat: update Controller authorization | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 0cc01e2f | Update UserClientsController.cs | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 4a02384 | feat: add IAM bounded context, authorization configuration, role management and authentication endpoints | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | d0bb3db | feat: ADD CAPITAL IN LIVRIA | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 8722c44 | Merge branch 'develop' of https://github.com/Bookify-Livria/livria-backend into develop | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 2483d9f | feat: Add "fiction" | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 0e76d75 | feat: Update Program.cs | --------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | aae6a7e | feat: update deployment configuration | --------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | c48dc26 | feat: update appsettings and add CORS Policy | --------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 450e3da | Merge branch 'develop' of https://github.com/Bookify-Livria/livria-backend into develop | --------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-backend.git | develop | 8dee7bd | feat: update LIVRIA | ----------- | 01/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 5c84579 | feat: User Authentications using JWT | --------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 0f6dd27 | Pull latest changes into the Users branch | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 2cd0996 | feat: modifying the assembler and api service for Reviews | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | d16261d | feat: Change in community.type and proper connection to the backend database | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 0f3cf4e | feat: modifying the assembler and api service for Posts | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/user-components | 5dd12e9 | Merge branch 'develop' into feature/communities | --------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | 5dd12e9 | Merge branch 'develop' into feature/communities | --------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | 0f3cf4e | feat: modifying the assembler and api service for Posts | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/communities | d16261d | feat: Change in community.type and proper connection to the backend database | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 5dd12e9 | Merge branch 'develop' into feature/communities | --------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 0f3cf4e | feat: modifying the assembler and api service for Posts | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | d16261d | feat: Change in community.type and proper connection to the backend database | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/books | 2cd0996 | feat: modifying the assembler and api service for Reviews | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 5dd12e9 | Merge branch 'develop' into feature/communities | --------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 0f3cf4e | feat: modifying the assembler and api service for Posts | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | d16261d | feat: Change in community.type and proper connection to the backend database | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 2cd0996 | feat: modifying the assembler and api service for Reviews | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 0f6dd27 | Pull latest changes into the Users branch | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 5c84579 | feat: User Authentications using JWT | --------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | d5d290b | feat: User Conection to database | --------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 9e46c43 | feat: GET and POST methods for Review and Post | --------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | feature/additionals | 76e5418 | feat: Books conection to database and fix of books display by genre | --------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 5dd12e9 | Merge branch 'develop' into feature/communities | --------- | 30/06/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 0f3cf4e | feat: modifying the assembler and api service for Posts | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | d16261d | feat: Change in community.type and proper connection to the backend database | --------- | 02/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 2cd0996 | feat: modifying the assembler and api service for Reviews | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 0f6dd27 | Pull latest changes into the Users branch | --------- | 03/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 5c84579 | feat: User Authentications using JWT | --------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | d5d290b | feat: User Conection to database | --------- | 04/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 9e46c43 | feat: GET and POST methods for Review and Post | --------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria-web-app.git | develop | 76e5418 | feat: Books conection to database and fix of books display by genre | --------- | 05/07/2025 |
+| https://github.com/Bookify-Livria/livria.github.io  | master |  |  | --------- | 06/07/2025 |
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
@@ -5564,23 +4917,23 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
 **Backend de los bounded context de Livria:**
 
 <p align="center">
-  <img src="https://i.imgur.com/tCAKjri.png" alt="bruh5" width="500">
+  <img src="https://i.imgur.com/tCAKjri.png" alt="bruh41" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/B0YOSYP.png" alt="bruh6" width="500">
+  <img src="https://i.imgur.com/B0YOSYP.png" alt="bruh42" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/bVHFROV.png" alt="bruh7" width="500">
+  <img src="https://i.imgur.com/bVHFROV.png" alt="bruh43" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/jVgViCQ.png" alt="bruh7" width="500">
+  <img src="https://i.imgur.com/jVgViCQ.png" alt="bruh44" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/mq8RHkZ.png" alt="bruh8" width="500">
+  <img src="https://i.imgur.com/mq8RHkZ.png" alt="bruh45" width="500">
 </p>
 
 
@@ -5605,31 +4958,31 @@ A diferencia del Sprint 3, en el cual se implementaron funcionalidades en distin
 **Capturas:**
 
 <p align="center">
-  <img src="https://i.imgur.com/fXx6jLF.png" alt="full38" width="500">
+  <img src="https://i.imgur.com/fXx6jLF.png" alt="cap41" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/50D901M.png" alt="full38" width="500">
+  <img src="https://i.imgur.com/50D901M.png" alt="cap42" width="500">
 </p>
 
 Esta solicitud POST recupera los datos de un usuario recién registrado en el sistema, guarda su información y envía un mensaje confirmando el registro exitoso.
 
 <p align="center">
-  <img src="https://i.imgur.com/2bkcPmm.png" alt="full38" width="500">
+  <img src="https://i.imgur.com/2bkcPmm.png" alt="cap43" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/N1uaeZX.png" alt="full38" width="500">
+  <img src="https://i.imgur.com/N1uaeZX.png" alt="cap44" width="500">
 </p>
 
 Esta solicitud POST auténtica al administrador con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
 
 <p align="center">
-  <img src="https://i.imgur.com/mupEhMS.png" alt="full38" width="500">
+  <img src="https://i.imgur.com/mupEhMS.png" alt="cap45" width="500">
 </p>
 
 <p align="center">
-  <img src="https://i.imgur.com/n5lIlyq.png" alt="full38" width="500">
+  <img src="https://i.imgur.com/n5lIlyq.png" alt="cap46" width="500">
 </p>
 
 Esta solicitud POST auténtica al cliente con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
@@ -5664,38 +5017,38 @@ Durante este Sprint 4, el equipo se centró en la integración completa del fron
 * Historial de commits:
 
   <p align="center">
-  <img src="https://i.imgur.com/KRXSgIs.png" alt="confi24" width="500">
+  <img src="https://i.imgur.com/KRXSgIs.png" alt="rep41" width="500">
   </p>
 
 * Colaboradores activos en el repositorio:
 
   <p align="center">
-  <img src="https://i.imgur.com/Wre4F3p.png" alt="confi24" width="500">
+  <img src="https://i.imgur.com/Wre4F3p.png" alt="rep42" width="500">
   </p>
 
 * Histograma de contribuciones en el tiempo:
 
   <p align="center">
-  <img src="https://i.imgur.com/xx97V4q.png" alt="confi24" width="500">
+  <img src="https://i.imgur.com/xx97V4q.png" alt="rep43" width="500">
   </p>
 
 ##### Repositorio livria-backend
 * Historial de commits:
 
   <p align="center">
-  <img src="https://i.imgur.com/aWoK6YM.png" alt="confi24" width="500">
+  <img src="https://i.imgur.com/aWoK6YM.png" alt="rep44" width="500">
   </p>
 
 * Colaboradores activos en el repositorio:
 
   <p align="center">
-  <img src="https://imgur.com/FYXgufk.png" alt="confi19" width="500">
+  <img src="https://imgur.com/FYXgufk.png" alt="rep45" width="500">
   </p>
   
 * Histograma de contribuciones en el tiempo:
 
   <p align="center">
-  <img src="https://i.imgur.com/FY5G4mQ.png" alt="confi24" width="500">
+  <img src="https://i.imgur.com/FY5G4mQ.png" alt="rep46" width="500">
   </p>
   
   
@@ -6117,7 +5470,6 @@ Es fundamental que Livria continúe enfocándose en mejorar constantemente la ex
 
 # VIDEO ABOUT-THE-TEAM
 
-Link del video: 
 
 # BIBLIOGRAFÍA 
 Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
