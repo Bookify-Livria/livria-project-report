@@ -15,7 +15,7 @@
 <p align="center">Castillo Garay, Ainhoa Lucía U202311701</p>
 <p align="center">Sulca Silva, Melisa Geraldine U202224602</p>
 
-<p align="center">Abril 2025</p>
+<p align="center">Julio 2025</p>
 
 # Registro de versiones del informe
 | **Versión**  | **Fecha**   | **Autor/es**                                                                                           | **Descripción**                                                                                                                |
@@ -29,7 +29,7 @@
 
 Repositorio donde está el project report: https://github.com/Bookify-Livria/livria-project-report
 
-Para la elaboración del informe, se utilizó Google Docs como plataforma de trabajo colaborativo, y posteriormente se migró el contenido al archivo README del repositorio principal. En esta entrega, el README ha sido actualizado para incluir los avances del Sprint 3 y los resultados de las entrevistas de validación de producto, las cuales fueron fundamentales para llevar a cabo las evaluaciones heurísticas.
+Para la elaboración del informe, se utilizó Google Docs como plataforma de trabajo colaborativo, y posteriormente se migró el contenido al archivo README del repositorio principal. En esta entrega, el README ha sido actualizado para incluir los avances del Sprint 4 y los resultados de las entrevistas de validación de producto, las cuales fueron fundamentales para llevar a cabo las evaluaciones heurísticas.
 
 <p align="center">
   <img src="https://i.imgur.com/lqamEa0.png" alt="PRCI" width="500">
@@ -3996,25 +3996,31 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
 **Sección Home del dashboard del administrador:**
 
 <p align="center">
-  <img src="https://imgur.com/50Mzjh3.png" alt="bruh1" width="500">
+  <img src="https://i.imgur.com/ytcbNYR.png" alt="bruh1" width="500">
 </p>
 
 **Sección Books del dashboard del administrador:**
 
 <p align="center">
-  <img src="https://imgur.com/SNyZiBq.png" alt="bruh2" width="500">
+  <img src="https://i.imgur.com/qpMekFb.png" alt="bruh2" width="500">
 </p>
 
 **Sección Orders del dashboard del administrador:**
 
 <p align="center">
-  <img src="https://imgur.com/AifaHr7.png" alt="bruh3" width="500">
+  <img src="https://i.imgur.com/nop7l2Q.png" alt="bruh3" width="500">
+</p>
+
+**Sección Inventory del dashboard del administrador:**
+
+<p align="center">
+  <img src="https://i.imgur.com/EPvYbx8.png" alt="bruhh3" width="500">
 </p>
 
 **Sección Settings del dashboard del administrador:**
 
 <p align="center">
-  <img src="https://imgur.com/Jqh4AIQ.png" alt="bruh4" width="500">
+  <img src="https://i.imgur.com/6DkkEen.png" alt="bruh4" width="500">
 </p>
 
 **Backend de los bounded context de Livria:**
@@ -4515,7 +4521,7 @@ Para realizar la publicación del proyecto en Azure se siguieron los pasos a con
   <img src="https://imgur.com/LVrzjD9.png" alt="confi11" width="500">
 </p>
 
-* **Al hacer click en este link, nos llevará a la aplicación web deployada. Inicialmente, saldrá que la página web no se encuentra. Para ello, colocar “/swagger/index.html” al final de la URL y aparecerá la pestaña de Swagger con nuestros endpoints:**
+* **Al hacer click en este link, nos llevará a la aplicación web deployada. Inicialmente, saldrá que la página web no se encuentra. Para ello, colocar “/swagger/index.html” al final de la URL y aparecerá la pestaña de Swagger con nuestros endpoints(https://app-250621192653.azurewebsites.net/swagger/index.html):**
 
 <p align="center">
   <img src="https://imgur.com/qP4cNJd.png" alt="confi12" width="500">
@@ -4622,7 +4628,6 @@ Durante este Sprint 3, el equipo se centró en la implementación de las funcion
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Sprint Planning
-
 En esta reunión del Sprint Planning se va a integrar el frontend con el backend, se añadirá el bounded context de Identity and Access Management (IAM) usando el token Json Web Token (JWT) y se mejorará funcionalidades de los endpoints del backend. En esta reunión el equipo Scrum estableció diversas actividades a cada integrante para desarrollar 4 User Stories y 12 Technical Stories relevantes para la aplicación web.
 
 A continuación, se mostrará la tabla del Sprint Planning 4:
@@ -4643,7 +4648,6 @@ A continuación, se mostrará la tabla del Sprint Planning 4:
 | **Sum of Story Points** | 89 |
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
-
 Durante el Sprint 4, se ha avanzado significativamente en la implementación de la autenticación y autorización de usuarios mediante JWT, mejoras en el backend, así como en la integración del frontend con el backend de la aplicación Livria. Para organizar de manera eficiente las tareas del equipo, se ha creado una matriz de Liderazgo y Colaboración (LACX), donde se asignan responsabilidades específicas a cada miembro del equipo. Algunos integrantes asumieron el rol de líder (L) y otros desempeñaron el rol de colaborador (C).
 
 Los aspectos definidos para este Sprint son:
@@ -4664,7 +4668,6 @@ Los aspectos definidos para este Sprint son:
 
 
 #### 5.2.4.3. Sprint Backlog 4
-
 Durante el Sprint 4, el objetivo principal fue consolidar la integración entre el frontend y el backend de la aplicación Livria, con un enfoque en la autenticación segura, la gestión de acceso, la sincronización eficiente de datos y mejoras en el backend. El equipo trabajó en la implementación del bounded context de IAM (Identity and Access Management), lo que permitió establecer un sistema de gestión de identidad para los usuarios, asegurando que tanto administradores como clientes pudieran interactuar con la plataforma de manera segura mediante tokens JWT.
 
 | Sprint # | Sprint #4 | | | | |
@@ -4720,7 +4723,6 @@ Durante el Sprint 4, el objetivo principal fue consolidar la integración entre 
 | | 3 | Monitorización de la comunicación. | Establecer un sistema para monitorear y optimizar la eficiencia de la comunicación entre el frontend y el backend. | 5 | Developer Team | To-do |
 
 #### 5.2.4.4. Development Evidence for Sprint Review
-
 En este capítulo se detalla el progreso logrado durante el Sprint 4 en las mejoras y la sección añadida del bounded context IAM al backend de la plataforma Livria y la integración del frontend con el backend de la aplicación web. Con el trabajo colaborativo del equipo y siguiendo un enfoque ágil, se logró implementar un sistema robusto de gestión de identidad y acceso (IAM), que permite la autenticación y autorización seguras de los usuarios, diferenciando entre administradores y clientes a través de tokens JWT.
 Se completó con éxito la integración del frontend con el backend, lo que asegura que la información se gestione correctamente y se refleje de manera dinámica en la interfaz de usuario. Este avance ha optimizado la experiencia del usuario, permitiendo un registro e inicio de sesión seguro, además de garantizar la correcta sincronización entre los datos almacenados en la base de datos y las vistas en el frontend.
 
@@ -4781,7 +4783,6 @@ Se completó con éxito la integración del frontend con el backend, lo que aseg
 
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
-
 Durante el Sprint 4, el equipo se enfocó en la integración y desarrollo del bounded context de IAM (Identity and Access Management) dentro del backend de Livria y mejoras a algunas funcionalidades. Este nuevo módulo permitió robustecer la gestión de autenticación y autorización de usuarios, diferenciando claramente los flujos de acceso para administradores y clientes.
 
 Se implementaron controladores REST específicos para el manejo de registro y autenticación. Además, se desarrollaron los correspondientes command y servicios para procesar las solicitudes de autenticación y generación de tokens JWT, asegurando así la protección y gestión segura de las sesiones de usuario.
@@ -4835,7 +4836,6 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
 Durante el Sprint 4, el enfoque se centró en la implementación y fortalecimiento del bounded context de IAM (Identity and Access Management) dentro del backend de la aplicación web de Livria. Este nuevo módulo permitió la integración de un sistema de autenticación y autorización para los usuarios, diferenciando claramente los flujos de acceso entre administradores y clientes. Además, se consolidó el sistema de gestión de roles y la protección de las rutas mediante el uso de tokens JWT.
 A diferencia del Sprint 3, en el cual se implementaron funcionalidades en distintos bounded contexts con una API RESTful conectada a una base de datos real (MySQL), el Sprint 4 incorporó de manera eficaz la lógica de gestión de identidad dentro de la aplicación, asegurando que las sesiones de los usuarios sean protegidas adecuadamente.
 
@@ -4879,12 +4879,67 @@ Esta solicitud POST auténtica al administrador con las credenciales proporciona
 Esta solicitud POST auténtica al cliente con las credenciales proporcionadas, valida el inicio de sesión y devuelve un token de acceso junto con un mensaje de autenticación exitosa.
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
-
 Durante este Sprint 4, el equipo se centró en el despliegue del frontend conectado al backend de la aplicación web de Livria. Este sprint incluyó la integración completa de ambos componentes, asegurando que el frontend pudiera interactuar correctamente con el backend, permitiendo que las funcionalidades de la plataforma funcionen de manera fluida.
 Se implementó la autenticación de usuarios, incluyendo el registro e inicio de sesión seguro con JWT, tanto para administradores como para clientes. El sistema ahora maneja las solicitudes de inicio de sesión de manera efectiva, generando los tokens correspondientes para asegurar las sesiones de los usuarios.
 
 #### Actividades de Despliegue:
+**Deployment en Azure**
 
+Para realizar la publicación del proyecto en Azure se siguieron los pasos a continuación:
+
+* **Instalar el plugin de Azure en Rider:**
+
+<p align="center">
+  <img src="https://imgur.com/Kn1sgYI.png" alt="depl3" width="500">
+</p>
+
+* **Acceder a la cuenta de Azure a utilizar mediante Sign-In para conectarlo con Rider:**
+
+<p align="center">
+  <img src="https://imgur.com/3JhSeyL.png" alt="depl4" width="500">
+</p>
+
+* **Antes de continuar, asegurarse de que Swagger esté habilitado para producción. Para ello, contar con las siguientes líneas de código en Program.cs:**
+
+<p align="center">
+  <img src="https://imgur.com/Ok945Jw.png" alt="depl5" width="500">
+</p>
+
+* **Dar click derecho en el proyecto y seleccionar la opción de Publish (Publicar). Seguidamente, elegir la opción de Azure:**
+
+<p align="center">
+  <img src="https://imgur.com/heZSBPQ.png" alt="depl6" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/0gZSPV4.png" alt="depl7" width="500">
+</p>
+
+* **A continuación, configuramos la publicación del proyecto. Se debe crear una nueva Web App y seleccionar la opción de More settings. Ahí, se debe seleccionar un Resource Group en Azure existente o crear uno nuevo:**
+
+<p align="center">
+  <img src="https://imgur.com/uy8opZC.png" alt="depl8" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/wgBHr5H.png" alt="depl9" width="500">
+</p>
+
+<p align="center">
+  <img src="https://imgur.com/WiHTSAu.png" alt="confi10" width="500">
+</p>
+
+* **Tras haber seleccionado las opciones de Ok y de Run en las ventanas anteriores, el proyecto empezará con el deployment. Al finalizar, mostrará el link de conexión:**
+
+<p align="center">
+  <img src="https://imgur.com/LVrzjD9.png" alt="depl11" width="500">
+</p>
+
+* **Al hacer click en este link, nos llevará a la aplicación web deployada. Inicialmente, saldrá que la página web no se encuentra. Para ello, colocar “/swagger/index.html” al final de la URL y aparecerá la pestaña de Swagger con nuestros endpoints (https://app-250621192653.azurewebsites.net/swagger/index.html):**
+
+<p align="center">
+  <img src="https://i.imgur.com/1ip0UUu.png" alt="depl14" width="500">
+</p>
 
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
@@ -5375,7 +5430,7 @@ Diagrama C4: https://drive.google.com/file/d/14LIW0V4P1bBFikrUViIq4owWTtexcsCh/v
 
 Link de la landing page: https://bookify-livria.github.io/livria.github.io/
 
-Link de la aplicación web: https://livria.netlify.app/
+Link de la aplicación web: https://livriabybookify.netlify.app/
 
 Link del backend: https://app-250621192653.azurewebsites.net/swagger/index.html
 
