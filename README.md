@@ -5418,6 +5418,8 @@ Es fundamental que Livria continúe enfocándose en mejorar constantemente la ex
 
 Link: https://www.youtube.com/watch?v=MBQ7HybhoYM
 
+Link: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311157_upc_edu_pe/EW-57DzgHDNMpwWgOtyMsg4BjrdFAKiSxXdyBCRJVc1xQA?e=6ARBaA&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 # BIBLIOGRAFÍA 
 Alvarez, A. (2020, 5 de agosto). 5W2H: Qué significa, para qué sirve, cómo aplicarla y algunos ejemplos. LeanConstructionMexico. https://www.leanconstructionmexico.com.mx/post/5w2h-qu%C3%A9-significa-para-qu%C3%A9-sirve-c%C3%B3mo-aplicarla-y-algunos-ejemplos
 Fabiana, E., & Vega, J. (2022). La motivación en el aprendizaje de la lectura en los estudiantes. Revista EDUCARE - UPEL-IPB - Segunda Nueva Etapa 2.0, 26(Extraordinario), 476–493. https://doi.org/10.46498/reduipb.v26iExtraordinario.1641
