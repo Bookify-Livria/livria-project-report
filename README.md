@@ -4832,7 +4832,7 @@ A continuación, se presentan capturas de pantalla de las vistas implementadas e
 
 **Video Sprint Review 4**
 
-
+Link del video:  https://drive.google.com/file/d/1QfLG_IzugsPIkrEvFT6347FThP9PtgoG/view?usp=sharing
 
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
@@ -5436,4 +5436,5 @@ Link de la landing page: https://bookify-livria.github.io/livria.github.io/
 Link de la aplicación web: https://livriabybookify.netlify.app/
 
 Link del backend: https://app-250621192653.azurewebsites.net/swagger/index.html
+
 
